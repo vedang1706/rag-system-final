@@ -1,0 +1,9 @@
+{
+    "extraPaths": [
+        ".",
+        "src"
+    ],
+    "venvPath": "C:\\Users\\HP\\anaconda3\\envs",
+    "venv": "rag-system",
+    "pythonPath": "C:\\Users\\HP\\anaconda3\\envs\\rag-system\\python.exe"
+}
