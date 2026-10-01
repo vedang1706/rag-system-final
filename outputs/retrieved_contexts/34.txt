@@ -1,0 +1,39 @@
+QUERY ID: 34
+QUESTION: What is feminist psychology?
+============================================================
+
+--- Chunk 1 ---
+Section:       1.2 History of Psychology
+Pages:         28-28
+Hybrid Score:  0.0331
+Raw Text:
+meaning that few women were able to practice psychology, so they had little influence on what was studied. In addition, the experimental subjects of psychology were mostly men, which resulted from underlying assumptions that gender had no influence on psychology and that women were not of sufficient interest to study. An article by Naomi Weisstein, first published in 1968 (Weisstein, 1993), stimulated a feminist revolution in psychology by presenting a critique of psychology as a science. She also specifically criticized male psychologists for constructing the psychology of women entirely out of their own cultural biases and without careful experimental tests to verify any of their characterizations of women. Weisstein used, as examples, statements by prominent psychologists in the 1960s, such as this quote by Bruno Bettleheim: “We must start with the realization that, as much as women want to be good scientists or engineers, they want first and foremost to be womanly companions of men and to be mothers.” Weisstein’s critique formed the foundation for the subsequent development of a feminist psychology that attempted to be free of the influence of male cultural biases on our knowledge of the psychology of women. Crawford & Marecek (1989) identify several feminist approaches to psychology that can be described as feminist psychology. These include re-evaluating and discovering the contributions of women to the history of psychology, studying psychological gender differences, and questioning the male bias present across the practice of the scientific approach to knowledge. Multicultural And Cross-Cultural Psychology Culture impacts individuals, groups, and society. An ongoing issue researchers are trying to correct is that certain populations have been over-studied and the results of these studies have been applied to other populations. For example, Henrich, Heine, and Norenzayan discuss how WEIRD societies have been overstudied and the results have been wrongly applied to non-WEIRD societies (2010). WEIRD stands for western, educated, industrialized, rich, and democratic. Henrich, Heine, and Norenzayan found that there are many differences between people in the WEIRD group and people in less industrialized, less urban, and non- Western societies. These differences occur in a variety of areas, including perception, cooperation, and moral reasoning. That is, people vary depending on their culture and environment. Multicultural psychologists develop theories and conduct research with diverse populations, typically within one country. Cross-cultural DIG DEEPER 16 1 • Introduction to Psychology psychologists compare populations across countries, such as participants from the United States compared to participants from China. In 1920, Francis Cecil Sumner was the first African American to receive a PhD in psychology in the United States.
+
+--- Chunk 2 ---
+Section:       1.1 What Is Psychology?
+Pages:         20-20
+Hybrid Score:  0.0290
+Raw Text:
+under the auspices of philosophy. Given that any behavior is, at its roots, biological, some areas of psychology take on aspects of a natural science like biology. No biological organism exists in isolation, and our behavior is influenced by our interactions with others. Therefore, psychology is also a social science. WHY STUDY PSYCHOLOGY? Often, students take their first psychology course because they are interested in helping others and want to learn more about themselves and why they act the way they do. Sometimes, students take a psychology course because it either satisfies a general education requirement or is required for a program of study such as nursing or pre-med. Many of these students develop such an interest in the area that they go on to declare psychology as their major. As a result, psychology is one of the most popular majors on college campuses across the United States (Johnson & Lubin, 2011). A number of well-known individuals were psychology majors. Just a few famous names on this list are Facebook’s creator Mark Zuckerberg, television personality and political satirist Jon Stewart, actress Natalie Portman, and filmmaker Wes Craven (Halonen, 2011). About 6 percent of all bachelor degrees granted in the United States are in the discipline of psychology (U.S. Department of Education, 2016). An education in psychology is valuable for a number of reasons. Psychology students hone critical thinking skills and are trained in the use of the scientific method. Critical thinking is the active application of a set of skills to information for the understanding and evaluation of that information. The evaluation of 8 1 • Introduction to Psychology
+
+--- Chunk 3 ---
+Section:       Key Terms
+Pages:         42-42
+Hybrid Score:  0.0164
+Raw Text:
+physical performance in sports, exercise, and other activities structuralism understanding the conscious experience through introspection Summary 1.1 What Is Psychology? Psychology is defined as the scientific study of mind and behavior. Students of psychology develop critical thinking skills, become familiar with the scientific method, and recognize the complexity of behavior. 1.2 History of Psychology Before the time of Wundt and James, questions about the mind were considered by philosophers. However, both Wundt and James helped create psychology as a distinct scientific discipline. Wundt was a structuralist, which meant he believed that our cognitive experience was best understood by breaking that experience into its component parts. He thought this was best accomplished by introspection. 30 1 • Key Terms
+
+--- Chunk 4 ---
+Section:       12.1 What Is Social Psychology?
+Pages:         417-417
+Hybrid Score:  0.0161
+Raw Text:
+poverty ignores situational factors that impact them, such as high unemployment rates, recession, poor educational opportunities, and the familial cycle of poverty (Figure 12.7). Other research shows that people who hold just-world beliefs have negative attitudes toward people who are unemployed and people living with AIDS (Sutton & Douglas, 2005). In the United States and other countries, victims of sexual assault may find themselves blamed for their abuse. Victim advocacy groups, such as Domestic Violence Ended (DOVE), attend court in support of victims to ensure that blame is directed at the perpetrators of sexual violence, not the victims. FIGURE 12.7 People who hold just-world beliefs tend to blame the people in poverty for their circumstances, ignoring situational and cultural causes of poverty. (credit: Adrian Miles) 12.1 • What Is Social Psychology? 405
+
+--- Chunk 5 ---
+Section:       13.1 What Is Industrial and Organizational Psychology?
+Pages:         465-465
+Hybrid Score:  0.0159
+Raw Text:
+and organizational psychology became areas of significant research effort. Concerns about the fairness of employment tests arose, and the ethnic and gender biases in various tests were evaluated with mixed results. In addition, a great deal of research went into studying job satisfaction and employee motivation (Katzell & Austin, 1992). The research and work of I-O psychologists in the areas of employee selection, placement, and performance appraisal became increasingly important in the 1960s. When Congress passed the 1964 Civil Rights Act, Title 13.1 • What Is Industrial and Organizational Psychology? 453
+
