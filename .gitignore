@@ -1,0 +1,11 @@
+venv/
+.env
+.env.*
+chroma_db/
+cache/
+__pycache__/
+*.pyc
+models/
+*.safetensors
+*.bin
+data/book.pdf

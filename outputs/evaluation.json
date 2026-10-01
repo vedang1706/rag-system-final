@@ -1,0 +1,305 @@
+{
+  "metrics": {
+    "Total Questions": 50,
+    "Correct (Sim > 0.8)": 31,
+    "Accuracy": 0.62,
+    "Average Semantic Similarity": 0.7979487890005111,
+    "Average Token F1": 0.4325554992422752
+  },
+  "results": [
+    {
+      "question": "What is the average number of hours people in the United States spent working per week in 2019?",
+      "true": "People in the United States spent an average of about 42\u201354 hours per week working in 2019.",
+      "pred": "According to the context, people in the United States spent an average of about 42\u201354 hours per week working in 2019."
+    },
+    {
+      "question": "What is the fundamental attribution error?",
+      "true": "The fundamental attribution error is the tendency to attribute others' behavior to their internal traits rather than external situational influences.",
+      "pred": "The fundamental attribution error is the tendency to overlook obvious situational influences on behavior and instead attribute behavior to the person's disposition or character. This error is demonstrated when people explain others' behavior as being due to their traits, rather than considering the impact of the situation."
+    },
+    {
+      "question": "What is the duration of sensory memory in the Atkinson-Shiffrin model?",
+      "true": "Sensory memory lasts up to a couple of seconds.",
+      "pred": "According to the Atkinson-Shiffrin model, sensory memory is a very brief storage system that lasts up to a couple of seconds."
+    },
+    {
+      "question": "What is the primary focus of cognitive psychologists?",
+      "true": "Cognitive psychologists study thinking and intelligence.",
+      "pred": "Cognitive psychologists study thinking and its relationship to our experiences and actions. They explore questions such as how people solve problems, acquire language, and develop an understanding of concepts like snow. Their research interests span a spectrum of topics, including attention, problem solving, language, and memory."
+    },
+    {
+      "question": "What is an instinct according to its definition?",
+      "true": "An instinct is a species-specific pattern of behavior that is not learned.",
+      "pred": "According to William James, an instinct is a species-specific pattern of behavior that is not learned."
+    },
+    {
+      "question": "When did the term \"stress\" first emerge in scientific literature?",
+      "true": "The term \"stress\" as it relates to the human condition first emerged in scientific literature in the 1930s.",
+      "pred": "The term \"stress\" as it relates to the human condition first emerged in scientific literature in the 1930s, but it did not enter the popular vernacular until the 1970s."
+    },
+    {
+      "question": "What is the name of the journal where Inez Beverly Prosser's education of African Americans was published?",
+      "true": "Journal of the History of the Behavioral Sciences.",
+      "pred": "Not found in the provided textbook."
+    },
+    {
+      "question": "What is the recommended amount of sleep for adults?",
+      "true": "7-9 hours per night.",
+      "pred": "According to the National Sleep Foundation, the recommended amount of sleep for adults is 7-9 hours per night."
+    },
+    {
+      "question": "What is the primary factor that determines whether a person experiences stress?",
+      "true": "The primary factor is how the person appraises the threat of the stressor, including whether they believe effective options are available to manage the situation.",
+      "pred": "The primary factor that determines whether a person experiences stress is how they appraise or judge a demanding or threatening event, often referred to as a stressor. This appraisal influences their reactions to the event, and if they perceive it as extremely threatening or threatening with few or no effective coping options available, they are likely to experience stress."
+    },
+    {
+      "question": "What is the main difference between learned behaviors and instincts?",
+      "true": "Learned behaviors involve change and experience, whereas instincts are innate behaviors that do not require learning.",
+      "pred": "Learned behaviors involve change and experience, acquiring knowledge and skills through experience, and are relatively permanent changes in behavior or knowledge that result from experience. In contrast, instincts are innate behaviors that organisms are born with, triggered by a broader range of events, and do not have to be learned."
+    },
+    {
+      "question": "What is the main criticism of the concept of mental illness according to Thomas Szasz?",
+      "true": "The concept of mental illness is a \"myth that justifies psychiatric intervention in socially disapproved behavior.\"",
+      "pred": "Thomas Szasz argued that the notion of mental illness was invented by society to stigmatize and subjugate people whose behavior violates accepted social and legal norms. He suggested that symptoms of mental illness are more appropriately characterized as \"problems in living\" and that genuine illness or disease can only affect the body, hence, there can be no mental illness."
+    },
+    {
+      "question": "In which cultures is the Fundamental Attribution Error less likely to occur?",
+      "true": "The Fundamental Attribution Error is less likely to occur in collectivistic cultures, which tend to be found in east Asian countries and in Latin American and African countries.",
+      "pred": "The Fundamental Attribution Error is less likely to occur in collectivistic cultures, which tend to be found in east Asian countries and in Latin American and African countries. These cultures focus on the group more than on the individual, providing a broader perspective that takes into account both situational and cultural influences on behavior."
+    },
+    {
+      "question": "What is the primary function of the sensory systems?",
+      "true": "The primary function of the sensory systems is to provide important information about our surroundings, allowing us to navigate and interact with our environment.",
+      "pred": "The primary function of the sensory systems is to provide important information about our surroundings, which we use to successfully navigate and interact with our environment so that we can find nourishment, seek shelter, maintain social relationships, and avoid potentially dangerous situations."
+    },
+    {
+      "question": "What does social psychology examine?",
+      "true": "Social psychology examines how people affect one another and the power of the situation.",
+      "pred": "Social psychology examines how people affect one another's thoughts, feelings, and behaviors, and it looks at the power of the situation. It studies how the presence of others impacts a person's behavior and reactions, and how situational variables interact to influence behavior."
+    },
+    {
+      "question": "What is the title of the 1895 oil painting depicted in the text?",
+      "true": "The title of the 1895 oil painting is \"Zwei schlafende M\u00e4dchen auf der Ofenbank\", which translates to \"two sleeping girls on the stove\".",
+      "pred": "The title of the 1895 oil painting depicted in the text is \"Zwei schlafende M\u00e4dchen auf der Ofenbank,\" which translates to \"two sleeping girls on the stove.\""
+    },
+    {
+      "question": "What is an example of a natural concept?",
+      "true": "An example of a natural concept is snow, which can be understood through direct observation and experience.",
+      "pred": "An example of a natural concept is snow. According to the context, snow is a natural concept because it can be understood through direct observation and experience, such as watching it fall from the sky, or indirectly through pictures or films."
+    },
+    {
+      "question": "What is the definition of a psychological disorder according to the American Psychiatric Association?",
+      "true": "A psychological disorder is a syndrome characterized by a clinically significant disturbance in an individual's cognition, emotion regulation, or behavior that reflects a dysfunction in the psychological, biological, or developmental processes underlying mental functioning.",
+      "pred": "According to the American Psychiatric Association, a psychological disorder is a condition that consists of significant disturbances in thoughts, feelings, and behaviors, which reflect some kind of biological, psychological, or developmental dysfunction. These disturbances lead to significant distress or disability in one's life and do not reflect expected or culturally approved responses to certain events."
+    },
+    {
+      "question": "In what year was the book \"Psychology constructs the female\" published?",
+      "true": "The book \"Psychology constructs the female\" was published in 1993.",
+      "pred": "Not found in the provided textbook."
+    },
+    {
+      "question": "What is the primary goal of early intervention programs for children from low-income backgrounds or with special needs?",
+      "true": "The primary goal of these programs is to provide a wide variety of services to maximize the children's development and position them for optimal levels of success in school and later in life.",
+      "pred": "The primary goal of early intervention programs for children from low-income backgrounds or with special needs is to help maximize their development and position them for optimal levels of success in school and later in life."
+    },
+    {
+      "question": "What is the primary benefit of carrying the sickle-cell mutation in parts of Africa where malaria is prevalent?",
+      "true": "The primary benefit is protection from malaria.",
+      "pred": "Carrying the sickle-cell mutation provides protection from malaria in parts of Africa where the disease is prevalent, as changes in blood chemistry and immune functioning prevent the malaria parasite from having its effects."
+    },
+    {
+      "question": "What is a primary appraisal in the context of stress?",
+      "true": "A primary appraisal involves judgment about the degree of potential harm or threat to well-being that a stressor might entail.",
+      "pred": "A primary appraisal involves judgment about the degree of potential harm or threat to well-being that a stressor might entail. It is the initial appraisal of a stressor as a threat or a challenge, determining whether it has the potential for gain or personal growth, or if it could lead to harm, loss, or negative consequences."
+    },
+    {
+      "question": "What are the three basic functions of memory?",
+      "true": "The three basic functions of memory are encoding, storage, and retrieval.",
+      "pred": "The three basic functions of memory are encoding, storage, and retrieval. Encoding involves the input of information into the memory system, storage is the retention of the encoded information, and retrieval is the process of getting the information out of memory and back into awareness."
+    },
+    {
+      "question": "How long has scientific interest in stress been ongoing in psychology?",
+      "true": "Scientific interest in stress has been longstanding in psychology for nearly a century.",
+      "pred": "After nearly a century of research on the topic, much has been learned and many insights have been developed."
+    },
+    {
+      "question": "What is the name of the 42nd president of the United States mentioned in the text?",
+      "true": "Bill Clinton.",
+      "pred": "The 42nd president of the United States is Bill Clinton."
+    },
+    {
+      "question": "What is the name of the publication manual used by the American Psychological Association?",
+      "true": "The American Psychological Association uses the Publication Manual of the American Psychological Association.",
+      "pred": "The American Psychological Association (APA) is mentioned in the context, but it is not the organization that uses the publication manual. The American Psychiatric Association uses the Diagnostic and Statistical Manual of Mental Disorders (DSM)."
+    },
+    {
+      "question": "What is the overjustification effect in psychology?",
+      "true": "The overjustification effect is a phenomenon where intrinsic motivation is diminished when extrinsic motivation is given, leading to a dependence on extrinsic rewards for continued performance.",
+      "pred": "The overjustification effect is a phenomenon where intrinsic motivation is diminished when extrinsic motivation is given. This can lead to extinguishing the intrinsic motivation and creating a dependence on extrinsic rewards for continued performance. For example, Odessa's motivation to bake in her free time decreased after she started baking as part of her job, illustrating the overjustification effect (Deci et al., 1999)."
+    },
+    {
+      "question": "What is the primary method that psychologists use to acquire knowledge?",
+      "true": "Psychologists use the scientific method to acquire knowledge.",
+      "pred": "The primary method that psychologists use to acquire knowledge is the scientific method. This method involves proposing a tentative explanation, called a hypothesis, to explain a phenomenon, making observations or carrying out an experiment to test the validity of the hypothesis, and publishing or presenting the results for others to replicate or build on."
+    },
+    {
+      "question": "What is the primary focus of lifespan development studies?",
+      "true": "Lifespan development studies how you change as well as how you remain the same over the course of your life.",
+      "pred": "The primary focus of lifespan development studies is to understand how individuals change and grow from conception through childhood, adolescence, adulthood, and death, across three developmental domains: physical, cognitive, and psychosocial development."
+    },
+    {
+      "question": "What are the three domains of development in lifespan development?",
+      "true": "The three domains of development are physical, cognitive, and psychosocial development.",
+      "pred": "The three domains of development in lifespan development are physical, cognitive, and psychosocial development. Physical development involves growth and changes in the body and brain, the senses, motor skills, and health and wellness. Cognitive development involves learning, attention, memory, language, thinking, reasoning, and creativity. Psychosocial development involves emotions, personality, and social relationships."
+    },
+    {
+      "question": "What is the normative approach to development?",
+      "true": "The normative approach to development is a method of studying child development by determining average ages when most children reach specific developmental milestones in physical, cognitive, and psychosocial domains.",
+      "pred": "The normative approach to development is the study of how children develop at average ages, using norms or age-related averages to determine when most children reach specific developmental milestones in physical, cognitive, and psychosocial domains. This approach helps compare children with same-age peers to determine approximate ages they should reach specific developmental milestones, such as crawling, walking, or starting puberty."
+    },
+    {
+      "question": "What is the role of emotions and memories in the formation of thoughts?",
+      "true": "Emotions and memories are powerful influences that the mind synthesizes to form thoughts.",
+      "pred": "Emotions play a significant role in the formation of memories, as strong emotional experiences can trigger the release of neurotransmitters and hormones that strengthen memory. According to arousal theory, strong emotions trigger the formation of strong memories, while weaker emotional experiences form weaker memories. The amygdala, a part of the limbic system, is involved in processing emotional information and sending that information on, which facilitates encoding memories at a deeper level when the event is emotionally arousing."
+    },
+    {
+      "question": "What is an example of a bottom-up process in attention?",
+      "true": "The sound of breaking glass and metal pans hitting the floor is an example of a bottom-up process in attention, as it captures attention automatically and is not under control.",
+      "pred": "An example of a bottom-up process in attention is when the sound of breaking glass and clang of metal pans hitting the floor captures your attention while you are concentrating on your friend's face in a crowded restaurant. This sensory information from the stimulus in the environment drives the process, illustrating bottom-up processing."
+    },
+    {
+      "question": "What is sleep regulation?",
+      "true": "Sleep regulation refers to the brain's control of switching between sleep and wakefulness as well as coordinating this cycle with the outside world.",
+      "pred": "Sleep regulation involves the interplay of the circadian and homeostatic mechanisms that control sleep. The circadian mechanism is controlled by the suprachiasmatic nucleus (SCN) in the hypothalamus, while the homeostatic mechanism is evidenced by sleep rebound following sleep deprivation. The thalamus, hypothalamus, and pons are also involved in regulating sleep-wake cycles."
+    },
+    {
+      "question": "What are some immediate emotions that people experienced in the aftermath of the April 15, 2013 Boston Marathon bombing?",
+      "true": "Surprise, fear, anger, and sadness are some immediate emotions that people experienced in the aftermath of the April 15, 2013 Boston Marathon bombing.",
+      "pred": "According to the context, some immediate emotions that people experienced in the aftermath of the April 15, 2013 Boston Marathon bombing include surprise, fear, anger, and sadness."
+    },
+    {
+      "question": "Who was a notable psychiatrist that argued the concept of mental illness was invented by society?",
+      "true": "Thomas Szasz.",
+      "pred": "Thomas Szasz was a notable psychiatrist who argued that the concept of mental illness was invented by society to stigmatize and subjugate people whose behavior violates accepted social and legal norms."
+    },
+    {
+      "question": "What is the name of the study that found the use of a smartphone app can increase student engagement and raise test scores?",
+      "true": "The study is named by Shaw & Tan (2015).",
+      "pred": "The study that found the use of a smartphone app can increase student engagement and raise test scores is the one investigating a smartphone app targeting surgery residents, as mentioned in Source 3."
+    },
+    {
+      "question": "What are artificial concepts in psychology?",
+      "true": "Artificial concepts are defined by a specific set of characteristics that are always the same, such as the properties of geometric shapes like squares and triangles.",
+      "pred": "In psychology, artificial concepts are defined by a specific set of characteristics that they always exhibit. Examples of artificial concepts include geometric shapes, such as squares and triangles, and mathematical formulas, like the equation for area (length \u00d7 width). These concepts are created through a specific set of rules or definitions, rather than through direct or indirect experiences."
+    },
+    {
+      "question": "According to the Substance Abuse and Mental Health Services Administration (SAMHSA), what percentage of adults received treatment for a mental health issue in 2017?",
+      "true": "Approximately 14.8% of adults received treatment for a mental health issue in 2017.",
+      "pred": "According to the Substance Abuse and Mental Health Services Administration (SAMHSA), in 2017, 14.8% of adults received treatment for a mental health issue."
+    },
+    {
+      "question": "When did psychology become accepted as its own academic discipline?",
+      "true": "Psychology became accepted as its own academic discipline in the late 1800s.",
+      "pred": "Psychology became accepted as its own academic discipline in the late 1800s."
+    },
+    {
+      "question": "What is an example of a biological rhythm?",
+      "true": "A woman's menstrual cycle is an example of a biological rhythm.",
+      "pred": "A woman's menstrual cycle is an example of a biological rhythm, a recurring, cyclical pattern of bodily changes. Additionally, body temperature fluctuates cyclically over a 24-hour period, peaking in the afternoon and falling during sleep, which is also an example of a biological rhythm."
+    },
+    {
+      "question": "What type of encoding is best for remembering verbal information?",
+      "true": "Semantic encoding is best for remembering verbal information, as it involves a deeper level of processing than visual or acoustic encoding.",
+      "pred": "Semantic encoding is best for remembering verbal information. According to Craik and Tulving's experiments, words that had been encoded semantically were better remembered than those encoded visually or acoustically. Semantic encoding involves a deeper level of processing than the shallower visual or acoustic encoding."
+    },
+    {
+      "question": "Who was the subject of a case study discussed in the chapter on thinking and intelligence?",
+      "true": "The subject of the case study was a girl known as Genie, who was unable to speak until the age of 13 due to her neglectful and abusive upbringing.",
+      "pred": "Little Genie was the subject of a case study discussed in the chapter on thinking and intelligence."
+    },
+    {
+      "question": "What is the difference threshold in perception?",
+      "true": "The difference threshold is the minimum amount of change in a stimulus that can be detected, and it is a constant fraction of the original stimulus.",
+      "pred": "The difference threshold, also known as Weber's law, is the minimum amount of change in a stimulus that can be detected. It is a constant fraction of the original stimulus intensity. For example, in a very dark movie theater, a small change in cell phone brightness may be noticeable, but in a brightly lit arena, the same change may not be detected."
+    },
+    {
+      "question": "What is the difference between intrinsic and extrinsic motivation?",
+      "true": "Intrinsic motivation arises from internal factors, providing personal satisfaction, while extrinsic motivation comes from external factors, often in the form of rewards or recognition.",
+      "pred": "Intrinsic motivation arises from internal factors, such as personal satisfaction, and is driven by a sense of enjoyment or fulfillment. In contrast, extrinsic motivation comes from external factors, such as receiving rewards or praise, and is driven by a desire to achieve a specific outcome or receive recognition."
+    },
+    {
+      "question": "What is inattentional blindness?",
+      "true": "Inattentional blindness is the failure to notice something that is completely visible because the person was actively attending to something else and did not pay attention to other things.",
+      "pred": "Inattentional blindness is the failure to notice something that is completely visible because the person was actively attending to something else and did not pay attention to other things. This concept was demonstrated in a famous study by Daniel Simons and Christopher Chabris (1999), where nearly half of the people who watched a video of people passing basketballs didn't notice a person dressed in a black gorilla costume walking among the two teams."
+    },
+    {
+      "question": "Who was the Greek philosopher that worried about the effects of writing on people's ability to remember?",
+      "true": "The Greek philosopher Socrates.",
+      "pred": "The Greek philosopher who worried about the effects of writing on people's ability to remember was Socrates."
+    },
+    {
+      "question": "What is the hallmark of scientific research?",
+      "true": "The hallmark of scientific research is that there is evidence to support a claim.",
+      "pred": "The hallmark of scientific research is that there is evidence to support a claim. Scientific knowledge is empirical, grounded in objective, tangible evidence that can be observed time and time again, regardless of who is observing."
+    },
+    {
+      "question": "Who developed a chart that depicted which areas of the skull corresponded to particular personality traits or characteristics?",
+      "true": "Gall developed a chart that depicted which areas of the skull corresponded to particular personality traits or characteristics.",
+      "pred": "Gall developed a chart that depicted which areas of the skull corresponded to particular personality traits or characteristics."
+    },
+    {
+      "question": "What is the primary goal of an occupational health psychologist?",
+      "true": "The primary goal of an occupational health psychologist is to improve the overall health and well-being of an individual, and, as a result, increase the overall health of the organization.",
+      "pred": "The primary goal of an occupational health psychologist is to improve the overall health and well-being of an individual, and, as a result, increase the overall health of the organization."
+    },
+    {
+      "question": "What was a common treatment for people believed to be possessed by demons in medieval times?",
+      "true": "Exorcism, often conducted by priests or other religious figures, was a common treatment.",
+      "pred": "In medieval times, a common treatment for people believed to be possessed by demons was exorcism, often conducted by priests or other religious figures. They would say incantations and prayers over the person's body and may have given them medicinal drinks. In extreme cases, a small hole was made in the afflicted individual's skull through a procedure called trephining to release spirits from the body."
+    }
+  ],
+  "weak_cases": [
+    {
+      "question": "What is the name of the journal where Inez Beverly Prosser's education of African Americans was published?",
+      "pred": "Not found in the provided textbook.",
+      "true": "Journal of the History of the Behavioral Sciences.",
+      "similarity": 0.21853837370872498,
+      "f1": 0.14285714285714288
+    },
+    {
+      "question": "In what year was the book \"Psychology constructs the female\" published?",
+      "pred": "Not found in the provided textbook.",
+      "true": "The book \"Psychology constructs the female\" was published in 1993.",
+      "similarity": 0.2394123375415802,
+      "f1": 0.25
+    },
+    {
+      "question": "How long has scientific interest in stress been ongoing in psychology?",
+      "pred": "After nearly a century of research on the topic, much has been learned and many insights have been developed.",
+      "true": "Scientific interest in stress has been longstanding in psychology for nearly a century.",
+      "similarity": 0.39837485551834106,
+      "f1": 0.25
+    },
+    {
+      "question": "Who was a notable psychiatrist that argued the concept of mental illness was invented by society?",
+      "pred": "Thomas Szasz was a notable psychiatrist who argued that the concept of mental illness was invented by society to stigmatize and subjugate people whose behavior violates accepted social and legal norms.",
+      "true": "Thomas Szasz.",
+      "similarity": 0.5670073628425598,
+      "f1": 0.06060606060606061
+    },
+    {
+      "question": "What is the name of the study that found the use of a smartphone app can increase student engagement and raise test scores?",
+      "pred": "The study that found the use of a smartphone app can increase student engagement and raise test scores is the one investigating a smartphone app targeting surgery residents, as mentioned in Source 3.",
+      "true": "The study is named by Shaw & Tan (2015).",
+      "similarity": 0.23863157629966736,
+      "f1": 0.14285714285714288
+    },
+    {
+      "question": "Who was the subject of a case study discussed in the chapter on thinking and intelligence?",
+      "pred": "Little Genie was the subject of a case study discussed in the chapter on thinking and intelligence.",
+      "true": "The subject of the case study was a girl known as Genie, who was unable to speak until the age of 13 due to her neglectful and abusive upbringing.",
+      "similarity": 0.5818225145339966,
+      "f1": 0.34782608695652173
+    }
+  ]
+}

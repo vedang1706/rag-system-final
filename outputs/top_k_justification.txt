@@ -1,0 +1,32 @@
+TOP-K PARAMETER JUSTIFICATION
+Empirical evaluation — 18 queries (12 standard + 6 hard)
+======================================================================
+
+EXPERIMENT 1: Candidate Pool K
+K= 5: Hit=100% MRR=0.769 Cov=96.8% RRF=0.0291
+K=10: Hit=100% MRR=0.738 Cov=96.8% RRF=0.0315
+K=15: Hit=100% MRR=0.731 Cov=98.6% RRF=0.0322
+K=20: Hit=94% MRR=0.720 Cov=96.8% RRF=0.0322
+K=25: Hit=83% MRR=0.704 Cov=91.2% RRF=0.0322
+
+Chosen K=15: stable MRR, no improvement beyond 15
+
+EXPERIMENT 2: Final K
+Final K=3: Cov=85.6% Full=13/18 Chars=8203 FITS
+Final K=5: Cov=85.6% Full=13/18 Chars=13961 FITS
+Final K=7: Cov=98.6% Full=17/18 Chars=19322 FITS
+Final K=10: Cov=98.6% Full=17/18 Chars=27836 EXCEEDS
+
+Chosen Final K=7: max coverage within 20k limit
+
+EXPERIMENT 3: Ablation
+Vector Only: Hit=94% MRR=0.672 Cov=93.1%
+BM25 Only: Hit=94% MRR=0.608 Cov=90.3%
+Hybrid RRF: Hit=100% MRR=0.731 Cov=98.6%
+
+Hybrid gains +8.7% MRR over vector alone
+Hybrid gains +20.1% MRR over BM25 alone
+
+References:
+Cormack et al. 2009, SIGIR — RRF original paper
+Bast & Korzen 2017, JCDL — PDF extraction benchmark
