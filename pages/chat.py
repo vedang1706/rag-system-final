@@ -105,6 +105,20 @@ def process_question(question: str, components: dict, answer_style: str = "Stand
     else:
         references = json.loads(result["references"])
 
+    # Save verification snapshot (safe, non-blocking)
+    try:
+        from verification_1.context_snapshot import create_snapshot, save_snapshot
+        chat_qid = f"chat_{int(time.time() * 1000)}"
+        snapshot_obj = create_snapshot(
+            query_id         = chat_qid,
+            question         = question,
+            answer           = result["answer"],
+            retrieved_chunks = retrieved
+        )
+        save_snapshot(snapshot_obj)
+    except Exception:
+        pass
+
     # Add assistant message to history
     st.session_state.chat_history.append({
         "role": "assistant",

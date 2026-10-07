@@ -1,7 +1,8 @@
 {
     "extraPaths": [
         ".",
-        "src"
+        "src",
+        "verification_1"
     ],
     "venvPath": "C:\\Users\\HP\\anaconda3\\envs",
     "venv": "rag-system",

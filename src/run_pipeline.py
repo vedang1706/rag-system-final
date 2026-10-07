@@ -190,6 +190,19 @@ def process_query(query_id: str, question: str,
         retrieved_chunks = retrieved
     )
 
+    # Save verification snapshot (safe, non-blocking)
+    try:
+        from verification_1.context_snapshot import create_snapshot, save_snapshot
+        snapshot_obj = create_snapshot(
+            query_id         = query_id,
+            question         = question,
+            answer           = result["answer"],
+            retrieved_chunks = retrieved
+        )
+        save_snapshot(snapshot_obj)
+    except Exception:
+        pass
+
     return result
 
 

@@ -1,0 +1,253 @@
+{
+  "query_id": "INTEG_001",
+  "question": "What is classical conditioning?",
+  "answer": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together. A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own. This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+  "claims": [
+    {
+      "claim_id": "INTEG_001_C1",
+      "sentence_index": 1,
+      "text": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together.",
+      "evidence_matches": [
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_5",
+          "similarity_score": 0.6098,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 199,
+          "page_end": 200,
+          "pages": [
+            199,
+            200
+          ],
+          "rrf_score": 0.031818
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_0",
+          "similarity_score": 0.6526,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 195,
+          "page_end": 195,
+          "pages": [
+            195
+          ],
+          "rrf_score": 0.031258
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_3",
+          "similarity_score": 0.5183,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 197,
+          "page_end": 198,
+          "pages": [
+            197,
+            198
+          ],
+          "rrf_score": 0.03031
+        },
+        {
+          "chunk_id": "learning_what_is_learning_chunk_2",
+          "similarity_score": 0.7499,
+          "in_llm_context": true,
+          "section": "6.1 What Is Learning?",
+          "section_path": "learning/what_is_learning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 194,
+          "page_end": 194,
+          "pages": [
+            194
+          ],
+          "rrf_score": 0.029911
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_2",
+          "similarity_score": 0.5287,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 196,
+          "page_end": 197,
+          "pages": [
+            196,
+            197
+          ],
+          "rrf_score": 0.027984
+        }
+      ]
+    },
+    {
+      "claim_id": "INTEG_001_C2",
+      "sentence_index": 2,
+      "text": "A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own.",
+      "evidence_matches": [
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_5",
+          "similarity_score": 0.5108,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 199,
+          "page_end": 200,
+          "pages": [
+            199,
+            200
+          ],
+          "rrf_score": 0.031818
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_0",
+          "similarity_score": 0.3912,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 195,
+          "page_end": 195,
+          "pages": [
+            195
+          ],
+          "rrf_score": 0.031258
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_3",
+          "similarity_score": 0.3611,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 197,
+          "page_end": 198,
+          "pages": [
+            197,
+            198
+          ],
+          "rrf_score": 0.03031
+        },
+        {
+          "chunk_id": "learning_what_is_learning_chunk_2",
+          "similarity_score": 0.4885,
+          "in_llm_context": true,
+          "section": "6.1 What Is Learning?",
+          "section_path": "learning/what_is_learning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 194,
+          "page_end": 194,
+          "pages": [
+            194
+          ],
+          "rrf_score": 0.029911
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_2",
+          "similarity_score": 0.5956,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 196,
+          "page_end": 197,
+          "pages": [
+            196,
+            197
+          ],
+          "rrf_score": 0.027984
+        }
+      ]
+    },
+    {
+      "claim_id": "INTEG_001_C3",
+      "sentence_index": 3,
+      "text": "This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+      "evidence_matches": [
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_5",
+          "similarity_score": 0.654,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 199,
+          "page_end": 200,
+          "pages": [
+            199,
+            200
+          ],
+          "rrf_score": 0.031818
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_0",
+          "similarity_score": 0.5285,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 195,
+          "page_end": 195,
+          "pages": [
+            195
+          ],
+          "rrf_score": 0.031258
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_3",
+          "similarity_score": 0.4505,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 197,
+          "page_end": 198,
+          "pages": [
+            197,
+            198
+          ],
+          "rrf_score": 0.03031
+        },
+        {
+          "chunk_id": "learning_what_is_learning_chunk_2",
+          "similarity_score": 0.5213,
+          "in_llm_context": true,
+          "section": "6.1 What Is Learning?",
+          "section_path": "learning/what_is_learning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 194,
+          "page_end": 194,
+          "pages": [
+            194
+          ],
+          "rrf_score": 0.029911
+        },
+        {
+          "chunk_id": "learning_classical_conditioning_chunk_2",
+          "similarity_score": 0.8408,
+          "in_llm_context": true,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 196,
+          "page_end": 197,
+          "pages": [
+            196,
+            197
+          ],
+          "rrf_score": 0.027984
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "similarity_metric": "cosine_similarity",
+    "claim_count": 3,
+    "evaluated_chunks_count": 5
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "dataset_file": "verification_1/input/pilot_dataset_v1.json",
+  "total_examples": 45,
+  "audit_results": [
+    {
+      "example_id": 1,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim is fully supported by the evidence stating that psychological science is empirical, based on measurable data, and cannot test untestable hypotheses like bird happiness.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 2,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence discusses measuring a bird's brain state, but does not mention advanced neurological sensors or tracking specific chemical spikes to determine happiness.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 3,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence, which explicitly states that science tests what is measurable and that unmeasurable hypotheses (such as a bird's happiness) cannot be tested.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 4,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately reflects Wundt's concept of voluntarism, which explicitly states participants should know the intentions of a psychological experiment.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 5,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence describes Wundt's use of introspection, but makes no mention of contemporary criticisms regarding statistical validity.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 6,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by asserting participants should be kept unaware of experimental intentions, whereas voluntarism holds they should know them.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 7,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately reflects Watson's view that objective analysis of the mind was impossible, which led him to focus on observable behavior.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 8,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence notes Watson's focus on observable behavior, but does not mention whether his initial experiments were conducted on dogs and pigeons.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 9,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence, which contrasts Watson with Wundt and James by stating Watson believed the study of consciousness was flawed and objective analysis of the mind impossible.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 10,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly reflects Naomi Weisstein's critique of male psychologists constructing theories of women based on cultural biases rather than careful experimental tests.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 11,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence mentions Weisstein's 1968 publication, but does not mention whether it was rejected by three journals prior to publication.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 12,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by asserting Weisstein praised male psychologists for careful experimental testing, whereas she criticized them for lacking it.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 13,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately synthesizes the passage's statements regarding Margaret Floy Washburn receiving her doctorate in 1894 and Harvard refusing Mary Whiton Calkins in the mid-1890s.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 14,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence details Harvard's refusal to award Calkins a PhD in the mid-1890s, but contains no information about an honorary degree later in life.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 15,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by asserting Calkins received a PhD in 1894 approved by Harvard for a dissertation on the animal mind, which conflates Washburn's achievements and reverses Harvard's refusal.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 16,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately integrates the definitions of deductive reasoning (general hypothesis to real-world conclusions) and inductive reasoning (empirical observations to broad generalizations).",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 17,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence defines deductive and inductive reasoning, but does not state any general scientific preference for deductive reasoning in human behavior experiments.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 18,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by attributing the deductive method (starting with a generalization tested against observations) to inductive reasoning.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 19,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim is fully supported by the text, which highlights that clinical/case studies collect unmatched richness of information and focus on individuals with rare characteristics.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 20,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence explains the methodology and focus of clinical case studies, but mentions nothing about their historical origin in treating hysteria in women.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 21,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by stating case studies focus on large representative groups, whereas the text states they focus on one or a few individuals who are not like most other people.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 22,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately captures both the benefits (reduced time and cost) and the limitation (lack of control over original data) of archival research.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 23,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence describes archival research using existing records, but does not state whether it is the most common method used by modern sociologists for census data.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 24,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by claiming researchers maintain strict control over original data collection, whereas the text states they have no control.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 25,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately contrasts cross-sectional research (evaluating multiple segments simultaneously with cohort limitations) with longitudinal research (tracking the same group over time).",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 26,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence states longitudinal research is conducted over an extended period, but does not establish a mandatory ten-year minimum requirement.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 27,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by stating cross-sectional research tracks the same group over extended time to avoid cohort differences, which reverses the definition and limitations given.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 28,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim is directly supported by the text, which explains that control groups receive placebos to ensure mood effects are due to the drug rather than expectations.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 29,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence notes the control group receives a sugar pill as a placebo, but does not provide details about manufacturing taste or visual resemblance to the medication.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 30,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by stating researchers inform the control group of the sugar pill, whereas the text states neither researchers nor participants know.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 31,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim is directly supported by the text, which notes participants who tested positive were never informed and were not given penicillin when it became recognized in 1947.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 32,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence states the Tuskegee study began in 1932, but does not state whether it was originally planned for six months.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 33,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by stating penicillin was immediately administered in 1947, whereas the text states no penicillin was administered.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 34,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately reflects the definitions of genotype (genetic makeup) and phenotype (physical characteristics resulting from genetic and environmental interaction).",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 35,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence defines phenotype and genotype, but does not mention eye color or its usage in childhood genetics classes.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 36,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by defining genotype as inherited physical characteristics determined entirely by environment, which conflates and contradicts both definitions.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 37,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately paraphrases the concept of range of reaction, where genes establish definite limits on potential and environment determines how much of that potential is achieved.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 38,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence defines range of reaction, but contains no mention of behavioral geneticists or twin studies as the origin of the concept.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 39,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by swapping the roles, asserting environment sets limits and genes determine position within the range.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 40,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately outlines the sequence of neuronal activation: neurotransmitters opening gates, Na+ influx, and internal charge reaching the threshold of excitation to begin an action potential.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 41,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence introduces the concept of threshold of excitation, but does not provide a numerical value (-55 mV) or mention human motor neurons.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 42,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by stating Na+ ions exit the cell and make the charge more negative, whereas the text states Na+ moves in and makes the charge more positive.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 43,
+      "gold_label": "entailment",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim accurately summarizes the purpose of severing the corpus callosum for severe epilepsy, the resulting split brain, and the inability to name pictures in the left visual field.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 44,
+      "gold_label": "neutral",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The evidence discusses severing the corpus callosum as a surgical option, but mentions nothing about general anesthesia or the duration of the surgery.",
+      "suggested_label": null,
+      "suggested_claim": null
+    },
+    {
+      "example_id": 45,
+      "gold_label": "contradiction",
+      "audit_decision": "KEEP",
+      "confidence": "high",
+      "reason": "The claim directly contradicts the evidence by asserting split-brain patients can easily name left visual field pictures and that the right hemisphere is highly verbal, whereas the text states they are unable to name them and the right hemisphere is largely nonverbal.",
+      "suggested_label": null,
+      "suggested_claim": null
+    }
+  ],
+  "summary": {
+    "KEEP": 45,
+    "CHANGE_LABEL": 0,
+    "REWRITE_CLAIM": 0,
+    "DISCARD": 0
+  }
+}

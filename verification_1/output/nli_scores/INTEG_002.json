@@ -1,0 +1,559 @@
+{
+  "query_id": "INTEG_002",
+  "question": "Explain Maslow's hierarchy of needs.",
+  "answer": "Maslow’s hierarchy of needs is a pyramid of human motives that must be satisfied in a specific order.  \nAt the base are physiological needs essential for survival, followed by safety and security needs.  \nNext come social needs for love, belonging, and acceptance, then esteem needs for self‑worth and confidence.  \nThe top tier is self‑actualization, the drive to realize one’s full potential, which can only be pursued once lower needs are met.  \nSome versions add a higher level of self‑transcendence, reflecting the pursuit of meaning beyond oneself.",
+  "claims": [
+    {
+      "claim_id": "INTEG_002_C1",
+      "sentence_index": 1,
+      "text": "Maslow’s hierarchy of needs is a pyramid of human motives that must be satisfied in a specific order.",
+      "evidence_matches": [
+        {
+          "claim_id": "INTEG_002_C1",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_6",
+          "claim_text": "Maslow’s hierarchy of needs is a pyramid of human motives that must be satisfied in a specific order.",
+          "chunk_text": "the theories of motivation described earlier relate to basic biological drives, individual characteristics, or social contexts, Abraham Maslow (1943) proposed a hierarchy of needs that spans the spectrum of motives ranging from the biological to the individual to the social. These needs are often depicted as a pyramid (Figure 10.8). 326 10 • Emotion and Motivation FIGURE 10.8 Maslow’s hierarchy of needs is illustrated here. In some versions of the pyramid, cognitive and aesthetic needs are also included between esteem and self-actualization. Others include another tier at the top of the pyramid for self-transcendence. At the base of the pyramid are all of the physiological needs that are necessary for survival. These are followed by basic needs for security and safety, the need to be loved and to have a sense of belonging, and the need to have self-worth and confidence. The top tier of the pyramid is self-actualization, which is a need that essentially equates to achieving one’s full potential, and it can only be realized when needs lower on the pyramid have been met. To Maslow and humanistic theorists, self-actualization reflects the humanistic emphasis on positive aspects of human nature. Maslow suggested that this is an ongoing, life-long process and that only a small percentage of people actually achieve a self-actualized state (Francis & Kritsonis, 2006; Maslow, 1943). According to Maslow (1943), one must satisfy lower-level needs before addressing those needs that occur higher in the pyramid. So, for example, if someone is struggling to find enough food to meet their nutritional requirements, it is quite unlikely that they would spend an inordinate amount of time thinking about whether others viewed them as a good person or not. Instead, all of their energies would be geared toward finding something to eat. However, it should be pointed out that Maslow’s theory has been criticized for its subjective nature and its inability to account for phenomena that occur in the real world (Leonard, 1982). Other research has more recently addressed that late in life, Maslow proposed a self-transcendence level above self- actualization—to represent striving for meaning and purpose beyond the concerns of oneself (Koltko-Rivera, 2006). For example, people sometimes make self-sacrifices in order to make a political statement or in an attempt to improve the conditions of others. Mohandas K. Gandhi, a world-renowned advocate for independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more.",
+          "in_llm_context": true,
+          "similarity_score": 0.7858,
+          "entailment_score": 0.0012,
+          "neutral_score": 0.9987,
+          "contradiction_score": 0.0001,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 338,
+          "page_end": 339,
+          "pages": [
+            338,
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C1",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_7",
+          "claim_text": "Maslow’s hierarchy of needs is a pyramid of human motives that must be satisfied in a specific order.",
+          "chunk_text": "independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more. 10.1 • Motivation 327",
+          "in_llm_context": true,
+          "similarity_score": 0.5589,
+          "entailment_score": 0.0039,
+          "neutral_score": 0.9958,
+          "contradiction_score": 0.0003,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 339,
+          "page_end": 339,
+          "pages": [
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C1",
+          "chunk_id": "personality_humanistic_approaches_chunk_1",
+          "claim_text": "Maslow’s hierarchy of needs is a pyramid of human motives that must be satisfied in a specific order.",
+          "chunk_text": "of that situation in their own way. Mischel’s approach to personality stresses the importance of both the situation and the way the person perceives the situation. Instead of behavior being determined by the situation, people use cognitive processes to interpret the situation and then behave in accordance with that interpretation. 11.5 Humanistic Approaches LEARNING OBJECTIVES By the end of this section, you will be able to: • Discuss the contributions of Abraham Maslow and Carl Rogers to personality development As the “third force” in psychology, humanism is touted as a reaction both to the pessimistic determinism of psychoanalysis, with its emphasis on psychological disturbance, and to the behaviorists’ view of humans passively reacting to the environment, which has been criticized as making people out to be personality-less robots. It does not suggest that psychoanalytic, behaviorist, and other points of view are incorrect but argues that these perspectives do not recognize the depth and meaning of human experience, and fail to recognize the innate capacity for self-directed change and transforming personal experiences. This perspective focuses on how healthy people develop. One pioneering humanist, Abraham Maslow, studied people who he considered to be healthy, creative, and productive, including Albert Einstein, Eleanor Roosevelt, Thomas Jefferson, Abraham Lincoln, and others. Maslow (1950, 1970) found that such people share similar characteristics, such as being open, creative, loving, spontaneous, compassionate, concerned for others, and accepting of themselves. When you studied motivation, you learned about one of the best-known humanistic theories, Maslow's hierarchy of needs theory, in which Maslow proposes that human beings have certain needs in common and that these needs must be met in a certain order. The highest need is the need for self-actualization, which is the 11.5 • Humanistic Approaches 377",
+          "in_llm_context": true,
+          "similarity_score": 0.4333,
+          "entailment_score": 0.0009,
+          "neutral_score": 0.9988,
+          "contradiction_score": 0.0003,
+          "section": "11.5 Humanistic Approaches",
+          "section_path": "personality/humanistic_approaches",
+          "chapter": "Chapter 11 Personality",
+          "page_start": 389,
+          "page_end": 389,
+          "pages": [
+            389
+          ],
+          "rrf_score": 0.031754
+        },
+        {
+          "claim_id": "INTEG_002_C1",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_0",
+          "claim_text": "Maslow’s hierarchy of needs is a pyramid of human motives that must be satisfied in a specific order.",
+          "chunk_text": "10.1 Motivation LEARNING OBJECTIVES By the end of this section, you will be able to: • Define intrinsic and extrinsic motivation • Understand that instincts, drive reduction, self-efficacy, and social motives have all been proposed as theories of motivation • Explain the basic concepts associated with Maslow’s hierarchy of needs Why do we do the things we do? What motivations underlie our behaviors? Motivation describes the wants or needs that direct behavior toward a goal. In addition to biological motives, motivations can be intrinsic (arising from internal factors) or extrinsic (arising from external factors) (Figure 10.2). Intrinsically motivated behaviors are performed because of the sense of personal satisfaction that they bring, while extrinsically motivated behaviors are performed in order to receive something from others. FIGURE 10.2 Intrinsic motivation comes from within the individual, while extrinsic motivation comes from outside the individual. Think about why you are pursuing an education. Are you here because you enjoy learning and want to pursue an education to make yourself a more well-rounded individual? If so, then you are intrinsically motivated. However, if you are here because you want to get a college degree to make yourself more marketable for a high- paying career or to satisfy the demands of your parents, then your motivation is more extrinsic in nature. In reality, our motivations are often a mix of both intrinsic and extrinsic factors, but the nature of the mix of these factors might change over time (often in ways that seem counter-intuitive). There is an old adage: “Choose a job that you love, and you will never have to work a day in your life,” meaning that if you enjoy your occupation, work doesn’t seem like . . . well, work. Some research suggests that this isn’t necessarily the case (Daniel & Esser, 1980; Deci, 1972; Deci, Koestner, & Ryan, 1999). According to this research, receiving some sort of extrinsic reinforcement (i.e., getting paid) for engaging in behaviors that we enjoy leads to those behaviors being thought of as work no longer providing that same enjoyment. As a result, we might spend less time engaging in these reclassified behaviors in the absence of any extrinsic reinforcement. For example, Odessa loves baking, so in her free time, she bakes for fun. Oftentimes, after stocking shelves at her grocery store job, she whips up pastries in the evenings because she enjoys baking. When a coworker in the store’s bakery department leaves his job, Odessa applies for his position and gets transferred to the bakery department.",
+          "in_llm_context": true,
+          "similarity_score": 0.4741,
+          "entailment_score": 0.001,
+          "neutral_score": 0.9988,
+          "contradiction_score": 0.0002,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 334,
+          "page_end": 334,
+          "pages": [
+            334
+          ],
+          "rrf_score": 0.029437
+        },
+        {
+          "claim_id": "INTEG_002_C1",
+          "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+          "claim_text": "Maslow’s hierarchy of needs is a pyramid of human motives that must be satisfied in a specific order.",
+          "chunk_text": "human being. Beginning with Maslow and Rogers, there was an insistence on a humanistic research program. This program has been largely qualitative (not measurement-based), but there exist a number of quantitative research strains within humanistic psychology, including research on happiness, self-concept, meditation, and the outcomes of humanistic psychotherapy (Friedman, 2008). FIGURE 1.7 Maslow’s hierarchy of needs is shown. Carl Rogers (1902–1987) was also an American psychologist who, like Maslow, emphasized the potential for good that exists within all people (Figure 1.8). Rogers used a therapeutic technique known as client-centered therapy in helping his clients deal with problematic issues that resulted in their seeking psychotherapy. Unlike a psychoanalytic approach in which the therapist plays an important role in interpreting what conscious behavior reveals about the unconscious mind, client-centered therapy involves the patient taking a lead role in the therapy session. Rogers believed that a therapist needed to display three features to maximize the effectiveness of this particular approach: unconditional positive regard, genuineness, and empathy. 14 1 • Introduction to Psychology Unconditional positive regard refers to the fact that the therapist accepts their client for who they are, no matter what they might say. Provided these factors, Rogers believed that people were more than capable of dealing with and working through their own issues (Thorne & Henley, 2005). FIGURE 1.8 Carl Rogers, shown in this portrait, developed a client-centered therapy method that has been influential in clinical settings. (credit: \"Didius\"/Wikimedia Commons) Humanism has been influential to psychology as a whole. Both Maslow and Rogers are well-known names among students of psychology (you will read more about both later in this text), and their ideas have influenced many scholars. Furthermore, Rogers’ client-centered approach to therapy is still commonly used in psychotherapeutic settings today (O’hara, n.d.) LINK TO LEARNING View a brief video of Carl Rogers describing his therapeutic approach (https://openstax.org/l/crogers1) to learn more. The Cognitive Revolution Behaviorism’s emphasis on objectivity and focus on external behavior had pulled psychologists’ attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the cognitive revolution (Miller, 2003).",
+          "in_llm_context": true,
+          "similarity_score": 0.4961,
+          "entailment_score": 0.0004,
+          "neutral_score": 0.9993,
+          "contradiction_score": 0.0003,
+          "section": "1.2 History of Psychology",
+          "section_path": "introduction_to_psychology/history_of_psychology",
+          "chapter": "Chapter 1 Introduction to Psychology",
+          "page_start": 26,
+          "page_end": 27,
+          "pages": [
+            26,
+            27
+          ],
+          "rrf_score": 0.016129
+        }
+      ]
+    },
+    {
+      "claim_id": "INTEG_002_C2",
+      "sentence_index": 2,
+      "text": "At the base are physiological needs essential for survival, followed by safety and security needs.",
+      "evidence_matches": [
+        {
+          "claim_id": "INTEG_002_C2",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_6",
+          "claim_text": "At the base are physiological needs essential for survival, followed by safety and security needs.",
+          "chunk_text": "the theories of motivation described earlier relate to basic biological drives, individual characteristics, or social contexts, Abraham Maslow (1943) proposed a hierarchy of needs that spans the spectrum of motives ranging from the biological to the individual to the social. These needs are often depicted as a pyramid (Figure 10.8). 326 10 • Emotion and Motivation FIGURE 10.8 Maslow’s hierarchy of needs is illustrated here. In some versions of the pyramid, cognitive and aesthetic needs are also included between esteem and self-actualization. Others include another tier at the top of the pyramid for self-transcendence. At the base of the pyramid are all of the physiological needs that are necessary for survival. These are followed by basic needs for security and safety, the need to be loved and to have a sense of belonging, and the need to have self-worth and confidence. The top tier of the pyramid is self-actualization, which is a need that essentially equates to achieving one’s full potential, and it can only be realized when needs lower on the pyramid have been met. To Maslow and humanistic theorists, self-actualization reflects the humanistic emphasis on positive aspects of human nature. Maslow suggested that this is an ongoing, life-long process and that only a small percentage of people actually achieve a self-actualized state (Francis & Kritsonis, 2006; Maslow, 1943). According to Maslow (1943), one must satisfy lower-level needs before addressing those needs that occur higher in the pyramid. So, for example, if someone is struggling to find enough food to meet their nutritional requirements, it is quite unlikely that they would spend an inordinate amount of time thinking about whether others viewed them as a good person or not. Instead, all of their energies would be geared toward finding something to eat. However, it should be pointed out that Maslow’s theory has been criticized for its subjective nature and its inability to account for phenomena that occur in the real world (Leonard, 1982). Other research has more recently addressed that late in life, Maslow proposed a self-transcendence level above self- actualization—to represent striving for meaning and purpose beyond the concerns of oneself (Koltko-Rivera, 2006). For example, people sometimes make self-sacrifices in order to make a political statement or in an attempt to improve the conditions of others. Mohandas K. Gandhi, a world-renowned advocate for independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more.",
+          "in_llm_context": true,
+          "similarity_score": 0.4334,
+          "entailment_score": 0.0009,
+          "neutral_score": 0.999,
+          "contradiction_score": 0.0001,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 338,
+          "page_end": 339,
+          "pages": [
+            338,
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C2",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_7",
+          "claim_text": "At the base are physiological needs essential for survival, followed by safety and security needs.",
+          "chunk_text": "independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more. 10.1 • Motivation 327",
+          "in_llm_context": true,
+          "similarity_score": 0.2974,
+          "entailment_score": 0.0007,
+          "neutral_score": 0.9991,
+          "contradiction_score": 0.0002,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 339,
+          "page_end": 339,
+          "pages": [
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C2",
+          "chunk_id": "personality_humanistic_approaches_chunk_1",
+          "claim_text": "At the base are physiological needs essential for survival, followed by safety and security needs.",
+          "chunk_text": "of that situation in their own way. Mischel’s approach to personality stresses the importance of both the situation and the way the person perceives the situation. Instead of behavior being determined by the situation, people use cognitive processes to interpret the situation and then behave in accordance with that interpretation. 11.5 Humanistic Approaches LEARNING OBJECTIVES By the end of this section, you will be able to: • Discuss the contributions of Abraham Maslow and Carl Rogers to personality development As the “third force” in psychology, humanism is touted as a reaction both to the pessimistic determinism of psychoanalysis, with its emphasis on psychological disturbance, and to the behaviorists’ view of humans passively reacting to the environment, which has been criticized as making people out to be personality-less robots. It does not suggest that psychoanalytic, behaviorist, and other points of view are incorrect but argues that these perspectives do not recognize the depth and meaning of human experience, and fail to recognize the innate capacity for self-directed change and transforming personal experiences. This perspective focuses on how healthy people develop. One pioneering humanist, Abraham Maslow, studied people who he considered to be healthy, creative, and productive, including Albert Einstein, Eleanor Roosevelt, Thomas Jefferson, Abraham Lincoln, and others. Maslow (1950, 1970) found that such people share similar characteristics, such as being open, creative, loving, spontaneous, compassionate, concerned for others, and accepting of themselves. When you studied motivation, you learned about one of the best-known humanistic theories, Maslow's hierarchy of needs theory, in which Maslow proposes that human beings have certain needs in common and that these needs must be met in a certain order. The highest need is the need for self-actualization, which is the 11.5 • Humanistic Approaches 377",
+          "in_llm_context": true,
+          "similarity_score": 0.1535,
+          "entailment_score": 0.0005,
+          "neutral_score": 0.999,
+          "contradiction_score": 0.0005,
+          "section": "11.5 Humanistic Approaches",
+          "section_path": "personality/humanistic_approaches",
+          "chapter": "Chapter 11 Personality",
+          "page_start": 389,
+          "page_end": 389,
+          "pages": [
+            389
+          ],
+          "rrf_score": 0.031754
+        },
+        {
+          "claim_id": "INTEG_002_C2",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_0",
+          "claim_text": "At the base are physiological needs essential for survival, followed by safety and security needs.",
+          "chunk_text": "10.1 Motivation LEARNING OBJECTIVES By the end of this section, you will be able to: • Define intrinsic and extrinsic motivation • Understand that instincts, drive reduction, self-efficacy, and social motives have all been proposed as theories of motivation • Explain the basic concepts associated with Maslow’s hierarchy of needs Why do we do the things we do? What motivations underlie our behaviors? Motivation describes the wants or needs that direct behavior toward a goal. In addition to biological motives, motivations can be intrinsic (arising from internal factors) or extrinsic (arising from external factors) (Figure 10.2). Intrinsically motivated behaviors are performed because of the sense of personal satisfaction that they bring, while extrinsically motivated behaviors are performed in order to receive something from others. FIGURE 10.2 Intrinsic motivation comes from within the individual, while extrinsic motivation comes from outside the individual. Think about why you are pursuing an education. Are you here because you enjoy learning and want to pursue an education to make yourself a more well-rounded individual? If so, then you are intrinsically motivated. However, if you are here because you want to get a college degree to make yourself more marketable for a high- paying career or to satisfy the demands of your parents, then your motivation is more extrinsic in nature. In reality, our motivations are often a mix of both intrinsic and extrinsic factors, but the nature of the mix of these factors might change over time (often in ways that seem counter-intuitive). There is an old adage: “Choose a job that you love, and you will never have to work a day in your life,” meaning that if you enjoy your occupation, work doesn’t seem like . . . well, work. Some research suggests that this isn’t necessarily the case (Daniel & Esser, 1980; Deci, 1972; Deci, Koestner, & Ryan, 1999). According to this research, receiving some sort of extrinsic reinforcement (i.e., getting paid) for engaging in behaviors that we enjoy leads to those behaviors being thought of as work no longer providing that same enjoyment. As a result, we might spend less time engaging in these reclassified behaviors in the absence of any extrinsic reinforcement. For example, Odessa loves baking, so in her free time, she bakes for fun. Oftentimes, after stocking shelves at her grocery store job, she whips up pastries in the evenings because she enjoys baking. When a coworker in the store’s bakery department leaves his job, Odessa applies for his position and gets transferred to the bakery department.",
+          "in_llm_context": true,
+          "similarity_score": 0.1298,
+          "entailment_score": 0.0008,
+          "neutral_score": 0.999,
+          "contradiction_score": 0.0002,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 334,
+          "page_end": 334,
+          "pages": [
+            334
+          ],
+          "rrf_score": 0.029437
+        },
+        {
+          "claim_id": "INTEG_002_C2",
+          "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+          "claim_text": "At the base are physiological needs essential for survival, followed by safety and security needs.",
+          "chunk_text": "human being. Beginning with Maslow and Rogers, there was an insistence on a humanistic research program. This program has been largely qualitative (not measurement-based), but there exist a number of quantitative research strains within humanistic psychology, including research on happiness, self-concept, meditation, and the outcomes of humanistic psychotherapy (Friedman, 2008). FIGURE 1.7 Maslow’s hierarchy of needs is shown. Carl Rogers (1902–1987) was also an American psychologist who, like Maslow, emphasized the potential for good that exists within all people (Figure 1.8). Rogers used a therapeutic technique known as client-centered therapy in helping his clients deal with problematic issues that resulted in their seeking psychotherapy. Unlike a psychoanalytic approach in which the therapist plays an important role in interpreting what conscious behavior reveals about the unconscious mind, client-centered therapy involves the patient taking a lead role in the therapy session. Rogers believed that a therapist needed to display three features to maximize the effectiveness of this particular approach: unconditional positive regard, genuineness, and empathy. 14 1 • Introduction to Psychology Unconditional positive regard refers to the fact that the therapist accepts their client for who they are, no matter what they might say. Provided these factors, Rogers believed that people were more than capable of dealing with and working through their own issues (Thorne & Henley, 2005). FIGURE 1.8 Carl Rogers, shown in this portrait, developed a client-centered therapy method that has been influential in clinical settings. (credit: \"Didius\"/Wikimedia Commons) Humanism has been influential to psychology as a whole. Both Maslow and Rogers are well-known names among students of psychology (you will read more about both later in this text), and their ideas have influenced many scholars. Furthermore, Rogers’ client-centered approach to therapy is still commonly used in psychotherapeutic settings today (O’hara, n.d.) LINK TO LEARNING View a brief video of Carl Rogers describing his therapeutic approach (https://openstax.org/l/crogers1) to learn more. The Cognitive Revolution Behaviorism’s emphasis on objectivity and focus on external behavior had pulled psychologists’ attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the cognitive revolution (Miller, 2003).",
+          "in_llm_context": true,
+          "similarity_score": 0.1817,
+          "entailment_score": 0.0003,
+          "neutral_score": 0.9994,
+          "contradiction_score": 0.0002,
+          "section": "1.2 History of Psychology",
+          "section_path": "introduction_to_psychology/history_of_psychology",
+          "chapter": "Chapter 1 Introduction to Psychology",
+          "page_start": 26,
+          "page_end": 27,
+          "pages": [
+            26,
+            27
+          ],
+          "rrf_score": 0.016129
+        }
+      ]
+    },
+    {
+      "claim_id": "INTEG_002_C3",
+      "sentence_index": 3,
+      "text": "Next come social needs for love, belonging, and acceptance, then esteem needs for self‑worth and confidence.",
+      "evidence_matches": [
+        {
+          "claim_id": "INTEG_002_C3",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_6",
+          "claim_text": "Next come social needs for love, belonging, and acceptance, then esteem needs for self‑worth and confidence.",
+          "chunk_text": "the theories of motivation described earlier relate to basic biological drives, individual characteristics, or social contexts, Abraham Maslow (1943) proposed a hierarchy of needs that spans the spectrum of motives ranging from the biological to the individual to the social. These needs are often depicted as a pyramid (Figure 10.8). 326 10 • Emotion and Motivation FIGURE 10.8 Maslow’s hierarchy of needs is illustrated here. In some versions of the pyramid, cognitive and aesthetic needs are also included between esteem and self-actualization. Others include another tier at the top of the pyramid for self-transcendence. At the base of the pyramid are all of the physiological needs that are necessary for survival. These are followed by basic needs for security and safety, the need to be loved and to have a sense of belonging, and the need to have self-worth and confidence. The top tier of the pyramid is self-actualization, which is a need that essentially equates to achieving one’s full potential, and it can only be realized when needs lower on the pyramid have been met. To Maslow and humanistic theorists, self-actualization reflects the humanistic emphasis on positive aspects of human nature. Maslow suggested that this is an ongoing, life-long process and that only a small percentage of people actually achieve a self-actualized state (Francis & Kritsonis, 2006; Maslow, 1943). According to Maslow (1943), one must satisfy lower-level needs before addressing those needs that occur higher in the pyramid. So, for example, if someone is struggling to find enough food to meet their nutritional requirements, it is quite unlikely that they would spend an inordinate amount of time thinking about whether others viewed them as a good person or not. Instead, all of their energies would be geared toward finding something to eat. However, it should be pointed out that Maslow’s theory has been criticized for its subjective nature and its inability to account for phenomena that occur in the real world (Leonard, 1982). Other research has more recently addressed that late in life, Maslow proposed a self-transcendence level above self- actualization—to represent striving for meaning and purpose beyond the concerns of oneself (Koltko-Rivera, 2006). For example, people sometimes make self-sacrifices in order to make a political statement or in an attempt to improve the conditions of others. Mohandas K. Gandhi, a world-renowned advocate for independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more.",
+          "in_llm_context": true,
+          "similarity_score": 0.5373,
+          "entailment_score": 0.0005,
+          "neutral_score": 0.9993,
+          "contradiction_score": 0.0001,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 338,
+          "page_end": 339,
+          "pages": [
+            338,
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C3",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_7",
+          "claim_text": "Next come social needs for love, belonging, and acceptance, then esteem needs for self‑worth and confidence.",
+          "chunk_text": "independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more. 10.1 • Motivation 327",
+          "in_llm_context": true,
+          "similarity_score": 0.3381,
+          "entailment_score": 0.0013,
+          "neutral_score": 0.9986,
+          "contradiction_score": 0.0001,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 339,
+          "page_end": 339,
+          "pages": [
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C3",
+          "chunk_id": "personality_humanistic_approaches_chunk_1",
+          "claim_text": "Next come social needs for love, belonging, and acceptance, then esteem needs for self‑worth and confidence.",
+          "chunk_text": "of that situation in their own way. Mischel’s approach to personality stresses the importance of both the situation and the way the person perceives the situation. Instead of behavior being determined by the situation, people use cognitive processes to interpret the situation and then behave in accordance with that interpretation. 11.5 Humanistic Approaches LEARNING OBJECTIVES By the end of this section, you will be able to: • Discuss the contributions of Abraham Maslow and Carl Rogers to personality development As the “third force” in psychology, humanism is touted as a reaction both to the pessimistic determinism of psychoanalysis, with its emphasis on psychological disturbance, and to the behaviorists’ view of humans passively reacting to the environment, which has been criticized as making people out to be personality-less robots. It does not suggest that psychoanalytic, behaviorist, and other points of view are incorrect but argues that these perspectives do not recognize the depth and meaning of human experience, and fail to recognize the innate capacity for self-directed change and transforming personal experiences. This perspective focuses on how healthy people develop. One pioneering humanist, Abraham Maslow, studied people who he considered to be healthy, creative, and productive, including Albert Einstein, Eleanor Roosevelt, Thomas Jefferson, Abraham Lincoln, and others. Maslow (1950, 1970) found that such people share similar characteristics, such as being open, creative, loving, spontaneous, compassionate, concerned for others, and accepting of themselves. When you studied motivation, you learned about one of the best-known humanistic theories, Maslow's hierarchy of needs theory, in which Maslow proposes that human beings have certain needs in common and that these needs must be met in a certain order. The highest need is the need for self-actualization, which is the 11.5 • Humanistic Approaches 377",
+          "in_llm_context": true,
+          "similarity_score": 0.2637,
+          "entailment_score": 0.0005,
+          "neutral_score": 0.9989,
+          "contradiction_score": 0.0006,
+          "section": "11.5 Humanistic Approaches",
+          "section_path": "personality/humanistic_approaches",
+          "chapter": "Chapter 11 Personality",
+          "page_start": 389,
+          "page_end": 389,
+          "pages": [
+            389
+          ],
+          "rrf_score": 0.031754
+        },
+        {
+          "claim_id": "INTEG_002_C3",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_0",
+          "claim_text": "Next come social needs for love, belonging, and acceptance, then esteem needs for self‑worth and confidence.",
+          "chunk_text": "10.1 Motivation LEARNING OBJECTIVES By the end of this section, you will be able to: • Define intrinsic and extrinsic motivation • Understand that instincts, drive reduction, self-efficacy, and social motives have all been proposed as theories of motivation • Explain the basic concepts associated with Maslow’s hierarchy of needs Why do we do the things we do? What motivations underlie our behaviors? Motivation describes the wants or needs that direct behavior toward a goal. In addition to biological motives, motivations can be intrinsic (arising from internal factors) or extrinsic (arising from external factors) (Figure 10.2). Intrinsically motivated behaviors are performed because of the sense of personal satisfaction that they bring, while extrinsically motivated behaviors are performed in order to receive something from others. FIGURE 10.2 Intrinsic motivation comes from within the individual, while extrinsic motivation comes from outside the individual. Think about why you are pursuing an education. Are you here because you enjoy learning and want to pursue an education to make yourself a more well-rounded individual? If so, then you are intrinsically motivated. However, if you are here because you want to get a college degree to make yourself more marketable for a high- paying career or to satisfy the demands of your parents, then your motivation is more extrinsic in nature. In reality, our motivations are often a mix of both intrinsic and extrinsic factors, but the nature of the mix of these factors might change over time (often in ways that seem counter-intuitive). There is an old adage: “Choose a job that you love, and you will never have to work a day in your life,” meaning that if you enjoy your occupation, work doesn’t seem like . . . well, work. Some research suggests that this isn’t necessarily the case (Daniel & Esser, 1980; Deci, 1972; Deci, Koestner, & Ryan, 1999). According to this research, receiving some sort of extrinsic reinforcement (i.e., getting paid) for engaging in behaviors that we enjoy leads to those behaviors being thought of as work no longer providing that same enjoyment. As a result, we might spend less time engaging in these reclassified behaviors in the absence of any extrinsic reinforcement. For example, Odessa loves baking, so in her free time, she bakes for fun. Oftentimes, after stocking shelves at her grocery store job, she whips up pastries in the evenings because she enjoys baking. When a coworker in the store’s bakery department leaves his job, Odessa applies for his position and gets transferred to the bakery department.",
+          "in_llm_context": true,
+          "similarity_score": 0.3352,
+          "entailment_score": 0.0009,
+          "neutral_score": 0.9989,
+          "contradiction_score": 0.0002,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 334,
+          "page_end": 334,
+          "pages": [
+            334
+          ],
+          "rrf_score": 0.029437
+        },
+        {
+          "claim_id": "INTEG_002_C3",
+          "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+          "claim_text": "Next come social needs for love, belonging, and acceptance, then esteem needs for self‑worth and confidence.",
+          "chunk_text": "human being. Beginning with Maslow and Rogers, there was an insistence on a humanistic research program. This program has been largely qualitative (not measurement-based), but there exist a number of quantitative research strains within humanistic psychology, including research on happiness, self-concept, meditation, and the outcomes of humanistic psychotherapy (Friedman, 2008). FIGURE 1.7 Maslow’s hierarchy of needs is shown. Carl Rogers (1902–1987) was also an American psychologist who, like Maslow, emphasized the potential for good that exists within all people (Figure 1.8). Rogers used a therapeutic technique known as client-centered therapy in helping his clients deal with problematic issues that resulted in their seeking psychotherapy. Unlike a psychoanalytic approach in which the therapist plays an important role in interpreting what conscious behavior reveals about the unconscious mind, client-centered therapy involves the patient taking a lead role in the therapy session. Rogers believed that a therapist needed to display three features to maximize the effectiveness of this particular approach: unconditional positive regard, genuineness, and empathy. 14 1 • Introduction to Psychology Unconditional positive regard refers to the fact that the therapist accepts their client for who they are, no matter what they might say. Provided these factors, Rogers believed that people were more than capable of dealing with and working through their own issues (Thorne & Henley, 2005). FIGURE 1.8 Carl Rogers, shown in this portrait, developed a client-centered therapy method that has been influential in clinical settings. (credit: \"Didius\"/Wikimedia Commons) Humanism has been influential to psychology as a whole. Both Maslow and Rogers are well-known names among students of psychology (you will read more about both later in this text), and their ideas have influenced many scholars. Furthermore, Rogers’ client-centered approach to therapy is still commonly used in psychotherapeutic settings today (O’hara, n.d.) LINK TO LEARNING View a brief video of Carl Rogers describing his therapeutic approach (https://openstax.org/l/crogers1) to learn more. The Cognitive Revolution Behaviorism’s emphasis on objectivity and focus on external behavior had pulled psychologists’ attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the cognitive revolution (Miller, 2003).",
+          "in_llm_context": true,
+          "similarity_score": 0.3994,
+          "entailment_score": 0.0003,
+          "neutral_score": 0.9995,
+          "contradiction_score": 0.0002,
+          "section": "1.2 History of Psychology",
+          "section_path": "introduction_to_psychology/history_of_psychology",
+          "chapter": "Chapter 1 Introduction to Psychology",
+          "page_start": 26,
+          "page_end": 27,
+          "pages": [
+            26,
+            27
+          ],
+          "rrf_score": 0.016129
+        }
+      ]
+    },
+    {
+      "claim_id": "INTEG_002_C4",
+      "sentence_index": 4,
+      "text": "The top tier is self‑actualization, the drive to realize one’s full potential, which can only be pursued once lower needs are met.",
+      "evidence_matches": [
+        {
+          "claim_id": "INTEG_002_C4",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_6",
+          "claim_text": "The top tier is self‑actualization, the drive to realize one’s full potential, which can only be pursued once lower needs are met.",
+          "chunk_text": "the theories of motivation described earlier relate to basic biological drives, individual characteristics, or social contexts, Abraham Maslow (1943) proposed a hierarchy of needs that spans the spectrum of motives ranging from the biological to the individual to the social. These needs are often depicted as a pyramid (Figure 10.8). 326 10 • Emotion and Motivation FIGURE 10.8 Maslow’s hierarchy of needs is illustrated here. In some versions of the pyramid, cognitive and aesthetic needs are also included between esteem and self-actualization. Others include another tier at the top of the pyramid for self-transcendence. At the base of the pyramid are all of the physiological needs that are necessary for survival. These are followed by basic needs for security and safety, the need to be loved and to have a sense of belonging, and the need to have self-worth and confidence. The top tier of the pyramid is self-actualization, which is a need that essentially equates to achieving one’s full potential, and it can only be realized when needs lower on the pyramid have been met. To Maslow and humanistic theorists, self-actualization reflects the humanistic emphasis on positive aspects of human nature. Maslow suggested that this is an ongoing, life-long process and that only a small percentage of people actually achieve a self-actualized state (Francis & Kritsonis, 2006; Maslow, 1943). According to Maslow (1943), one must satisfy lower-level needs before addressing those needs that occur higher in the pyramid. So, for example, if someone is struggling to find enough food to meet their nutritional requirements, it is quite unlikely that they would spend an inordinate amount of time thinking about whether others viewed them as a good person or not. Instead, all of their energies would be geared toward finding something to eat. However, it should be pointed out that Maslow’s theory has been criticized for its subjective nature and its inability to account for phenomena that occur in the real world (Leonard, 1982). Other research has more recently addressed that late in life, Maslow proposed a self-transcendence level above self- actualization—to represent striving for meaning and purpose beyond the concerns of oneself (Koltko-Rivera, 2006). For example, people sometimes make self-sacrifices in order to make a political statement or in an attempt to improve the conditions of others. Mohandas K. Gandhi, a world-renowned advocate for independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more.",
+          "in_llm_context": true,
+          "similarity_score": 0.5521,
+          "entailment_score": 0.0014,
+          "neutral_score": 0.9985,
+          "contradiction_score": 0.0001,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 338,
+          "page_end": 339,
+          "pages": [
+            338,
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C4",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_7",
+          "claim_text": "The top tier is self‑actualization, the drive to realize one’s full potential, which can only be pursued once lower needs are met.",
+          "chunk_text": "independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more. 10.1 • Motivation 327",
+          "in_llm_context": true,
+          "similarity_score": 0.3126,
+          "entailment_score": 0.0009,
+          "neutral_score": 0.9989,
+          "contradiction_score": 0.0002,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 339,
+          "page_end": 339,
+          "pages": [
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C4",
+          "chunk_id": "personality_humanistic_approaches_chunk_1",
+          "claim_text": "The top tier is self‑actualization, the drive to realize one’s full potential, which can only be pursued once lower needs are met.",
+          "chunk_text": "of that situation in their own way. Mischel’s approach to personality stresses the importance of both the situation and the way the person perceives the situation. Instead of behavior being determined by the situation, people use cognitive processes to interpret the situation and then behave in accordance with that interpretation. 11.5 Humanistic Approaches LEARNING OBJECTIVES By the end of this section, you will be able to: • Discuss the contributions of Abraham Maslow and Carl Rogers to personality development As the “third force” in psychology, humanism is touted as a reaction both to the pessimistic determinism of psychoanalysis, with its emphasis on psychological disturbance, and to the behaviorists’ view of humans passively reacting to the environment, which has been criticized as making people out to be personality-less robots. It does not suggest that psychoanalytic, behaviorist, and other points of view are incorrect but argues that these perspectives do not recognize the depth and meaning of human experience, and fail to recognize the innate capacity for self-directed change and transforming personal experiences. This perspective focuses on how healthy people develop. One pioneering humanist, Abraham Maslow, studied people who he considered to be healthy, creative, and productive, including Albert Einstein, Eleanor Roosevelt, Thomas Jefferson, Abraham Lincoln, and others. Maslow (1950, 1970) found that such people share similar characteristics, such as being open, creative, loving, spontaneous, compassionate, concerned for others, and accepting of themselves. When you studied motivation, you learned about one of the best-known humanistic theories, Maslow's hierarchy of needs theory, in which Maslow proposes that human beings have certain needs in common and that these needs must be met in a certain order. The highest need is the need for self-actualization, which is the 11.5 • Humanistic Approaches 377",
+          "in_llm_context": true,
+          "similarity_score": 0.2324,
+          "entailment_score": 0.0008,
+          "neutral_score": 0.9985,
+          "contradiction_score": 0.0007,
+          "section": "11.5 Humanistic Approaches",
+          "section_path": "personality/humanistic_approaches",
+          "chapter": "Chapter 11 Personality",
+          "page_start": 389,
+          "page_end": 389,
+          "pages": [
+            389
+          ],
+          "rrf_score": 0.031754
+        },
+        {
+          "claim_id": "INTEG_002_C4",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_0",
+          "claim_text": "The top tier is self‑actualization, the drive to realize one’s full potential, which can only be pursued once lower needs are met.",
+          "chunk_text": "10.1 Motivation LEARNING OBJECTIVES By the end of this section, you will be able to: • Define intrinsic and extrinsic motivation • Understand that instincts, drive reduction, self-efficacy, and social motives have all been proposed as theories of motivation • Explain the basic concepts associated with Maslow’s hierarchy of needs Why do we do the things we do? What motivations underlie our behaviors? Motivation describes the wants or needs that direct behavior toward a goal. In addition to biological motives, motivations can be intrinsic (arising from internal factors) or extrinsic (arising from external factors) (Figure 10.2). Intrinsically motivated behaviors are performed because of the sense of personal satisfaction that they bring, while extrinsically motivated behaviors are performed in order to receive something from others. FIGURE 10.2 Intrinsic motivation comes from within the individual, while extrinsic motivation comes from outside the individual. Think about why you are pursuing an education. Are you here because you enjoy learning and want to pursue an education to make yourself a more well-rounded individual? If so, then you are intrinsically motivated. However, if you are here because you want to get a college degree to make yourself more marketable for a high- paying career or to satisfy the demands of your parents, then your motivation is more extrinsic in nature. In reality, our motivations are often a mix of both intrinsic and extrinsic factors, but the nature of the mix of these factors might change over time (often in ways that seem counter-intuitive). There is an old adage: “Choose a job that you love, and you will never have to work a day in your life,” meaning that if you enjoy your occupation, work doesn’t seem like . . . well, work. Some research suggests that this isn’t necessarily the case (Daniel & Esser, 1980; Deci, 1972; Deci, Koestner, & Ryan, 1999). According to this research, receiving some sort of extrinsic reinforcement (i.e., getting paid) for engaging in behaviors that we enjoy leads to those behaviors being thought of as work no longer providing that same enjoyment. As a result, we might spend less time engaging in these reclassified behaviors in the absence of any extrinsic reinforcement. For example, Odessa loves baking, so in her free time, she bakes for fun. Oftentimes, after stocking shelves at her grocery store job, she whips up pastries in the evenings because she enjoys baking. When a coworker in the store’s bakery department leaves his job, Odessa applies for his position and gets transferred to the bakery department.",
+          "in_llm_context": true,
+          "similarity_score": 0.3766,
+          "entailment_score": 0.0009,
+          "neutral_score": 0.9989,
+          "contradiction_score": 0.0003,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 334,
+          "page_end": 334,
+          "pages": [
+            334
+          ],
+          "rrf_score": 0.029437
+        },
+        {
+          "claim_id": "INTEG_002_C4",
+          "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+          "claim_text": "The top tier is self‑actualization, the drive to realize one’s full potential, which can only be pursued once lower needs are met.",
+          "chunk_text": "human being. Beginning with Maslow and Rogers, there was an insistence on a humanistic research program. This program has been largely qualitative (not measurement-based), but there exist a number of quantitative research strains within humanistic psychology, including research on happiness, self-concept, meditation, and the outcomes of humanistic psychotherapy (Friedman, 2008). FIGURE 1.7 Maslow’s hierarchy of needs is shown. Carl Rogers (1902–1987) was also an American psychologist who, like Maslow, emphasized the potential for good that exists within all people (Figure 1.8). Rogers used a therapeutic technique known as client-centered therapy in helping his clients deal with problematic issues that resulted in their seeking psychotherapy. Unlike a psychoanalytic approach in which the therapist plays an important role in interpreting what conscious behavior reveals about the unconscious mind, client-centered therapy involves the patient taking a lead role in the therapy session. Rogers believed that a therapist needed to display three features to maximize the effectiveness of this particular approach: unconditional positive regard, genuineness, and empathy. 14 1 • Introduction to Psychology Unconditional positive regard refers to the fact that the therapist accepts their client for who they are, no matter what they might say. Provided these factors, Rogers believed that people were more than capable of dealing with and working through their own issues (Thorne & Henley, 2005). FIGURE 1.8 Carl Rogers, shown in this portrait, developed a client-centered therapy method that has been influential in clinical settings. (credit: \"Didius\"/Wikimedia Commons) Humanism has been influential to psychology as a whole. Both Maslow and Rogers are well-known names among students of psychology (you will read more about both later in this text), and their ideas have influenced many scholars. Furthermore, Rogers’ client-centered approach to therapy is still commonly used in psychotherapeutic settings today (O’hara, n.d.) LINK TO LEARNING View a brief video of Carl Rogers describing his therapeutic approach (https://openstax.org/l/crogers1) to learn more. The Cognitive Revolution Behaviorism’s emphasis on objectivity and focus on external behavior had pulled psychologists’ attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the cognitive revolution (Miller, 2003).",
+          "in_llm_context": true,
+          "similarity_score": 0.3284,
+          "entailment_score": 0.0003,
+          "neutral_score": 0.9994,
+          "contradiction_score": 0.0003,
+          "section": "1.2 History of Psychology",
+          "section_path": "introduction_to_psychology/history_of_psychology",
+          "chapter": "Chapter 1 Introduction to Psychology",
+          "page_start": 26,
+          "page_end": 27,
+          "pages": [
+            26,
+            27
+          ],
+          "rrf_score": 0.016129
+        }
+      ]
+    },
+    {
+      "claim_id": "INTEG_002_C5",
+      "sentence_index": 5,
+      "text": "Some versions add a higher level of self‑transcendence, reflecting the pursuit of meaning beyond oneself.",
+      "evidence_matches": [
+        {
+          "claim_id": "INTEG_002_C5",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_6",
+          "claim_text": "Some versions add a higher level of self‑transcendence, reflecting the pursuit of meaning beyond oneself.",
+          "chunk_text": "the theories of motivation described earlier relate to basic biological drives, individual characteristics, or social contexts, Abraham Maslow (1943) proposed a hierarchy of needs that spans the spectrum of motives ranging from the biological to the individual to the social. These needs are often depicted as a pyramid (Figure 10.8). 326 10 • Emotion and Motivation FIGURE 10.8 Maslow’s hierarchy of needs is illustrated here. In some versions of the pyramid, cognitive and aesthetic needs are also included between esteem and self-actualization. Others include another tier at the top of the pyramid for self-transcendence. At the base of the pyramid are all of the physiological needs that are necessary for survival. These are followed by basic needs for security and safety, the need to be loved and to have a sense of belonging, and the need to have self-worth and confidence. The top tier of the pyramid is self-actualization, which is a need that essentially equates to achieving one’s full potential, and it can only be realized when needs lower on the pyramid have been met. To Maslow and humanistic theorists, self-actualization reflects the humanistic emphasis on positive aspects of human nature. Maslow suggested that this is an ongoing, life-long process and that only a small percentage of people actually achieve a self-actualized state (Francis & Kritsonis, 2006; Maslow, 1943). According to Maslow (1943), one must satisfy lower-level needs before addressing those needs that occur higher in the pyramid. So, for example, if someone is struggling to find enough food to meet their nutritional requirements, it is quite unlikely that they would spend an inordinate amount of time thinking about whether others viewed them as a good person or not. Instead, all of their energies would be geared toward finding something to eat. However, it should be pointed out that Maslow’s theory has been criticized for its subjective nature and its inability to account for phenomena that occur in the real world (Leonard, 1982). Other research has more recently addressed that late in life, Maslow proposed a self-transcendence level above self- actualization—to represent striving for meaning and purpose beyond the concerns of oneself (Koltko-Rivera, 2006). For example, people sometimes make self-sacrifices in order to make a political statement or in an attempt to improve the conditions of others. Mohandas K. Gandhi, a world-renowned advocate for independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more.",
+          "in_llm_context": true,
+          "similarity_score": 0.454,
+          "entailment_score": 0.0015,
+          "neutral_score": 0.9985,
+          "contradiction_score": 0.0001,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 338,
+          "page_end": 339,
+          "pages": [
+            338,
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C5",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_7",
+          "claim_text": "Some versions add a higher level of self‑transcendence, reflecting the pursuit of meaning beyond oneself.",
+          "chunk_text": "independence through nonviolent protest, on several occasions went on hunger strikes to protest a particular situation. People may starve themselves or otherwise put themselves in danger displaying higher-level motives beyond their own needs. LINK TO LEARNING Check out this interactive exercise about Maslow's hierarchy of needs (https://openstax.org/l/hierneeds) to learn more. 10.1 • Motivation 327",
+          "in_llm_context": true,
+          "similarity_score": 0.2057,
+          "entailment_score": 0.0013,
+          "neutral_score": 0.9986,
+          "contradiction_score": 0.0001,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 339,
+          "page_end": 339,
+          "pages": [
+            339
+          ],
+          "rrf_score": 0.03306
+        },
+        {
+          "claim_id": "INTEG_002_C5",
+          "chunk_id": "personality_humanistic_approaches_chunk_1",
+          "claim_text": "Some versions add a higher level of self‑transcendence, reflecting the pursuit of meaning beyond oneself.",
+          "chunk_text": "of that situation in their own way. Mischel’s approach to personality stresses the importance of both the situation and the way the person perceives the situation. Instead of behavior being determined by the situation, people use cognitive processes to interpret the situation and then behave in accordance with that interpretation. 11.5 Humanistic Approaches LEARNING OBJECTIVES By the end of this section, you will be able to: • Discuss the contributions of Abraham Maslow and Carl Rogers to personality development As the “third force” in psychology, humanism is touted as a reaction both to the pessimistic determinism of psychoanalysis, with its emphasis on psychological disturbance, and to the behaviorists’ view of humans passively reacting to the environment, which has been criticized as making people out to be personality-less robots. It does not suggest that psychoanalytic, behaviorist, and other points of view are incorrect but argues that these perspectives do not recognize the depth and meaning of human experience, and fail to recognize the innate capacity for self-directed change and transforming personal experiences. This perspective focuses on how healthy people develop. One pioneering humanist, Abraham Maslow, studied people who he considered to be healthy, creative, and productive, including Albert Einstein, Eleanor Roosevelt, Thomas Jefferson, Abraham Lincoln, and others. Maslow (1950, 1970) found that such people share similar characteristics, such as being open, creative, loving, spontaneous, compassionate, concerned for others, and accepting of themselves. When you studied motivation, you learned about one of the best-known humanistic theories, Maslow's hierarchy of needs theory, in which Maslow proposes that human beings have certain needs in common and that these needs must be met in a certain order. The highest need is the need for self-actualization, which is the 11.5 • Humanistic Approaches 377",
+          "in_llm_context": true,
+          "similarity_score": 0.301,
+          "entailment_score": 0.0004,
+          "neutral_score": 0.999,
+          "contradiction_score": 0.0006,
+          "section": "11.5 Humanistic Approaches",
+          "section_path": "personality/humanistic_approaches",
+          "chapter": "Chapter 11 Personality",
+          "page_start": 389,
+          "page_end": 389,
+          "pages": [
+            389
+          ],
+          "rrf_score": 0.031754
+        },
+        {
+          "claim_id": "INTEG_002_C5",
+          "chunk_id": "emotion_and_motivation_motivation_chunk_0",
+          "claim_text": "Some versions add a higher level of self‑transcendence, reflecting the pursuit of meaning beyond oneself.",
+          "chunk_text": "10.1 Motivation LEARNING OBJECTIVES By the end of this section, you will be able to: • Define intrinsic and extrinsic motivation • Understand that instincts, drive reduction, self-efficacy, and social motives have all been proposed as theories of motivation • Explain the basic concepts associated with Maslow’s hierarchy of needs Why do we do the things we do? What motivations underlie our behaviors? Motivation describes the wants or needs that direct behavior toward a goal. In addition to biological motives, motivations can be intrinsic (arising from internal factors) or extrinsic (arising from external factors) (Figure 10.2). Intrinsically motivated behaviors are performed because of the sense of personal satisfaction that they bring, while extrinsically motivated behaviors are performed in order to receive something from others. FIGURE 10.2 Intrinsic motivation comes from within the individual, while extrinsic motivation comes from outside the individual. Think about why you are pursuing an education. Are you here because you enjoy learning and want to pursue an education to make yourself a more well-rounded individual? If so, then you are intrinsically motivated. However, if you are here because you want to get a college degree to make yourself more marketable for a high- paying career or to satisfy the demands of your parents, then your motivation is more extrinsic in nature. In reality, our motivations are often a mix of both intrinsic and extrinsic factors, but the nature of the mix of these factors might change over time (often in ways that seem counter-intuitive). There is an old adage: “Choose a job that you love, and you will never have to work a day in your life,” meaning that if you enjoy your occupation, work doesn’t seem like . . . well, work. Some research suggests that this isn’t necessarily the case (Daniel & Esser, 1980; Deci, 1972; Deci, Koestner, & Ryan, 1999). According to this research, receiving some sort of extrinsic reinforcement (i.e., getting paid) for engaging in behaviors that we enjoy leads to those behaviors being thought of as work no longer providing that same enjoyment. As a result, we might spend less time engaging in these reclassified behaviors in the absence of any extrinsic reinforcement. For example, Odessa loves baking, so in her free time, she bakes for fun. Oftentimes, after stocking shelves at her grocery store job, she whips up pastries in the evenings because she enjoys baking. When a coworker in the store’s bakery department leaves his job, Odessa applies for his position and gets transferred to the bakery department.",
+          "in_llm_context": true,
+          "similarity_score": 0.2861,
+          "entailment_score": 0.0009,
+          "neutral_score": 0.9989,
+          "contradiction_score": 0.0002,
+          "section": "10.1 Motivation",
+          "section_path": "emotion_and_motivation/motivation",
+          "chapter": "Chapter 10 Emotion and Motivation",
+          "page_start": 334,
+          "page_end": 334,
+          "pages": [
+            334
+          ],
+          "rrf_score": 0.029437
+        },
+        {
+          "claim_id": "INTEG_002_C5",
+          "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+          "claim_text": "Some versions add a higher level of self‑transcendence, reflecting the pursuit of meaning beyond oneself.",
+          "chunk_text": "human being. Beginning with Maslow and Rogers, there was an insistence on a humanistic research program. This program has been largely qualitative (not measurement-based), but there exist a number of quantitative research strains within humanistic psychology, including research on happiness, self-concept, meditation, and the outcomes of humanistic psychotherapy (Friedman, 2008). FIGURE 1.7 Maslow’s hierarchy of needs is shown. Carl Rogers (1902–1987) was also an American psychologist who, like Maslow, emphasized the potential for good that exists within all people (Figure 1.8). Rogers used a therapeutic technique known as client-centered therapy in helping his clients deal with problematic issues that resulted in their seeking psychotherapy. Unlike a psychoanalytic approach in which the therapist plays an important role in interpreting what conscious behavior reveals about the unconscious mind, client-centered therapy involves the patient taking a lead role in the therapy session. Rogers believed that a therapist needed to display three features to maximize the effectiveness of this particular approach: unconditional positive regard, genuineness, and empathy. 14 1 • Introduction to Psychology Unconditional positive regard refers to the fact that the therapist accepts their client for who they are, no matter what they might say. Provided these factors, Rogers believed that people were more than capable of dealing with and working through their own issues (Thorne & Henley, 2005). FIGURE 1.8 Carl Rogers, shown in this portrait, developed a client-centered therapy method that has been influential in clinical settings. (credit: \"Didius\"/Wikimedia Commons) Humanism has been influential to psychology as a whole. Both Maslow and Rogers are well-known names among students of psychology (you will read more about both later in this text), and their ideas have influenced many scholars. Furthermore, Rogers’ client-centered approach to therapy is still commonly used in psychotherapeutic settings today (O’hara, n.d.) LINK TO LEARNING View a brief video of Carl Rogers describing his therapeutic approach (https://openstax.org/l/crogers1) to learn more. The Cognitive Revolution Behaviorism’s emphasis on objectivity and focus on external behavior had pulled psychologists’ attention away from the mind for a prolonged period of time. The early work of the humanistic psychologists redirected attention to the individual human as a whole, and as a conscious and self-aware being. By the 1950s, new disciplinary perspectives in linguistics, neuroscience, and computer science were emerging, and these areas revived interest in the mind as a focus of scientific inquiry. This particular perspective has come to be known as the cognitive revolution (Miller, 2003).",
+          "in_llm_context": true,
+          "similarity_score": 0.338,
+          "entailment_score": 0.0003,
+          "neutral_score": 0.9995,
+          "contradiction_score": 0.0002,
+          "section": "1.2 History of Psychology",
+          "section_path": "introduction_to_psychology/history_of_psychology",
+          "chapter": "Chapter 1 Introduction to Psychology",
+          "page_start": 26,
+          "page_end": 27,
+          "pages": [
+            26,
+            27
+          ],
+          "rrf_score": 0.016129
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "nli_model": "cross-encoder/nli-deberta-v3-base",
+    "premise_source": "textbook_chunk",
+    "hypothesis_source": "extracted_claim",
+    "claim_count": 5,
+    "evaluated_chunks_count": 5
+  }
+}

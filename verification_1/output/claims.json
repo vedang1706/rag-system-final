@@ -1,0 +1,45 @@
+[
+  {
+    "query_id": "TEST_001",
+    "answer": "Thomas Szasz was a psychiatrist. He argued that mental illness was invented by society.",
+    "claims": [
+      {
+        "claim_id": "TEST_001_C1",
+        "sentence_index": 1,
+        "text": "Thomas Szasz was a psychiatrist."
+      },
+      {
+        "claim_id": "TEST_001_C2",
+        "sentence_index": 2,
+        "text": "He argued that mental illness was invented by society."
+      }
+    ]
+  },
+  {
+    "query_id": "TEST_002",
+    "answer": "Sleep regulation involves circadian and homeostatic mechanisms. The suprachiasmatic nucleus is involved in circadian regulation.",
+    "claims": [
+      {
+        "claim_id": "TEST_002_C1",
+        "sentence_index": 1,
+        "text": "Sleep regulation involves circadian and homeostatic mechanisms."
+      },
+      {
+        "claim_id": "TEST_002_C2",
+        "sentence_index": 2,
+        "text": "The suprachiasmatic nucleus is involved in circadian regulation."
+      }
+    ]
+  },
+  {
+    "query_id": "TEST_003",
+    "answer": "Pavlov studied classical conditioning.",
+    "claims": [
+      {
+        "claim_id": "TEST_003_C1",
+        "sentence_index": 1,
+        "text": "Pavlov studied classical conditioning."
+      }
+    ]
+  }
+]

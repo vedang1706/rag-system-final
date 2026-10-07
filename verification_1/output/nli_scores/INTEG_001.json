@@ -1,0 +1,344 @@
+{
+  "query_id": "INTEG_001",
+  "question": "What is classical conditioning?",
+  "answer": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together. A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own. This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+  "claims": [
+    {
+      "claim_id": "INTEG_001_C1",
+      "sentence_index": 1,
+      "text": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together.",
+      "evidence_matches": [
+        {
+          "claim_id": "INTEG_001_C1",
+          "chunk_id": "learning_classical_conditioning_chunk_5",
+          "claim_text": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together.",
+          "chunk_text": "and anxiety in the dog. Fear and anxiety are the conditioned response. LINK TO LEARNING Watch this video clip from the television show, The Office, for a humorous look at conditioning (https://openstax.org/l/theoffice) in which Jim conditions Dwight to expect a breath mint every time Jim’s computer makes a specific sound. 6.2 • Classical Conditioning 187 General Processes in Classical Conditioning Now that you know how classical conditioning works and have seen several examples, let’s take a look at some of the general processes involved. In classical conditioning, the initial period of learning is known as acquisition, when an organism learns to connect a neutral stimulus and an unconditioned stimulus. During acquisition, the neutral stimulus begins to elicit the conditioned response, and eventually the neutral stimulus becomes a conditioned stimulus capable of eliciting the conditioned response by itself. Timing is important for conditioning to occur. Typically, there should only be a brief interval between presentation of the conditioned stimulus and the unconditioned stimulus. Depending on what is being conditioned, sometimes this interval is as little as five seconds (Chance, 2009). However, with other types of conditioning, the interval can be up to several hours. Taste aversion is a type of conditioning in which an interval of several hours may pass between the conditioned stimulus (something ingested) and the unconditioned stimulus (the taste associated with the nausea or illness). Here’s an example. Harry went to the carnival. He ate a lot of cotton candy and later that night was very sick and threw up. The next day, his friend offered him a piece of candy. He put it into his mouth and started to feel sick and had to spit it out. The unconditioned stimulus is eating too much cotton candy. The unconditioned response is getting sick and throwing up. The conditioned stimulus is the sugary flavor and the conditioned response is Harry feeling nauseous at the taste of sugar. How does this occur—conditioning based on a single instance and involving an extended time lapse between the event and the negative stimulus? Research into taste aversion suggests that this response may be an evolutionary adaptation designed to help organisms quickly learn to avoid harmful foods (Garcia & Rusiniak, 1980; Garcia & Koelling, 1966). Not only may this contribute to species survival via natural selection, but it may also help us develop strategies for challenges such as helping cancer patients through the nausea induced by certain treatments (Holmes, 1993; Jacobsen et al., 1993; Hutton, Baracos, & Wismer, 2007; Skolin et al., 2006). Garcia and Koelling (1966) showed not only that taste aversions could be conditioned, but also that there were biological constraints to learning. In their study, separate groups of rats were conditioned to associate either a flavor with illness, or lights and sounds with illness.",
+          "in_llm_context": true,
+          "similarity_score": 0.6098,
+          "entailment_score": 0.0011,
+          "neutral_score": 0.9987,
+          "contradiction_score": 0.0003,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 199,
+          "page_end": 200,
+          "pages": [
+            199,
+            200
+          ],
+          "rrf_score": 0.031818
+        },
+        {
+          "claim_id": "INTEG_001_C1",
+          "chunk_id": "learning_classical_conditioning_chunk_0",
+          "claim_text": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together.",
+          "chunk_text": "FIGURE 6.2 In operant conditioning, a response is associated with a consequence. This dog has learned that certain behaviors result in receiving a treat. (credit: Crystal Rolfe) Observational learning extends the effective range of both classical and operant conditioning. In contrast to classical and operant conditioning, in which learning occurs only through direct experience, observational learning is the process of watching others and then imitating what they do. A lot of learning among humans and other animals comes from observational learning. To get an idea of the extra effective range that observational learning brings, consider Ben and his son Julian from the introduction. How might observation help Julian learn to surf, as opposed to learning by trial and error alone? By watching his father, he can imitate the moves that bring success and avoid the moves that lead to failure. Can you think of something you have learned how to do after watching someone else? All of the approaches covered in this chapter are part of a particular tradition in psychology, called behaviorism, which we discuss in the next section. However, these approaches do not represent the entire study of learning. Separate traditions of learning have taken shape within different fields of psychology, such as memory and cognition, so you will find that other chapters will round out your understanding of the topic. Over time these traditions tend to converge. For example, in this chapter you will see how cognition has come to play a larger role in behaviorism, whose more extreme adherents once insisted that behaviors are triggered by the environment with no intervening thought. 6.2 Classical Conditioning LEARNING OBJECTIVES By the end of this section, you will be able to: • Explain how classical conditioning occurs • Summarize the processes of acquisition, extinction, spontaneous recovery, generalization, and discrimination Does the name Ivan Pavlov ring a bell? Even if you are new to the study of psychology, chances are that you have heard of Pavlov and his famous dogs. Pavlov (1849–1936), a Russian scientist, performed extensive research on dogs and is best known for his experiments in classical conditioning (Figure 6.3). As we discussed briefly in the previous section, classical conditioning is a process by which we learn to associate stimuli and, consequently, to anticipate events. 6.2 • Classical Conditioning 183 FIGURE 6.3 Ivan Pavlov’s research on the digestive system of dogs unexpectedly led to his discovery of the learning process now known as classical conditioning. Pavlov came to his conclusions about how learning occurs completely by accident. Pavlov was a physiologist, not a psychologist.",
+          "in_llm_context": true,
+          "similarity_score": 0.6526,
+          "entailment_score": 0.001,
+          "neutral_score": 0.9986,
+          "contradiction_score": 0.0004,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 195,
+          "page_end": 195,
+          "pages": [
+            195
+          ],
+          "rrf_score": 0.031258
+        },
+        {
+          "claim_id": "INTEG_001_C1",
+          "chunk_id": "learning_classical_conditioning_chunk_3",
+          "claim_text": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together.",
+          "chunk_text": "doctor's office) serves to condition another stimulus (the syringe). It is hard to achieve anything above second-order conditioning. For example, if someone rang a bell every time Moisha received a syringe injection of chemotherapy drugs in the doctor's office, Moisha likely will never get sick in response to the bell. Consider another example of classical conditioning. Let’s say you have a cat named Tiger, who is quite spoiled. You keep her food in a separate cabinet, and you also have a special electric can opener that you use only to open cans of cat food. For every meal, Tiger hears the distinctive sound of the electric can opener (“zzhzhz”) and then gets her food. Tiger quickly learns that when she hears “zzhzhz” she is about to get fed. What do you think Tiger does when she hears the electric can opener? She will likely get excited and run to where you are 6.2 • Classical Conditioning 185 preparing her food. This is an example of classical conditioning. In this case, what are the UCS, CS, UCR, and CR? What if the cabinet holding Tiger’s food becomes squeaky? In that case, Tiger hears “squeak” (the cabinet), “zzhzhz” (the electric can opener), and then she gets her food. Tiger will learn to get excited when she hears the “squeak” of the cabinet. Pairing a new neutral stimulus (“squeak”) with the conditioned stimulus (“zzhzhz”) is called higher-order conditioning, or second-order conditioning. This means you are using the conditioned stimulus of the can opener to condition another stimulus: the squeaky cabinet (Figure 6.5). It is hard to achieve anything above second-order conditioning. For example, if you ring a bell, open the cabinet (“squeak”), use the can opener (“zzhzhz”), and then feed Tiger, Tiger will likely never get excited when hearing the bell alone. FIGURE 6.5 In higher-order conditioning, an established conditioned stimulus is paired with a new neutral stimulus (the second-order stimulus), so that eventually the new stimulus also elicits the conditioned response, without the initial conditioned stimulus being presented. Classical Conditioning at Stingray City Kate and her spouse recently vacationed in the Cayman Islands, and booked a boat tour to Stingray City, where they could feed and swim with the southern stingrays. The boat captain explained how the normally solitary stingrays have become accustomed to interacting with humans. About 40 years ago, people began to clean fish EVERYDAY CONNECTION 186 6 • Learning and conch (unconditioned stimulus) at a particular sandbar near a barrier reef, and large numbers of stingrays would swim in to eat (unconditioned response) what the people threw into the water; this continued for years. By the late 1980s, word of the large group of stingrays spread among scuba divers, who then started feeding them by hand.",
+          "in_llm_context": true,
+          "similarity_score": 0.5183,
+          "entailment_score": 0.6487,
+          "neutral_score": 0.351,
+          "contradiction_score": 0.0003,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 197,
+          "page_end": 198,
+          "pages": [
+            197,
+            198
+          ],
+          "rrf_score": 0.03031
+        },
+        {
+          "claim_id": "INTEG_001_C1",
+          "chunk_id": "learning_what_is_learning_chunk_2",
+          "claim_text": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together.",
+          "chunk_text": "You will see that associative learning is central to all three basic learning processes discussed in this chapter; classical conditioning tends to involve unconscious processes, operant conditioning tends to involve conscious processes, and observational learning adds social and cognitive layers to all the basic associative processes, both conscious and unconscious. These learning processes will be discussed in detail later in the chapter, but it is helpful to have a brief overview of each as you begin to explore how learning is understood from a psychological perspective. In classical conditioning, also known as Pavlovian conditioning, organisms learn to associate events—or stimuli—that repeatedly happen together. We experience this process throughout our daily lives. For example, you might see a flash of lightning in the sky during a storm and then hear a loud boom of thunder. The sound of the thunder naturally makes you jump (loud noises have that effect by reflex). Because lightning reliably predicts the impending boom of thunder, you may associate the two and jump when you see lightning. Psychological researchers study this associative process by focusing on what can be seen and measured—behaviors. Researchers ask if one stimulus triggers a reflex, can we train a different stimulus to trigger that same reflex? In operant conditioning, organisms learn, again, to associate events—a behavior and its consequence (reinforcement or punishment). A pleasant consequence encourages more of that behavior in the future, whereas a punishment deters the behavior. Imagine you are teaching your dog, Hodor, to sit. You tell Hodor to sit, and give him a treat when he does. After repeated experiences, Hodor begins to associate the act of sitting with receiving a treat. He learns that the consequence of sitting is that he gets a doggie biscuit (Figure 6.2). Conversely, if the dog is punished when exhibiting a behavior, it becomes conditioned to avoid that behavior (e.g., receiving a small shock when crossing the boundary of an invisible electric fence). 182 6 • Learning",
+          "in_llm_context": true,
+          "similarity_score": 0.7499,
+          "entailment_score": 0.0005,
+          "neutral_score": 0.9994,
+          "contradiction_score": 0.0001,
+          "section": "6.1 What Is Learning?",
+          "section_path": "learning/what_is_learning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 194,
+          "page_end": 194,
+          "pages": [
+            194
+          ],
+          "rrf_score": 0.029911
+        },
+        {
+          "claim_id": "INTEG_001_C1",
+          "chunk_id": "learning_classical_conditioning_chunk_2",
+          "claim_text": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together.",
+          "chunk_text": "Prior to conditioning, the dogs did not salivate when they just heard the tone because the tone had no association for the dogs. When Pavlov paired the tone with the meat powder over and over again, the previously neutral stimulus (the tone) also began to elicit salivation from the dogs. Thus, the neutral stimulus became the conditioned stimulus (CS), which is a stimulus that elicits a response after repeatedly being paired with an unconditioned stimulus. Eventually, the dogs began to salivate to the tone alone, just as they previously had salivated at the sound of the assistants’ footsteps. The behavior caused by the conditioned stimulus is called the conditioned response (CR). In the case of Pavlov’s dogs, they had learned to associate the tone (CS) with being fed, and they began to salivate (CR) in anticipation of food. 184 6 • Learning FIGURE 6.4 Before conditioning, an unconditioned stimulus (food) produces an unconditioned response (salivation), and a neutral stimulus (bell) does not produce a response. During conditioning, the unconditioned stimulus (food) is presented repeatedly just after the presentation of the neutral stimulus (bell). After conditioning, the neutral stimulus alone produces a conditioned response (salivation), thus becoming a conditioned stimulus. LINK TO LEARNING View this video about Pavlov and his dogs (https://openstax.org/l/pavlov2) to learn more. Real World Application of Classical Conditioning How does classical conditioning work in the real world? Consider the case of Moisha, who was diagnosed with cancer. When she received her first chemotherapy treatment, she vomited shortly after the chemicals were injected. In fact, every trip to the doctor for chemotherapy treatment shortly after the drugs were injected, she vomited. Moisha’s treatment was a success and her cancer went into remission. Now, when she visits her oncologist's office every 6 months for a check-up, she becomes nauseous. In this case, the chemotherapy drugs are the unconditioned stimulus (UCS), vomiting is the unconditioned response (UCR), the doctor’s office is the conditioned stimulus (CS) after being paired with the UCS, and nausea is the conditioned response (CR). Let's assume that the chemotherapy drugs that Moisha takes are given through a syringe injection. After entering the doctor's office, Moisha sees a syringe, and then gets her medication. In addition to the doctor's office, Moisha will learn to associate the syringe with the medication and will respond to syringes with nausea. This is an example of higher-order (or second-order) conditioning, when the conditioned stimulus (the doctor's office) serves to condition another stimulus (the syringe). It is hard to achieve anything above second-order conditioning. For example, if someone rang a bell every time Moisha received a syringe injection of chemotherapy drugs in the doctor's office, Moisha likely will never get sick in response to the bell.",
+          "in_llm_context": true,
+          "similarity_score": 0.5287,
+          "entailment_score": 0.0025,
+          "neutral_score": 0.9967,
+          "contradiction_score": 0.0008,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 196,
+          "page_end": 197,
+          "pages": [
+            196,
+            197
+          ],
+          "rrf_score": 0.027984
+        }
+      ]
+    },
+    {
+      "claim_id": "INTEG_001_C2",
+      "sentence_index": 2,
+      "text": "A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own.",
+      "evidence_matches": [
+        {
+          "claim_id": "INTEG_001_C2",
+          "chunk_id": "learning_classical_conditioning_chunk_5",
+          "claim_text": "A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own.",
+          "chunk_text": "and anxiety in the dog. Fear and anxiety are the conditioned response. LINK TO LEARNING Watch this video clip from the television show, The Office, for a humorous look at conditioning (https://openstax.org/l/theoffice) in which Jim conditions Dwight to expect a breath mint every time Jim’s computer makes a specific sound. 6.2 • Classical Conditioning 187 General Processes in Classical Conditioning Now that you know how classical conditioning works and have seen several examples, let’s take a look at some of the general processes involved. In classical conditioning, the initial period of learning is known as acquisition, when an organism learns to connect a neutral stimulus and an unconditioned stimulus. During acquisition, the neutral stimulus begins to elicit the conditioned response, and eventually the neutral stimulus becomes a conditioned stimulus capable of eliciting the conditioned response by itself. Timing is important for conditioning to occur. Typically, there should only be a brief interval between presentation of the conditioned stimulus and the unconditioned stimulus. Depending on what is being conditioned, sometimes this interval is as little as five seconds (Chance, 2009). However, with other types of conditioning, the interval can be up to several hours. Taste aversion is a type of conditioning in which an interval of several hours may pass between the conditioned stimulus (something ingested) and the unconditioned stimulus (the taste associated with the nausea or illness). Here’s an example. Harry went to the carnival. He ate a lot of cotton candy and later that night was very sick and threw up. The next day, his friend offered him a piece of candy. He put it into his mouth and started to feel sick and had to spit it out. The unconditioned stimulus is eating too much cotton candy. The unconditioned response is getting sick and throwing up. The conditioned stimulus is the sugary flavor and the conditioned response is Harry feeling nauseous at the taste of sugar. How does this occur—conditioning based on a single instance and involving an extended time lapse between the event and the negative stimulus? Research into taste aversion suggests that this response may be an evolutionary adaptation designed to help organisms quickly learn to avoid harmful foods (Garcia & Rusiniak, 1980; Garcia & Koelling, 1966). Not only may this contribute to species survival via natural selection, but it may also help us develop strategies for challenges such as helping cancer patients through the nausea induced by certain treatments (Holmes, 1993; Jacobsen et al., 1993; Hutton, Baracos, & Wismer, 2007; Skolin et al., 2006). Garcia and Koelling (1966) showed not only that taste aversions could be conditioned, but also that there were biological constraints to learning. In their study, separate groups of rats were conditioned to associate either a flavor with illness, or lights and sounds with illness.",
+          "in_llm_context": true,
+          "similarity_score": 0.5108,
+          "entailment_score": 0.0006,
+          "neutral_score": 0.9992,
+          "contradiction_score": 0.0002,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 199,
+          "page_end": 200,
+          "pages": [
+            199,
+            200
+          ],
+          "rrf_score": 0.031818
+        },
+        {
+          "claim_id": "INTEG_001_C2",
+          "chunk_id": "learning_classical_conditioning_chunk_0",
+          "claim_text": "A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own.",
+          "chunk_text": "FIGURE 6.2 In operant conditioning, a response is associated with a consequence. This dog has learned that certain behaviors result in receiving a treat. (credit: Crystal Rolfe) Observational learning extends the effective range of both classical and operant conditioning. In contrast to classical and operant conditioning, in which learning occurs only through direct experience, observational learning is the process of watching others and then imitating what they do. A lot of learning among humans and other animals comes from observational learning. To get an idea of the extra effective range that observational learning brings, consider Ben and his son Julian from the introduction. How might observation help Julian learn to surf, as opposed to learning by trial and error alone? By watching his father, he can imitate the moves that bring success and avoid the moves that lead to failure. Can you think of something you have learned how to do after watching someone else? All of the approaches covered in this chapter are part of a particular tradition in psychology, called behaviorism, which we discuss in the next section. However, these approaches do not represent the entire study of learning. Separate traditions of learning have taken shape within different fields of psychology, such as memory and cognition, so you will find that other chapters will round out your understanding of the topic. Over time these traditions tend to converge. For example, in this chapter you will see how cognition has come to play a larger role in behaviorism, whose more extreme adherents once insisted that behaviors are triggered by the environment with no intervening thought. 6.2 Classical Conditioning LEARNING OBJECTIVES By the end of this section, you will be able to: • Explain how classical conditioning occurs • Summarize the processes of acquisition, extinction, spontaneous recovery, generalization, and discrimination Does the name Ivan Pavlov ring a bell? Even if you are new to the study of psychology, chances are that you have heard of Pavlov and his famous dogs. Pavlov (1849–1936), a Russian scientist, performed extensive research on dogs and is best known for his experiments in classical conditioning (Figure 6.3). As we discussed briefly in the previous section, classical conditioning is a process by which we learn to associate stimuli and, consequently, to anticipate events. 6.2 • Classical Conditioning 183 FIGURE 6.3 Ivan Pavlov’s research on the digestive system of dogs unexpectedly led to his discovery of the learning process now known as classical conditioning. Pavlov came to his conclusions about how learning occurs completely by accident. Pavlov was a physiologist, not a psychologist.",
+          "in_llm_context": true,
+          "similarity_score": 0.3912,
+          "entailment_score": 0.0006,
+          "neutral_score": 0.999,
+          "contradiction_score": 0.0004,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 195,
+          "page_end": 195,
+          "pages": [
+            195
+          ],
+          "rrf_score": 0.031258
+        },
+        {
+          "claim_id": "INTEG_001_C2",
+          "chunk_id": "learning_classical_conditioning_chunk_3",
+          "claim_text": "A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own.",
+          "chunk_text": "doctor's office) serves to condition another stimulus (the syringe). It is hard to achieve anything above second-order conditioning. For example, if someone rang a bell every time Moisha received a syringe injection of chemotherapy drugs in the doctor's office, Moisha likely will never get sick in response to the bell. Consider another example of classical conditioning. Let’s say you have a cat named Tiger, who is quite spoiled. You keep her food in a separate cabinet, and you also have a special electric can opener that you use only to open cans of cat food. For every meal, Tiger hears the distinctive sound of the electric can opener (“zzhzhz”) and then gets her food. Tiger quickly learns that when she hears “zzhzhz” she is about to get fed. What do you think Tiger does when she hears the electric can opener? She will likely get excited and run to where you are 6.2 • Classical Conditioning 185 preparing her food. This is an example of classical conditioning. In this case, what are the UCS, CS, UCR, and CR? What if the cabinet holding Tiger’s food becomes squeaky? In that case, Tiger hears “squeak” (the cabinet), “zzhzhz” (the electric can opener), and then she gets her food. Tiger will learn to get excited when she hears the “squeak” of the cabinet. Pairing a new neutral stimulus (“squeak”) with the conditioned stimulus (“zzhzhz”) is called higher-order conditioning, or second-order conditioning. This means you are using the conditioned stimulus of the can opener to condition another stimulus: the squeaky cabinet (Figure 6.5). It is hard to achieve anything above second-order conditioning. For example, if you ring a bell, open the cabinet (“squeak”), use the can opener (“zzhzhz”), and then feed Tiger, Tiger will likely never get excited when hearing the bell alone. FIGURE 6.5 In higher-order conditioning, an established conditioned stimulus is paired with a new neutral stimulus (the second-order stimulus), so that eventually the new stimulus also elicits the conditioned response, without the initial conditioned stimulus being presented. Classical Conditioning at Stingray City Kate and her spouse recently vacationed in the Cayman Islands, and booked a boat tour to Stingray City, where they could feed and swim with the southern stingrays. The boat captain explained how the normally solitary stingrays have become accustomed to interacting with humans. About 40 years ago, people began to clean fish EVERYDAY CONNECTION 186 6 • Learning and conch (unconditioned stimulus) at a particular sandbar near a barrier reef, and large numbers of stingrays would swim in to eat (unconditioned response) what the people threw into the water; this continued for years. By the late 1980s, word of the large group of stingrays spread among scuba divers, who then started feeding them by hand.",
+          "in_llm_context": true,
+          "similarity_score": 0.3611,
+          "entailment_score": 0.786,
+          "neutral_score": 0.2135,
+          "contradiction_score": 0.0005,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 197,
+          "page_end": 198,
+          "pages": [
+            197,
+            198
+          ],
+          "rrf_score": 0.03031
+        },
+        {
+          "claim_id": "INTEG_001_C2",
+          "chunk_id": "learning_what_is_learning_chunk_2",
+          "claim_text": "A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own.",
+          "chunk_text": "You will see that associative learning is central to all three basic learning processes discussed in this chapter; classical conditioning tends to involve unconscious processes, operant conditioning tends to involve conscious processes, and observational learning adds social and cognitive layers to all the basic associative processes, both conscious and unconscious. These learning processes will be discussed in detail later in the chapter, but it is helpful to have a brief overview of each as you begin to explore how learning is understood from a psychological perspective. In classical conditioning, also known as Pavlovian conditioning, organisms learn to associate events—or stimuli—that repeatedly happen together. We experience this process throughout our daily lives. For example, you might see a flash of lightning in the sky during a storm and then hear a loud boom of thunder. The sound of the thunder naturally makes you jump (loud noises have that effect by reflex). Because lightning reliably predicts the impending boom of thunder, you may associate the two and jump when you see lightning. Psychological researchers study this associative process by focusing on what can be seen and measured—behaviors. Researchers ask if one stimulus triggers a reflex, can we train a different stimulus to trigger that same reflex? In operant conditioning, organisms learn, again, to associate events—a behavior and its consequence (reinforcement or punishment). A pleasant consequence encourages more of that behavior in the future, whereas a punishment deters the behavior. Imagine you are teaching your dog, Hodor, to sit. You tell Hodor to sit, and give him a treat when he does. After repeated experiences, Hodor begins to associate the act of sitting with receiving a treat. He learns that the consequence of sitting is that he gets a doggie biscuit (Figure 6.2). Conversely, if the dog is punished when exhibiting a behavior, it becomes conditioned to avoid that behavior (e.g., receiving a small shock when crossing the boundary of an invisible electric fence). 182 6 • Learning",
+          "in_llm_context": true,
+          "similarity_score": 0.4885,
+          "entailment_score": 0.0004,
+          "neutral_score": 0.9993,
+          "contradiction_score": 0.0003,
+          "section": "6.1 What Is Learning?",
+          "section_path": "learning/what_is_learning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 194,
+          "page_end": 194,
+          "pages": [
+            194
+          ],
+          "rrf_score": 0.029911
+        },
+        {
+          "claim_id": "INTEG_001_C2",
+          "chunk_id": "learning_classical_conditioning_chunk_2",
+          "claim_text": "A neutral stimulus, when repeatedly paired with an unconditioned stimulus that naturally elicits a reflexive response, eventually becomes a conditioned stimulus that triggers the same response on its own.",
+          "chunk_text": "Prior to conditioning, the dogs did not salivate when they just heard the tone because the tone had no association for the dogs. When Pavlov paired the tone with the meat powder over and over again, the previously neutral stimulus (the tone) also began to elicit salivation from the dogs. Thus, the neutral stimulus became the conditioned stimulus (CS), which is a stimulus that elicits a response after repeatedly being paired with an unconditioned stimulus. Eventually, the dogs began to salivate to the tone alone, just as they previously had salivated at the sound of the assistants’ footsteps. The behavior caused by the conditioned stimulus is called the conditioned response (CR). In the case of Pavlov’s dogs, they had learned to associate the tone (CS) with being fed, and they began to salivate (CR) in anticipation of food. 184 6 • Learning FIGURE 6.4 Before conditioning, an unconditioned stimulus (food) produces an unconditioned response (salivation), and a neutral stimulus (bell) does not produce a response. During conditioning, the unconditioned stimulus (food) is presented repeatedly just after the presentation of the neutral stimulus (bell). After conditioning, the neutral stimulus alone produces a conditioned response (salivation), thus becoming a conditioned stimulus. LINK TO LEARNING View this video about Pavlov and his dogs (https://openstax.org/l/pavlov2) to learn more. Real World Application of Classical Conditioning How does classical conditioning work in the real world? Consider the case of Moisha, who was diagnosed with cancer. When she received her first chemotherapy treatment, she vomited shortly after the chemicals were injected. In fact, every trip to the doctor for chemotherapy treatment shortly after the drugs were injected, she vomited. Moisha’s treatment was a success and her cancer went into remission. Now, when she visits her oncologist's office every 6 months for a check-up, she becomes nauseous. In this case, the chemotherapy drugs are the unconditioned stimulus (UCS), vomiting is the unconditioned response (UCR), the doctor’s office is the conditioned stimulus (CS) after being paired with the UCS, and nausea is the conditioned response (CR). Let's assume that the chemotherapy drugs that Moisha takes are given through a syringe injection. After entering the doctor's office, Moisha sees a syringe, and then gets her medication. In addition to the doctor's office, Moisha will learn to associate the syringe with the medication and will respond to syringes with nausea. This is an example of higher-order (or second-order) conditioning, when the conditioned stimulus (the doctor's office) serves to condition another stimulus (the syringe). It is hard to achieve anything above second-order conditioning. For example, if someone rang a bell every time Moisha received a syringe injection of chemotherapy drugs in the doctor's office, Moisha likely will never get sick in response to the bell.",
+          "in_llm_context": true,
+          "similarity_score": 0.5956,
+          "entailment_score": 0.0033,
+          "neutral_score": 0.9953,
+          "contradiction_score": 0.0014,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 196,
+          "page_end": 197,
+          "pages": [
+            196,
+            197
+          ],
+          "rrf_score": 0.027984
+        }
+      ]
+    },
+    {
+      "claim_id": "INTEG_001_C3",
+      "sentence_index": 3,
+      "text": "This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+      "evidence_matches": [
+        {
+          "claim_id": "INTEG_001_C3",
+          "chunk_id": "learning_classical_conditioning_chunk_5",
+          "claim_text": "This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+          "chunk_text": "and anxiety in the dog. Fear and anxiety are the conditioned response. LINK TO LEARNING Watch this video clip from the television show, The Office, for a humorous look at conditioning (https://openstax.org/l/theoffice) in which Jim conditions Dwight to expect a breath mint every time Jim’s computer makes a specific sound. 6.2 • Classical Conditioning 187 General Processes in Classical Conditioning Now that you know how classical conditioning works and have seen several examples, let’s take a look at some of the general processes involved. In classical conditioning, the initial period of learning is known as acquisition, when an organism learns to connect a neutral stimulus and an unconditioned stimulus. During acquisition, the neutral stimulus begins to elicit the conditioned response, and eventually the neutral stimulus becomes a conditioned stimulus capable of eliciting the conditioned response by itself. Timing is important for conditioning to occur. Typically, there should only be a brief interval between presentation of the conditioned stimulus and the unconditioned stimulus. Depending on what is being conditioned, sometimes this interval is as little as five seconds (Chance, 2009). However, with other types of conditioning, the interval can be up to several hours. Taste aversion is a type of conditioning in which an interval of several hours may pass between the conditioned stimulus (something ingested) and the unconditioned stimulus (the taste associated with the nausea or illness). Here’s an example. Harry went to the carnival. He ate a lot of cotton candy and later that night was very sick and threw up. The next day, his friend offered him a piece of candy. He put it into his mouth and started to feel sick and had to spit it out. The unconditioned stimulus is eating too much cotton candy. The unconditioned response is getting sick and throwing up. The conditioned stimulus is the sugary flavor and the conditioned response is Harry feeling nauseous at the taste of sugar. How does this occur—conditioning based on a single instance and involving an extended time lapse between the event and the negative stimulus? Research into taste aversion suggests that this response may be an evolutionary adaptation designed to help organisms quickly learn to avoid harmful foods (Garcia & Rusiniak, 1980; Garcia & Koelling, 1966). Not only may this contribute to species survival via natural selection, but it may also help us develop strategies for challenges such as helping cancer patients through the nausea induced by certain treatments (Holmes, 1993; Jacobsen et al., 1993; Hutton, Baracos, & Wismer, 2007; Skolin et al., 2006). Garcia and Koelling (1966) showed not only that taste aversions could be conditioned, but also that there were biological constraints to learning. In their study, separate groups of rats were conditioned to associate either a flavor with illness, or lights and sounds with illness.",
+          "in_llm_context": true,
+          "similarity_score": 0.654,
+          "entailment_score": 0.0005,
+          "neutral_score": 0.9993,
+          "contradiction_score": 0.0002,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 199,
+          "page_end": 200,
+          "pages": [
+            199,
+            200
+          ],
+          "rrf_score": 0.031818
+        },
+        {
+          "claim_id": "INTEG_001_C3",
+          "chunk_id": "learning_classical_conditioning_chunk_0",
+          "claim_text": "This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+          "chunk_text": "FIGURE 6.2 In operant conditioning, a response is associated with a consequence. This dog has learned that certain behaviors result in receiving a treat. (credit: Crystal Rolfe) Observational learning extends the effective range of both classical and operant conditioning. In contrast to classical and operant conditioning, in which learning occurs only through direct experience, observational learning is the process of watching others and then imitating what they do. A lot of learning among humans and other animals comes from observational learning. To get an idea of the extra effective range that observational learning brings, consider Ben and his son Julian from the introduction. How might observation help Julian learn to surf, as opposed to learning by trial and error alone? By watching his father, he can imitate the moves that bring success and avoid the moves that lead to failure. Can you think of something you have learned how to do after watching someone else? All of the approaches covered in this chapter are part of a particular tradition in psychology, called behaviorism, which we discuss in the next section. However, these approaches do not represent the entire study of learning. Separate traditions of learning have taken shape within different fields of psychology, such as memory and cognition, so you will find that other chapters will round out your understanding of the topic. Over time these traditions tend to converge. For example, in this chapter you will see how cognition has come to play a larger role in behaviorism, whose more extreme adherents once insisted that behaviors are triggered by the environment with no intervening thought. 6.2 Classical Conditioning LEARNING OBJECTIVES By the end of this section, you will be able to: • Explain how classical conditioning occurs • Summarize the processes of acquisition, extinction, spontaneous recovery, generalization, and discrimination Does the name Ivan Pavlov ring a bell? Even if you are new to the study of psychology, chances are that you have heard of Pavlov and his famous dogs. Pavlov (1849–1936), a Russian scientist, performed extensive research on dogs and is best known for his experiments in classical conditioning (Figure 6.3). As we discussed briefly in the previous section, classical conditioning is a process by which we learn to associate stimuli and, consequently, to anticipate events. 6.2 • Classical Conditioning 183 FIGURE 6.3 Ivan Pavlov’s research on the digestive system of dogs unexpectedly led to his discovery of the learning process now known as classical conditioning. Pavlov came to his conclusions about how learning occurs completely by accident. Pavlov was a physiologist, not a psychologist.",
+          "in_llm_context": true,
+          "similarity_score": 0.5285,
+          "entailment_score": 0.0006,
+          "neutral_score": 0.9991,
+          "contradiction_score": 0.0003,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 195,
+          "page_end": 195,
+          "pages": [
+            195
+          ],
+          "rrf_score": 0.031258
+        },
+        {
+          "claim_id": "INTEG_001_C3",
+          "chunk_id": "learning_classical_conditioning_chunk_3",
+          "claim_text": "This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+          "chunk_text": "doctor's office) serves to condition another stimulus (the syringe). It is hard to achieve anything above second-order conditioning. For example, if someone rang a bell every time Moisha received a syringe injection of chemotherapy drugs in the doctor's office, Moisha likely will never get sick in response to the bell. Consider another example of classical conditioning. Let’s say you have a cat named Tiger, who is quite spoiled. You keep her food in a separate cabinet, and you also have a special electric can opener that you use only to open cans of cat food. For every meal, Tiger hears the distinctive sound of the electric can opener (“zzhzhz”) and then gets her food. Tiger quickly learns that when she hears “zzhzhz” she is about to get fed. What do you think Tiger does when she hears the electric can opener? She will likely get excited and run to where you are 6.2 • Classical Conditioning 185 preparing her food. This is an example of classical conditioning. In this case, what are the UCS, CS, UCR, and CR? What if the cabinet holding Tiger’s food becomes squeaky? In that case, Tiger hears “squeak” (the cabinet), “zzhzhz” (the electric can opener), and then she gets her food. Tiger will learn to get excited when she hears the “squeak” of the cabinet. Pairing a new neutral stimulus (“squeak”) with the conditioned stimulus (“zzhzhz”) is called higher-order conditioning, or second-order conditioning. This means you are using the conditioned stimulus of the can opener to condition another stimulus: the squeaky cabinet (Figure 6.5). It is hard to achieve anything above second-order conditioning. For example, if you ring a bell, open the cabinet (“squeak”), use the can opener (“zzhzhz”), and then feed Tiger, Tiger will likely never get excited when hearing the bell alone. FIGURE 6.5 In higher-order conditioning, an established conditioned stimulus is paired with a new neutral stimulus (the second-order stimulus), so that eventually the new stimulus also elicits the conditioned response, without the initial conditioned stimulus being presented. Classical Conditioning at Stingray City Kate and her spouse recently vacationed in the Cayman Islands, and booked a boat tour to Stingray City, where they could feed and swim with the southern stingrays. The boat captain explained how the normally solitary stingrays have become accustomed to interacting with humans. About 40 years ago, people began to clean fish EVERYDAY CONNECTION 186 6 • Learning and conch (unconditioned stimulus) at a particular sandbar near a barrier reef, and large numbers of stingrays would swim in to eat (unconditioned response) what the people threw into the water; this continued for years. By the late 1980s, word of the large group of stingrays spread among scuba divers, who then started feeding them by hand.",
+          "in_llm_context": true,
+          "similarity_score": 0.4505,
+          "entailment_score": 0.0282,
+          "neutral_score": 0.9715,
+          "contradiction_score": 0.0002,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 197,
+          "page_end": 198,
+          "pages": [
+            197,
+            198
+          ],
+          "rrf_score": 0.03031
+        },
+        {
+          "claim_id": "INTEG_001_C3",
+          "chunk_id": "learning_what_is_learning_chunk_2",
+          "claim_text": "This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+          "chunk_text": "You will see that associative learning is central to all three basic learning processes discussed in this chapter; classical conditioning tends to involve unconscious processes, operant conditioning tends to involve conscious processes, and observational learning adds social and cognitive layers to all the basic associative processes, both conscious and unconscious. These learning processes will be discussed in detail later in the chapter, but it is helpful to have a brief overview of each as you begin to explore how learning is understood from a psychological perspective. In classical conditioning, also known as Pavlovian conditioning, organisms learn to associate events—or stimuli—that repeatedly happen together. We experience this process throughout our daily lives. For example, you might see a flash of lightning in the sky during a storm and then hear a loud boom of thunder. The sound of the thunder naturally makes you jump (loud noises have that effect by reflex). Because lightning reliably predicts the impending boom of thunder, you may associate the two and jump when you see lightning. Psychological researchers study this associative process by focusing on what can be seen and measured—behaviors. Researchers ask if one stimulus triggers a reflex, can we train a different stimulus to trigger that same reflex? In operant conditioning, organisms learn, again, to associate events—a behavior and its consequence (reinforcement or punishment). A pleasant consequence encourages more of that behavior in the future, whereas a punishment deters the behavior. Imagine you are teaching your dog, Hodor, to sit. You tell Hodor to sit, and give him a treat when he does. After repeated experiences, Hodor begins to associate the act of sitting with receiving a treat. He learns that the consequence of sitting is that he gets a doggie biscuit (Figure 6.2). Conversely, if the dog is punished when exhibiting a behavior, it becomes conditioned to avoid that behavior (e.g., receiving a small shock when crossing the boundary of an invisible electric fence). 182 6 • Learning",
+          "in_llm_context": true,
+          "similarity_score": 0.5213,
+          "entailment_score": 0.0003,
+          "neutral_score": 0.9995,
+          "contradiction_score": 0.0002,
+          "section": "6.1 What Is Learning?",
+          "section_path": "learning/what_is_learning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 194,
+          "page_end": 194,
+          "pages": [
+            194
+          ],
+          "rrf_score": 0.029911
+        },
+        {
+          "claim_id": "INTEG_001_C3",
+          "chunk_id": "learning_classical_conditioning_chunk_2",
+          "claim_text": "This learning was famously demonstrated by Pavlov’s dogs, where a bell (neutral stimulus) paired with food (unconditioned stimulus) produced salivation (unconditioned response) and later the bell alone produced salivation (conditioned response).",
+          "chunk_text": "Prior to conditioning, the dogs did not salivate when they just heard the tone because the tone had no association for the dogs. When Pavlov paired the tone with the meat powder over and over again, the previously neutral stimulus (the tone) also began to elicit salivation from the dogs. Thus, the neutral stimulus became the conditioned stimulus (CS), which is a stimulus that elicits a response after repeatedly being paired with an unconditioned stimulus. Eventually, the dogs began to salivate to the tone alone, just as they previously had salivated at the sound of the assistants’ footsteps. The behavior caused by the conditioned stimulus is called the conditioned response (CR). In the case of Pavlov’s dogs, they had learned to associate the tone (CS) with being fed, and they began to salivate (CR) in anticipation of food. 184 6 • Learning FIGURE 6.4 Before conditioning, an unconditioned stimulus (food) produces an unconditioned response (salivation), and a neutral stimulus (bell) does not produce a response. During conditioning, the unconditioned stimulus (food) is presented repeatedly just after the presentation of the neutral stimulus (bell). After conditioning, the neutral stimulus alone produces a conditioned response (salivation), thus becoming a conditioned stimulus. LINK TO LEARNING View this video about Pavlov and his dogs (https://openstax.org/l/pavlov2) to learn more. Real World Application of Classical Conditioning How does classical conditioning work in the real world? Consider the case of Moisha, who was diagnosed with cancer. When she received her first chemotherapy treatment, she vomited shortly after the chemicals were injected. In fact, every trip to the doctor for chemotherapy treatment shortly after the drugs were injected, she vomited. Moisha’s treatment was a success and her cancer went into remission. Now, when she visits her oncologist's office every 6 months for a check-up, she becomes nauseous. In this case, the chemotherapy drugs are the unconditioned stimulus (UCS), vomiting is the unconditioned response (UCR), the doctor’s office is the conditioned stimulus (CS) after being paired with the UCS, and nausea is the conditioned response (CR). Let's assume that the chemotherapy drugs that Moisha takes are given through a syringe injection. After entering the doctor's office, Moisha sees a syringe, and then gets her medication. In addition to the doctor's office, Moisha will learn to associate the syringe with the medication and will respond to syringes with nausea. This is an example of higher-order (or second-order) conditioning, when the conditioned stimulus (the doctor's office) serves to condition another stimulus (the syringe). It is hard to achieve anything above second-order conditioning. For example, if someone rang a bell every time Moisha received a syringe injection of chemotherapy drugs in the doctor's office, Moisha likely will never get sick in response to the bell.",
+          "in_llm_context": true,
+          "similarity_score": 0.8408,
+          "entailment_score": 0.0017,
+          "neutral_score": 0.9972,
+          "contradiction_score": 0.0011,
+          "section": "6.2 Classical Conditioning",
+          "section_path": "learning/classical_conditioning",
+          "chapter": "Chapter 6 Learning",
+          "page_start": 196,
+          "page_end": 197,
+          "pages": [
+            196,
+            197
+          ],
+          "rrf_score": 0.027984
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "nli_model": "cross-encoder/nli-deberta-v3-base",
+    "premise_source": "textbook_chunk",
+    "hypothesis_source": "extracted_claim",
+    "claim_count": 3,
+    "evaluated_chunks_count": 5
+  }
+}
