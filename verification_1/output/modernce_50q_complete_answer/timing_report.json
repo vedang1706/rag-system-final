@@ -1,0 +1,17 @@
+{
+  "model_load_time_sec": 10.141,
+  "model_warmup_time_sec": 0.209,
+  "total_modernce_evaluations": 312,
+  "num_individual_evaluations": 250,
+  "num_top2_evaluations": 50,
+  "num_top3_evaluations": 12,
+  "total_nli_inference_time_sec": 416.525,
+  "total_experiment_wall_time_sec": 427.249,
+  "avg_eval_time_ms": 1335.01,
+  "avg_individual_eval_ms": 1033.9,
+  "avg_top2_eval_ms": 2250.33,
+  "avg_top3_eval_ms": 3794.48,
+  "avg_nli_time_per_question_sec": 8.33,
+  "avg_wall_time_per_question_sec": 8.545,
+  "evaluations_per_question_avg": 6.24
+}

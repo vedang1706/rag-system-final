@@ -1,0 +1,193 @@
+{
+  "index": 12,
+  "question_id": "12",
+  "question_text": "Who were Wilhelm Wundt and William James?",
+  "generated_answer": "Wilhelm Wundt was a German psychologist who founded the first laboratory for psychological research at Leipzig in 1879 and published *Principles of Physiological Psychology* in 1873. He viewed psychology as a scientific study of conscious experience, using introspection and experimental methods such as reaction‑time measurement. William James was an American psychologist who helped establish functional psychology, emphasizing the purpose of mental activities in helping organisms adapt to their environment. He was the first American psychologist and promoted the idea that psychology should study the function of behavior rather than merely its structure.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_1",
+      "section": "1.2 History of Psychology",
+      "pages": "21-22",
+      "hybrid_score": 0.0331,
+      "token_count": 703,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.4815,
+        3.3418,
+        1.5942
+      ],
+      "entailment_prob": 0.8514,
+      "neutral_prob": 0.1483,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.0821
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_4",
+      "section": "1.2 History of Psychology",
+      "pages": "24-24",
+      "hybrid_score": 0.0306,
+      "token_count": 660,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.0259,
+        -3.3329,
+        5.6463
+      ],
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.9964,
+      "contradiction_prob": 0.0034,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0074
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_2",
+      "section": "1.2 History of Psychology",
+      "pages": "22-23",
+      "hybrid_score": 0.0305,
+      "token_count": 646,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.519,
+        0.8797,
+        3.7544
+      ],
+      "entailment_prob": 0.0534,
+      "neutral_prob": 0.946,
+      "contradiction_prob": 0.0007,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9485
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_3",
+      "section": "13.1 What Is Industrial and Organizational Psychology?",
+      "pages": "461-462",
+      "hybrid_score": 0.0299,
+      "token_count": 732,
+      "is_truncated": false,
+      "raw_logits": [
+        1.5213,
+        -3.5448,
+        3.618
+      ],
+      "entailment_prob": 0.0007,
+      "neutral_prob": 0.89,
+      "contradiction_prob": 0.1093,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3626
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "personality_what_is_personality_chunk_1",
+      "section": "11.1 What Is Personality?",
+      "pages": "372-373",
+      "hybrid_score": 0.0298,
+      "token_count": 529,
+      "is_truncated": false,
+      "raw_logits": [
+        4.5043,
+        -4.4526,
+        1.4163
+      ],
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0436,
+      "contradiction_prob": 0.9563,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.7667
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_1",
+      "entailment_prob": 0.8514,
+      "neutral_prob": 0.1483,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_2",
+      "entailment_prob": 0.0534,
+      "neutral_prob": 0.946,
+      "contradiction_prob": 0.0007,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_3",
+      "entailment_prob": 0.0007,
+      "neutral_prob": 0.89,
+      "contradiction_prob": 0.1093,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_4",
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.9964,
+      "contradiction_prob": 0.0034,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "personality_what_is_personality_chunk_1",
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0436,
+      "contradiction_prob": 0.9563,
+      "predicted_label": "contradiction"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_1",
+    "entailment_prob": 0.8514,
+    "neutral_prob": 0.1483,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      3
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_history_of_psychology_chunk_1",
+      "introduction_to_psychology_history_of_psychology_chunk_2"
+    ],
+    "token_count": 1236,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.9132,
+      4.8883,
+      0.2007
+    ],
+    "entailment_prob": 0.9908,
+    "neutral_prob": 0.0091,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.3384
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.1673,
+    "phase_b_top2_sec": 2.3384,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.5057,
+    "total_question_wall_sec": 7.5068
+  }
+}

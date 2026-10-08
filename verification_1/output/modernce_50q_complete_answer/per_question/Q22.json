@@ -1,0 +1,193 @@
+{
+  "index": 22,
+  "question_id": "22",
+  "question_text": "What is biopsychology?",
+  "generated_answer": "Biopsychology, also called biological psychology, studies how biological factors—particularly the structure and function of the nervous system—affect behavior. Researchers examine sensory and motor systems, sleep, drug use, ingestive and reproductive behaviors, neurodevelopment, plasticity, and biological correlates of psychological disorders. The field integrates methods from psychology and physiology, and is often considered a component of neuroscience.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_0",
+      "section": "1.1 What Is Psychology?",
+      "pages": "20-20",
+      "hybrid_score": 0.0313,
+      "token_count": 593,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.633,
+        -1.4739,
+        3.5625
+      ],
+      "entailment_prob": 0.0064,
+      "neutral_prob": 0.9789,
+      "contradiction_prob": 0.0147,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9092
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_1",
+      "section": "1.3 Contemporary Psychology",
+      "pages": "30-31",
+      "hybrid_score": 0.0167,
+      "token_count": 634,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.4716,
+        4.4894,
+        -0.451
+      ],
+      "entailment_prob": 0.9926,
+      "neutral_prob": 0.0071,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.241
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "learning_personal_application_questions_chunk_0",
+      "section": "Personal Application Questions",
+      "pages": "223-223",
+      "hybrid_score": 0.0167,
+      "token_count": 409,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.3218,
+        -0.2226,
+        1.1071
+      ],
+      "entailment_prob": 0.1759,
+      "neutral_prob": 0.6648,
+      "contradiction_prob": 0.1593,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1332
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "thinking_and_intelligence_the_source_of_intelligence_chunk_1",
+      "section": "7.6 The Source of Intelligence",
+      "pages": "249-250",
+      "hybrid_score": 0.0161,
+      "token_count": 631,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.8246,
+        0.2536,
+        2.521
+      ],
+      "entailment_prob": 0.0928,
+      "neutral_prob": 0.8956,
+      "contradiction_prob": 0.0116,
+      "predicted_label": "neutral",
+      "eval_time_sec": 2.2468
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "lifespan_development_what_is_lifespan_development_chunk_3",
+      "section": "9.1 What Is Lifespan Development?",
+      "pages": "293-294",
+      "hybrid_score": 0.0159,
+      "token_count": 675,
+      "is_truncated": false,
+      "raw_logits": [
+        0.6462,
+        -1.6922,
+        2.0624
+      ],
+      "entailment_prob": 0.0185,
+      "neutral_prob": 0.7899,
+      "contradiction_prob": 0.1917,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1957
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_1",
+      "entailment_prob": 0.9926,
+      "neutral_prob": 0.0071,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 3,
+      "chunk_id": "learning_personal_application_questions_chunk_0",
+      "entailment_prob": 0.1759,
+      "neutral_prob": 0.6648,
+      "contradiction_prob": 0.1593,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "thinking_and_intelligence_the_source_of_intelligence_chunk_1",
+      "entailment_prob": 0.0928,
+      "neutral_prob": 0.8956,
+      "contradiction_prob": 0.0116,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 5,
+      "chunk_id": "lifespan_development_what_is_lifespan_development_chunk_3",
+      "entailment_prob": 0.0185,
+      "neutral_prob": 0.7899,
+      "contradiction_prob": 0.1917,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_0",
+      "entailment_prob": 0.0064,
+      "neutral_prob": 0.9789,
+      "contradiction_prob": 0.0147,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 2,
+    "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_1",
+    "entailment_prob": 0.9926,
+    "neutral_prob": 0.0071,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      3
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_contemporary_psychology_chunk_1",
+      "learning_personal_application_questions_chunk_0"
+    ],
+    "token_count": 963,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.1991,
+      4.1476,
+      -0.4104
+    ],
+    "entailment_prob": 0.989,
+    "neutral_prob": 0.0104,
+    "contradiction_prob": 0.0006,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.7843
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 6.7259,
+    "phase_b_top2_sec": 1.7843,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 8.5102,
+    "total_question_wall_sec": 8.5111
+  }
+}

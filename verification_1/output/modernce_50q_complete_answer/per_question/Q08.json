@@ -1,0 +1,193 @@
+{
+  "index": 8,
+  "question_id": "8",
+  "question_text": "What are the major personality traits in the Five Factor Model?",
+  "generated_answer": "The Five Factor Model identifies five major personality traits: openness to experience, conscientiousness, extroversion, agreeableness, and neuroticism.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "personality_trait_theorists_chunk_3",
+      "section": "11.7 Trait Theorists",
+      "pages": "394-395",
+      "hybrid_score": 0.0328,
+      "token_count": 639,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.3792,
+        4.0097,
+        -0.8085
+      ],
+      "entailment_prob": 0.9903,
+      "neutral_prob": 0.008,
+      "contradiction_prob": 0.0017,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.8586
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_5",
+      "section": "1.3 Contemporary Psychology",
+      "pages": "33-34",
+      "hybrid_score": 0.0323,
+      "token_count": 553,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.9635,
+        3.3307,
+        0.0403
+      ],
+      "entailment_prob": 0.9624,
+      "neutral_prob": 0.0358,
+      "contradiction_prob": 0.0018,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.9449
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "personality_cultural_understandings_of_personality_chunk_0",
+      "section": "11.8 Cultural Understandings of Personality",
+      "pages": "396-396",
+      "hybrid_score": 0.032,
+      "token_count": 729,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.1808,
+        2.7918,
+        0.6469
+      ],
+      "entailment_prob": 0.8932,
+      "neutral_prob": 0.1046,
+      "contradiction_prob": 0.0023,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.1441
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "personality_trait_theorists_chunk_2",
+      "section": "11.7 Trait Theorists",
+      "pages": "392-394",
+      "hybrid_score": 0.0305,
+      "token_count": 691,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.0214,
+        3.1135,
+        0.3857
+      ],
+      "entailment_prob": 0.9367,
+      "neutral_prob": 0.0612,
+      "contradiction_prob": 0.002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.0769
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "personality_trait_theorists_chunk_1",
+      "section": "11.7 Trait Theorists",
+      "pages": "391-392",
+      "hybrid_score": 0.0294,
+      "token_count": 722,
+      "is_truncated": false,
+      "raw_logits": [
+        1.802,
+        -1.9759,
+        1.2692
+      ],
+      "entailment_prob": 0.0142,
+      "neutral_prob": 0.3646,
+      "contradiction_prob": 0.6212,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 1.3141
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "personality_trait_theorists_chunk_3",
+      "entailment_prob": 0.9903,
+      "neutral_prob": 0.008,
+      "contradiction_prob": 0.0017,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_5",
+      "entailment_prob": 0.9624,
+      "neutral_prob": 0.0358,
+      "contradiction_prob": 0.0018,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "personality_trait_theorists_chunk_2",
+      "entailment_prob": 0.9367,
+      "neutral_prob": 0.0612,
+      "contradiction_prob": 0.002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 3,
+      "chunk_id": "personality_cultural_understandings_of_personality_chunk_0",
+      "entailment_prob": 0.8932,
+      "neutral_prob": 0.1046,
+      "contradiction_prob": 0.0023,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "personality_trait_theorists_chunk_1",
+      "entailment_prob": 0.0142,
+      "neutral_prob": 0.3646,
+      "contradiction_prob": 0.6212,
+      "predicted_label": "contradiction"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "personality_trait_theorists_chunk_3",
+    "entailment_prob": 0.9903,
+    "neutral_prob": 0.008,
+    "contradiction_prob": 0.0017,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      2
+    ],
+    "selected_chunk_ids": [
+      "personality_trait_theorists_chunk_3",
+      "introduction_to_psychology_contemporary_psychology_chunk_5"
+    ],
+    "token_count": 1162,
+    "is_truncated": false,
+    "raw_logits": [
+      -2.7793,
+      3.5908,
+      -0.2754
+    ],
+    "entailment_prob": 0.9779,
+    "neutral_prob": 0.0205,
+    "contradiction_prob": 0.0017,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.9849
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.3386,
+    "phase_b_top2_sec": 1.9849,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.3235,
+    "total_question_wall_sec": 7.3243
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "index": 46,
+  "question_id": "46",
+  "question_text": "What is the scientific process of hypothesis testing?",
+  "generated_answer": "The scientific process of hypothesis testing begins with a hypothesis that is derived from a broader theory. Researchers design an experiment or observational study that operationally defines the variables and includes an experimental and a control group when possible. The hypothesis is then tested by collecting measurable data; if the results are consistent with the prediction, the hypothesis—and thus the theory—is supported. If the results contradict the prediction, the theory is revised or a new hypothesis is generated. This deductive, falsifiable approach ensures that only hypotheses that can be empirically disproved are considered valid.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_6",
+      "section": "2.1 Why Is Research Important?",
+      "pages": "52-52",
+      "hybrid_score": 0.0331,
+      "token_count": 490,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.9649,
+        1.1445,
+        2.6378
+      ],
+      "entailment_prob": 0.1829,
+      "neutral_prob": 0.8141,
+      "contradiction_prob": 0.003,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.8014
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_0",
+      "section": "1.1 What Is Psychology?",
+      "pages": "20-20",
+      "hybrid_score": 0.0331,
+      "token_count": 625,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.5384,
+        0.6895,
+        1.6172
+      ],
+      "entailment_prob": 0.275,
+      "neutral_prob": 0.6954,
+      "contradiction_prob": 0.0296,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1476
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "psychological_research_analyzing_findings_chunk_5",
+      "section": "2.3 Analyzing Findings",
+      "pages": "63-64",
+      "hybrid_score": 0.0311,
+      "token_count": 618,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.0346,
+        1.3125,
+        1.3297
+      ],
+      "entailment_prob": 0.4872,
+      "neutral_prob": 0.4956,
+      "contradiction_prob": 0.0171,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0275
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_5",
+      "section": "2.1 Why Is Research Important?",
+      "pages": "51-52",
+      "hybrid_score": 0.0301,
+      "token_count": 679,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.717,
+        0.4639,
+        0.9674
+      ],
+      "entailment_prob": 0.3377,
+      "neutral_prob": 0.5587,
+      "contradiction_prob": 0.1037,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.4575
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "psychological_research_approaches_to_research_chunk_0",
+      "section": "2.2 Approaches to Research",
+      "pages": "53-53",
+      "hybrid_score": 0.0161,
+      "token_count": 657,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.9957,
+        -0.4142,
+        2.4278
+      ],
+      "entailment_prob": 0.0534,
+      "neutral_prob": 0.9167,
+      "contradiction_prob": 0.0299,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.199
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 3,
+      "chunk_id": "psychological_research_analyzing_findings_chunk_5",
+      "entailment_prob": 0.4872,
+      "neutral_prob": 0.4956,
+      "contradiction_prob": 0.0171,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_5",
+      "entailment_prob": 0.3377,
+      "neutral_prob": 0.5587,
+      "contradiction_prob": 0.1037,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_0",
+      "entailment_prob": 0.275,
+      "neutral_prob": 0.6954,
+      "contradiction_prob": 0.0296,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 1,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_6",
+      "entailment_prob": 0.1829,
+      "neutral_prob": 0.8141,
+      "contradiction_prob": 0.003,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "psychological_research_approaches_to_research_chunk_0",
+      "entailment_prob": 0.0534,
+      "neutral_prob": 0.9167,
+      "contradiction_prob": 0.0299,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 3,
+    "chunk_id": "psychological_research_analyzing_findings_chunk_5",
+    "entailment_prob": 0.4872,
+    "neutral_prob": 0.4956,
+    "contradiction_prob": 0.0171,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      3,
+      4
+    ],
+    "selected_chunk_ids": [
+      "psychological_research_analyzing_findings_chunk_5",
+      "psychological_research_why_is_research_important_chunk_5"
+    ],
+    "token_count": 1185,
+    "is_truncated": false,
+    "raw_logits": [
+      -0.8203,
+      0.9356,
+      0.5593
+    ],
+    "entailment_prob": 0.5379,
+    "neutral_prob": 0.3692,
+    "contradiction_prob": 0.0929,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.3891
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.633,
+    "phase_b_top2_sec": 2.3891,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 8.0221,
+    "total_question_wall_sec": 8.0231
+  }
+}

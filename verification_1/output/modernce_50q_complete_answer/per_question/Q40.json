@@ -1,0 +1,216 @@
+{
+  "index": 40,
+  "question_id": "40",
+  "question_text": "What are different types of psychological therapies?",
+  "generated_answer": "Psychological therapies include several major orientations.  Psychodynamic approaches (e.g., psychoanalysis and psychodynamic psychotherapy) focus on unconscious conflicts and childhood experiences.  Behavior and cognitive therapies use learning principles to change maladaptive thoughts and behaviors, while cognitive‑behavioral therapy combines both.  Humanistic therapy emphasizes self‑awareness and acceptance, and play therapy adapts psychoanalytic ideas for children.  These and other evidence‑based modalities are often used alone or in combination to treat anxiety, depression, PTSD, and other disorders.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_12",
+      "section": "16.2 Types of Treatment",
+      "pages": "624-625",
+      "hybrid_score": 0.0316,
+      "token_count": 680,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.3969,
+        -0.2252,
+        4.0489
+      ],
+      "entailment_prob": 0.0137,
+      "neutral_prob": 0.9847,
+      "contradiction_prob": 0.0016,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.2316
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "therapy_and_treatment_introduction_chunk_0",
+      "section": "Chapter Outline",
+      "pages": "609-609",
+      "hybrid_score": 0.0306,
+      "token_count": 461,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.0152,
+        -0.482,
+        5.7834
+      ],
+      "entailment_prob": 0.0019,
+      "neutral_prob": 0.998,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.8456
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "therapy_and_treatment_introduction_chunk_0",
+      "section": "Chapter 16 Therapy and Treatment",
+      "pages": "609-609",
+      "hybrid_score": 0.0299,
+      "token_count": 461,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.0152,
+        -0.482,
+        5.7834
+      ],
+      "entailment_prob": 0.0019,
+      "neutral_prob": 0.998,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7785
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_2",
+      "section": "16.2 Types of Treatment",
+      "pages": "616-617",
+      "hybrid_score": 0.0167,
+      "token_count": 649,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.9401,
+        0.2843,
+        5.4889
+      ],
+      "entailment_prob": 0.0055,
+      "neutral_prob": 0.9945,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3532
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "section": "3.2 Cells of the Nervous System",
+      "pages": "94-95",
+      "hybrid_score": 0.0164,
+      "token_count": 677,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.6621,
+        -0.0063,
+        4.0372
+      ],
+      "entailment_prob": 0.0172,
+      "neutral_prob": 0.9816,
+      "contradiction_prob": 0.0012,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.2767
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 5,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "entailment_prob": 0.0172,
+      "neutral_prob": 0.9816,
+      "contradiction_prob": 0.0012,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 1,
+      "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_12",
+      "entailment_prob": 0.0137,
+      "neutral_prob": 0.9847,
+      "contradiction_prob": 0.0016,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_2",
+      "entailment_prob": 0.0055,
+      "neutral_prob": 0.9945,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "therapy_and_treatment_introduction_chunk_0",
+      "entailment_prob": 0.0019,
+      "neutral_prob": 0.998,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 3,
+      "chunk_id": "therapy_and_treatment_introduction_chunk_0",
+      "entailment_prob": 0.0019,
+      "neutral_prob": 0.998,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 5,
+    "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+    "entailment_prob": 0.0172,
+    "neutral_prob": 0.9816,
+    "contradiction_prob": 0.0012,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      5
+    ],
+    "selected_chunk_ids": [
+      "therapy_and_treatment_types_of_treatment_chunk_12",
+      "biopsychology_cells_of_the_nervous_system_chunk_6"
+    ],
+    "token_count": 1247,
+    "is_truncated": false,
+    "raw_logits": [
+      -1.8572,
+      -0.6011,
+      3.7885
+    ],
+    "entailment_prob": 0.0122,
+    "neutral_prob": 0.9843,
+    "contradiction_prob": 0.0035,
+    "predicted_label": "neutral",
+    "eval_time_sec": 2.5168
+  },
+  "top_3_required": true,
+  "top_3_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      4,
+      5
+    ],
+    "selected_chunk_ids": [
+      "therapy_and_treatment_types_of_treatment_chunk_12",
+      "therapy_and_treatment_types_of_treatment_chunk_2",
+      "biopsychology_cells_of_the_nervous_system_chunk_6"
+    ],
+    "token_count": 1786,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.7812,
+      2.9139,
+      1.2011
+    ],
+    "entailment_prob": 0.8463,
+    "neutral_prob": 0.1527,
+    "contradiction_prob": 0.001,
+    "predicted_label": "entailment",
+    "eval_time_sec": 4.277
+  },
+  "final_verdict": "ENTAILED_BY_TOP3",
+  "final_label": "entailment",
+  "combination_used": "TOP_3",
+  "timing": {
+    "phase_a_individual_sec": 5.4856,
+    "phase_b_top2_sec": 2.5168,
+    "phase_c_top3_sec": 4.277,
+    "total_nli_inference_sec": 12.2794,
+    "total_question_wall_sec": 12.2807
+  }
+}

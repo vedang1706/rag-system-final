@@ -1,0 +1,561 @@
+================================================================================
+Q1-Q5 HEAD-TO-HEAD NLI COMPARISON REPORT
+Baseline: cross-encoder/nli-deberta-v3-base (512 tokens)
+Target:   dleemiller/ModernCE-base-nli (2048 tokens)
+================================================================================
+
+A. INPUTS AUDITED
+- Questions: 5 questions (Q1 to Q5 from data/queries.json)
+- Atomic Claims: 44 claims (from multichunk_pilot_atomic_1_5.json)
+- Chunks per question: 5 retrieved chunks (from outputs/retrieved_contexts/)
+- Total Claim x Chunk Comparisons: 220
+
+B. TOKEN LENGTH & TRUNCATION BEHAVIOR
+- DeBERTa (512 limit):  Mean length = 477.8 tokens | Max = 617 tokens
+  * Truncated at 512 tokens: 126 / 220 pairs (57.3%)
+- ModernCE (2048 limit): Mean length = 491.7 tokens | Max = 619 tokens
+  * Truncated at 2048 tokens: 0 / 220 pairs (0.0%)
+
+C. OVERALL RAW PREDICTIONS
+| Model    | Entailment | Neutral | Contradiction | Total |
+|----------|------------|---------|---------------|-------|
+| DeBERTa  |          1 |     215 |             4 |   220 |
+| ModernCE |         69 |     135 |            16 |   220 |
+
+D. PREDICTION TRANSITIONS (DeBERTa -> ModernCE)
+| Transition                      | Count | Percentage |
+|---------------------------------|-------|------------|
+| neutral_to_entailment           |    65 |      29.5% |
+| neutral_to_contradiction        |    16 |       7.3% |
+| neutral_to_neutral              |   134 |      60.9% |
+| entailment_to_neutral           |     0 |       0.0% |
+| entailment_to_contradiction     |     0 |       0.0% |
+| entailment_to_entailment        |     1 |       0.5% |
+| contradiction_to_neutral        |     1 |       0.5% |
+| contradiction_to_entailment     |     3 |       1.4% |
+| contradiction_to_contradiction  |     0 |       0.0% |
+| other                           |     0 |       0.0% |
+
+E. QUESTION-WISE BREAKDOWN
+--- Question 1 (14 claims, 70 comparisons) ---
+Q: What is the scientific method in psychology?
+  DeBERTa:  Entailment=0, Neutral=70, Contradiction=0
+  ModernCE: Entailment=19, Neutral=40, Contradiction=11
+
+--- Question 2 (0 claims, 0 comparisons) ---
+Q: What are the basic parts of a neuron?
+  DeBERTa:  Entailment=0, Neutral=0, Contradiction=0
+  ModernCE: Entailment=0, Neutral=0, Contradiction=0
+
+--- Question 3 (9 claims, 45 comparisons) ---
+Q: What are the stages of sleep?
+  DeBERTa:  Entailment=0, Neutral=45, Contradiction=0
+  ModernCE: Entailment=6, Neutral=39, Contradiction=0
+
+--- Question 4 (9 claims, 45 comparisons) ---
+Q: What is operant conditioning?
+  DeBERTa:  Entailment=0, Neutral=41, Contradiction=4
+  ModernCE: Entailment=19, Neutral=23, Contradiction=3
+
+--- Question 5 (12 claims, 60 comparisons) ---
+Q: What is problem-solving in psychology?
+  DeBERTa:  Entailment=1, Neutral=59, Contradiction=0
+  ModernCE: Entailment=25, Neutral=33, Contradiction=2
+
+F. IMPORTANT TRANSITION CASES: NEUTRAL -> NON-NEUTRAL (DeBERTa was Neutral, ModernCE became non-Neutral)
+Total such cases: 81
+--------------------------------------------------------------------------------
+Case 1: Q1 / Claim 1_C1 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "The scientific method in psychology is an empirical process."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0011, Neu=0.9983, Con=0.0006) [TokLen: 516]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9668, Neu=0.0313, Con=0.0019) [TokLen: 524]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 2: Q1 / Claim 1_C1 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "The scientific method in psychology is an empirical process."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0045, Neu=0.9911, Con=0.0044) [TokLen: 385]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0733, Neu=0.2117, Con=0.715) [TokLen: 389]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 3: Q1 / Claim 1_C1 / Chunk 4 (1.3 Contemporary Psychology)
+  Claim: "The scientific method in psychology is an empirical process."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0007, Neu=0.9988, Con=0.0004) [TokLen: 545]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0072, Neu=0.3287, Con=0.664) [TokLen: 565]
+  Evidence Excerpt: "the Society of Indian Psychologists (SIP). Most of these groups are also dedicated to studying psychological and social issues within their specific communities. This section will provide an overview of the major subdivisions within psychology today in the order in which they are introduced througho..."
+
+Case 4: Q1 / Claim 1_C2 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "The scientific method in psychology is a cyclical process."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0007, Neu=0.998, Con=0.0013) [TokLen: 516]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0021, Neu=0.1364, Con=0.8615) [TokLen: 525]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 5: Q1 / Claim 1_C2 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "The scientific method in psychology is a cyclical process."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0031, Neu=0.9953, Con=0.0016) [TokLen: 385]
+  ModernCE: Pred=CONTRADICTION (Ent=0.003, Neu=0.0743, Con=0.9228) [TokLen: 390]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 6: Q1 / Claim 1_C2 / Chunk 4 (1.3 Contemporary Psychology)
+  Claim: "The scientific method in psychology is a cyclical process."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0006, Neu=0.9989, Con=0.0005) [TokLen: 545]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0028, Neu=0.3188, Con=0.6783) [TokLen: 566]
+  Evidence Excerpt: "the Society of Indian Psychologists (SIP). Most of these groups are also dedicated to studying psychological and social issues within their specific communities. This section will provide an overview of the major subdivisions within psychology today in the order in which they are introduced througho..."
+
+Case 7: Q1 / Claim 1_C3 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "The scientific method in psychology begins with a theory."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0008, Neu=0.9982, Con=0.001) [TokLen: 516]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8943, Neu=0.0826, Con=0.0231) [TokLen: 524]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 8: Q1 / Claim 1_C3 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "The scientific method in psychology begins with a theory."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0019, Neu=0.9972, Con=0.0009) [TokLen: 385]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8361, Neu=0.1609, Con=0.003) [TokLen: 389]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 9: Q1 / Claim 1_C3 / Chunk 4 (1.3 Contemporary Psychology)
+  Claim: "The scientific method in psychology begins with a theory."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0008, Neu=0.9988, Con=0.0004) [TokLen: 545]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8892, Neu=0.1011, Con=0.0097) [TokLen: 565]
+  Evidence Excerpt: "the Society of Indian Psychologists (SIP). Most of these groups are also dedicated to studying psychological and social issues within their specific communities. This section will provide an overview of the major subdivisions within psychology today in the order in which they are introduced througho..."
+
+Case 10: Q1 / Claim 1_C3 / Chunk 5 (Critical Thinking Questions)
+  Claim: "The scientific method in psychology begins with a theory."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0005, Neu=0.9991, Con=0.0004) [TokLen: 490]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0016, Neu=0.4357, Con=0.5627) [TokLen: 504]
+  Evidence Excerpt: "d. ethics Critical Thinking Questions 25 . In this section, there was a discussion about researchers arriving at different conclusions about the use of technology in certain student populations, with one study determining that a smartphone app for surgery students seemed effective, but another study..."
+
+Case 11: Q1 / Claim 1_C4 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "In the scientific method, a theory is a broad, evidence-based explanation of a phenomenon."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0011, Neu=0.9984, Con=0.0005) [TokLen: 525]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9775, Neu=0.021, Con=0.0015) [TokLen: 533]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 12: Q1 / Claim 1_C4 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "In the scientific method, a theory is a broad, evidence-based explanation of a phenomenon."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0017, Neu=0.9957, Con=0.0026) [TokLen: 394]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8393, Neu=0.0943, Con=0.0664) [TokLen: 398]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 13: Q1 / Claim 1_C4 / Chunk 4 (1.3 Contemporary Psychology)
+  Claim: "In the scientific method, a theory is a broad, evidence-based explanation of a phenomenon."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0007, Neu=0.9989, Con=0.0003) [TokLen: 554]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9318, Neu=0.0628, Con=0.0054) [TokLen: 574]
+  Evidence Excerpt: "the Society of Indian Psychologists (SIP). Most of these groups are also dedicated to studying psychological and social issues within their specific communities. This section will provide an overview of the major subdivisions within psychology today in the order in which they are introduced througho..."
+
+Case 14: Q1 / Claim 1_C4 / Chunk 5 (Critical Thinking Questions)
+  Claim: "In the scientific method, a theory is a broad, evidence-based explanation of a phenomenon."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0006, Neu=0.999, Con=0.0004) [TokLen: 499]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8924, Neu=0.0801, Con=0.0274) [TokLen: 513]
+  Evidence Excerpt: "d. ethics Critical Thinking Questions 25 . In this section, there was a discussion about researchers arriving at different conclusions about the use of technology in certain student populations, with one study determining that a smartphone app for surgery students seemed effective, but another study..."
+
+Case 15: Q1 / Claim 1_C5 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "A testable hypothesis is derived from a theory."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0011, Neu=0.9982, Con=0.0007) [TokLen: 515]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9691, Neu=0.029, Con=0.002) [TokLen: 524]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 16: Q1 / Claim 1_C5 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "A testable hypothesis is derived from a theory."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0036, Neu=0.9958, Con=0.0006) [TokLen: 384]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9732, Neu=0.026, Con=0.0007) [TokLen: 389]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 17: Q1 / Claim 1_C5 / Chunk 5 (Critical Thinking Questions)
+  Claim: "A testable hypothesis is derived from a theory."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0008, Neu=0.9987, Con=0.0005) [TokLen: 489]
+  ModernCE: Pred=CONTRADICTION (Ent=0.1854, Neu=0.4046, Con=0.41) [TokLen: 504]
+  Evidence Excerpt: "d. ethics Critical Thinking Questions 25 . In this section, there was a discussion about researchers arriving at different conclusions about the use of technology in certain student populations, with one study determining that a smartphone app for surgery students seemed effective, but another study..."
+
+Case 18: Q1 / Claim 1_C6 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "A hypothesis is often formulated in an 'if-then' format."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0038, Neu=0.9958, Con=0.0005) [TokLen: 389]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9332, Neu=0.0665, Con=0.0003) [TokLen: 393]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 19: Q1 / Claim 1_C6 / Chunk 5 (Critical Thinking Questions)
+  Claim: "A hypothesis is often formulated in an 'if-then' format."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0006, Neu=0.999, Con=0.0004) [TokLen: 494]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0532, Neu=0.1744, Con=0.7723) [TokLen: 508]
+  Evidence Excerpt: "d. ethics Critical Thinking Questions 25 . In this section, there was a discussion about researchers arriving at different conclusions about the use of technology in certain student populations, with one study determining that a smartphone app for surgery students seemed effective, but another study..."
+
+Case 20: Q1 / Claim 1_C7 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "Researchers design experiments or observational studies to collect measurable data."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0011, Neu=0.9982, Con=0.0006) [TokLen: 517]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9421, Neu=0.0571, Con=0.0008) [TokLen: 526]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 21: Q1 / Claim 1_C8 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "Researchers analyze the results of their experiments or observational studies."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0012, Neu=0.998, Con=0.0009) [TokLen: 517]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8008, Neu=0.1978, Con=0.0013) [TokLen: 526]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 22: Q1 / Claim 1_C8 / Chunk 4 (1.3 Contemporary Psychology)
+  Claim: "Researchers analyze the results of their experiments or observational studies."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0007, Neu=0.9988, Con=0.0004) [TokLen: 546]
+  ModernCE: Pred=CONTRADICTION (Ent=0.002, Neu=0.4364, Con=0.5615) [TokLen: 567]
+  Evidence Excerpt: "the Society of Indian Psychologists (SIP). Most of these groups are also dedicated to studying psychological and social issues within their specific communities. This section will provide an overview of the major subdivisions within psychology today in the order in which they are introduced througho..."
+
+Case 23: Q1 / Claim 1_C9 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "Researchers publish the results of their studies so others can replicate the findings."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0011, Neu=0.998, Con=0.0009) [TokLen: 520]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9218, Neu=0.0774, Con=0.0009) [TokLen: 529]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 24: Q1 / Claim 1_C10 / Chunk 1 (1.1 What Is Psychology?)
+  Claim: "Researchers publish the results of their studies so others can challenge the findings."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0007, Neu=0.997, Con=0.0023) [TokLen: 520]
+  ModernCE: Pred=ENTAILMENT (Ent=0.501, Neu=0.4957, Con=0.0033) [TokLen: 529]
+  Evidence Excerpt: "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychology • Understand the merits of an education in psychology What is creativity? What are prejudice and discrimination? What is consciousness? The field ..."
+
+Case 25: Q1 / Claim 1_C11 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "Consistent results support the theory."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0207, Neu=0.9791, Con=0.0002) [TokLen: 381]
+  ModernCE: Pred=ENTAILMENT (Ent=0.737, Neu=0.2601, Con=0.0029) [TokLen: 386]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 26: Q1 / Claim 1_C12 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "Inconsistent results prompt revision of the theory or new hypotheses."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0027, Neu=0.9968, Con=0.0005) [TokLen: 387]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9445, Neu=0.054, Con=0.0015) [TokLen: 391]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 27: Q1 / Claim 1_C13 / Chunk 3 (2.1 Why Is Research Important?)
+  Claim: "The scientific method is self-correcting."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0017, Neu=0.9648, Con=0.0334) [TokLen: 383]
+  ModernCE: Pred=CONTRADICTION (Ent=0.001, Neu=0.1169, Con=0.8821) [TokLen: 388]
+  Evidence Excerpt: "are closely associated with inductive processes as researchers gather massive amounts of observations and seek interesting patterns (new ideas) in the data. Experimental research, on the other hand, puts great emphasis on deductive reasoning. We’ve stated that theories and hypotheses are ideas, but ..."
+
+Case 28: Q1 / Claim 1_C13 / Chunk 4 (1.3 Contemporary Psychology)
+  Claim: "The scientific method is self-correcting."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0007, Neu=0.9985, Con=0.0008) [TokLen: 543]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0031, Neu=0.157, Con=0.8399) [TokLen: 564]
+  Evidence Excerpt: "the Society of Indian Psychologists (SIP). Most of these groups are also dedicated to studying psychological and social issues within their specific communities. This section will provide an overview of the major subdivisions within psychology today in the order in which they are introduced througho..."
+
+Case 29: Q1 / Claim 1_C13 / Chunk 5 (Critical Thinking Questions)
+  Claim: "The scientific method is self-correcting."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0034, Neu=0.9964, Con=0.0002) [TokLen: 488]
+  ModernCE: Pred=ENTAILMENT (Ent=0.5438, Neu=0.4402, Con=0.0159) [TokLen: 503]
+  Evidence Excerpt: "d. ethics Critical Thinking Questions 25 . In this section, there was a discussion about researchers arriving at different conclusions about the use of technology in certain student populations, with one study determining that a smartphone app for surgery students seemed effective, but another study..."
+
+Case 30: Q1 / Claim 1_C14 / Chunk 5 (Critical Thinking Questions)
+  Claim: "The scientific method is iterative."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0018, Neu=0.998, Con=0.0002) [TokLen: 486]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8598, Neu=0.1328, Con=0.0073) [TokLen: 500]
+  Evidence Excerpt: "d. ethics Critical Thinking Questions 25 . In this section, there was a discussion about researchers arriving at different conclusions about the use of technology in certain student populations, with one study determining that a smartphone app for surgery students seemed effective, but another study..."
+
+Case 31: Q3 / Claim 3_C1 / Chunk 1 (4.3 Stages of Sleep)
+  Claim: "Sleep consists of two main phases: non-REM (NREM) and REM."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0119, Neu=0.9868, Con=0.0013) [TokLen: 535]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9884, Neu=0.0092, Con=0.0023) [TokLen: 553]
+  Evidence Excerpt: "certain aspects of sleep (Walker, 2009). LINK TO LEARNING Watch this brief video about the relationship between sleep and memory (https://openstax.org/l/sleepmemory) to learn more. 4.3 Stages of Sleep LEARNING OBJECTIVES By the end of this section, you will be able to: • Differentiate between REM an..."
+
+Case 32: Q3 / Claim 3_C2 / Chunk 1 (4.3 Stages of Sleep)
+  Claim: "NREM sleep is divided into three stages."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.007, Neu=0.9918, Con=0.0012) [TokLen: 527]
+  ModernCE: Pred=ENTAILMENT (Ent=0.983, Neu=0.0156, Con=0.0014) [TokLen: 545]
+  Evidence Excerpt: "certain aspects of sleep (Walker, 2009). LINK TO LEARNING Watch this brief video about the relationship between sleep and memory (https://openstax.org/l/sleepmemory) to learn more. 4.3 Stages of Sleep LEARNING OBJECTIVES By the end of this section, you will be able to: • Differentiate between REM an..."
+
+Case 33: Q3 / Claim 3_C7 / Chunk 1 (4.3 Stages of Sleep)
+  Claim: "After the NREM cycle, REM sleep follows."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.003, Neu=0.9961, Con=0.0009) [TokLen: 528]
+  ModernCE: Pred=ENTAILMENT (Ent=0.6961, Neu=0.3032, Con=0.0007) [TokLen: 546]
+  Evidence Excerpt: "certain aspects of sleep (Walker, 2009). LINK TO LEARNING Watch this brief video about the relationship between sleep and memory (https://openstax.org/l/sleepmemory) to learn more. 4.3 Stages of Sleep LEARNING OBJECTIVES By the end of this section, you will be able to: • Differentiate between REM an..."
+
+Case 34: Q3 / Claim 3_C8 / Chunk 1 (4.3 Stages of Sleep)
+  Claim: "REM sleep is characterized by rapid eye movements."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.004, Neu=0.9945, Con=0.0015) [TokLen: 527]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9582, Neu=0.0403, Con=0.0015) [TokLen: 545]
+  Evidence Excerpt: "certain aspects of sleep (Walker, 2009). LINK TO LEARNING Watch this brief video about the relationship between sleep and memory (https://openstax.org/l/sleepmemory) to learn more. 4.3 Stages of Sleep LEARNING OBJECTIVES By the end of this section, you will be able to: • Differentiate between REM an..."
+
+Case 35: Q3 / Claim 3_C8 / Chunk 2 (4.2 Sleep and Why We Sleep)
+  Claim: "REM sleep is characterized by rapid eye movements."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0014, Neu=0.9982, Con=0.0004) [TokLen: 609]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9842, Neu=0.0152, Con=0.0006) [TokLen: 611]
+  Evidence Excerpt: "sleep • Understand hormone secretions associated with sleep • Describe several theories aimed at explaining the function of sleep • Name and describe three theories about why we dream 114 4 • States of Consciousness We spend approximately one-third of our lives sleeping. Given the average life expec..."
+
+Case 36: Q3 / Claim 3_C9 / Chunk 1 (4.3 Stages of Sleep)
+  Claim: "REM sleep is characterized by brain-wave patterns similar to wakefulness."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0048, Neu=0.9945, Con=0.0007) [TokLen: 531]
+  ModernCE: Pred=ENTAILMENT (Ent=0.6736, Neu=0.3101, Con=0.0163) [TokLen: 550]
+  Evidence Excerpt: "certain aspects of sleep (Walker, 2009). LINK TO LEARNING Watch this brief video about the relationship between sleep and memory (https://openstax.org/l/sleepmemory) to learn more. 4.3 Stages of Sleep LEARNING OBJECTIVES By the end of this section, you will be able to: • Differentiate between REM an..."
+
+Case 37: Q4 / Claim 4_C1 / Chunk 2 (6.1 What Is Learning?)
+  Claim: "Operant conditioning is a type of associative learning."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0004, Neu=0.9994, Con=0.0002) [TokLen: 407]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8488, Neu=0.1337, Con=0.0176) [TokLen: 405]
+  Evidence Excerpt: "You will see that associative learning is central to all three basic learning processes discussed in this chapter; classical conditioning tends to involve unconscious processes, operant conditioning tends to involve conscious processes, and observational learning adds social and cognitive layers to ..."
+
+Case 38: Q4 / Claim 4_C2 / Chunk 1 (6.2 Classical Conditioning)
+  Claim: "In operant conditioning, an organism learns to link a behavior with its consequence."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0009, Neu=0.9986, Con=0.0005) [TokLen: 519]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9147, Neu=0.0693, Con=0.016) [TokLen: 542]
+  Evidence Excerpt: "FIGURE 6.2 In operant conditioning, a response is associated with a consequence. This dog has learned that certain behaviors result in receiving a treat. (credit: Crystal Rolfe) Observational learning extends the effective range of both classical and operant conditioning. In contrast to classical an..."
+
+Case 39: Q4 / Claim 4_C2 / Chunk 2 (6.1 What Is Learning?)
+  Claim: "In operant conditioning, an organism learns to link a behavior with its consequence."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0004, Neu=0.9995, Con=0.0001) [TokLen: 413]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9238, Neu=0.0741, Con=0.002) [TokLen: 411]
+  Evidence Excerpt: "You will see that associative learning is central to all three basic learning processes discussed in this chapter; classical conditioning tends to involve unconscious processes, operant conditioning tends to involve conscious processes, and observational learning adds social and cognitive layers to ..."
+
+Case 40: Q4 / Claim 4_C2 / Chunk 3 (6.3 Operant Conditioning)
+  Claim: "In operant conditioning, an organism learns to link a behavior with its consequence."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0009, Neu=0.9984, Con=0.0007) [TokLen: 540]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9606, Neu=0.0381, Con=0.0013) [TokLen: 548]
+  Evidence Excerpt: "conditioning of pigeons (https://openstax.org/l/skinner1) to learn more. In discussing operant conditioning, we use several everyday words—positive, negative, reinforcement, and punishment—in a specialized manner. In operant conditioning, positive and negative do not mean good and bad. Instead, posi..."
+
+Case 41: Q4 / Claim 4_C2 / Chunk 4 (6.3 Operant Conditioning)
+  Claim: "In operant conditioning, an organism learns to link a behavior with its consequence."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0014, Neu=0.6813, Con=0.3172) [TokLen: 514]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9825, Neu=0.0161, Con=0.0013) [TokLen: 529]
+  Evidence Excerpt: "yourself, does this advertising technique actually work? According to Cialdini (2008), men who viewed a car commercial that included an attractive model later rated the car as being faster, more appealing, and better designed than did men who viewed an advertisement for the same car minus the model...."
+
+Case 42: Q4 / Claim 4_C2 / Chunk 5 (Personal Application Questions)
+  Claim: "In operant conditioning, an organism learns to link a behavior with its consequence."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0009, Neu=0.9883, Con=0.0107) [TokLen: 334]
+  ModernCE: Pred=ENTAILMENT (Ent=0.5376, Neu=0.434, Con=0.0283) [TokLen: 346]
+  Evidence Excerpt: "opposites. 21 . How does a neutral stimulus become a conditioned stimulus? 22 . What is a Skinner box and what is its purpose? 23 . What is the difference between negative reinforcement and punishment? 24 . What is shaping and how would you use shaping to teach a dog to roll over? 25 . What is the e..."
+
+Case 43: Q4 / Claim 4_C3 / Chunk 2 (6.1 What Is Learning?)
+  Claim: "A pleasant consequence, known as reinforcement, increases the likelihood of the behavior being repeated."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0006, Neu=0.9993, Con=0.0001) [TokLen: 414]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8491, Neu=0.1406, Con=0.0104) [TokLen: 412]
+  Evidence Excerpt: "You will see that associative learning is central to all three basic learning processes discussed in this chapter; classical conditioning tends to involve unconscious processes, operant conditioning tends to involve conscious processes, and observational learning adds social and cognitive layers to ..."
+
+Case 44: Q4 / Claim 4_C3 / Chunk 3 (6.3 Operant Conditioning)
+  Claim: "A pleasant consequence, known as reinforcement, increases the likelihood of the behavior being repeated."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0011, Neu=0.9983, Con=0.0005) [TokLen: 541]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9867, Neu=0.0126, Con=0.0007) [TokLen: 549]
+  Evidence Excerpt: "conditioning of pigeons (https://openstax.org/l/skinner1) to learn more. In discussing operant conditioning, we use several everyday words—positive, negative, reinforcement, and punishment—in a specialized manner. In operant conditioning, positive and negative do not mean good and bad. Instead, posi..."
+
+Case 45: Q4 / Claim 4_C3 / Chunk 4 (6.3 Operant Conditioning)
+  Claim: "A pleasant consequence, known as reinforcement, increases the likelihood of the behavior being repeated."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0012, Neu=0.9082, Con=0.0907) [TokLen: 515]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9842, Neu=0.0146, Con=0.0012) [TokLen: 530]
+  Evidence Excerpt: "yourself, does this advertising technique actually work? According to Cialdini (2008), men who viewed a car commercial that included an attractive model later rated the car as being faster, more appealing, and better designed than did men who viewed an advertisement for the same car minus the model...."
+
+Case 46: Q4 / Claim 4_C4 / Chunk 2 (6.1 What Is Learning?)
+  Claim: "An unpleasant consequence, known as punishment, decreases the likelihood of the behavior being repeated."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0005, Neu=0.9993, Con=0.0002) [TokLen: 414]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9423, Neu=0.0569, Con=0.0007) [TokLen: 412]
+  Evidence Excerpt: "You will see that associative learning is central to all three basic learning processes discussed in this chapter; classical conditioning tends to involve unconscious processes, operant conditioning tends to involve conscious processes, and observational learning adds social and cognitive layers to ..."
+
+Case 47: Q4 / Claim 4_C4 / Chunk 3 (6.3 Operant Conditioning)
+  Claim: "An unpleasant consequence, known as punishment, decreases the likelihood of the behavior being repeated."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0007, Neu=0.9986, Con=0.0007) [TokLen: 541]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9683, Neu=0.0303, Con=0.0015) [TokLen: 549]
+  Evidence Excerpt: "conditioning of pigeons (https://openstax.org/l/skinner1) to learn more. In discussing operant conditioning, we use several everyday words—positive, negative, reinforcement, and punishment—in a specialized manner. In operant conditioning, positive and negative do not mean good and bad. Instead, posi..."
+
+Case 48: Q4 / Claim 4_C4 / Chunk 4 (6.3 Operant Conditioning)
+  Claim: "An unpleasant consequence, known as punishment, decreases the likelihood of the behavior being repeated."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0006, Neu=0.9676, Con=0.0318) [TokLen: 515]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0118, Neu=0.0403, Con=0.9479) [TokLen: 530]
+  Evidence Excerpt: "yourself, does this advertising technique actually work? According to Cialdini (2008), men who viewed a car commercial that included an attractive model later rated the car as being faster, more appealing, and better designed than did men who viewed an advertisement for the same car minus the model...."
+
+Case 49: Q4 / Claim 4_C5 / Chunk 3 (6.3 Operant Conditioning)
+  Claim: "The consequence in operant conditioning can be added, which is termed positive."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.001, Neu=0.9983, Con=0.0007) [TokLen: 539]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9903, Neu=0.0083, Con=0.0014) [TokLen: 547]
+  Evidence Excerpt: "conditioning of pigeons (https://openstax.org/l/skinner1) to learn more. In discussing operant conditioning, we use several everyday words—positive, negative, reinforcement, and punishment—in a specialized manner. In operant conditioning, positive and negative do not mean good and bad. Instead, posi..."
+
+Case 50: Q4 / Claim 4_C6 / Chunk 3 (6.3 Operant Conditioning)
+  Claim: "The consequence in operant conditioning can be removed, which is termed negative."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0012, Neu=0.9975, Con=0.0013) [TokLen: 539]
+  ModernCE: Pred=ENTAILMENT (Ent=0.974, Neu=0.0215, Con=0.0045) [TokLen: 547]
+  Evidence Excerpt: "conditioning of pigeons (https://openstax.org/l/skinner1) to learn more. In discussing operant conditioning, we use several everyday words—positive, negative, reinforcement, and punishment—in a specialized manner. In operant conditioning, positive and negative do not mean good and bad. Instead, posi..."
+
+Case 51: Q4 / Claim 4_C7 / Chunk 4 (6.3 Operant Conditioning)
+  Claim: "The timing of the consequence occurring soon after the behavior helps strengthen or weaken the behavior."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0004, Neu=0.9944, Con=0.0052) [TokLen: 515]
+  ModernCE: Pred=ENTAILMENT (Ent=0.4942, Neu=0.4718, Con=0.034) [TokLen: 530]
+  Evidence Excerpt: "yourself, does this advertising technique actually work? According to Cialdini (2008), men who viewed a car commercial that included an attractive model later rated the car as being faster, more appealing, and better designed than did men who viewed an advertisement for the same car minus the model...."
+
+Case 52: Q4 / Claim 4_C8 / Chunk 1 (6.2 Classical Conditioning)
+  Claim: "Operant conditioning explains how new behaviors can be acquired."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0011, Neu=0.9977, Con=0.0012) [TokLen: 514]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0198, Neu=0.2117, Con=0.7685) [TokLen: 537]
+  Evidence Excerpt: "FIGURE 6.2 In operant conditioning, a response is associated with a consequence. This dog has learned that certain behaviors result in receiving a treat. (credit: Crystal Rolfe) Observational learning extends the effective range of both classical and operant conditioning. In contrast to classical an..."
+
+Case 53: Q4 / Claim 4_C8 / Chunk 2 (6.1 What Is Learning?)
+  Claim: "Operant conditioning explains how new behaviors can be acquired."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0006, Neu=0.999, Con=0.0003) [TokLen: 408]
+  ModernCE: Pred=ENTAILMENT (Ent=0.8722, Neu=0.1216, Con=0.0062) [TokLen: 406]
+  Evidence Excerpt: "You will see that associative learning is central to all three basic learning processes discussed in this chapter; classical conditioning tends to involve unconscious processes, operant conditioning tends to involve conscious processes, and observational learning adds social and cognitive layers to ..."
+
+Case 54: Q4 / Claim 4_C8 / Chunk 3 (6.3 Operant Conditioning)
+  Claim: "Operant conditioning explains how new behaviors can be acquired."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0013, Neu=0.9982, Con=0.0004) [TokLen: 535]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9719, Neu=0.0265, Con=0.0016) [TokLen: 543]
+  Evidence Excerpt: "conditioning of pigeons (https://openstax.org/l/skinner1) to learn more. In discussing operant conditioning, we use several everyday words—positive, negative, reinforcement, and punishment—in a specialized manner. In operant conditioning, positive and negative do not mean good and bad. Instead, posi..."
+
+Case 55: Q4 / Claim 4_C9 / Chunk 1 (6.2 Classical Conditioning)
+  Claim: "Riding a bike is an example of a new behavior that can be acquired through operant conditioning."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0004, Neu=0.9991, Con=0.0005) [TokLen: 522]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0005, Neu=0.1895, Con=0.8099) [TokLen: 546]
+  Evidence Excerpt: "FIGURE 6.2 In operant conditioning, a response is associated with a consequence. This dog has learned that certain behaviors result in receiving a treat. (credit: Crystal Rolfe) Observational learning extends the effective range of both classical and operant conditioning. In contrast to classical an..."
+
+Case 56: Q5 / Claim 5_C2 / Chunk 1 (7.3 Problem Solving)
+  Claim: "Problem-solving involves applying a strategy to find a solution."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0012, Neu=0.9982, Con=0.0006) [TokLen: 563]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9894, Neu=0.0101, Con=0.0006) [TokLen: 583]
+  Evidence Excerpt: "linguistic hemisphere) of the brain is less affected by linguistic influences on perception (Regier & Kay, 2009) 7.3 Problem Solving LEARNING OBJECTIVES By the end of this section, you will be able to: • Describe problem solving strategies • Define algorithm and heuristic • Explain some common roadb..."
+
+Case 57: Q5 / Claim 5_C2 / Chunk 2 (7.3 Problem Solving)
+  Claim: "Problem-solving involves applying a strategy to find a solution."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0264, Neu=0.9735, Con=0.0001) [TokLen: 491]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9651, Neu=0.0332, Con=0.0018) [TokLen: 500]
+  Evidence Excerpt: "formula Instructional video for installing new software on your computer Heuristic General problem-solving framework Working backwards; breaking a task into steps TABLE 7.2 Another type of strategy is an algorithm. An algorithm is a problem-solving formula that provides you with step-by-step instruc..."
+
+Case 58: Q5 / Claim 5_C2 / Chunk 4 (7.3 Problem Solving)
+  Claim: "Problem-solving involves applying a strategy to find a solution."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0142, Neu=0.9857, Con=0.0) [TokLen: 559]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9416, Neu=0.0576, Con=0.0008) [TokLen: 584]
+  Evidence Excerpt: "tends to back up any day of the week, you need to plan your route and time your departure accordingly. If you want to be at the wedding service by 3:30 PM, and it takes 2.5 hours to get to Philadelphia without traffic, what time should you leave your house? You use the working backwards heuristic to..."
+
+Case 59: Q5 / Claim 5_C2 / Chunk 5 (14.4 Regulation of Stress)
+  Claim: "Problem-solving involves applying a strategy to find a solution."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.018, Neu=0.982, Con=0.0) [TokLen: 550]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9679, Neu=0.0293, Con=0.0028) [TokLen: 565]
+  Evidence Excerpt: "sensitivity in already-sensitive pain pathways in tension headache sufferers (Cathcart, Petkov, & Pritchard, 2008). 14.4 Regulation of Stress LEARNING OBJECTIVES By the end of this section, you will be able to: • Define coping and differentiate between problem-focused and emotion-focused coping • De..."
+
+Case 60: Q5 / Claim 5_C3 / Chunk 1 (7.3 Problem Solving)
+  Claim: "Problem-solving involves selecting from various approaches such as algorithms, heuristics, or trial and error."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0009, Neu=0.9986, Con=0.0005) [TokLen: 570]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9863, Neu=0.0136, Con=0.0001) [TokLen: 592]
+  Evidence Excerpt: "linguistic hemisphere) of the brain is less affected by linguistic influences on perception (Regier & Kay, 2009) 7.3 Problem Solving LEARNING OBJECTIVES By the end of this section, you will be able to: • Describe problem solving strategies • Define algorithm and heuristic • Explain some common roadb..."
+
+Case 61: Q5 / Claim 5_C3 / Chunk 2 (7.3 Problem Solving)
+  Claim: "Problem-solving involves selecting from various approaches such as algorithms, heuristics, or trial and error."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0013, Neu=0.9984, Con=0.0004) [TokLen: 498]
+  ModernCE: Pred=ENTAILMENT (Ent=0.7585, Neu=0.2412, Con=0.0003) [TokLen: 509]
+  Evidence Excerpt: "formula Instructional video for installing new software on your computer Heuristic General problem-solving framework Working backwards; breaking a task into steps TABLE 7.2 Another type of strategy is an algorithm. An algorithm is a problem-solving formula that provides you with step-by-step instruc..."
+
+Case 62: Q5 / Claim 5_C4 / Chunk 1 (7.3 Problem Solving)
+  Claim: "Algorithms are step-by-step procedures."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0015, Neu=0.9977, Con=0.0008) [TokLen: 560]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9541, Neu=0.0455, Con=0.0004) [TokLen: 580]
+  Evidence Excerpt: "linguistic hemisphere) of the brain is less affected by linguistic influences on perception (Regier & Kay, 2009) 7.3 Problem Solving LEARNING OBJECTIVES By the end of this section, you will be able to: • Describe problem solving strategies • Define algorithm and heuristic • Explain some common roadb..."
+
+Case 63: Q5 / Claim 5_C4 / Chunk 2 (7.3 Problem Solving)
+  Claim: "Algorithms are step-by-step procedures."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.009, Neu=0.9904, Con=0.0005) [TokLen: 488]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9581, Neu=0.0399, Con=0.002) [TokLen: 497]
+  Evidence Excerpt: "formula Instructional video for installing new software on your computer Heuristic General problem-solving framework Working backwards; breaking a task into steps TABLE 7.2 Another type of strategy is an algorithm. An algorithm is a problem-solving formula that provides you with step-by-step instruc..."
+
+Case 64: Q5 / Claim 5_C5 / Chunk 1 (7.3 Problem Solving)
+  Claim: "Heuristics are mental shortcuts."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0008, Neu=0.9981, Con=0.0011) [TokLen: 558]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0024, Neu=0.4194, Con=0.5783) [TokLen: 578]
+  Evidence Excerpt: "linguistic hemisphere) of the brain is less affected by linguistic influences on perception (Regier & Kay, 2009) 7.3 Problem Solving LEARNING OBJECTIVES By the end of this section, you will be able to: • Describe problem solving strategies • Define algorithm and heuristic • Explain some common roadb..."
+
+Case 65: Q5 / Claim 5_C5 / Chunk 2 (7.3 Problem Solving)
+  Claim: "Heuristics are mental shortcuts."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0019, Neu=0.9978, Con=0.0003) [TokLen: 486]
+  ModernCE: Pred=ENTAILMENT (Ent=0.827, Neu=0.1666, Con=0.0064) [TokLen: 495]
+  Evidence Excerpt: "formula Instructional video for installing new software on your computer Heuristic General problem-solving framework Working backwards; breaking a task into steps TABLE 7.2 Another type of strategy is an algorithm. An algorithm is a problem-solving formula that provides you with step-by-step instruc..."
+
+Case 66: Q5 / Claim 5_C6 / Chunk 1 (7.3 Problem Solving)
+  Claim: "Problem-solving involves executing approaches to reach a desired outcome."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0014, Neu=0.9979, Con=0.0007) [TokLen: 563]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9758, Neu=0.0237, Con=0.0005) [TokLen: 583]
+  Evidence Excerpt: "linguistic hemisphere) of the brain is less affected by linguistic influences on perception (Regier & Kay, 2009) 7.3 Problem Solving LEARNING OBJECTIVES By the end of this section, you will be able to: • Describe problem solving strategies • Define algorithm and heuristic • Explain some common roadb..."
+
+Case 67: Q5 / Claim 5_C6 / Chunk 2 (7.3 Problem Solving)
+  Claim: "Problem-solving involves executing approaches to reach a desired outcome."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0024, Neu=0.9975, Con=0.0001) [TokLen: 491]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9679, Neu=0.0309, Con=0.0011) [TokLen: 500]
+  Evidence Excerpt: "formula Instructional video for installing new software on your computer Heuristic General problem-solving framework Working backwards; breaking a task into steps TABLE 7.2 Another type of strategy is an algorithm. An algorithm is a problem-solving formula that provides you with step-by-step instruc..."
+
+Case 68: Q5 / Claim 5_C6 / Chunk 3 (7.3 Problem Solving)
+  Claim: "Problem-solving involves executing approaches to reach a desired outcome."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.036, Neu=0.9619, Con=0.0021) [TokLen: 553]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9572, Neu=0.0418, Con=0.001) [TokLen: 569]
+  Evidence Excerpt: "puzzle below (Figure 7.9). Sam Loyd, a well-known puzzle master, created and refined countless puzzles throughout his lifetime (Cyclopedia of Puzzles, n.d.). 224 7 • Thinking and Intelligence FIGURE 7.9 What steps did you take to solve this puzzle? You can read the solution at the end of this sectio..."
+
+Case 69: Q5 / Claim 5_C6 / Chunk 4 (7.3 Problem Solving)
+  Claim: "Problem-solving involves executing approaches to reach a desired outcome."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0056, Neu=0.9944, Con=0.0) [TokLen: 559]
+  ModernCE: Pred=ENTAILMENT (Ent=0.949, Neu=0.0505, Con=0.0006) [TokLen: 584]
+  Evidence Excerpt: "tends to back up any day of the week, you need to plan your route and time your departure accordingly. If you want to be at the wedding service by 3:30 PM, and it takes 2.5 hours to get to Philadelphia without traffic, what time should you leave your house? You use the working backwards heuristic to..."
+
+Case 70: Q5 / Claim 5_C6 / Chunk 5 (14.4 Regulation of Stress)
+  Claim: "Problem-solving involves executing approaches to reach a desired outcome."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0199, Neu=0.98, Con=0.0) [TokLen: 550]
+  ModernCE: Pred=ENTAILMENT (Ent=0.965, Neu=0.0338, Con=0.0012) [TokLen: 565]
+  Evidence Excerpt: "sensitivity in already-sensitive pain pathways in tension headache sufferers (Cathcart, Petkov, & Pritchard, 2008). 14.4 Regulation of Stress LEARNING OBJECTIVES By the end of this section, you will be able to: • Define coping and differentiate between problem-focused and emotion-focused coping • De..."
+
+Case 71: Q5 / Claim 5_C7 / Chunk 1 (7.3 Problem Solving)
+  Claim: "Successful problem‑solving requires clear problem definition."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0013, Neu=0.9978, Con=0.0009) [TokLen: 560]
+  ModernCE: Pred=ENTAILMENT (Ent=0.7249, Neu=0.2733, Con=0.0018) [TokLen: 581]
+  Evidence Excerpt: "linguistic hemisphere) of the brain is less affected by linguistic influences on perception (Regier & Kay, 2009) 7.3 Problem Solving LEARNING OBJECTIVES By the end of this section, you will be able to: • Describe problem solving strategies • Define algorithm and heuristic • Explain some common roadb..."
+
+Case 72: Q5 / Claim 5_C8 / Chunk 1 (7.3 Problem Solving)
+  Claim: "Successful problem-solving requires consideration of possible solutions."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0016, Neu=0.9977, Con=0.0008) [TokLen: 561]
+  ModernCE: Pred=ENTAILMENT (Ent=0.7698, Neu=0.2296, Con=0.0006) [TokLen: 582]
+  Evidence Excerpt: "linguistic hemisphere) of the brain is less affected by linguistic influences on perception (Regier & Kay, 2009) 7.3 Problem Solving LEARNING OBJECTIVES By the end of this section, you will be able to: • Describe problem solving strategies • Define algorithm and heuristic • Explain some common roadb..."
+
+Case 73: Q5 / Claim 5_C8 / Chunk 2 (7.3 Problem Solving)
+  Claim: "Successful problem-solving requires consideration of possible solutions."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0031, Neu=0.9968, Con=0.0001) [TokLen: 489]
+  ModernCE: Pred=ENTAILMENT (Ent=0.5133, Neu=0.48, Con=0.0067) [TokLen: 499]
+  Evidence Excerpt: "formula Instructional video for installing new software on your computer Heuristic General problem-solving framework Working backwards; breaking a task into steps TABLE 7.2 Another type of strategy is an algorithm. An algorithm is a problem-solving formula that provides you with step-by-step instruc..."
+
+Case 74: Q5 / Claim 5_C8 / Chunk 3 (7.3 Problem Solving)
+  Claim: "Successful problem-solving requires consideration of possible solutions."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0074, Neu=0.9882, Con=0.0043) [TokLen: 551]
+  ModernCE: Pred=ENTAILMENT (Ent=0.7041, Neu=0.2904, Con=0.0055) [TokLen: 568]
+  Evidence Excerpt: "puzzle below (Figure 7.9). Sam Loyd, a well-known puzzle master, created and refined countless puzzles throughout his lifetime (Cyclopedia of Puzzles, n.d.). 224 7 • Thinking and Intelligence FIGURE 7.9 What steps did you take to solve this puzzle? You can read the solution at the end of this sectio..."
+
+Case 75: Q5 / Claim 5_C8 / Chunk 4 (7.3 Problem Solving)
+  Claim: "Successful problem-solving requires consideration of possible solutions."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0073, Neu=0.9926, Con=0.0) [TokLen: 557]
+  ModernCE: Pred=ENTAILMENT (Ent=0.6177, Neu=0.38, Con=0.0024) [TokLen: 583]
+  Evidence Excerpt: "tends to back up any day of the week, you need to plan your route and time your departure accordingly. If you want to be at the wedding service by 3:30 PM, and it takes 2.5 hours to get to Philadelphia without traffic, what time should you leave your house? You use the working backwards heuristic to..."
+
+Case 76: Q5 / Claim 5_C8 / Chunk 5 (14.4 Regulation of Stress)
+  Claim: "Successful problem-solving requires consideration of possible solutions."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0162, Neu=0.9837, Con=0.0) [TokLen: 548]
+  ModernCE: Pred=ENTAILMENT (Ent=0.965, Neu=0.0347, Con=0.0003) [TokLen: 564]
+  Evidence Excerpt: "sensitivity in already-sensitive pain pathways in tension headache sufferers (Cathcart, Petkov, & Pritchard, 2008). 14.4 Regulation of Stress LEARNING OBJECTIVES By the end of this section, you will be able to: • Define coping and differentiate between problem-focused and emotion-focused coping • De..."
+
+Case 77: Q5 / Claim 5_C9 / Chunk 5 (14.4 Regulation of Stress)
+  Claim: "Successful problem-solving requires evaluation of the costs and benefits of possible solutions."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0239, Neu=0.9761, Con=0.0) [TokLen: 553]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9657, Neu=0.034, Con=0.0003) [TokLen: 569]
+  Evidence Excerpt: "sensitivity in already-sensitive pain pathways in tension headache sufferers (Cathcart, Petkov, & Pritchard, 2008). 14.4 Regulation of Stress LEARNING OBJECTIVES By the end of this section, you will be able to: • Define coping and differentiate between problem-focused and emotion-focused coping • De..."
+
+Case 78: Q5 / Claim 5_C10 / Chunk 2 (7.3 Problem Solving)
+  Claim: "Mental set is a common roadblock to problem-solving."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0076, Neu=0.9906, Con=0.0018) [TokLen: 490]
+  ModernCE: Pred=ENTAILMENT (Ent=0.6045, Neu=0.3541, Con=0.0414) [TokLen: 501]
+  Evidence Excerpt: "formula Instructional video for installing new software on your computer Heuristic General problem-solving framework Working backwards; breaking a task into steps TABLE 7.2 Another type of strategy is an algorithm. An algorithm is a problem-solving formula that provides you with step-by-step instruc..."
+
+Case 79: Q5 / Claim 5_C10 / Chunk 3 (7.3 Problem Solving)
+  Claim: "Mental set is a common roadblock to problem-solving."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0025, Neu=0.9963, Con=0.0012) [TokLen: 552]
+  ModernCE: Pred=ENTAILMENT (Ent=0.5596, Neu=0.4389, Con=0.0015) [TokLen: 570]
+  Evidence Excerpt: "puzzle below (Figure 7.9). Sam Loyd, a well-known puzzle master, created and refined countless puzzles throughout his lifetime (Cyclopedia of Puzzles, n.d.). 224 7 • Thinking and Intelligence FIGURE 7.9 What steps did you take to solve this puzzle? You can read the solution at the end of this sectio..."
+
+Case 80: Q5 / Claim 5_C12 / Chunk 3 (7.3 Problem Solving)
+  Claim: "Mental set and functional fixedness cause people to persist with ineffective approaches."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0121, Neu=0.9846, Con=0.0033) [TokLen: 555]
+  ModernCE: Pred=ENTAILMENT (Ent=0.9004, Neu=0.0856, Con=0.0139) [TokLen: 571]
+  Evidence Excerpt: "puzzle below (Figure 7.9). Sam Loyd, a well-known puzzle master, created and refined countless puzzles throughout his lifetime (Cyclopedia of Puzzles, n.d.). 224 7 • Thinking and Intelligence FIGURE 7.9 What steps did you take to solve this puzzle? You can read the solution at the end of this sectio..."
+
+Case 81: Q5 / Claim 5_C12 / Chunk 4 (7.3 Problem Solving)
+  Claim: "Mental set and functional fixedness cause people to persist with ineffective approaches."
+  DeBERTa:  Pred=NEUTRAL (Ent=0.0059, Neu=0.994, Con=0.0001) [TokLen: 561]
+  ModernCE: Pred=CONTRADICTION (Ent=0.0015, Neu=0.0604, Con=0.9381) [TokLen: 586]
+  Evidence Excerpt: "tends to back up any day of the week, you need to plan your route and time your departure accordingly. If you want to be at the wedding service by 3:30 PM, and it takes 2.5 hours to get to Philadelphia without traffic, what time should you leave your house? You use the working backwards heuristic to..."
+
+G. IMPORTANT TRANSITION CASES: NON-NEUTRAL -> NEUTRAL (DeBERTa was non-Neutral, ModernCE became Neutral)
+Total such cases: 1
+--------------------------------------------------------------------------------
+Case 1: Q4 / Claim 4_C6 / Chunk 5 (Personal Application Questions)
+  Claim: "The consequence in operant conditioning can be removed, which is termed negative."
+  DeBERTa:  Pred=CONTRADICTION (Ent=0.002, Neu=0.1606, Con=0.8374) [TokLen: 333]
+  ModernCE: Pred=NEUTRAL (Ent=0.0066, Neu=0.7448, Con=0.2486) [TokLen: 345]
+  Evidence Excerpt: "opposites. 21 . How does a neutral stimulus become a conditioned stimulus? 22 . What is a Skinner box and what is its purpose? 23 . What is the difference between negative reinforcement and punishment? 24 . What is shaping and how would you use shaping to teach a dog to roll over? 25 . What is the e..."

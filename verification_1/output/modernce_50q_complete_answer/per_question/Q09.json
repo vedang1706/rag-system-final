@@ -1,0 +1,193 @@
+{
+  "index": 9,
+  "question_id": "9",
+  "question_text": "What is social psychology?",
+  "generated_answer": "Social psychology is the scientific study of how the presence of others, social groups, and situational factors influence a person’s thoughts, feelings, and behaviors. It examines both intrapersonal processes (such as attitudes, self‑conception, and social cognition) and interpersonal processes (including helping, aggression, prejudice, and group dynamics). Researchers in the field investigate how people interpret situations, how social roles and norms shape behavior, and how situational versus dispositional factors interact to produce observable actions.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_1",
+      "section": "1.1 What Is Psychology?",
+      "pages": "20-20",
+      "hybrid_score": 0.0317,
+      "token_count": 431,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.113,
+        1.8083,
+        3.2245
+      ],
+      "entailment_prob": 0.1951,
+      "neutral_prob": 0.8043,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.6133
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "social_psychology_what_is_social_psychology_chunk_0",
+      "section": "12.1 What Is Social Psychology?",
+      "pages": "412-412",
+      "hybrid_score": 0.0315,
+      "token_count": 692,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.5764,
+        4.6171,
+        0.1936
+      ],
+      "entailment_prob": 0.9881,
+      "neutral_prob": 0.0118,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.1008
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "social_psychology_what_is_social_psychology_chunk_7",
+      "section": "12.1 What Is Social Psychology?",
+      "pages": "417-417",
+      "hybrid_score": 0.0167,
+      "token_count": 277,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.7145,
+        1.6477,
+        1.576
+      ],
+      "entailment_prob": 0.5145,
+      "neutral_prob": 0.4789,
+      "contradiction_prob": 0.0066,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.4061
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "social_psychology_selfpresentation_chunk_0",
+      "section": "12.2 Self-presentation",
+      "pages": "418-418",
+      "hybrid_score": 0.0164,
+      "token_count": 610,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.4378,
+        2.3461,
+        2.8101
+      ],
+      "entailment_prob": 0.3859,
+      "neutral_prob": 0.6137,
+      "contradiction_prob": 0.0004,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.8511
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_conformity_compliance_and_obedience_chunk_8",
+      "section": "12.4 Conformity, Compliance, and Obedience",
+      "pages": "432-433",
+      "hybrid_score": 0.0156,
+      "token_count": 604,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.2706,
+        1.6469,
+        2.2992
+      ],
+      "entailment_prob": 0.3416,
+      "neutral_prob": 0.6559,
+      "contradiction_prob": 0.0025,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.033
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 2,
+      "chunk_id": "social_psychology_what_is_social_psychology_chunk_0",
+      "entailment_prob": 0.9881,
+      "neutral_prob": 0.0118,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 3,
+      "chunk_id": "social_psychology_what_is_social_psychology_chunk_7",
+      "entailment_prob": 0.5145,
+      "neutral_prob": 0.4789,
+      "contradiction_prob": 0.0066,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "social_psychology_selfpresentation_chunk_0",
+      "entailment_prob": 0.3859,
+      "neutral_prob": 0.6137,
+      "contradiction_prob": 0.0004,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_conformity_compliance_and_obedience_chunk_8",
+      "entailment_prob": 0.3416,
+      "neutral_prob": 0.6559,
+      "contradiction_prob": 0.0025,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_1",
+      "entailment_prob": 0.1951,
+      "neutral_prob": 0.8043,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 2,
+    "chunk_id": "social_psychology_what_is_social_psychology_chunk_0",
+    "entailment_prob": 0.9881,
+    "neutral_prob": 0.0118,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      3
+    ],
+    "selected_chunk_ids": [
+      "social_psychology_what_is_social_psychology_chunk_0",
+      "social_psychology_what_is_social_psychology_chunk_7"
+    ],
+    "token_count": 867,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.2614,
+      3.7248,
+      0.702
+    ],
+    "entailment_prob": 0.9533,
+    "neutral_prob": 0.0464,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.4843
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.0043,
+    "phase_b_top2_sec": 1.4843,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 5.4886,
+    "total_question_wall_sec": 5.4895
+  }
+}

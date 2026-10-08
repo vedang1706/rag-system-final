@@ -1,0 +1,82 @@
+[2026-10-08 11:03:53] ================================================================================
+[2026-10-08 11:03:53] TASK: 50-QUESTION ModernCE COMPLETE-ANSWER MULTI-CHUNK VERIFICATION
+[2026-10-08 11:03:53] ================================================================================
+[2026-10-08 11:03:53] 
+[Step 1/6] Building input manifest and calculating SHA256 checksums...
+[2026-10-08 11:03:53]   queries.json: 50 queries, SHA256: 2b6f5f047709e3d0...
+[2026-10-08 11:03:53]   submission.csv: 50 rows, SHA256: a1ec43dd83678255...
+[2026-10-08 11:03:53]   retrieved_contexts: 50/50 context files verified and hashed.
+[2026-10-08 11:03:53]   Saved input manifest to: C:\Users\HP\OneDrive\Desktop\RAG_SYSTEM-main_Ritesh\RAG_SYSTEM-main\verification_1\output\modernce_50q_complete_answer\input_manifest.json
+[2026-10-08 11:03:53] 
+[Step 2/6] Verifying 1-to-1 input alignment across 50 questions...
+[2026-10-08 11:03:53]   1-to-1 alignment 100% verified across all 50 questions.
+[2026-10-08 11:03:53]   Generated Answers: 48
+[2026-10-08 11:03:53]   Abstentions: 2
+[2026-10-08 11:03:53] 
+[Step 3/6] Loading ModernCE-base-nli cross-encoder...
+[2026-10-08 11:04:03]   Model loaded in 10.141s on device: CPU
+[2026-10-08 11:04:03]   Performing model warm-up...
+[2026-10-08 11:04:03]   Warm-up completed in 0.209s.
+[2026-10-08 11:04:03] 
+[Step 4/6] Executing multi-chunk verification across all 50 questions...
+[2026-10-08 11:04:03] --------------------------------------------------------------------------------
+[2026-10-08 11:04:09]   Q 1 (GENERAT): Best Indiv=0.3480 (C3) | Top-2 E=0.9140 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (5.58s)
+[2026-10-08 11:04:18]   Q 2 (ABSTENT): Best Indiv=0.0004 (C5) | Top-2 E=0.0020 (CONTRADICTION) | Top-3 E=0.0018 (CONTRADICTION) | Verdict=NOT_ENTAILED (8.49s)
+[2026-10-08 11:04:24]   Q 3 (GENERAT): Best Indiv=0.6990 (C1) | Top-2 E=0.9701 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (6.11s)
+[2026-10-08 11:04:29]   Q 4 (GENERAT): Best Indiv=0.1565 (C4) | Top-2 E=0.9373 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (5.79s)
+[2026-10-08 11:04:36]   Q 5 (GENERAT): Best Indiv=0.1931 (C3) | Top-2 E=0.7060 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (6.67s)
+[2026-10-08 11:04:42]   Q 6 (GENERAT): Best Indiv=0.9855 (C1) | Top-2 E=0.9591 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (5.99s)
+[2026-10-08 11:04:48]   Q 7 (GENERAT): Best Indiv=0.7156 (C1) | Top-2 E=0.8644 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (5.91s)
+[2026-10-08 11:04:55]   Q 8 (GENERAT): Best Indiv=0.9903 (C1) | Top-2 E=0.9779 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.32s)
+[2026-10-08 11:05:01]   Q 9 (GENERAT): Best Indiv=0.9881 (C2) | Top-2 E=0.9533 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (5.49s)
+[2026-10-08 11:05:08]   Q10 (GENERAT): Best Indiv=0.9823 (C3) | Top-2 E=0.9647 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (6.98s)
+[2026-10-08 11:05:18]   Q11 (GENERAT): Best Indiv=0.0493 (C2) | Top-2 E=0.0938 (NEUTRAL) | Top-3 E=0.3595 (NEUTRAL) | Verdict=NOT_ENTAILED (9.92s)
+[2026-10-08 11:05:25]   Q12 (GENERAT): Best Indiv=0.8514 (C1) | Top-2 E=0.9908 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.51s)
+[2026-10-08 11:05:33]   Q13 (GENERAT): Best Indiv=0.9605 (C2) | Top-2 E=0.9708 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.37s)
+[2026-10-08 11:05:44]   Q14 (GENERAT): Best Indiv=0.0052 (C3) | Top-2 E=0.0055 (NEUTRAL) | Top-3 E=0.8446 (ENTAILMENT) | Verdict=ENTAILED_BY_TOP3 (10.99s)
+[2026-10-08 11:05:54]   Q15 (GENERAT): Best Indiv=0.0456 (C4) | Top-2 E=0.3406 (NEUTRAL) | Top-3 E=0.9300 (ENTAILMENT) | Verdict=ENTAILED_BY_TOP3 (10.58s)
+[2026-10-08 11:06:02]   Q16 (GENERAT): Best Indiv=0.9725 (C5) | Top-2 E=0.9798 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.92s)
+[2026-10-08 11:06:10]   Q17 (GENERAT): Best Indiv=0.2951 (C1) | Top-2 E=0.6814 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.94s)
+[2026-10-08 11:06:16]   Q18 (GENERAT): Best Indiv=0.9842 (C1) | Top-2 E=0.9683 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (6.05s)
+[2026-10-08 11:06:23]   Q19 (GENERAT): Best Indiv=0.8769 (C1) | Top-2 E=0.9608 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (6.96s)
+[2026-10-08 11:06:35]   Q20 (GENERAT): Best Indiv=0.3019 (C3) | Top-2 E=0.4957 (NEUTRAL) | Top-3 E=0.8519 (ENTAILMENT) | Verdict=ENTAILED_BY_TOP3 (11.44s)
+[2026-10-08 11:06:42]   Q21 (GENERAT): Best Indiv=0.9697 (C3) | Top-2 E=0.9409 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.00s)
+[2026-10-08 11:06:50]   Q22 (GENERAT): Best Indiv=0.9926 (C2) | Top-2 E=0.9890 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (8.51s)
+[2026-10-08 11:06:57]   Q23 (GENERAT): Best Indiv=0.9773 (C1) | Top-2 E=0.6379 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (6.68s)
+[2026-10-08 11:07:04]   Q24 (GENERAT): Best Indiv=0.3844 (C1) | Top-2 E=0.7405 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (6.80s)
+[2026-10-08 11:07:11]   Q25 (GENERAT): Best Indiv=0.9894 (C5) | Top-2 E=0.9927 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.24s)
+[2026-10-08 11:07:20]   Q26 (GENERAT): Best Indiv=0.3529 (C3) | Top-2 E=0.8838 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (9.56s)
+[2026-10-08 11:07:28]   Q27 (GENERAT): Best Indiv=0.9716 (C4) | Top-2 E=0.9754 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (8.03s)
+[2026-10-08 11:07:36]   Q28 (GENERAT): Best Indiv=0.0157 (C1) | Top-2 E=0.8958 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.97s)
+[2026-10-08 11:07:44]   Q29 (GENERAT): Best Indiv=0.0184 (C3) | Top-2 E=0.5933 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.69s)
+[2026-10-08 11:07:56]   Q30 (GENERAT): Best Indiv=0.8066 (C4) | Top-2 E=0.2633 (NEUTRAL) | Top-3 E=0.9013 (ENTAILMENT) | Verdict=ENTAILED_BY_TOP3 (11.62s)
+[2026-10-08 11:08:09]   Q31 (GENERAT): Best Indiv=0.0058 (C2) | Top-2 E=0.0074 (NEUTRAL) | Top-3 E=0.0053 (NEUTRAL) | Verdict=NOT_ENTAILED (13.37s)
+[2026-10-08 11:08:17]   Q32 (GENERAT): Best Indiv=0.3071 (C2) | Top-2 E=0.7971 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.77s)
+[2026-10-08 11:08:26]   Q33 (GENERAT): Best Indiv=0.1828 (C1) | Top-2 E=0.5496 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (9.20s)
+[2026-10-08 11:08:31]   Q34 (GENERAT): Best Indiv=0.9781 (C1) | Top-2 E=0.8972 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (4.59s)
+[2026-10-08 11:08:36]   Q35 (GENERAT): Best Indiv=0.9815 (C3) | Top-2 E=0.9787 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (5.75s)
+[2026-10-08 11:08:50]   Q36 (GENERAT): Best Indiv=0.0305 (C1) | Top-2 E=0.2989 (NEUTRAL) | Top-3 E=0.4711 (NEUTRAL) | Verdict=NOT_ENTAILED (13.47s)
+[2026-10-08 11:08:58]   Q37 (GENERAT): Best Indiv=0.3218 (C1) | Top-2 E=0.8390 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (8.22s)
+[2026-10-08 11:09:08]   Q38 (GENERAT): Best Indiv=0.8942 (C2) | Top-2 E=0.8462 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (10.32s)
+[2026-10-08 11:09:16]   Q39 (GENERAT): Best Indiv=0.9836 (C1) | Top-2 E=0.9819 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.68s)
+[2026-10-08 11:09:28]   Q40 (GENERAT): Best Indiv=0.0172 (C5) | Top-2 E=0.0122 (NEUTRAL) | Top-3 E=0.8463 (ENTAILMENT) | Verdict=ENTAILED_BY_TOP3 (12.28s)
+[2026-10-08 11:09:40]   Q41 (GENERAT): Best Indiv=0.4172 (C2) | Top-2 E=0.3762 (NEUTRAL) | Top-3 E=0.9085 (ENTAILMENT) | Verdict=ENTAILED_BY_TOP3 (11.78s)
+[2026-10-08 11:09:49]   Q42 (GENERAT): Best Indiv=0.5676 (C4) | Top-2 E=0.8997 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (8.50s)
+[2026-10-08 11:09:56]   Q43 (GENERAT): Best Indiv=0.8003 (C3) | Top-2 E=0.8262 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.62s)
+[2026-10-08 11:10:04]   Q44 (GENERAT): Best Indiv=0.9307 (C1) | Top-2 E=0.8331 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.97s)
+[2026-10-08 11:10:17]   Q45 (GENERAT): Best Indiv=0.0910 (C4) | Top-2 E=0.1890 (NEUTRAL) | Top-3 E=0.8591 (ENTAILMENT) | Verdict=ENTAILED_BY_TOP3 (12.76s)
+[2026-10-08 11:10:25]   Q46 (GENERAT): Best Indiv=0.4872 (C3) | Top-2 E=0.5379 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (8.02s)
+[2026-10-08 11:10:32]   Q47 (GENERAT): Best Indiv=0.7134 (C3) | Top-2 E=0.9058 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (7.46s)
+[2026-10-08 11:10:44]   Q48 (ABSTENT): Best Indiv=0.0005 (C2) | Top-2 E=0.0002 (CONTRADICTION) | Top-3 E=0.0003 (CONTRADICTION) | Verdict=NOT_ENTAILED (11.64s)
+[2026-10-08 11:10:54]   Q49 (GENERAT): Best Indiv=0.8170 (C5) | Top-2 E=0.9558 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (9.88s)
+[2026-10-08 11:11:00]   Q50 (GENERAT): Best Indiv=0.8952 (C1) | Top-2 E=0.9096 (ENTAILMENT) | Top-3 NOT_RUN | Verdict=ENTAILED_BY_TOP2 (6.16s)
+[2026-10-08 11:11:00] 
+[Step 5/6] Aggregating full experiment metrics and statistics...
+[2026-10-08 11:11:00]   Saved results table CSV to: C:\Users\HP\OneDrive\Desktop\RAG_SYSTEM-main_Ritesh\RAG_SYSTEM-main\verification_1\output\modernce_50q_complete_answer\results_table.csv
+[2026-10-08 11:11:00]   Saved raw results JSON to: C:\Users\HP\OneDrive\Desktop\RAG_SYSTEM-main_Ritesh\RAG_SYSTEM-main\verification_1\output\modernce_50q_complete_answer\raw_results.json
+[2026-10-08 11:11:00] 
+[Step 6/6] Generating comprehensive experiment_report.md and conclusion.md...
+[2026-10-08 11:11:00] 
+================================================================================
+[2026-10-08 11:11:00] 50-QUESTION ModernCE EXPERIMENT COMPLETED SUCCESSFULLY
+[2026-10-08 11:11:00] ================================================================================

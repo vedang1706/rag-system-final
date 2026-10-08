@@ -1,0 +1,992 @@
+{
+  "experiment_metadata": {
+    "experiment_name": "Complete-Answer Multi-Chunk ModernCE Experiment (Q1–Q5)",
+    "model_name": "dleemiller/ModernCE-base-nli",
+    "max_length": 2048,
+    "label_mapping": {
+      "0": "contradiction",
+      "1": "entailment",
+      "2": "neutral"
+    },
+    "timestamp": "2026-10-08 10:33:23",
+    "input_files": {
+      "generated_answers_and_claims": "verification_1/output/multichunk_pilot_atomic_1_5.json",
+      "retrieved_contexts": "outputs/retrieved_contexts/{1..5}.txt",
+      "chunk_cache": "cache/chunks.json"
+    }
+  },
+  "summary_statistics": {
+    "num_questions": 5,
+    "num_individual_evaluations": 25,
+    "num_top2_evaluations": 5,
+    "num_top3_evaluations": 1,
+    "total_modernce_evaluations": 31,
+    "model_load_time_sec": 10.677,
+    "model_warmup_time_sec": 0.153,
+    "total_nli_inference_time_sec": 31.072,
+    "avg_eval_time_sec": 1.0023,
+    "avg_eval_time_ms": 1002.31,
+    "total_experiment_time_sec": 42.216
+  },
+  "questions_results": [
+    {
+      "question_id": "1",
+      "question_text": "What is the scientific method in psychology?",
+      "complete_answer": "The scientific method in psychology is an empirical, cyclical process that begins with a theory—a broad, evidence‑based explanation of a phenomenon. From that theory a testable, often “if‑then” hypothesis is derived. Researchers then design experiments or observational studies to collect measurable data, analyze the results, and publish them so others can replicate or challenge the findings. Consistent results support the theory, while inconsistencies prompt revision or new hypotheses, making the method self‑correcting and iterative.",
+      "individual_evaluations": [
+        {
+          "chunk_number": 1,
+          "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_0",
+          "section": "1.1 What Is Psychology?",
+          "pages": "20-20",
+          "hybrid_score": 0.0331,
+          "token_count": 612,
+          "raw_logits": [
+            -4.0982,
+            1.9428,
+            2.9711
+          ],
+          "entailment_prob": 0.2633,
+          "neutral_prob": 0.7361,
+          "contradiction_prob": 0.0006,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.8676
+        },
+        {
+          "chunk_number": 2,
+          "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_1",
+          "section": "1.1 What Is Psychology?",
+          "pages": "20-20",
+          "hybrid_score": 0.0297,
+          "token_count": 428,
+          "raw_logits": [
+            -1.8969,
+            -0.7917,
+            4.4221
+          ],
+          "entailment_prob": 0.0054,
+          "neutral_prob": 0.9928,
+          "contradiction_prob": 0.0018,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.543
+        },
+        {
+          "chunk_number": 3,
+          "chunk_id": "psychological_research_why_is_research_important_chunk_6",
+          "section": "2.1 Why Is Research Important?",
+          "pages": "52-52",
+          "hybrid_score": 0.0294,
+          "token_count": 477,
+          "raw_logits": [
+            -3.9715,
+            2.0426,
+            2.6692
+          ],
+          "entailment_prob": 0.348,
+          "neutral_prob": 0.6512,
+          "contradiction_prob": 0.0009,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.6061
+        },
+        {
+          "chunk_number": 4,
+          "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_1",
+          "section": "1.3 Contemporary Psychology",
+          "pages": "30-31",
+          "hybrid_score": 0.0156,
+          "token_count": 653,
+          "raw_logits": [
+            -0.4552,
+            -1.3116,
+            2.9761
+          ],
+          "entailment_prob": 0.0131,
+          "neutral_prob": 0.9559,
+          "contradiction_prob": 0.0309,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.8605
+        },
+        {
+          "chunk_number": 5,
+          "chunk_id": "psychological_research_critical_thinking_questions_chunk_0",
+          "section": "Critical Thinking Questions",
+          "pages": "81-81",
+          "hybrid_score": 0.0156,
+          "token_count": 592,
+          "raw_logits": [
+            -1.1817,
+            -1.71,
+            4.9052
+          ],
+          "entailment_prob": 0.0013,
+          "neutral_prob": 0.9964,
+          "contradiction_prob": 0.0023,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.7861
+        }
+      ],
+      "ranked_chunks_by_entailment": [
+        {
+          "rank": 1,
+          "chunk_number": 3,
+          "chunk_id": "psychological_research_why_is_research_important_chunk_6",
+          "entailment_prob": 0.348,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 2,
+          "chunk_number": 1,
+          "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_0",
+          "entailment_prob": 0.2633,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 3,
+          "chunk_number": 4,
+          "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_1",
+          "entailment_prob": 0.0131,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 4,
+          "chunk_number": 2,
+          "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_1",
+          "entailment_prob": 0.0054,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 5,
+          "chunk_number": 5,
+          "chunk_id": "psychological_research_critical_thinking_questions_chunk_0",
+          "entailment_prob": 0.0013,
+          "predicted_label": "neutral"
+        }
+      ],
+      "best_individual_chunk": {
+        "chunk_number": 3,
+        "chunk_id": "psychological_research_why_is_research_important_chunk_6",
+        "entailment_prob": 0.348,
+        "predicted_label": "neutral"
+      },
+      "top_2_evaluation": {
+        "selected_chunk_numbers": [
+          1,
+          3
+        ],
+        "selected_chunk_ids": [
+          "introduction_to_psychology_what_is_psychology_chunk_0",
+          "psychological_research_why_is_research_important_chunk_6"
+        ],
+        "token_count": 990,
+        "raw_logits": [
+          -3.5801,
+          3.1209,
+          0.744
+        ],
+        "entailment_prob": 0.914,
+        "neutral_prob": 0.0849,
+        "contradiction_prob": 0.0011,
+        "predicted_label": "entailment",
+        "eval_time_sec": 1.668
+      },
+      "top_3_required": false,
+      "top_3_evaluation": null,
+      "final_verdict": {
+        "combination_used": "TOP_2",
+        "chunk_numbers": [
+          1,
+          3
+        ],
+        "chunk_ids": [
+          "introduction_to_psychology_what_is_psychology_chunk_0",
+          "psychological_research_why_is_research_important_chunk_6"
+        ],
+        "entailment_prob": 0.914,
+        "neutral_prob": 0.0849,
+        "contradiction_prob": 0.0011,
+        "predicted_label": "entailment",
+        "token_count": 990
+      },
+      "final_status": "STOPPED_AT_TOP_2",
+      "timing": {
+        "phase_a_individual_nli_sec": 3.6633,
+        "phase_b_top2_nli_sec": 1.668,
+        "phase_c_top3_nli_sec": 0.0,
+        "total_nli_inference_sec": 5.3313,
+        "total_question_wall_sec": 5.3323
+      }
+    },
+    {
+      "question_id": "2",
+      "question_text": "What are the basic parts of a neuron?",
+      "complete_answer": "Not found in the provided textbook.",
+      "individual_evaluations": [
+        {
+          "chunk_number": 1,
+          "chunk_id": "learning_what_is_learning_chunk_1",
+          "section": "6.1 What Is Learning?",
+          "pages": "194-194",
+          "hybrid_score": 0.0314,
+          "token_count": 558,
+          "raw_logits": [
+            5.1406,
+            -3.896,
+            0.3947
+          ],
+          "entailment_prob": 0.0001,
+          "neutral_prob": 0.0086,
+          "contradiction_prob": 0.9913,
+          "predicted_label": "contradiction",
+          "eval_time_sec": 0.8144
+        },
+        {
+          "chunk_number": 2,
+          "chunk_id": "biopsychology_human_genetics_chunk_0",
+          "section": "Chapter Outline",
+          "pages": "83-83",
+          "hybrid_score": 0.0309,
+          "token_count": 456,
+          "raw_logits": [
+            6.1035,
+            -3.4827,
+            -0.5938
+          ],
+          "entailment_prob": 0.0001,
+          "neutral_prob": 0.0012,
+          "contradiction_prob": 0.9987,
+          "predicted_label": "contradiction",
+          "eval_time_sec": 0.6689
+        },
+        {
+          "chunk_number": 3,
+          "chunk_id": "biopsychology_human_genetics_chunk_0",
+          "section": "Chapter 3 Biopsychology",
+          "pages": "83-83",
+          "hybrid_score": 0.0302,
+          "token_count": 456,
+          "raw_logits": [
+            6.1035,
+            -3.4827,
+            -0.5938
+          ],
+          "entailment_prob": 0.0001,
+          "neutral_prob": 0.0012,
+          "contradiction_prob": 0.9987,
+          "predicted_label": "contradiction",
+          "eval_time_sec": 0.6592
+        },
+        {
+          "chunk_number": 4,
+          "chunk_id": "biopsychology_human_genetics_chunk_0",
+          "section": "3.1 Human Genetics",
+          "pages": "83-84",
+          "hybrid_score": 0.0295,
+          "token_count": 555,
+          "raw_logits": [
+            5.9955,
+            -3.5065,
+            -0.4871
+          ],
+          "entailment_prob": 0.0001,
+          "neutral_prob": 0.0015,
+          "contradiction_prob": 0.9984,
+          "predicted_label": "contradiction",
+          "eval_time_sec": 0.8184
+        },
+        {
+          "chunk_number": 5,
+          "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+          "section": "3.2 Cells of the Nervous System",
+          "pages": "94-95",
+          "hybrid_score": 0.0164,
+          "token_count": 575,
+          "raw_logits": [
+            4.0502,
+            -3.7526,
+            1.1422
+          ],
+          "entailment_prob": 0.0004,
+          "neutral_prob": 0.0517,
+          "contradiction_prob": 0.9479,
+          "predicted_label": "contradiction",
+          "eval_time_sec": 0.8367
+        }
+      ],
+      "ranked_chunks_by_entailment": [
+        {
+          "rank": 1,
+          "chunk_number": 5,
+          "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+          "entailment_prob": 0.0004,
+          "predicted_label": "contradiction"
+        },
+        {
+          "rank": 2,
+          "chunk_number": 1,
+          "chunk_id": "learning_what_is_learning_chunk_1",
+          "entailment_prob": 0.0001,
+          "predicted_label": "contradiction"
+        },
+        {
+          "rank": 3,
+          "chunk_number": 2,
+          "chunk_id": "biopsychology_human_genetics_chunk_0",
+          "entailment_prob": 0.0001,
+          "predicted_label": "contradiction"
+        },
+        {
+          "rank": 4,
+          "chunk_number": 3,
+          "chunk_id": "biopsychology_human_genetics_chunk_0",
+          "entailment_prob": 0.0001,
+          "predicted_label": "contradiction"
+        },
+        {
+          "rank": 5,
+          "chunk_number": 4,
+          "chunk_id": "biopsychology_human_genetics_chunk_0",
+          "entailment_prob": 0.0001,
+          "predicted_label": "contradiction"
+        }
+      ],
+      "best_individual_chunk": {
+        "chunk_number": 5,
+        "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+        "entailment_prob": 0.0004,
+        "predicted_label": "contradiction"
+      },
+      "top_2_evaluation": {
+        "selected_chunk_numbers": [
+          1,
+          5
+        ],
+        "selected_chunk_ids": [
+          "learning_what_is_learning_chunk_1",
+          "biopsychology_cells_of_the_nervous_system_chunk_6"
+        ],
+        "token_count": 1125,
+        "raw_logits": [
+          3.3415,
+          -2.821,
+          0.7784
+        ],
+        "entailment_prob": 0.002,
+        "neutral_prob": 0.0714,
+        "contradiction_prob": 0.9266,
+        "predicted_label": "contradiction",
+        "eval_time_sec": 1.7571
+      },
+      "top_3_required": true,
+      "top_3_evaluation": {
+        "selected_chunk_numbers": [
+          1,
+          2,
+          5
+        ],
+        "selected_chunk_ids": [
+          "learning_what_is_learning_chunk_1",
+          "biopsychology_human_genetics_chunk_0",
+          "biopsychology_cells_of_the_nervous_system_chunk_6"
+        ],
+        "token_count": 1573,
+        "raw_logits": [
+          3.4637,
+          -2.7745,
+          0.6474
+        ],
+        "entailment_prob": 0.0018,
+        "neutral_prob": 0.0563,
+        "contradiction_prob": 0.9418,
+        "predicted_label": "contradiction",
+        "eval_time_sec": 2.9199
+      },
+      "final_verdict": {
+        "combination_used": "TOP_3",
+        "chunk_numbers": [
+          1,
+          2,
+          5
+        ],
+        "chunk_ids": [
+          "learning_what_is_learning_chunk_1",
+          "biopsychology_human_genetics_chunk_0",
+          "biopsychology_cells_of_the_nervous_system_chunk_6"
+        ],
+        "entailment_prob": 0.0018,
+        "neutral_prob": 0.0563,
+        "contradiction_prob": 0.9418,
+        "predicted_label": "contradiction",
+        "token_count": 1573
+      },
+      "final_status": "EVALUATED_TOP_3",
+      "timing": {
+        "phase_a_individual_nli_sec": 3.7976,
+        "phase_b_top2_nli_sec": 1.7571,
+        "phase_c_top3_nli_sec": 2.9199,
+        "total_nli_inference_sec": 8.4746,
+        "total_question_wall_sec": 8.4758
+      }
+    },
+    {
+      "question_id": "3",
+      "question_text": "What are the stages of sleep?",
+      "complete_answer": "Sleep consists of two main phases: non‑REM (NREM) and REM.  \nNREM is divided into three stages:  \n- **Stage 1** is a brief transitional period between wakefulness and sleep.  \n- **Stage 2** features sleep spindles and K‑complexes, indicating light sleep.  \n- **Stage 3** is deep, slow‑wave sleep with the lowest brain‑wave frequency and highest amplitude.  \nAfter the NREM cycle, REM sleep follows, characterized by rapid eye movements and brain‑wave patterns similar to wakefulness.",
+      "individual_evaluations": [
+        {
+          "chunk_number": 1,
+          "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_0",
+          "section": "4.3 Stages of Sleep",
+          "pages": "129-129",
+          "hybrid_score": 0.032,
+          "token_count": 658,
+          "raw_logits": [
+            -0.4553,
+            1.4015,
+            0.1082
+          ],
+          "entailment_prob": 0.699,
+          "neutral_prob": 0.1918,
+          "contradiction_prob": 0.1092,
+          "predicted_label": "entailment",
+          "eval_time_sec": 0.8643
+        },
+        {
+          "chunk_number": 2,
+          "chunk_id": "states_of_consciousness_sleep_and_why_we_sleep_chunk_1",
+          "section": "4.2 Sleep and Why We Sleep",
+          "pages": "126-127",
+          "hybrid_score": 0.0315,
+          "token_count": 724,
+          "raw_logits": [
+            -2.1935,
+            0.0749,
+            3.2108
+          ],
+          "entailment_prob": 0.0415,
+          "neutral_prob": 0.9542,
+          "contradiction_prob": 0.0043,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.9725
+        },
+        {
+          "chunk_number": 3,
+          "chunk_id": "states_of_consciousness_introduction_chunk_0",
+          "section": "Chapter 4 States of Consciousness",
+          "pages": "121-121",
+          "hybrid_score": 0.0304,
+          "token_count": 381,
+          "raw_logits": [
+            1.5873,
+            -3.5233,
+            3.6727
+          ],
+          "entailment_prob": 0.0007,
+          "neutral_prob": 0.8889,
+          "contradiction_prob": 0.1104,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.4907
+        },
+        {
+          "chunk_number": 4,
+          "chunk_id": "states_of_consciousness_introduction_chunk_0",
+          "section": "Chapter Outline",
+          "pages": "121-121",
+          "hybrid_score": 0.0303,
+          "token_count": 381,
+          "raw_logits": [
+            1.5873,
+            -3.5233,
+            3.6727
+          ],
+          "entailment_prob": 0.0007,
+          "neutral_prob": 0.8889,
+          "contradiction_prob": 0.1104,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.4812
+        },
+        {
+          "chunk_number": 5,
+          "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_3",
+          "section": "4.3 Stages of Sleep",
+          "pages": "132-132",
+          "hybrid_score": 0.0272,
+          "token_count": 686,
+          "raw_logits": [
+            0.1752,
+            -2.9537,
+            4.7758
+          ],
+          "entailment_prob": 0.0004,
+          "neutral_prob": 0.9896,
+          "contradiction_prob": 0.0099,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.9152
+        }
+      ],
+      "ranked_chunks_by_entailment": [
+        {
+          "rank": 1,
+          "chunk_number": 1,
+          "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_0",
+          "entailment_prob": 0.699,
+          "predicted_label": "entailment"
+        },
+        {
+          "rank": 2,
+          "chunk_number": 2,
+          "chunk_id": "states_of_consciousness_sleep_and_why_we_sleep_chunk_1",
+          "entailment_prob": 0.0415,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 3,
+          "chunk_number": 3,
+          "chunk_id": "states_of_consciousness_introduction_chunk_0",
+          "entailment_prob": 0.0007,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 4,
+          "chunk_number": 4,
+          "chunk_id": "states_of_consciousness_introduction_chunk_0",
+          "entailment_prob": 0.0007,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 5,
+          "chunk_number": 5,
+          "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_3",
+          "entailment_prob": 0.0004,
+          "predicted_label": "neutral"
+        }
+      ],
+      "best_individual_chunk": {
+        "chunk_number": 1,
+        "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_0",
+        "entailment_prob": 0.699,
+        "predicted_label": "entailment"
+      },
+      "top_2_evaluation": {
+        "selected_chunk_numbers": [
+          1,
+          2
+        ],
+        "selected_chunk_ids": [
+          "states_of_consciousness_stages_of_sleep_chunk_0",
+          "states_of_consciousness_sleep_and_why_we_sleep_chunk_1"
+        ],
+        "token_count": 1259,
+        "raw_logits": [
+          -2.9397,
+          3.471,
+          -0.0623
+        ],
+        "entailment_prob": 0.9701,
+        "neutral_prob": 0.0283,
+        "contradiction_prob": 0.0016,
+        "predicted_label": "entailment",
+        "eval_time_sec": 1.9813
+      },
+      "top_3_required": false,
+      "top_3_evaluation": null,
+      "final_verdict": {
+        "combination_used": "TOP_2",
+        "chunk_numbers": [
+          1,
+          2
+        ],
+        "chunk_ids": [
+          "states_of_consciousness_stages_of_sleep_chunk_0",
+          "states_of_consciousness_sleep_and_why_we_sleep_chunk_1"
+        ],
+        "entailment_prob": 0.9701,
+        "neutral_prob": 0.0283,
+        "contradiction_prob": 0.0016,
+        "predicted_label": "entailment",
+        "token_count": 1259
+      },
+      "final_status": "STOPPED_AT_TOP_2",
+      "timing": {
+        "phase_a_individual_nli_sec": 3.7239,
+        "phase_b_top2_nli_sec": 1.9813,
+        "phase_c_top3_nli_sec": 0.0,
+        "total_nli_inference_sec": 5.7052,
+        "total_question_wall_sec": 5.7061
+      }
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is operant conditioning?",
+      "complete_answer": "Operant conditioning is a type of associative learning in which an organism learns to link a behavior with its consequence. A consequence that is pleasant (reinforcement) increases the likelihood of the behavior being repeated, while a consequence that is unpleasant (punishment) decreases that likelihood. The consequence can be added (positive) or removed (negative), and the timing of the consequence—soon after the behavior—helps strengthen or weaken the behavior. This process explains how new behaviors, such as riding a bike, can be acquired.",
+      "individual_evaluations": [
+        {
+          "chunk_number": 1,
+          "chunk_id": "learning_classical_conditioning_chunk_0",
+          "section": "6.2 Classical Conditioning",
+          "pages": "195-195",
+          "hybrid_score": 0.0312,
+          "token_count": 630,
+          "raw_logits": [
+            0.4235,
+            -2.8719,
+            4.2685
+          ],
+          "entailment_prob": 0.0008,
+          "neutral_prob": 0.9783,
+          "contradiction_prob": 0.0209,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.8883
+        },
+        {
+          "chunk_number": 2,
+          "chunk_id": "learning_what_is_learning_chunk_2",
+          "section": "6.1 What Is Learning?",
+          "pages": "194-194",
+          "hybrid_score": 0.0302,
+          "token_count": 499,
+          "raw_logits": [
+            -1.6223,
+            -1.4184,
+            5.0277
+          ],
+          "entailment_prob": 0.0016,
+          "neutral_prob": 0.9971,
+          "contradiction_prob": 0.0013,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.627
+        },
+        {
+          "chunk_number": 3,
+          "chunk_id": "learning_operant_conditioning_chunk_2",
+          "section": "6.3 Operant Conditioning",
+          "pages": "205-206",
+          "hybrid_score": 0.0299,
+          "token_count": 636,
+          "raw_logits": [
+            -1.9208,
+            -1.0936,
+            4.8564
+          ],
+          "entailment_prob": 0.0026,
+          "neutral_prob": 0.9963,
+          "contradiction_prob": 0.0011,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.82
+        },
+        {
+          "chunk_number": 4,
+          "chunk_id": "learning_operant_conditioning_chunk_0",
+          "section": "6.3 Operant Conditioning",
+          "pages": "204-204",
+          "hybrid_score": 0.0295,
+          "token_count": 617,
+          "raw_logits": [
+            -4.9176,
+            2.1129,
+            3.7969
+          ],
+          "entailment_prob": 0.1565,
+          "neutral_prob": 0.8433,
+          "contradiction_prob": 0.0001,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.7823
+        },
+        {
+          "chunk_number": 5,
+          "chunk_id": "learning_personal_application_questions_chunk_0",
+          "section": "Personal Application Questions",
+          "pages": "223-223",
+          "hybrid_score": 0.0167,
+          "token_count": 434,
+          "raw_logits": [
+            -0.4132,
+            -2.5766,
+            5.529
+          ],
+          "entailment_prob": 0.0003,
+          "neutral_prob": 0.9971,
+          "contradiction_prob": 0.0026,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.5496
+        }
+      ],
+      "ranked_chunks_by_entailment": [
+        {
+          "rank": 1,
+          "chunk_number": 4,
+          "chunk_id": "learning_operant_conditioning_chunk_0",
+          "entailment_prob": 0.1565,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 2,
+          "chunk_number": 3,
+          "chunk_id": "learning_operant_conditioning_chunk_2",
+          "entailment_prob": 0.0026,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 3,
+          "chunk_number": 2,
+          "chunk_id": "learning_what_is_learning_chunk_2",
+          "entailment_prob": 0.0016,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 4,
+          "chunk_number": 1,
+          "chunk_id": "learning_classical_conditioning_chunk_0",
+          "entailment_prob": 0.0008,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 5,
+          "chunk_number": 5,
+          "chunk_id": "learning_personal_application_questions_chunk_0",
+          "entailment_prob": 0.0003,
+          "predicted_label": "neutral"
+        }
+      ],
+      "best_individual_chunk": {
+        "chunk_number": 4,
+        "chunk_id": "learning_operant_conditioning_chunk_0",
+        "entailment_prob": 0.1565,
+        "predicted_label": "neutral"
+      },
+      "top_2_evaluation": {
+        "selected_chunk_numbers": [
+          3,
+          4
+        ],
+        "selected_chunk_ids": [
+          "learning_operant_conditioning_chunk_2",
+          "learning_operant_conditioning_chunk_0"
+        ],
+        "token_count": 1148,
+        "raw_logits": [
+          -4.1748,
+          3.5488,
+          0.8373
+        ],
+        "entailment_prob": 0.9373,
+        "neutral_prob": 0.0623,
+        "contradiction_prob": 0.0004,
+        "predicted_label": "entailment",
+        "eval_time_sec": 1.8113
+      },
+      "top_3_required": false,
+      "top_3_evaluation": null,
+      "final_verdict": {
+        "combination_used": "TOP_2",
+        "chunk_numbers": [
+          3,
+          4
+        ],
+        "chunk_ids": [
+          "learning_operant_conditioning_chunk_2",
+          "learning_operant_conditioning_chunk_0"
+        ],
+        "entailment_prob": 0.9373,
+        "neutral_prob": 0.0623,
+        "contradiction_prob": 0.0004,
+        "predicted_label": "entailment",
+        "token_count": 1148
+      },
+      "final_status": "STOPPED_AT_TOP_2",
+      "timing": {
+        "phase_a_individual_nli_sec": 3.6672,
+        "phase_b_top2_nli_sec": 1.8113,
+        "phase_c_top3_nli_sec": 0.0,
+        "total_nli_inference_sec": 5.4785,
+        "total_question_wall_sec": 5.4794
+      }
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is problem-solving in psychology?",
+      "complete_answer": "Problem‑solving in psychology is the mental process of identifying a problem and then applying a strategy to find a solution. It involves selecting from various approaches—such as algorithms (step‑by‑step procedures), heuristics (mental shortcuts), or trial and error—and executing them to reach a desired outcome. Successful problem‑solving requires clear problem definition, consideration of possible solutions, and evaluation of their costs and benefits. Common roadblocks include mental set and functional fixedness, which cause people to persist with ineffective approaches.",
+      "individual_evaluations": [
+        {
+          "chunk_number": 1,
+          "chunk_id": "thinking_and_intelligence_problem_solving_chunk_0",
+          "section": "7.3 Problem Solving",
+          "pages": "234-234",
+          "hybrid_score": 0.0331,
+          "token_count": 678,
+          "raw_logits": [
+            -0.8302,
+            -1.9882,
+            5.1111
+          ],
+          "entailment_prob": 0.0008,
+          "neutral_prob": 0.9966,
+          "contradiction_prob": 0.0026,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.903
+        },
+        {
+          "chunk_number": 2,
+          "chunk_id": "thinking_and_intelligence_problem_solving_chunk_1",
+          "section": "7.3 Problem Solving",
+          "pages": "234-235",
+          "hybrid_score": 0.0309,
+          "token_count": 595,
+          "raw_logits": [
+            -1.42,
+            -1.4556,
+            4.9731
+          ],
+          "entailment_prob": 0.0016,
+          "neutral_prob": 0.9967,
+          "contradiction_prob": 0.0017,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.7566
+        },
+        {
+          "chunk_number": 3,
+          "chunk_id": "thinking_and_intelligence_problem_solving_chunk_3",
+          "section": "7.3 Problem Solving",
+          "pages": "236-238",
+          "hybrid_score": 0.0159,
+          "token_count": 664,
+          "raw_logits": [
+            -2.8812,
+            1.1797,
+            2.6054
+          ],
+          "entailment_prob": 0.1931,
+          "neutral_prob": 0.8035,
+          "contradiction_prob": 0.0033,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.8708
+        },
+        {
+          "chunk_number": 4,
+          "chunk_id": "thinking_and_intelligence_problem_solving_chunk_2",
+          "section": "7.3 Problem Solving",
+          "pages": "235-236",
+          "hybrid_score": 0.0159,
+          "token_count": 679,
+          "raw_logits": [
+            -1.0511,
+            -1.6811,
+            4.8739
+          ],
+          "entailment_prob": 0.0014,
+          "neutral_prob": 0.9959,
+          "contradiction_prob": 0.0027,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.8856
+        },
+        {
+          "chunk_number": 5,
+          "chunk_id": "stress_lifestyle_and_health_regulation_of_stress_chunk_0",
+          "section": "14.4 Regulation of Stress",
+          "pages": "524-524",
+          "hybrid_score": 0.0156,
+          "token_count": 660,
+          "raw_logits": [
+            -1.2776,
+            -1.7909,
+            5.3896
+          ],
+          "entailment_prob": 0.0008,
+          "neutral_prob": 0.998,
+          "contradiction_prob": 0.0013,
+          "predicted_label": "neutral",
+          "eval_time_sec": 0.8593
+        }
+      ],
+      "ranked_chunks_by_entailment": [
+        {
+          "rank": 1,
+          "chunk_number": 3,
+          "chunk_id": "thinking_and_intelligence_problem_solving_chunk_3",
+          "entailment_prob": 0.1931,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 2,
+          "chunk_number": 2,
+          "chunk_id": "thinking_and_intelligence_problem_solving_chunk_1",
+          "entailment_prob": 0.0016,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 3,
+          "chunk_number": 4,
+          "chunk_id": "thinking_and_intelligence_problem_solving_chunk_2",
+          "entailment_prob": 0.0014,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 4,
+          "chunk_number": 1,
+          "chunk_id": "thinking_and_intelligence_problem_solving_chunk_0",
+          "entailment_prob": 0.0008,
+          "predicted_label": "neutral"
+        },
+        {
+          "rank": 5,
+          "chunk_number": 5,
+          "chunk_id": "stress_lifestyle_and_health_regulation_of_stress_chunk_0",
+          "entailment_prob": 0.0008,
+          "predicted_label": "neutral"
+        }
+      ],
+      "best_individual_chunk": {
+        "chunk_number": 3,
+        "chunk_id": "thinking_and_intelligence_problem_solving_chunk_3",
+        "entailment_prob": 0.1931,
+        "predicted_label": "neutral"
+      },
+      "top_2_evaluation": {
+        "selected_chunk_numbers": [
+          2,
+          3
+        ],
+        "selected_chunk_ids": [
+          "thinking_and_intelligence_problem_solving_chunk_1",
+          "thinking_and_intelligence_problem_solving_chunk_3"
+        ],
+        "token_count": 1150,
+        "raw_logits": [
+          -3.7618,
+          2.5669,
+          1.6864
+        ],
+        "entailment_prob": 0.706,
+        "neutral_prob": 0.2927,
+        "contradiction_prob": 0.0013,
+        "predicted_label": "entailment",
+        "eval_time_sec": 1.8067
+      },
+      "top_3_required": false,
+      "top_3_evaluation": null,
+      "final_verdict": {
+        "combination_used": "TOP_2",
+        "chunk_numbers": [
+          2,
+          3
+        ],
+        "chunk_ids": [
+          "thinking_and_intelligence_problem_solving_chunk_1",
+          "thinking_and_intelligence_problem_solving_chunk_3"
+        ],
+        "entailment_prob": 0.706,
+        "neutral_prob": 0.2927,
+        "contradiction_prob": 0.0013,
+        "predicted_label": "entailment",
+        "token_count": 1150
+      },
+      "final_status": "STOPPED_AT_TOP_2",
+      "timing": {
+        "phase_a_individual_nli_sec": 4.2753,
+        "phase_b_top2_nli_sec": 1.8067,
+        "phase_c_top3_nli_sec": 0.0,
+        "total_nli_inference_sec": 6.082,
+        "total_question_wall_sec": 6.0831
+      }
+    }
+  ]
+}

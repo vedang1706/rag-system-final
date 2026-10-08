@@ -1,0 +1,193 @@
+{
+  "index": 39,
+  "question_id": "39",
+  "question_text": "What is the importance of replication in psychological research?",
+  "generated_answer": "Replication allows other researchers to repeat an experiment with different samples, confirming the reliability and generalizability of the original findings. Each successful replication adds evidence that supports the study’s conclusions, making scientists more likely to accept and build on those results. Conversely, repeated failures cast doubt on the original article, prompting further scrutiny and potentially leading to retraction or revision. Thus, replication is a key mechanism for quality control and for advancing psychological knowledge.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "psychological_research_analyzing_findings_chunk_12",
+      "section": "2.3 Analyzing Findings",
+      "pages": "68-69",
+      "hybrid_score": 0.0325,
+      "token_count": 611,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.6938,
+        4.4667,
+        0.3641
+      ],
+      "entailment_prob": 0.9836,
+      "neutral_prob": 0.0163,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.0118
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "psychological_research_personal_application_questions_chunk_0",
+      "section": "Personal Application Questions",
+      "pages": "82-82",
+      "hybrid_score": 0.0167,
+      "token_count": 521,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.8445,
+        -0.9518,
+        4.5682
+      ],
+      "entailment_prob": 0.004,
+      "neutral_prob": 0.9944,
+      "contradiction_prob": 0.0016,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.931
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_3",
+      "section": "2.1 Why Is Research Important?",
+      "pages": "49-50",
+      "hybrid_score": 0.0161,
+      "token_count": 662,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.2599,
+        2.2134,
+        2.8658
+      ],
+      "entailment_prob": 0.3423,
+      "neutral_prob": 0.6572,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.2088
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "psychological_research_approaches_to_research_chunk_1",
+      "section": "2.2 Approaches to Research",
+      "pages": "53-54",
+      "hybrid_score": 0.0159,
+      "token_count": 588,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.9961,
+        0.4409,
+        3.951
+      ],
+      "entailment_prob": 0.029,
+      "neutral_prob": 0.9701,
+      "contradiction_prob": 0.0009,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1886
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "psychological_research_critical_thinking_questions_chunk_0",
+      "section": "Critical Thinking Questions",
+      "pages": "81-81",
+      "hybrid_score": 0.0156,
+      "token_count": 582,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.1315,
+        -1.6152,
+        4.7537
+      ],
+      "entailment_prob": 0.0017,
+      "neutral_prob": 0.9955,
+      "contradiction_prob": 0.0028,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0096
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "psychological_research_analyzing_findings_chunk_12",
+      "entailment_prob": 0.9836,
+      "neutral_prob": 0.0163,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 3,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_3",
+      "entailment_prob": 0.3423,
+      "neutral_prob": 0.6572,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "psychological_research_approaches_to_research_chunk_1",
+      "entailment_prob": 0.029,
+      "neutral_prob": 0.9701,
+      "contradiction_prob": 0.0009,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "psychological_research_personal_application_questions_chunk_0",
+      "entailment_prob": 0.004,
+      "neutral_prob": 0.9944,
+      "contradiction_prob": 0.0016,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "psychological_research_critical_thinking_questions_chunk_0",
+      "entailment_prob": 0.0017,
+      "neutral_prob": 0.9955,
+      "contradiction_prob": 0.0028,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "psychological_research_analyzing_findings_chunk_12",
+    "entailment_prob": 0.9836,
+    "neutral_prob": 0.0163,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      3
+    ],
+    "selected_chunk_ids": [
+      "psychological_research_analyzing_findings_chunk_12",
+      "psychological_research_why_is_research_important_chunk_3"
+    ],
+    "token_count": 1184,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.4051,
+      4.2988,
+      0.2962
+    ],
+    "entailment_prob": 0.9819,
+    "neutral_prob": 0.0179,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.3326
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.3498,
+    "phase_b_top2_sec": 2.3326,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.6824,
+    "total_question_wall_sec": 7.6835
+  }
+}

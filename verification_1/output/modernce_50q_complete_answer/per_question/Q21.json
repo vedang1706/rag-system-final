@@ -1,0 +1,193 @@
+{
+  "index": 21,
+  "question_id": "21",
+  "question_text": "What is developmental psychology?",
+  "generated_answer": "Developmental psychology is the scientific study of how people change and grow across the entire lifespan. It examines physical maturation as well as shifts in cognitive abilities, moral reasoning, social behavior, and other psychological attributes. Researchers investigate these changes through the three developmental domains—physical, cognitive, and psychosocial—to understand how individuals develop from conception to death.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_4",
+      "section": "1.3 Contemporary Psychology",
+      "pages": "32-33",
+      "hybrid_score": 0.0313,
+      "token_count": 615,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.5012,
+        0.45,
+        3.1635
+      ],
+      "entailment_prob": 0.062,
+      "neutral_prob": 0.9348,
+      "contradiction_prob": 0.0032,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9499
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "lifespan_development_lifespan_theories_chunk_1",
+      "section": "9.2 Lifespan Theories",
+      "pages": "296-297",
+      "hybrid_score": 0.0161,
+      "token_count": 612,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.0837,
+        -0.2535,
+        3.7006
+      ],
+      "entailment_prob": 0.0188,
+      "neutral_prob": 0.9782,
+      "contradiction_prob": 0.003,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9889
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "lifespan_development_what_is_lifespan_development_chunk_0",
+      "section": "9.1 What Is Lifespan Development?",
+      "pages": "292-292",
+      "hybrid_score": 0.0161,
+      "token_count": 654,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.1858,
+        3.9123,
+        0.4371
+      ],
+      "entailment_prob": 0.9697,
+      "neutral_prob": 0.03,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.0452
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_1",
+      "section": "1.3 Contemporary Psychology",
+      "pages": "30-31",
+      "hybrid_score": 0.0159,
+      "token_count": 623,
+      "is_truncated": false,
+      "raw_logits": [
+        0.2055,
+        -1.9091,
+        3.0493
+      ],
+      "entailment_prob": 0.0066,
+      "neutral_prob": 0.9388,
+      "contradiction_prob": 0.0546,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0471
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "introduction_to_psychology_summary_chunk_1",
+      "section": "Key Terms",
+      "pages": "42-42",
+      "hybrid_score": 0.0159,
+      "token_count": 219,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.2619,
+        -1.8557,
+        3.7949
+      ],
+      "entailment_prob": 0.0034,
+      "neutral_prob": 0.9796,
+      "contradiction_prob": 0.017,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.5727
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 3,
+      "chunk_id": "lifespan_development_what_is_lifespan_development_chunk_0",
+      "entailment_prob": 0.9697,
+      "neutral_prob": 0.03,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_4",
+      "entailment_prob": 0.062,
+      "neutral_prob": 0.9348,
+      "contradiction_prob": 0.0032,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 2,
+      "chunk_id": "lifespan_development_lifespan_theories_chunk_1",
+      "entailment_prob": 0.0188,
+      "neutral_prob": 0.9782,
+      "contradiction_prob": 0.003,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_1",
+      "entailment_prob": 0.0066,
+      "neutral_prob": 0.9388,
+      "contradiction_prob": 0.0546,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "introduction_to_psychology_summary_chunk_1",
+      "entailment_prob": 0.0034,
+      "neutral_prob": 0.9796,
+      "contradiction_prob": 0.017,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 3,
+    "chunk_id": "lifespan_development_what_is_lifespan_development_chunk_0",
+    "entailment_prob": 0.9697,
+    "neutral_prob": 0.03,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      3
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_contemporary_psychology_chunk_4",
+      "lifespan_development_what_is_lifespan_development_chunk_0"
+    ],
+    "token_count": 1200,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.5624,
+      3.3072,
+      0.5236
+    ],
+    "entailment_prob": 0.9409,
+    "neutral_prob": 0.0582,
+    "contradiction_prob": 0.001,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.4004
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.6038,
+    "phase_b_top2_sec": 2.4004,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.0042,
+    "total_question_wall_sec": 7.0051
+  }
+}

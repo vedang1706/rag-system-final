@@ -1,0 +1,1019 @@
+{
+  "experiment": "Task 1: Controlled Evidence Granularity Test on Query 41",
+  "timestamp": "2026-10-07 13:08:28",
+  "model_nli": "cross-encoder/nli-deberta-v3-base",
+  "model_similarity": "sentence-transformers/all-MiniLM-L6-v2",
+  "question_id": "41",
+  "question": "What is the role of neurotransmitters in mental health?",
+  "generated_answer": "Neurotransmitters mediate the chemical portion of neuronal communication and are essential for normal brain function.  Imbalances in key systems—such as low serotonin in depression or excess dopamine in schizophrenia—are linked to the symptoms of many psychiatric disorders.  Psychotropic medications work by restoring balance: agonists mimic neurotransmitters, antagonists block their action, and reuptake inhibitors prolong their presence in the synaptic cleft.  Thus, targeting neurotransmitter systems is a primary strategy for treating mental‑health conditions.",
+  "num_claims": 10,
+  "reconstruction_check": {
+    "parent_chunks_tested": 5,
+    "successful_reconstructions": 5,
+    "failed_reconstructions": 0,
+    "reconstruction_percentage": 100.0
+  },
+  "timings": {
+    "minilm_similarity_selection_seconds": 1.2452,
+    "deberta_full_chunk_nli_seconds": 7.2528,
+    "deberta_micro_unit_nli_seconds": 2.5322,
+    "total_experiment_seconds": 36.1673,
+    "avg_ms_per_nli_cond_a": 725.28,
+    "avg_ms_per_nli_cond_b": 253.22,
+    "nli_evaluations_cond_a": 10,
+    "nli_evaluations_cond_b": 10
+  },
+  "summary_distributions": {
+    "condition_a_full_chunk": {
+      "entailment": 0,
+      "neutral": 10,
+      "contradiction": 0
+    },
+    "condition_b_micro_unit": {
+      "entailment": 3,
+      "neutral": 7,
+      "contradiction": 0
+    },
+    "transitions": {
+      "neutral_to_entailment": 3,
+      "neutral_to_neutral": 7,
+      "neutral_to_contradiction": 0,
+      "entailment_to_neutral": 0,
+      "entailment_to_entailment": 0,
+      "contradiction_to_neutral": 0,
+      "contradiction_to_entailment": 0,
+      "contradiction_to_contradiction": 0
+    },
+    "entailment_recoveries": 3,
+    "false_contradictions": 0,
+    "context_loss_cases": 0,
+    "total_disagreements": 3
+  },
+  "claims_comparison_table": [
+    {
+      "claim_id": "41_C1",
+      "claim": "Neurotransmitters mediate the chemical portion of neuronal communication.",
+      "sentence_index": 1,
+      "parent_chunk_number": 1,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "full_chunk_chars": 3040,
+      "full_chunk_tokens": 512,
+      "full_similarity": 0.6927,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0002,
+        "neutral_prob": 0.9991,
+        "entailment_prob": 0.0007,
+        "nli_time_seconds": 1.3359
+      },
+      "condition_b": {
+        "unit_index": 0,
+        "sentence_range": "0-2",
+        "micro_unit_chars": 329,
+        "micro_unit_tokens": 70,
+        "micro_unit_text": "the length of the axon is an electrical event, and movement of the neurotransmitter across the synaptic space represents the chemical portion of the process. However, there are some specialized connections between neurons that are entirely electrical. In such cases, the neurons are said to communicate via an electrical synapse.",
+        "micro_similarity": 0.6482,
+        "label": "entailment",
+        "contradiction_prob": 0.0001,
+        "neutral_prob": 0.0371,
+        "entailment_prob": 0.9628,
+        "nli_time_seconds": 0.2421
+      },
+      "label_changed": "YES",
+      "transition": "neutral_to_entailment",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.6482,
+          "text_snippet": "the length of the axon is an electrical event, and movement of the neurotransmitter across the synaptic space represents..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.595,
+          "text_snippet": "In these cases, two neurons physically connect to one another via gap junctions, which allows the current from one cell ..."
+        },
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.5949,
+          "text_snippet": "82 3 • Biopsychology Neurotransmitters and Drugs There are several different types of neurotransmitters released by diff..."
+        },
+        {
+          "unit_index": 4,
+          "sentence_range": "12-14",
+          "similarity": 0.4461,
+          "text_snippet": "Psychoactive drugs can act as agonists or antagonists for a given neurotransmitter system. Agonists are chemicals that m..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.3647,
+          "text_snippet": "In this perspective, psychotropic medications can help improve the symptoms associated with these disorders. Psychotropi..."
+        },
+        {
+          "unit_index": 5,
+          "sentence_range": "15-17",
+          "similarity": 0.3468,
+          "text_snippet": "Agonists and antagonists represent drugs that are prescribed to correct the specific neurotransmitter imbalances underly..."
+        },
+        {
+          "unit_index": 6,
+          "sentence_range": "18-18",
+          "similarity": 0.2362,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission...."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C2",
+      "claim": "Neurotransmitters are essential for normal brain function.",
+      "sentence_index": 1,
+      "parent_chunk_number": 1,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "full_chunk_chars": 3040,
+      "full_chunk_tokens": 512,
+      "full_similarity": 0.5617,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0003,
+        "neutral_prob": 0.9991,
+        "entailment_prob": 0.0006,
+        "nli_time_seconds": 1.2191
+      },
+      "condition_b": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 637,
+        "micro_unit_tokens": 113,
+        "micro_unit_text": "82 3 • Biopsychology Neurotransmitters and Drugs There are several different types of neurotransmitters released by different neurons, and we can speak in broad terms about the kinds of functions associated with different neurotransmitters (Table 3.1). Much of what psychologists know about the functions of neurotransmitters comes from research on the effects of drugs in psychological disorders. Psychologists who take a biological perspective and focus on the physiological causes of behavior assert that psychological disorders like depression and schizophrenia are associated with imbalances in one or more neurotransmitter systems.",
+        "micro_similarity": 0.6005,
+        "label": "neutral",
+        "contradiction_prob": 0.0005,
+        "neutral_prob": 0.9991,
+        "entailment_prob": 0.0004,
+        "nli_time_seconds": 0.3112
+      },
+      "label_changed": "NO",
+      "transition": "neutral_to_neutral",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.6005,
+          "text_snippet": "82 3 • Biopsychology Neurotransmitters and Drugs There are several different types of neurotransmitters released by diff..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.4552,
+          "text_snippet": "the length of the axon is an electrical event, and movement of the neurotransmitter across the synaptic space represents..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.4445,
+          "text_snippet": "In these cases, two neurons physically connect to one another via gap junctions, which allows the current from one cell ..."
+        },
+        {
+          "unit_index": 4,
+          "sentence_range": "12-14",
+          "similarity": 0.4331,
+          "text_snippet": "Psychoactive drugs can act as agonists or antagonists for a given neurotransmitter system. Agonists are chemicals that m..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.4218,
+          "text_snippet": "In this perspective, psychotropic medications can help improve the symptoms associated with these disorders. Psychotropi..."
+        },
+        {
+          "unit_index": 5,
+          "sentence_range": "15-17",
+          "similarity": 0.3419,
+          "text_snippet": "Agonists and antagonists represent drugs that are prescribed to correct the specific neurotransmitter imbalances underly..."
+        },
+        {
+          "unit_index": 6,
+          "sentence_range": "18-18",
+          "similarity": 0.2738,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission...."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C3",
+      "claim": "Imbalances in key neurotransmitter systems are linked to the symptoms of many psychiatric disorders.",
+      "sentence_index": 2,
+      "parent_chunk_number": 2,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_chars": 1649,
+      "full_chunk_tokens": 300,
+      "full_similarity": 0.4831,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0007,
+        "neutral_prob": 0.9992,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.6533
+      },
+      "condition_b": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 91,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.4528,
+        "label": "neutral",
+        "contradiction_prob": 0.0001,
+        "neutral_prob": 0.9996,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.2634
+      },
+      "label_changed": "NO",
+      "transition": "neutral_to_neutral",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.4528,
+          "text_snippet": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent un..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.4455,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to ..."
+        },
+        {
+          "unit_index": 4,
+          "sentence_range": "12-13",
+          "similarity": 0.4401,
+          "text_snippet": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual mus..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.4314,
+          "text_snippet": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dop..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.3817,
+          "text_snippet": "By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin recepto..."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C4",
+      "claim": "Low serotonin is linked to depression.",
+      "sentence_index": 2,
+      "parent_chunk_number": 2,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_chars": 1649,
+      "full_chunk_tokens": 291,
+      "full_similarity": 0.4759,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0005,
+        "neutral_prob": 0.9939,
+        "entailment_prob": 0.0056,
+        "nli_time_seconds": 0.5695
+      },
+      "condition_b": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 82,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.5711,
+        "label": "entailment",
+        "contradiction_prob": 0.0,
+        "neutral_prob": 0.006,
+        "entailment_prob": 0.994,
+        "nli_time_seconds": 0.2463
+      },
+      "label_changed": "YES",
+      "transition": "neutral_to_entailment",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.5711,
+          "text_snippet": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent un..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.5402,
+          "text_snippet": "By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin recepto..."
+        },
+        {
+          "unit_index": 4,
+          "sentence_range": "12-13",
+          "similarity": 0.407,
+          "text_snippet": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual mus..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.3613,
+          "text_snippet": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dop..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.3504,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to ..."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C5",
+      "claim": "Excess dopamine is linked to schizophrenia.",
+      "sentence_index": 2,
+      "parent_chunk_number": 2,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_chars": 1649,
+      "full_chunk_tokens": 291,
+      "full_similarity": 0.5639,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0011,
+        "neutral_prob": 0.9988,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.5547
+      },
+      "condition_b": {
+        "unit_index": 1,
+        "sentence_range": "3-5",
+        "micro_unit_chars": 348,
+        "micro_unit_tokens": 65,
+        "micro_unit_text": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons.",
+        "micro_similarity": 0.7215,
+        "label": "entailment",
+        "contradiction_prob": 0.0001,
+        "neutral_prob": 0.0027,
+        "entailment_prob": 0.9972,
+        "nli_time_seconds": 0.2409
+      },
+      "label_changed": "YES",
+      "transition": "neutral_to_entailment",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.7215,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to ..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.4754,
+          "text_snippet": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dop..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.4147,
+          "text_snippet": "By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin recepto..."
+        },
+        {
+          "unit_index": 4,
+          "sentence_range": "12-13",
+          "similarity": 0.4083,
+          "text_snippet": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual mus..."
+        },
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.3714,
+          "text_snippet": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent un..."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C6",
+      "claim": "Psychotropic medications work by restoring balance in neurotransmitter systems.",
+      "sentence_index": 3,
+      "parent_chunk_number": 2,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_chars": 1649,
+      "full_chunk_tokens": 295,
+      "full_similarity": 0.6069,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0014,
+        "neutral_prob": 0.9984,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.5854
+      },
+      "condition_b": {
+        "unit_index": 4,
+        "sentence_range": "12-13",
+        "micro_unit_chars": 224,
+        "micro_unit_tokens": 55,
+        "micro_unit_text": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+        "micro_similarity": 0.6564,
+        "label": "neutral",
+        "contradiction_prob": 0.0,
+        "neutral_prob": 0.9996,
+        "entailment_prob": 0.0003,
+        "nli_time_seconds": 0.2262
+      },
+      "label_changed": "NO",
+      "transition": "neutral_to_neutral",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 4,
+          "sentence_range": "12-13",
+          "similarity": 0.6564,
+          "text_snippet": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual mus..."
+        },
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.5795,
+          "text_snippet": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent un..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.545,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to ..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.4886,
+          "text_snippet": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dop..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.486,
+          "text_snippet": "By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin recepto..."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C7",
+      "claim": "Agonists mimic neurotransmitters.",
+      "sentence_index": 3,
+      "parent_chunk_number": 2,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_chars": 1649,
+      "full_chunk_tokens": 290,
+      "full_similarity": 0.5428,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0012,
+        "neutral_prob": 0.9985,
+        "entailment_prob": 0.0003,
+        "nli_time_seconds": 0.5537
+      },
+      "condition_b": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 81,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.5343,
+        "label": "neutral",
+        "contradiction_prob": 0.0008,
+        "neutral_prob": 0.9982,
+        "entailment_prob": 0.001,
+        "nli_time_seconds": 0.238
+      },
+      "label_changed": "NO",
+      "transition": "neutral_to_neutral",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.5343,
+          "text_snippet": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent un..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.4916,
+          "text_snippet": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dop..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.4694,
+          "text_snippet": "By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin recepto..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.4373,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to ..."
+        },
+        {
+          "unit_index": 4,
+          "sentence_range": "12-13",
+          "similarity": 0.384,
+          "text_snippet": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual mus..."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C8",
+      "claim": "Antagonists block the action of neurotransmitters.",
+      "sentence_index": 3,
+      "parent_chunk_number": 2,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_chars": 1649,
+      "full_chunk_tokens": 293,
+      "full_similarity": 0.6157,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0013,
+        "neutral_prob": 0.9985,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.5523
+      },
+      "condition_b": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 84,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.5989,
+        "label": "neutral",
+        "contradiction_prob": 0.025,
+        "neutral_prob": 0.9746,
+        "entailment_prob": 0.0004,
+        "nli_time_seconds": 0.2714
+      },
+      "label_changed": "NO",
+      "transition": "neutral_to_neutral",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.5989,
+          "text_snippet": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent un..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.5413,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to ..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.4737,
+          "text_snippet": "By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin recepto..."
+        },
+        {
+          "unit_index": 4,
+          "sentence_range": "12-13",
+          "similarity": 0.4436,
+          "text_snippet": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual mus..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.4346,
+          "text_snippet": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dop..."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C9",
+      "claim": "Reuptake inhibitors prolong the presence of neurotransmitters in the synaptic cleft.",
+      "sentence_index": 3,
+      "parent_chunk_number": 2,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_chars": 1649,
+      "full_chunk_tokens": 298,
+      "full_similarity": 0.5613,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0005,
+        "neutral_prob": 0.9992,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.6483
+      },
+      "condition_b": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 89,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.6717,
+        "label": "neutral",
+        "contradiction_prob": 0.0,
+        "neutral_prob": 0.9968,
+        "entailment_prob": 0.0031,
+        "nli_time_seconds": 0.2709
+      },
+      "label_changed": "NO",
+      "transition": "neutral_to_neutral",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.6717,
+          "text_snippet": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent un..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.4336,
+          "text_snippet": "By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin recepto..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.3815,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to ..."
+        },
+        {
+          "unit_index": 4,
+          "sentence_range": "12-13",
+          "similarity": 0.3806,
+          "text_snippet": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual mus..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.3506,
+          "text_snippet": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dop..."
+        }
+      ]
+    },
+    {
+      "claim_id": "41_C10",
+      "claim": "Targeting neurotransmitter systems is a primary strategy for treating mental-health conditions.",
+      "sentence_index": 4,
+      "parent_chunk_number": 2,
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_chars": 1649,
+      "full_chunk_tokens": 298,
+      "full_similarity": 0.5718,
+      "condition_a": {
+        "label": "neutral",
+        "contradiction_prob": 0.0033,
+        "neutral_prob": 0.9964,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.5807
+      },
+      "condition_b": {
+        "unit_index": 4,
+        "sentence_range": "12-13",
+        "micro_unit_chars": 224,
+        "micro_unit_tokens": 58,
+        "micro_unit_text": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+        "micro_similarity": 0.5916,
+        "label": "neutral",
+        "contradiction_prob": 0.0001,
+        "neutral_prob": 0.9996,
+        "entailment_prob": 0.0003,
+        "nli_time_seconds": 0.2219
+      },
+      "label_changed": "NO",
+      "transition": "neutral_to_neutral",
+      "all_scored_micro_units": [
+        {
+          "unit_index": 4,
+          "sentence_range": "12-13",
+          "similarity": 0.5916,
+          "text_snippet": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual mus..."
+        },
+        {
+          "unit_index": 2,
+          "sentence_range": "6-8",
+          "similarity": 0.5625,
+          "text_snippet": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent un..."
+        },
+        {
+          "unit_index": 0,
+          "sentence_range": "0-2",
+          "similarity": 0.4952,
+          "text_snippet": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dop..."
+        },
+        {
+          "unit_index": 1,
+          "sentence_range": "3-5",
+          "similarity": 0.4745,
+          "text_snippet": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to ..."
+        },
+        {
+          "unit_index": 3,
+          "sentence_range": "9-11",
+          "similarity": 0.4616,
+          "text_snippet": "By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin recepto..."
+        }
+      ]
+    }
+  ],
+  "case_studies": [
+    {
+      "claim_id": "41_C1",
+      "claim": "Neurotransmitters mediate the chemical portion of neuronal communication.",
+      "transition": "neutral_to_entailment",
+      "case_type": "Entailment Recovery (Premise Dilution Eliminated)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "full_chunk_text": "the length of the axon is an electrical event, and movement of the neurotransmitter across the synaptic space represents the chemical portion of the process. However, there are some specialized connections between neurons that are entirely electrical. In such cases, the neurons are said to communicate via an electrical synapse. In these cases, two neurons physically connect to one another via gap junctions, which allows the current from one cell to pass into the next. There are far fewer electrical synapses in the brain, but those that do exist are much faster than the chemical synapses that have been described above (Connors & Long, 2004). LINK TO LEARNING Watch this video about neuronal communication (https://openstax.org/l/neuroncom) to learn more. 82 3 • Biopsychology Neurotransmitters and Drugs There are several different types of neurotransmitters released by different neurons, and we can speak in broad terms about the kinds of functions associated with different neurotransmitters (Table 3.1). Much of what psychologists know about the functions of neurotransmitters comes from research on the effects of drugs in psychological disorders. Psychologists who take a biological perspective and focus on the physiological causes of behavior assert that psychological disorders like depression and schizophrenia are associated with imbalances in one or more neurotransmitter systems. In this perspective, psychotropic medications can help improve the symptoms associated with these disorders. Psychotropic medications are drugs that treat psychiatric symptoms by restoring neurotransmitter balance. Major Neurotransmitters and How They Affect Behavior Neurotransmitter Involved in Potential Effect on Behavior Acetylcholine Muscle action, memory Increased arousal, enhanced cognition Beta-endorphin Pain, pleasure Decreased anxiety, decreased tension Dopamine Mood, sleep, learning Increased pleasure, suppressed appetite Gamma-aminobutyric acid (GABA) Brain function, sleep Decreased anxiety, decreased tension Glutamate Memory, learning Increased learning, enhanced memory Norepinephrine Heart, intestines, alertness Increased arousal, suppressed appetite Serotonin Mood, sleep Modulated mood, suppressed appetite TABLE 3.1 Psychoactive drugs can act as agonists or antagonists for a given neurotransmitter system. Agonists are chemicals that mimic a neurotransmitter at the receptor site. An antagonist, on the other hand, blocks or impedes the normal activity of a neurotransmitter at the receptor. Agonists and antagonists represent drugs that are prescribed to correct the specific neurotransmitter imbalances underlying a person’s condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission.",
+      "selected_micro_unit_text": "the length of the axon is an electrical event, and movement of the neurotransmitter across the synaptic space represents the chemical portion of the process. However, there are some specialized connections between neurons that are entirely electrical. In such cases, the neurons are said to communicate via an electrical synapse.",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0002,
+        "neutral_prob": 0.9991,
+        "entailment_prob": 0.0007,
+        "nli_time_seconds": 1.3359
+      },
+      "condition_b_probs": {
+        "unit_index": 0,
+        "sentence_range": "0-2",
+        "micro_unit_chars": 329,
+        "micro_unit_tokens": 70,
+        "micro_unit_text": "the length of the axon is an electrical event, and movement of the neurotransmitter across the synaptic space represents the chemical portion of the process. However, there are some specialized connections between neurons that are entirely electrical. In such cases, the neurons are said to communicate via an electrical synapse.",
+        "micro_similarity": 0.6482,
+        "label": "entailment",
+        "contradiction_prob": 0.0001,
+        "neutral_prob": 0.0371,
+        "entailment_prob": 0.9628,
+        "nli_time_seconds": 0.2421
+      }
+    },
+    {
+      "claim_id": "41_C2",
+      "claim": "Neurotransmitters are essential for normal brain function.",
+      "transition": "neutral_to_neutral",
+      "case_type": "Persistent Neutral (Unresolved Evidence or High Neutral Prior)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "full_chunk_text": "the length of the axon is an electrical event, and movement of the neurotransmitter across the synaptic space represents the chemical portion of the process. However, there are some specialized connections between neurons that are entirely electrical. In such cases, the neurons are said to communicate via an electrical synapse. In these cases, two neurons physically connect to one another via gap junctions, which allows the current from one cell to pass into the next. There are far fewer electrical synapses in the brain, but those that do exist are much faster than the chemical synapses that have been described above (Connors & Long, 2004). LINK TO LEARNING Watch this video about neuronal communication (https://openstax.org/l/neuroncom) to learn more. 82 3 • Biopsychology Neurotransmitters and Drugs There are several different types of neurotransmitters released by different neurons, and we can speak in broad terms about the kinds of functions associated with different neurotransmitters (Table 3.1). Much of what psychologists know about the functions of neurotransmitters comes from research on the effects of drugs in psychological disorders. Psychologists who take a biological perspective and focus on the physiological causes of behavior assert that psychological disorders like depression and schizophrenia are associated with imbalances in one or more neurotransmitter systems. In this perspective, psychotropic medications can help improve the symptoms associated with these disorders. Psychotropic medications are drugs that treat psychiatric symptoms by restoring neurotransmitter balance. Major Neurotransmitters and How They Affect Behavior Neurotransmitter Involved in Potential Effect on Behavior Acetylcholine Muscle action, memory Increased arousal, enhanced cognition Beta-endorphin Pain, pleasure Decreased anxiety, decreased tension Dopamine Mood, sleep, learning Increased pleasure, suppressed appetite Gamma-aminobutyric acid (GABA) Brain function, sleep Decreased anxiety, decreased tension Glutamate Memory, learning Increased learning, enhanced memory Norepinephrine Heart, intestines, alertness Increased arousal, suppressed appetite Serotonin Mood, sleep Modulated mood, suppressed appetite TABLE 3.1 Psychoactive drugs can act as agonists or antagonists for a given neurotransmitter system. Agonists are chemicals that mimic a neurotransmitter at the receptor site. An antagonist, on the other hand, blocks or impedes the normal activity of a neurotransmitter at the receptor. Agonists and antagonists represent drugs that are prescribed to correct the specific neurotransmitter imbalances underlying a person’s condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission.",
+      "selected_micro_unit_text": "82 3 • Biopsychology Neurotransmitters and Drugs There are several different types of neurotransmitters released by different neurons, and we can speak in broad terms about the kinds of functions associated with different neurotransmitters (Table 3.1). Much of what psychologists know about the functions of neurotransmitters comes from research on the effects of drugs in psychological disorders. Psychologists who take a biological perspective and focus on the physiological causes of behavior assert that psychological disorders like depression and schizophrenia are associated with imbalances in one or more neurotransmitter systems.",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0003,
+        "neutral_prob": 0.9991,
+        "entailment_prob": 0.0006,
+        "nli_time_seconds": 1.2191
+      },
+      "condition_b_probs": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 637,
+        "micro_unit_tokens": 113,
+        "micro_unit_text": "82 3 • Biopsychology Neurotransmitters and Drugs There are several different types of neurotransmitters released by different neurons, and we can speak in broad terms about the kinds of functions associated with different neurotransmitters (Table 3.1). Much of what psychologists know about the functions of neurotransmitters comes from research on the effects of drugs in psychological disorders. Psychologists who take a biological perspective and focus on the physiological causes of behavior assert that psychological disorders like depression and schizophrenia are associated with imbalances in one or more neurotransmitter systems.",
+        "micro_similarity": 0.6005,
+        "label": "neutral",
+        "contradiction_prob": 0.0005,
+        "neutral_prob": 0.9991,
+        "entailment_prob": 0.0004,
+        "nli_time_seconds": 0.3112
+      }
+    },
+    {
+      "claim_id": "41_C3",
+      "claim": "Imbalances in key neurotransmitter systems are linked to the symptoms of many psychiatric disorders.",
+      "transition": "neutral_to_neutral",
+      "case_type": "Persistent Neutral (Unresolved Evidence or High Neutral Prior)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_text": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons. In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs). By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin receptors on dendrites. Common SSRIs on the market today include Prozac, Paxil, and Zoloft. The drug LSD is structurally very similar to serotonin, and it affects the same neurons and receptors as serotonin. Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "selected_micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0007,
+        "neutral_prob": 0.9992,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.6533
+      },
+      "condition_b_probs": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 91,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.4528,
+        "label": "neutral",
+        "contradiction_prob": 0.0001,
+        "neutral_prob": 0.9996,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.2634
+      }
+    },
+    {
+      "claim_id": "41_C4",
+      "claim": "Low serotonin is linked to depression.",
+      "transition": "neutral_to_entailment",
+      "case_type": "Entailment Recovery (Premise Dilution Eliminated)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_text": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons. In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs). By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin receptors on dendrites. Common SSRIs on the market today include Prozac, Paxil, and Zoloft. The drug LSD is structurally very similar to serotonin, and it affects the same neurons and receptors as serotonin. Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "selected_micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0005,
+        "neutral_prob": 0.9939,
+        "entailment_prob": 0.0056,
+        "nli_time_seconds": 0.5695
+      },
+      "condition_b_probs": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 82,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.5711,
+        "label": "entailment",
+        "contradiction_prob": 0.0,
+        "neutral_prob": 0.006,
+        "entailment_prob": 0.994,
+        "nli_time_seconds": 0.2463
+      }
+    },
+    {
+      "claim_id": "41_C5",
+      "claim": "Excess dopamine is linked to schizophrenia.",
+      "transition": "neutral_to_entailment",
+      "case_type": "Entailment Recovery (Premise Dilution Eliminated)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_text": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons. In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs). By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin receptors on dendrites. Common SSRIs on the market today include Prozac, Paxil, and Zoloft. The drug LSD is structurally very similar to serotonin, and it affects the same neurons and receptors as serotonin. Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "selected_micro_unit_text": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons.",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0011,
+        "neutral_prob": 0.9988,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.5547
+      },
+      "condition_b_probs": {
+        "unit_index": 1,
+        "sentence_range": "3-5",
+        "micro_unit_chars": 348,
+        "micro_unit_tokens": 65,
+        "micro_unit_text": "Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons.",
+        "micro_similarity": 0.7215,
+        "label": "entailment",
+        "contradiction_prob": 0.0001,
+        "neutral_prob": 0.0027,
+        "entailment_prob": 0.9972,
+        "nli_time_seconds": 0.2409
+      }
+    },
+    {
+      "claim_id": "41_C6",
+      "claim": "Psychotropic medications work by restoring balance in neurotransmitter systems.",
+      "transition": "neutral_to_neutral",
+      "case_type": "Persistent Neutral (Unresolved Evidence or High Neutral Prior)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_text": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons. In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs). By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin receptors on dendrites. Common SSRIs on the market today include Prozac, Paxil, and Zoloft. The drug LSD is structurally very similar to serotonin, and it affects the same neurons and receptors as serotonin. Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "selected_micro_unit_text": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0014,
+        "neutral_prob": 0.9984,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.5854
+      },
+      "condition_b_probs": {
+        "unit_index": 4,
+        "sentence_range": "12-13",
+        "micro_unit_chars": 224,
+        "micro_unit_tokens": 55,
+        "micro_unit_text": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+        "micro_similarity": 0.6564,
+        "label": "neutral",
+        "contradiction_prob": 0.0,
+        "neutral_prob": 0.9996,
+        "entailment_prob": 0.0003,
+        "nli_time_seconds": 0.2262
+      }
+    },
+    {
+      "claim_id": "41_C7",
+      "claim": "Agonists mimic neurotransmitters.",
+      "transition": "neutral_to_neutral",
+      "case_type": "Persistent Neutral (Unresolved Evidence or High Neutral Prior)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_text": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons. In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs). By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin receptors on dendrites. Common SSRIs on the market today include Prozac, Paxil, and Zoloft. The drug LSD is structurally very similar to serotonin, and it affects the same neurons and receptors as serotonin. Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "selected_micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0012,
+        "neutral_prob": 0.9985,
+        "entailment_prob": 0.0003,
+        "nli_time_seconds": 0.5537
+      },
+      "condition_b_probs": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 81,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.5343,
+        "label": "neutral",
+        "contradiction_prob": 0.0008,
+        "neutral_prob": 0.9982,
+        "entailment_prob": 0.001,
+        "nli_time_seconds": 0.238
+      }
+    },
+    {
+      "claim_id": "41_C8",
+      "claim": "Antagonists block the action of neurotransmitters.",
+      "transition": "neutral_to_neutral",
+      "case_type": "Persistent Neutral (Unresolved Evidence or High Neutral Prior)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_text": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons. In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs). By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin receptors on dendrites. Common SSRIs on the market today include Prozac, Paxil, and Zoloft. The drug LSD is structurally very similar to serotonin, and it affects the same neurons and receptors as serotonin. Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "selected_micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0013,
+        "neutral_prob": 0.9985,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.5523
+      },
+      "condition_b_probs": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 84,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.5989,
+        "label": "neutral",
+        "contradiction_prob": 0.025,
+        "neutral_prob": 0.9746,
+        "entailment_prob": 0.0004,
+        "nli_time_seconds": 0.2714
+      }
+    },
+    {
+      "claim_id": "41_C9",
+      "claim": "Reuptake inhibitors prolong the presence of neurotransmitters in the synaptic cleft.",
+      "transition": "neutral_to_neutral",
+      "case_type": "Persistent Neutral (Unresolved Evidence or High Neutral Prior)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_text": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons. In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs). By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin receptors on dendrites. Common SSRIs on the market today include Prozac, Paxil, and Zoloft. The drug LSD is structurally very similar to serotonin, and it affects the same neurons and receptors as serotonin. Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "selected_micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0005,
+        "neutral_prob": 0.9992,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.6483
+      },
+      "condition_b_probs": {
+        "unit_index": 2,
+        "sentence_range": "6-8",
+        "micro_unit_chars": 460,
+        "micro_unit_tokens": 89,
+        "micro_unit_text": "In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs).",
+        "micro_similarity": 0.6717,
+        "label": "neutral",
+        "contradiction_prob": 0.0,
+        "neutral_prob": 0.9968,
+        "entailment_prob": 0.0031,
+        "nli_time_seconds": 0.2709
+      }
+    },
+    {
+      "claim_id": "41_C10",
+      "claim": "Targeting neurotransmitter systems is a primary strategy for treating mental-health conditions.",
+      "transition": "neutral_to_neutral",
+      "case_type": "Persistent Neutral (Unresolved Evidence or High Neutral Prior)",
+      "parent_chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "full_chunk_text": "condition. For example, Parkinson's disease, a progressive nervous system disorder, is associated with low levels of dopamine. Therefore, a common treatment strategy for Parkinson's disease involves using dopamine agonists, which mimic the effects of dopamine by binding to dopamine receptors. Certain symptoms of schizophrenia are associated with overactive dopamine neurotransmission. The antipsychotics used to treat these symptoms are antagonists for dopamine—they block dopamine’s effects by binding its receptors without activating them. Thus, they prevent dopamine released by one neuron from signaling information to adjacent neurons. In contrast to agonists and antagonists, which both operate by binding to receptor sites, reuptake inhibitors prevent unused neurotransmitters from being transported back to the neuron. This allows neurotransmitters to remain active in the synaptic cleft for longer durations, increasing their effectiveness. Depression, which has been consistently linked with reduced serotonin levels, is commonly treated with selective serotonin reuptake inhibitors (SSRIs). By preventing reuptake, SSRIs strengthen the effect of serotonin, giving it more time to interact with serotonin receptors on dendrites. Common SSRIs on the market today include Prozac, Paxil, and Zoloft. The drug LSD is structurally very similar to serotonin, and it affects the same neurons and receptors as serotonin. Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "selected_micro_unit_text": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+      "condition_a_probs": {
+        "label": "neutral",
+        "contradiction_prob": 0.0033,
+        "neutral_prob": 0.9964,
+        "entailment_prob": 0.0002,
+        "nli_time_seconds": 0.5807
+      },
+      "condition_b_probs": {
+        "unit_index": 4,
+        "sentence_range": "12-13",
+        "micro_unit_chars": 224,
+        "micro_unit_tokens": 58,
+        "micro_unit_text": "Psychotropic drugs are not instant solutions for people suffering from psychological disorders. Often, an individual must take a drug for several weeks before seeing improvement, and many 3.2 • Cells of the Nervous System 83",
+        "micro_similarity": 0.5916,
+        "label": "neutral",
+        "contradiction_prob": 0.0001,
+        "neutral_prob": 0.9996,
+        "entailment_prob": 0.0003,
+        "nli_time_seconds": 0.2219
+      }
+    }
+  ],
+  "conclusion": {
+    "did_splitting_reduce_neutral_problem": "YES",
+    "entailment_recoveries_count": 3,
+    "false_contradictions_count": 0,
+    "context_loss_count": 0,
+    "was_micro_unit_faster": "YES",
+    "speedup_factor": 2.86,
+    "justification": "Diagnostic evidence indicates that splitting the parent chunk into 3-sentence micro-units successfully reduced premise dilution, recovering 3 Entailment predictions from previously Neutral baselines without introducing any context-loss cases. This strongly justifies testing smaller evidence passages across a wider benchmark."
+  }
+}

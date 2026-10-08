@@ -1,0 +1,193 @@
+{
+  "index": 19,
+  "question_id": "19",
+  "question_text": "What is client-centered therapy?",
+  "generated_answer": "Client‑centered therapy, developed by Carl Rogers, is a nondirective, humanistic form of psychotherapy in which the client leads the session and works through their own issues. The therapist provides a supportive environment by practicing active listening, unconditional positive regard, genuineness, and empathy, allowing the client to explore feelings and conflicts without interpretation or advice. This approach emphasizes the client’s present and future growth rather than past unconscious material.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_11",
+      "section": "16.2 Types of Treatment",
+      "pages": "624-624",
+      "hybrid_score": 0.0328,
+      "token_count": 598,
+      "is_truncated": false,
+      "raw_logits": [
+        -5.054,
+        3.6643,
+        1.6998
+      ],
+      "entailment_prob": 0.8769,
+      "neutral_prob": 0.123,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.8897
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+      "section": "1.2 History of Psychology",
+      "pages": "26-27",
+      "hybrid_score": 0.0325,
+      "token_count": 638,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.3339,
+        2.0962,
+        3.0986
+      ],
+      "entailment_prob": 0.2683,
+      "neutral_prob": 0.7312,
+      "contradiction_prob": 0.0004,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0566
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_8",
+      "section": "1.3 Contemporary Psychology",
+      "pages": "37-37",
+      "hybrid_score": 0.0315,
+      "token_count": 223,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.7205,
+        0.0807,
+        4.3623
+      ],
+      "entailment_prob": 0.0136,
+      "neutral_prob": 0.9856,
+      "contradiction_prob": 0.0008,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.3733
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "section": "16.5 The Sociocultural Model and Therapy Utilization",
+      "pages": "634-635",
+      "hybrid_score": 0.0156,
+      "token_count": 806,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.771,
+        -0.5851,
+        3.8732
+      ],
+      "entailment_prob": 0.0114,
+      "neutral_prob": 0.9851,
+      "contradiction_prob": 0.0035,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.4745
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "therapy_and_treatment_review_questions_chunk_1",
+      "section": "Review Questions",
+      "pages": "640-641",
+      "hybrid_score": 0.0156,
+      "token_count": 612,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.7995,
+        -1.712,
+        4.4019
+      ],
+      "entailment_prob": 0.0022,
+      "neutral_prob": 0.9923,
+      "contradiction_prob": 0.0055,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0038
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_11",
+      "entailment_prob": 0.8769,
+      "neutral_prob": 0.123,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+      "entailment_prob": 0.2683,
+      "neutral_prob": 0.7312,
+      "contradiction_prob": 0.0004,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_8",
+      "entailment_prob": 0.0136,
+      "neutral_prob": 0.9856,
+      "contradiction_prob": 0.0008,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 4,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "entailment_prob": 0.0114,
+      "neutral_prob": 0.9851,
+      "contradiction_prob": 0.0035,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "therapy_and_treatment_review_questions_chunk_1",
+      "entailment_prob": 0.0022,
+      "neutral_prob": 0.9923,
+      "contradiction_prob": 0.0055,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_11",
+    "entailment_prob": 0.8769,
+    "neutral_prob": 0.123,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      2
+    ],
+    "selected_chunk_ids": [
+      "therapy_and_treatment_types_of_treatment_chunk_11",
+      "introduction_to_psychology_history_of_psychology_chunk_7"
+    ],
+    "token_count": 1147,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.6088,
+      4.0167,
+      0.8121
+    ],
+    "entailment_prob": 0.9608,
+    "neutral_prob": 0.039,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.1585
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.7979,
+    "phase_b_top2_sec": 2.1585,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 6.9564,
+    "total_question_wall_sec": 6.9574
+  }
+}

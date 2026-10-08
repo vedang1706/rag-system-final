@@ -1,0 +1,216 @@
+{
+  "index": 41,
+  "question_id": "41",
+  "question_text": "What is the role of neurotransmitters in mental health?",
+  "generated_answer": "Neurotransmitters are the chemical messengers that allow neurons to communicate across synapses, and their balance is essential for normal brain function.  Imbalances in key systems—such as low serotonin in depression, excess dopamine in schizophrenia, or low dopamine in Parkinson’s disease—are linked to the symptoms of these disorders.  Psychotropic medications work by correcting these imbalances: agonists mimic neurotransmitters, antagonists block them, and reuptake inhibitors prolong their action in the synaptic cleft.  Thus, neurotransmitters play a central role in the biological basis of mental health and in the therapeutic action of psychiatric drugs.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "section": "3.2 Cells of the Nervous System",
+      "pages": "94-95",
+      "hybrid_score": 0.0313,
+      "token_count": 696,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.2735,
+        0.3551,
+        4.2429
+      ],
+      "entailment_prob": 0.0201,
+      "neutral_prob": 0.9794,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3078
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "section": "3.2 Cells of the Nervous System",
+      "pages": "95-95",
+      "hybrid_score": 0.0301,
+      "token_count": 429,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.7439,
+        2.5826,
+        2.9162
+      ],
+      "entailment_prob": 0.4172,
+      "neutral_prob": 0.5825,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7222
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "memory_parts_of_the_brain_involved_with_memory_chunk_3",
+      "section": "8.2 Parts of the Brain Involved with Memory",
+      "pages": "269-269",
+      "hybrid_score": 0.0167,
+      "token_count": 740,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.2363,
+        1.0888,
+        4.815
+      ],
+      "entailment_prob": 0.0235,
+      "neutral_prob": 0.9764,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3728
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_2",
+      "section": "3.2 Cells of the Nervous System",
+      "pages": "91-92",
+      "hybrid_score": 0.0161,
+      "token_count": 687,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.7391,
+        0.1516,
+        5.5289
+      ],
+      "entailment_prob": 0.0046,
+      "neutral_prob": 0.9953,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.4846
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_5",
+      "section": "3.2 Cells of the Nervous System",
+      "pages": "93-94",
+      "hybrid_score": 0.0159,
+      "token_count": 666,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.9486,
+        0.0311,
+        4.6452
+      ],
+      "entailment_prob": 0.0098,
+      "neutral_prob": 0.9897,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1295
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 2,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "entailment_prob": 0.4172,
+      "neutral_prob": 0.5825,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 3,
+      "chunk_id": "memory_parts_of_the_brain_involved_with_memory_chunk_3",
+      "entailment_prob": 0.0235,
+      "neutral_prob": 0.9764,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 1,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "entailment_prob": 0.0201,
+      "neutral_prob": 0.9794,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 5,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_5",
+      "entailment_prob": 0.0098,
+      "neutral_prob": 0.9897,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 4,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_2",
+      "entailment_prob": 0.0046,
+      "neutral_prob": 0.9953,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 2,
+    "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_7",
+    "entailment_prob": 0.4172,
+    "neutral_prob": 0.5825,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      3
+    ],
+    "selected_chunk_ids": [
+      "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "memory_parts_of_the_brain_involved_with_memory_chunk_3"
+    ],
+    "token_count": 1040,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.7833,
+      2.5498,
+      3.0549
+    ],
+    "entailment_prob": 0.3762,
+    "neutral_prob": 0.6235,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "neutral",
+    "eval_time_sec": 2.066
+  },
+  "top_3_required": true,
+  "top_3_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      2,
+      3
+    ],
+    "selected_chunk_ids": [
+      "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "biopsychology_cells_of_the_nervous_system_chunk_7",
+      "memory_parts_of_the_brain_involved_with_memory_chunk_3"
+    ],
+    "token_count": 1607,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.3932,
+      3.4985,
+      1.1992
+    ],
+    "entailment_prob": 0.9085,
+    "neutral_prob": 0.0912,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "entailment",
+    "eval_time_sec": 3.699
+  },
+  "final_verdict": "ENTAILED_BY_TOP3",
+  "final_label": "entailment",
+  "combination_used": "TOP_3",
+  "timing": {
+    "phase_a_individual_sec": 6.0169,
+    "phase_b_top2_sec": 2.066,
+    "phase_c_top3_sec": 3.699,
+    "total_nli_inference_sec": 11.7819,
+    "total_question_wall_sec": 11.7832
+  }
+}

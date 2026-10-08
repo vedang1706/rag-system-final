@@ -1,0 +1,193 @@
+{
+  "index": 6,
+  "question_id": "6",
+  "question_text": "What are the three stages of memory?",
+  "generated_answer": "The three stages of memory are **sensory memory**, **short‑term memory**, and **long‑term memory**. These stages represent the progression of information from initial sensory input, through temporary holding, to permanent storage.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "memory_how_memory_functions_chunk_3",
+      "section": "8.1 How Memory Functions",
+      "pages": "262-262",
+      "hybrid_score": 0.0317,
+      "token_count": 627,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.4595,
+        4.0774,
+        -0.1784
+      ],
+      "entailment_prob": 0.9855,
+      "neutral_prob": 0.014,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.8371
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "memory_how_memory_functions_chunk_0",
+      "section": "8.1 How Memory Functions",
+      "pages": "260-261",
+      "hybrid_score": 0.0302,
+      "token_count": 587,
+      "is_truncated": false,
+      "raw_logits": [
+        0.1536,
+        -1.8462,
+        2.9743
+      ],
+      "entailment_prob": 0.0076,
+      "neutral_prob": 0.9367,
+      "contradiction_prob": 0.0558,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.8
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_0",
+      "section": "4.3 Stages of Sleep",
+      "pages": "129-129",
+      "hybrid_score": 0.0167,
+      "token_count": 580,
+      "is_truncated": false,
+      "raw_logits": [
+        0.8284,
+        -2.5807,
+        3.3151
+      ],
+      "entailment_prob": 0.0025,
+      "neutral_prob": 0.9209,
+      "contradiction_prob": 0.0766,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7497
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "lifespan_development_review_questions_chunk_0",
+      "section": "Review Questions",
+      "pages": "329-329",
+      "hybrid_score": 0.0164,
+      "token_count": 576,
+      "is_truncated": false,
+      "raw_logits": [
+        0.0282,
+        -2.2815,
+        4.0975
+      ],
+      "entailment_prob": 0.0017,
+      "neutral_prob": 0.9816,
+      "contradiction_prob": 0.0168,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7561
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "lifespan_development_stages_of_development_chunk_0",
+      "section": "9.3 Stages of Development",
+      "pages": "304-305",
+      "hybrid_score": 0.0161,
+      "token_count": 600,
+      "is_truncated": false,
+      "raw_logits": [
+        1.0096,
+        -2.5869,
+        3.1681
+      ],
+      "entailment_prob": 0.0028,
+      "neutral_prob": 0.8939,
+      "contradiction_prob": 0.1032,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.951
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "memory_how_memory_functions_chunk_3",
+      "entailment_prob": 0.9855,
+      "neutral_prob": 0.014,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 2,
+      "chunk_id": "memory_how_memory_functions_chunk_0",
+      "entailment_prob": 0.0076,
+      "neutral_prob": 0.9367,
+      "contradiction_prob": 0.0558,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 5,
+      "chunk_id": "lifespan_development_stages_of_development_chunk_0",
+      "entailment_prob": 0.0028,
+      "neutral_prob": 0.8939,
+      "contradiction_prob": 0.1032,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 3,
+      "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_0",
+      "entailment_prob": 0.0025,
+      "neutral_prob": 0.9209,
+      "contradiction_prob": 0.0766,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 4,
+      "chunk_id": "lifespan_development_review_questions_chunk_0",
+      "entailment_prob": 0.0017,
+      "neutral_prob": 0.9816,
+      "contradiction_prob": 0.0168,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "memory_how_memory_functions_chunk_3",
+    "entailment_prob": 0.9855,
+    "neutral_prob": 0.014,
+    "contradiction_prob": 0.0005,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      2
+    ],
+    "selected_chunk_ids": [
+      "memory_how_memory_functions_chunk_3",
+      "memory_how_memory_functions_chunk_0"
+    ],
+    "token_count": 1169,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.1456,
+      3.3595,
+      0.1687
+    ],
+    "entailment_prob": 0.9591,
+    "neutral_prob": 0.0395,
+    "contradiction_prob": 0.0014,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.9003
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.0939,
+    "phase_b_top2_sec": 1.9003,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 5.9942,
+    "total_question_wall_sec": 5.995
+  }
+}

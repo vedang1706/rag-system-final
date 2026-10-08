@@ -1,0 +1,193 @@
+{
+  "index": 49,
+  "question_id": "49",
+  "question_text": "What is the impact of cultural diversity on psychological research?",
+  "generated_answer": "Cultural diversity shows that many psychological constructs and assessment tools developed in Western contexts may not be valid or reliable in other cultures, requiring culturally sensitive methods such as the indigenous or combined approaches. It also reveals that cultural values—e.g., collectivism versus individualism—shape personality traits, help‑seeking behaviors, and treatment utilization, leading to disparities in mental‑health services. Consequently, researchers must incorporate cultural norms, language, and context into study designs to avoid bias and enhance the generalizability of findings.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "section": "16.5 The Sociocultural Model and Therapy Utilization",
+      "pages": "634-635",
+      "hybrid_score": 0.0308,
+      "token_count": 820,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.1995,
+        1.4779,
+        4.0579
+      ],
+      "entailment_prob": 0.0704,
+      "neutral_prob": 0.9293,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.5774
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_0",
+      "section": "1.3 Contemporary Psychology",
+      "pages": "30-30",
+      "hybrid_score": 0.03,
+      "token_count": 651,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.1071,
+        -1.2226,
+        5.7762
+      ],
+      "entailment_prob": 0.0009,
+      "neutral_prob": 0.9987,
+      "contradiction_prob": 0.0004,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1288
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "industrialorganizational_psychology_organizational_psychology_the_social_dimension_of_work_chunk_10",
+      "section": "13.3 Organizational Psychology: The Social Dimension of Work",
+      "pages": "483-484",
+      "hybrid_score": 0.0286,
+      "token_count": 615,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.3835,
+        -1.3147,
+        4.4447
+      ],
+      "entailment_prob": 0.0031,
+      "neutral_prob": 0.9939,
+      "contradiction_prob": 0.0029,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1586
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "industrialorganizational_psychology_organizational_psychology_the_social_dimension_of_work_chunk_11",
+      "section": "13.3 Organizational Psychology: The Social Dimension of Work",
+      "pages": "484-484",
+      "hybrid_score": 0.0167,
+      "token_count": 654,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.1796,
+        -1.5744,
+        4.6997
+      ],
+      "entailment_prob": 0.0019,
+      "neutral_prob": 0.9953,
+      "contradiction_prob": 0.0028,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3359
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "personality_personality_assessment_chunk_0",
+      "section": "11.9 Personality Assessment",
+      "pages": "398-398",
+      "hybrid_score": 0.0164,
+      "token_count": 735,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.4866,
+        3.1675,
+        1.6694
+      ],
+      "entailment_prob": 0.817,
+      "neutral_prob": 0.1826,
+      "contradiction_prob": 0.0004,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.3643
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 5,
+      "chunk_id": "personality_personality_assessment_chunk_0",
+      "entailment_prob": 0.817,
+      "neutral_prob": 0.1826,
+      "contradiction_prob": 0.0004,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 1,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "entailment_prob": 0.0704,
+      "neutral_prob": 0.9293,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "industrialorganizational_psychology_organizational_psychology_the_social_dimension_of_work_chunk_10",
+      "entailment_prob": 0.0031,
+      "neutral_prob": 0.9939,
+      "contradiction_prob": 0.0029,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 4,
+      "chunk_id": "industrialorganizational_psychology_organizational_psychology_the_social_dimension_of_work_chunk_11",
+      "entailment_prob": 0.0019,
+      "neutral_prob": 0.9953,
+      "contradiction_prob": 0.0028,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_0",
+      "entailment_prob": 0.0009,
+      "neutral_prob": 0.9987,
+      "contradiction_prob": 0.0004,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 5,
+    "chunk_id": "personality_personality_assessment_chunk_0",
+    "entailment_prob": 0.817,
+    "neutral_prob": 0.1826,
+    "contradiction_prob": 0.0004,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      5
+    ],
+    "selected_chunk_ids": [
+      "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "personality_personality_assessment_chunk_0"
+    ],
+    "token_count": 1452,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.5259,
+      3.8946,
+      0.8169
+    ],
+    "entailment_prob": 0.9558,
+    "neutral_prob": 0.044,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment",
+    "eval_time_sec": 3.312
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 6.565,
+    "phase_b_top2_sec": 3.312,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 9.877,
+    "total_question_wall_sec": 9.8781
+  }
+}

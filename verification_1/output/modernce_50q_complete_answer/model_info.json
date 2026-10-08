@@ -1,0 +1,13 @@
+{
+  "model_name": "dleemiller/ModernCE-base-nli",
+  "base_architecture": "ModernBERT (Cross-Encoder sequence classification)",
+  "max_sequence_length": 2048,
+  "device": "cpu",
+  "verified_label_mapping": {
+    "0": "contradiction",
+    "1": "entailment",
+    "2": "neutral"
+  },
+  "model_load_time_sec": 10.141,
+  "model_warmup_time_sec": 0.209
+}

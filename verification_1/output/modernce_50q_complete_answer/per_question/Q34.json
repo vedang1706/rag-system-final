@@ -1,0 +1,193 @@
+{
+  "index": 34,
+  "question_id": "34",
+  "question_text": "What is feminist psychology?",
+  "generated_answer": "Feminist psychology is an approach that critiques the male bias historically present in psychological research and theory. It seeks to re‑evaluate and highlight women’s contributions to the field, study psychological gender differences, and question the influence of male cultural assumptions on knowledge about women. The goal is to develop theories and research that are free from these biases and more inclusive of diverse perspectives.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_9",
+      "section": "1.2 History of Psychology",
+      "pages": "28-28",
+      "hybrid_score": 0.0331,
+      "token_count": 616,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.3918,
+        4.1662,
+        0.3606
+      ],
+      "entailment_prob": 0.9781,
+      "neutral_prob": 0.0218,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.026
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_1",
+      "section": "1.1 What Is Psychology?",
+      "pages": "20-20",
+      "hybrid_score": 0.029,
+      "token_count": 406,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.1028,
+        -0.5798,
+        4.5657
+      ],
+      "entailment_prob": 0.0058,
+      "neutral_prob": 0.993,
+      "contradiction_prob": 0.0013,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7601
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_summary_chunk_1",
+      "section": "Key Terms",
+      "pages": "42-42",
+      "hybrid_score": 0.0164,
+      "token_count": 227,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.5831,
+        -0.7246,
+        3.9531
+      ],
+      "entailment_prob": 0.0092,
+      "neutral_prob": 0.9869,
+      "contradiction_prob": 0.0039,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.4021
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "social_psychology_what_is_social_psychology_chunk_7",
+      "section": "12.1 What Is Social Psychology?",
+      "pages": "417-417",
+      "hybrid_score": 0.0161,
+      "token_count": 252,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.6964,
+        -0.4351,
+        3.4527
+      ],
+      "entailment_prob": 0.02,
+      "neutral_prob": 0.9744,
+      "contradiction_prob": 0.0057,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.4238
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_8",
+      "section": "13.1 What Is Industrial and Organizational Psychology?",
+      "pages": "465-465",
+      "hybrid_score": 0.0159,
+      "token_count": 193,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.7394,
+        -0.9899,
+        2.956
+      ],
+      "entailment_prob": 0.0185,
+      "neutral_prob": 0.9577,
+      "contradiction_prob": 0.0238,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.3262
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_9",
+      "entailment_prob": 0.9781,
+      "neutral_prob": 0.0218,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "social_psychology_what_is_social_psychology_chunk_7",
+      "entailment_prob": 0.02,
+      "neutral_prob": 0.9744,
+      "contradiction_prob": 0.0057,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 5,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_8",
+      "entailment_prob": 0.0185,
+      "neutral_prob": 0.9577,
+      "contradiction_prob": 0.0238,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_summary_chunk_1",
+      "entailment_prob": 0.0092,
+      "neutral_prob": 0.9869,
+      "contradiction_prob": 0.0039,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_1",
+      "entailment_prob": 0.0058,
+      "neutral_prob": 0.993,
+      "contradiction_prob": 0.0013,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_9",
+    "entailment_prob": 0.9781,
+    "neutral_prob": 0.0218,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      4
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_history_of_psychology_chunk_9",
+      "social_psychology_what_is_social_psychology_chunk_7"
+    ],
+    "token_count": 791,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.3734,
+      3.3501,
+      1.1795
+    ],
+    "entailment_prob": 0.8972,
+    "neutral_prob": 0.1024,
+    "contradiction_prob": 0.0004,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.6503
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 2.9382,
+    "phase_b_top2_sec": 1.6503,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 4.5885,
+    "total_question_wall_sec": 4.5893
+  }
+}

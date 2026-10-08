@@ -1,0 +1,193 @@
+{
+  "index": 37,
+  "question_id": "37",
+  "question_text": "What is stress in psychology?",
+  "generated_answer": "In psychology, stress is best understood as a process in which an individual perceives an event or situation as overwhelming or threatening and then responds to it. This appraisal shapes the physiological, cognitive, and behavioral reactions that follow. Stress can be both a response to external demands (stimulus‑based) and a bodily reaction to those demands (response‑based), but the process definition emphasizes the role of personal judgment in determining whether a situation is stressful.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "stress_lifestyle_and_health_what_is_stress_chunk_0",
+      "section": "14.1 What Is Stress?",
+      "pages": "496-496",
+      "hybrid_score": 0.0328,
+      "token_count": 735,
+      "is_truncated": false,
+      "raw_logits": [
+        -5.0202,
+        2.5996,
+        3.3449
+      ],
+      "entailment_prob": 0.3218,
+      "neutral_prob": 0.678,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.4291
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "stress_lifestyle_and_health_what_is_stress_chunk_3",
+      "section": "14.1 What Is Stress?",
+      "pages": "498-499",
+      "hybrid_score": 0.0323,
+      "token_count": 649,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.3303,
+        0.1793,
+        3.3028
+      ],
+      "entailment_prob": 0.042,
+      "neutral_prob": 0.9546,
+      "contradiction_prob": 0.0034,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1378
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "stress_lifestyle_and_health_what_is_stress_chunk_4",
+      "section": "14.1 What Is Stress?",
+      "pages": "499-500",
+      "hybrid_score": 0.0297,
+      "token_count": 680,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.0084,
+        -0.3278,
+        2.3036
+      ],
+      "entailment_prob": 0.0649,
+      "neutral_prob": 0.9022,
+      "contradiction_prob": 0.0329,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3423
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "stress_lifestyle_and_health_regulation_of_stress_chunk_0",
+      "section": "14.4 Regulation of Stress",
+      "pages": "524-524",
+      "hybrid_score": 0.0282,
+      "token_count": 641,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.7581,
+        0.8105,
+        2.8045
+      ],
+      "entailment_prob": 0.1194,
+      "neutral_prob": 0.8772,
+      "contradiction_prob": 0.0034,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.2663
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_8",
+      "section": "13.1 What Is Industrial and Organizational Psychology?",
+      "pages": "465-465",
+      "hybrid_score": 0.0167,
+      "token_count": 206,
+      "is_truncated": false,
+      "raw_logits": [
+        1.2403,
+        -1.4936,
+        1.1265
+      ],
+      "entailment_prob": 0.0332,
+      "neutral_prob": 0.4559,
+      "contradiction_prob": 0.5109,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.3781
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "stress_lifestyle_and_health_what_is_stress_chunk_0",
+      "entailment_prob": 0.3218,
+      "neutral_prob": 0.678,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "stress_lifestyle_and_health_regulation_of_stress_chunk_0",
+      "entailment_prob": 0.1194,
+      "neutral_prob": 0.8772,
+      "contradiction_prob": 0.0034,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "stress_lifestyle_and_health_what_is_stress_chunk_4",
+      "entailment_prob": 0.0649,
+      "neutral_prob": 0.9022,
+      "contradiction_prob": 0.0329,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "stress_lifestyle_and_health_what_is_stress_chunk_3",
+      "entailment_prob": 0.042,
+      "neutral_prob": 0.9546,
+      "contradiction_prob": 0.0034,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_8",
+      "entailment_prob": 0.0332,
+      "neutral_prob": 0.4559,
+      "contradiction_prob": 0.5109,
+      "predicted_label": "contradiction"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "stress_lifestyle_and_health_what_is_stress_chunk_0",
+    "entailment_prob": 0.3218,
+    "neutral_prob": 0.678,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      4
+    ],
+    "selected_chunk_ids": [
+      "stress_lifestyle_and_health_what_is_stress_chunk_0",
+      "stress_lifestyle_and_health_regulation_of_stress_chunk_0"
+    ],
+    "token_count": 1286,
+    "is_truncated": false,
+    "raw_logits": [
+      -5.3004,
+      3.6469,
+      1.9952
+    ],
+    "entailment_prob": 0.839,
+    "neutral_prob": 0.1609,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.6637
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.5536,
+    "phase_b_top2_sec": 2.6637,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 8.2173,
+    "total_question_wall_sec": 8.2184
+  }
+}

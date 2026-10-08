@@ -1,0 +1,193 @@
+{
+  "index": 50,
+  "question_id": "50",
+  "question_text": "What is the role of critical thinking in psychology?",
+  "generated_answer": "Critical thinking in psychology equips students to evaluate information rigorously, recognizing biases and applying logical reasoning. It fosters scientific literacy, enabling students to assess the reliability of data and research findings. By questioning assumptions and observing evidence, students better understand how biology, environment, and experience shape behavior. This skill set also improves communication and prepares students to critically assess diverse sources in both academic and applied contexts.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_0",
+      "section": "1.2 History of Psychology",
+      "pages": "21-21",
+      "hybrid_score": 0.0167,
+      "token_count": 622,
+      "is_truncated": false,
+      "raw_logits": [
+        -5.7106,
+        4.0338,
+        1.8881
+      ],
+      "entailment_prob": 0.8952,
+      "neutral_prob": 0.1047,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.0367
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_personal_application_questions_chunk_0",
+      "section": "Critical Thinking Questions",
+      "pages": "46-46",
+      "hybrid_score": 0.0167,
+      "token_count": 390,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.6113,
+        -0.0889,
+        4.4984
+      ],
+      "entailment_prob": 0.0101,
+      "neutral_prob": 0.9891,
+      "contradiction_prob": 0.0008,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7138
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_personal_application_questions_chunk_0",
+      "section": "Personal Application Questions",
+      "pages": "46-46",
+      "hybrid_score": 0.0164,
+      "token_count": 390,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.6113,
+        -0.0889,
+        4.4984
+      ],
+      "entailment_prob": 0.0101,
+      "neutral_prob": 0.9891,
+      "contradiction_prob": 0.0008,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.6354
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "industrialorganizational_psychology_personal_application_questions_chunk_0",
+      "section": "Critical Thinking Questions",
+      "pages": "493-493",
+      "hybrid_score": 0.0161,
+      "token_count": 464,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.5023,
+        -0.0158,
+        4.0233
+      ],
+      "entailment_prob": 0.0173,
+      "neutral_prob": 0.9813,
+      "contradiction_prob": 0.0014,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7399
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "thinking_and_intelligence_introduction_chunk_0",
+      "section": "Chapter Outline",
+      "pages": "225-225",
+      "hybrid_score": 0.0159,
+      "token_count": 494,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.3787,
+        -0.5948,
+        5.0426
+      ],
+      "entailment_prob": 0.0035,
+      "neutral_prob": 0.9959,
+      "contradiction_prob": 0.0006,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0102
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_0",
+      "entailment_prob": 0.8952,
+      "neutral_prob": 0.1047,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "industrialorganizational_psychology_personal_application_questions_chunk_0",
+      "entailment_prob": 0.0173,
+      "neutral_prob": 0.9813,
+      "contradiction_prob": 0.0014,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_personal_application_questions_chunk_0",
+      "entailment_prob": 0.0101,
+      "neutral_prob": 0.9891,
+      "contradiction_prob": 0.0008,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_personal_application_questions_chunk_0",
+      "entailment_prob": 0.0101,
+      "neutral_prob": 0.9891,
+      "contradiction_prob": 0.0008,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "thinking_and_intelligence_introduction_chunk_0",
+      "entailment_prob": 0.0035,
+      "neutral_prob": 0.9959,
+      "contradiction_prob": 0.0006,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_0",
+    "entailment_prob": 0.8952,
+    "neutral_prob": 0.1047,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      4
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_history_of_psychology_chunk_0",
+      "industrialorganizational_psychology_personal_application_questions_chunk_0"
+    ],
+    "token_count": 1006,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.7285,
+      3.6603,
+      1.3491
+    ],
+    "entailment_prob": 0.9096,
+    "neutral_prob": 0.0902,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.0252
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.136,
+    "phase_b_top2_sec": 2.0252,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 6.1612,
+    "total_question_wall_sec": 6.1622
+  }
+}

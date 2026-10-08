@@ -1,0 +1,193 @@
+{
+  "index": 7,
+  "question_id": "7",
+  "question_text": "What are the key components of emotion?",
+  "generated_answer": "Emotion is understood as a combination of three core components: physiological arousal (e.g., heart rate, sweating), psychological appraisal (the cognitive evaluation of a stimulus), and subjective experience (the feeling or conscious awareness of the emotion). These elements interact to produce the full emotional response.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "emotion_and_motivation_emotion_chunk_2",
+      "section": "10.4 Emotion",
+      "pages": "355-357",
+      "hybrid_score": 0.0311,
+      "token_count": 602,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.3424,
+        2.3772,
+        1.446
+      ],
+      "entailment_prob": 0.7156,
+      "neutral_prob": 0.282,
+      "contradiction_prob": 0.0023,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.8072
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "emotion_and_motivation_emotion_chunk_1",
+      "section": "10.4 Emotion",
+      "pages": "354-355",
+      "hybrid_score": 0.0284,
+      "token_count": 574,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.4972,
+        1.412,
+        3.1261
+      ],
+      "entailment_prob": 0.1525,
+      "neutral_prob": 0.8464,
+      "contradiction_prob": 0.0011,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9911
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "social_psychology_key_terms_chunk_1",
+      "section": "Key Terms",
+      "pages": "448-448",
+      "hybrid_score": 0.0167,
+      "token_count": 117,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.9968,
+        -0.8722,
+        3.2437
+      ],
+      "entailment_prob": 0.0158,
+      "neutral_prob": 0.9702,
+      "contradiction_prob": 0.014,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.1923
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "emotion_and_motivation_key_terms_chunk_0",
+      "section": "Key Terms",
+      "pages": "365-365",
+      "hybrid_score": 0.0164,
+      "token_count": 670,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.7689,
+        2.2881,
+        2.1008
+      ],
+      "entailment_prob": 0.546,
+      "neutral_prob": 0.4527,
+      "contradiction_prob": 0.0013,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.8961
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "emotion_and_motivation_emotion_chunk_7",
+      "section": "10.4 Emotion",
+      "pages": "359-360",
+      "hybrid_score": 0.0161,
+      "token_count": 680,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.4303,
+        -0.0854,
+        3.9761
+      ],
+      "entailment_prob": 0.0169,
+      "neutral_prob": 0.9815,
+      "contradiction_prob": 0.0016,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9198
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "emotion_and_motivation_emotion_chunk_2",
+      "entailment_prob": 0.7156,
+      "neutral_prob": 0.282,
+      "contradiction_prob": 0.0023,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "emotion_and_motivation_key_terms_chunk_0",
+      "entailment_prob": 0.546,
+      "neutral_prob": 0.4527,
+      "contradiction_prob": 0.0013,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 2,
+      "chunk_id": "emotion_and_motivation_emotion_chunk_1",
+      "entailment_prob": 0.1525,
+      "neutral_prob": 0.8464,
+      "contradiction_prob": 0.0011,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 5,
+      "chunk_id": "emotion_and_motivation_emotion_chunk_7",
+      "entailment_prob": 0.0169,
+      "neutral_prob": 0.9815,
+      "contradiction_prob": 0.0016,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 3,
+      "chunk_id": "social_psychology_key_terms_chunk_1",
+      "entailment_prob": 0.0158,
+      "neutral_prob": 0.9702,
+      "contradiction_prob": 0.014,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "emotion_and_motivation_emotion_chunk_2",
+    "entailment_prob": 0.7156,
+    "neutral_prob": 0.282,
+    "contradiction_prob": 0.0023,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      4
+    ],
+    "selected_chunk_ids": [
+      "emotion_and_motivation_emotion_chunk_2",
+      "emotion_and_motivation_key_terms_chunk_0"
+    ],
+    "token_count": 1214,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.3014,
+      2.7581,
+      0.8909
+    ],
+    "entailment_prob": 0.8644,
+    "neutral_prob": 0.1336,
+    "contradiction_prob": 0.002,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.1027
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 3.8065,
+    "phase_b_top2_sec": 2.1027,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 5.9092,
+    "total_question_wall_sec": 5.9099
+  }
+}

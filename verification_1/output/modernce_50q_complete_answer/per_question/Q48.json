@@ -1,0 +1,216 @@
+{
+  "index": 48,
+  "question_id": "48",
+  "question_text": "What is the difference between mood disorders and personality disorders?",
+  "generated_answer": "Not found in the provided textbook.",
+  "answer_type": "ABSTENTION",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "psychological_disorders_mood_and_related_disorders_chunk_1",
+      "section": "15.7 Mood and Related Disorders",
+      "pages": "570-571",
+      "hybrid_score": 0.032,
+      "token_count": 536,
+      "is_truncated": false,
+      "raw_logits": [
+        5.3008,
+        -5.0945,
+        1.4607
+      ],
+      "entailment_prob": 0.0,
+      "neutral_prob": 0.021,
+      "contradiction_prob": 0.9789,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.8707
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "psychological_disorders_mood_and_related_disorders_chunk_2",
+      "section": "15.7 Mood and Related Disorders",
+      "pages": "571-572",
+      "hybrid_score": 0.0286,
+      "token_count": 615,
+      "is_truncated": false,
+      "raw_logits": [
+        3.2282,
+        -4.0036,
+        2.2195
+      ],
+      "entailment_prob": 0.0005,
+      "neutral_prob": 0.2671,
+      "contradiction_prob": 0.7324,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 1.2278
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "psychological_disorders_mood_and_related_disorders_chunk_6",
+      "section": "15.7 Mood and Related Disorders",
+      "pages": "573-575",
+      "hybrid_score": 0.0284,
+      "token_count": 752,
+      "is_truncated": false,
+      "raw_logits": [
+        4.2356,
+        -3.7813,
+        1.0821
+      ],
+      "entailment_prob": 0.0003,
+      "neutral_prob": 0.0409,
+      "contradiction_prob": 0.9587,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 1.491
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "psychological_disorders_introduction_chunk_0",
+      "section": "Chapter 15 Psychological Disorders",
+      "pages": "547-547",
+      "hybrid_score": 0.0167,
+      "token_count": 327,
+      "is_truncated": false,
+      "raw_logits": [
+        5.1225,
+        -3.0487,
+        -0.3339
+      ],
+      "entailment_prob": 0.0003,
+      "neutral_prob": 0.0042,
+      "contradiction_prob": 0.9955,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.6835
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "psychological_disorders_introduction_chunk_0",
+      "section": "Chapter Outline",
+      "pages": "547-547",
+      "hybrid_score": 0.0164,
+      "token_count": 327,
+      "is_truncated": false,
+      "raw_logits": [
+        5.1225,
+        -3.0487,
+        -0.3339
+      ],
+      "entailment_prob": 0.0003,
+      "neutral_prob": 0.0042,
+      "contradiction_prob": 0.9955,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.6058
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 2,
+      "chunk_id": "psychological_disorders_mood_and_related_disorders_chunk_2",
+      "entailment_prob": 0.0005,
+      "neutral_prob": 0.2671,
+      "contradiction_prob": 0.7324,
+      "predicted_label": "contradiction"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 3,
+      "chunk_id": "psychological_disorders_mood_and_related_disorders_chunk_6",
+      "entailment_prob": 0.0003,
+      "neutral_prob": 0.0409,
+      "contradiction_prob": 0.9587,
+      "predicted_label": "contradiction"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "psychological_disorders_introduction_chunk_0",
+      "entailment_prob": 0.0003,
+      "neutral_prob": 0.0042,
+      "contradiction_prob": 0.9955,
+      "predicted_label": "contradiction"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 5,
+      "chunk_id": "psychological_disorders_introduction_chunk_0",
+      "entailment_prob": 0.0003,
+      "neutral_prob": 0.0042,
+      "contradiction_prob": 0.9955,
+      "predicted_label": "contradiction"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 1,
+      "chunk_id": "psychological_disorders_mood_and_related_disorders_chunk_1",
+      "entailment_prob": 0.0,
+      "neutral_prob": 0.021,
+      "contradiction_prob": 0.9789,
+      "predicted_label": "contradiction"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 2,
+    "chunk_id": "psychological_disorders_mood_and_related_disorders_chunk_2",
+    "entailment_prob": 0.0005,
+    "neutral_prob": 0.2671,
+    "contradiction_prob": 0.7324,
+    "predicted_label": "contradiction"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      3
+    ],
+    "selected_chunk_ids": [
+      "psychological_disorders_mood_and_related_disorders_chunk_2",
+      "psychological_disorders_mood_and_related_disorders_chunk_6"
+    ],
+    "token_count": 1359,
+    "is_truncated": false,
+    "raw_logits": [
+      4.1861,
+      -4.3578,
+      1.7493
+    ],
+    "entailment_prob": 0.0002,
+    "neutral_prob": 0.0804,
+    "contradiction_prob": 0.9194,
+    "predicted_label": "contradiction",
+    "eval_time_sec": 2.8689
+  },
+  "top_3_required": true,
+  "top_3_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      3,
+      4
+    ],
+    "selected_chunk_ids": [
+      "psychological_disorders_mood_and_related_disorders_chunk_2",
+      "psychological_disorders_mood_and_related_disorders_chunk_6",
+      "psychological_disorders_introduction_chunk_0"
+    ],
+    "token_count": 1678,
+    "is_truncated": false,
+    "raw_logits": [
+      4.589,
+      -3.5307,
+      0.4822
+    ],
+    "entailment_prob": 0.0003,
+    "neutral_prob": 0.0162,
+    "contradiction_prob": 0.9835,
+    "predicted_label": "contradiction",
+    "eval_time_sec": 3.8921
+  },
+  "final_verdict": "NOT_ENTAILED",
+  "final_label": "contradiction",
+  "combination_used": "TOP_3",
+  "timing": {
+    "phase_a_individual_sec": 4.8788,
+    "phase_b_top2_sec": 2.8689,
+    "phase_c_top3_sec": 3.8921,
+    "total_nli_inference_sec": 11.6398,
+    "total_question_wall_sec": 11.641
+  }
+}

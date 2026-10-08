@@ -1,0 +1,193 @@
+{
+  "index": 4,
+  "question_id": "4",
+  "question_text": "What is operant conditioning?",
+  "generated_answer": "Operant conditioning is a type of associative learning in which an organism learns to link a behavior with its consequence. A consequence that is pleasant (reinforcement) increases the likelihood of the behavior being repeated, while a consequence that is unpleasant (punishment) decreases that likelihood. The consequence can be added (positive) or removed (negative), and the timing of the consequence—soon after the behavior—helps strengthen or weaken the behavior. This process explains how new behaviors, such as riding a bike, can be acquired.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "learning_classical_conditioning_chunk_0",
+      "section": "6.2 Classical Conditioning",
+      "pages": "195-195",
+      "hybrid_score": 0.0312,
+      "token_count": 630,
+      "is_truncated": false,
+      "raw_logits": [
+        0.4235,
+        -2.8719,
+        4.2685
+      ],
+      "entailment_prob": 0.0008,
+      "neutral_prob": 0.9783,
+      "contradiction_prob": 0.0209,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.8454
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "learning_what_is_learning_chunk_2",
+      "section": "6.1 What Is Learning?",
+      "pages": "194-194",
+      "hybrid_score": 0.0302,
+      "token_count": 499,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.6223,
+        -1.4184,
+        5.0277
+      ],
+      "entailment_prob": 0.0016,
+      "neutral_prob": 0.9971,
+      "contradiction_prob": 0.0013,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.693
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "learning_operant_conditioning_chunk_2",
+      "section": "6.3 Operant Conditioning",
+      "pages": "205-206",
+      "hybrid_score": 0.0299,
+      "token_count": 636,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.9208,
+        -1.0936,
+        4.8564
+      ],
+      "entailment_prob": 0.0026,
+      "neutral_prob": 0.9963,
+      "contradiction_prob": 0.0011,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.8364
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "learning_operant_conditioning_chunk_0",
+      "section": "6.3 Operant Conditioning",
+      "pages": "204-204",
+      "hybrid_score": 0.0295,
+      "token_count": 617,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.9176,
+        2.1129,
+        3.7969
+      ],
+      "entailment_prob": 0.1565,
+      "neutral_prob": 0.8433,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.8128
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "learning_personal_application_questions_chunk_0",
+      "section": "Personal Application Questions",
+      "pages": "223-223",
+      "hybrid_score": 0.0167,
+      "token_count": 434,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.4132,
+        -2.5766,
+        5.529
+      ],
+      "entailment_prob": 0.0003,
+      "neutral_prob": 0.9971,
+      "contradiction_prob": 0.0026,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7155
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 4,
+      "chunk_id": "learning_operant_conditioning_chunk_0",
+      "entailment_prob": 0.1565,
+      "neutral_prob": 0.8433,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 3,
+      "chunk_id": "learning_operant_conditioning_chunk_2",
+      "entailment_prob": 0.0026,
+      "neutral_prob": 0.9963,
+      "contradiction_prob": 0.0011,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 2,
+      "chunk_id": "learning_what_is_learning_chunk_2",
+      "entailment_prob": 0.0016,
+      "neutral_prob": 0.9971,
+      "contradiction_prob": 0.0013,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 1,
+      "chunk_id": "learning_classical_conditioning_chunk_0",
+      "entailment_prob": 0.0008,
+      "neutral_prob": 0.9783,
+      "contradiction_prob": 0.0209,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "learning_personal_application_questions_chunk_0",
+      "entailment_prob": 0.0003,
+      "neutral_prob": 0.9971,
+      "contradiction_prob": 0.0026,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 4,
+    "chunk_id": "learning_operant_conditioning_chunk_0",
+    "entailment_prob": 0.1565,
+    "neutral_prob": 0.8433,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      3,
+      4
+    ],
+    "selected_chunk_ids": [
+      "learning_operant_conditioning_chunk_2",
+      "learning_operant_conditioning_chunk_0"
+    ],
+    "token_count": 1148,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.1748,
+      3.5488,
+      0.8373
+    ],
+    "entailment_prob": 0.9373,
+    "neutral_prob": 0.0623,
+    "contradiction_prob": 0.0004,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.8838
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 3.9031,
+    "phase_b_top2_sec": 1.8838,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 5.7869,
+    "total_question_wall_sec": 5.7877
+  }
+}

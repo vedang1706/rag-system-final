@@ -1,0 +1,193 @@
+{
+  "index": 35,
+  "question_id": "35",
+  "question_text": "What is multicultural psychology?",
+  "generated_answer": "Multicultural psychology is the study of how culture shapes individuals, groups, and society. It seeks to correct the over‑representation of WEIRD (Western, educated, industrialized, rich, democratic) populations in research and to apply findings appropriately to non‑WEIRD groups. Researchers in this field develop theories and conduct studies with diverse populations, often within a single country, and also compare groups across countries to examine cultural differences in perception, cooperation, moral reasoning, and other psychological processes.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "personality_personality_assessment_chunk_5",
+      "section": "11.9 Personality Assessment",
+      "pages": "401-402",
+      "hybrid_score": 0.0328,
+      "token_count": 176,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.588,
+        -0.8269,
+        4.0155
+      ],
+      "entailment_prob": 0.0078,
+      "neutral_prob": 0.9886,
+      "contradiction_prob": 0.0036,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.3423
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "section": "16.5 The Sociocultural Model and Therapy Utilization",
+      "pages": "634-635",
+      "hybrid_score": 0.0167,
+      "token_count": 815,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.5796,
+        -1.1578,
+        2.9757
+      ],
+      "entailment_prob": 0.0153,
+      "neutral_prob": 0.9573,
+      "contradiction_prob": 0.0274,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.7263
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_9",
+      "section": "1.2 History of Psychology",
+      "pages": "28-28",
+      "hybrid_score": 0.0164,
+      "token_count": 637,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.2448,
+        4.2287,
+        0.2448
+      ],
+      "entailment_prob": 0.9815,
+      "neutral_prob": 0.0183,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.3125
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_summary_chunk_1",
+      "section": "Key Terms",
+      "pages": "42-42",
+      "hybrid_score": 0.0161,
+      "token_count": 248,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.2114,
+        -2.0661,
+        4.0579
+      ],
+      "entailment_prob": 0.0022,
+      "neutral_prob": 0.9841,
+      "contradiction_prob": 0.0138,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.4222
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_what_is_social_psychology_chunk_7",
+      "section": "12.1 What Is Social Psychology?",
+      "pages": "417-417",
+      "hybrid_score": 0.0159,
+      "token_count": 273,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.4533,
+        -1.0548,
+        2.6285
+      ],
+      "entailment_prob": 0.0235,
+      "neutral_prob": 0.9337,
+      "contradiction_prob": 0.0428,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.436
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 3,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_9",
+      "entailment_prob": 0.9815,
+      "neutral_prob": 0.0183,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_what_is_social_psychology_chunk_7",
+      "entailment_prob": 0.0235,
+      "neutral_prob": 0.9337,
+      "contradiction_prob": 0.0428,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 2,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "entailment_prob": 0.0153,
+      "neutral_prob": 0.9573,
+      "contradiction_prob": 0.0274,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 1,
+      "chunk_id": "personality_personality_assessment_chunk_5",
+      "entailment_prob": 0.0078,
+      "neutral_prob": 0.9886,
+      "contradiction_prob": 0.0036,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_summary_chunk_1",
+      "entailment_prob": 0.0022,
+      "neutral_prob": 0.9841,
+      "contradiction_prob": 0.0138,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 3,
+    "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_9",
+    "entailment_prob": 0.9815,
+    "neutral_prob": 0.0183,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      3,
+      5
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_history_of_psychology_chunk_9",
+      "social_psychology_what_is_social_psychology_chunk_7"
+    ],
+    "token_count": 812,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.6838,
+      3.9205,
+      0.0685
+    ],
+    "entailment_prob": 0.9787,
+    "neutral_prob": 0.0208,
+    "contradiction_prob": 0.0005,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.5088
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.2393,
+    "phase_b_top2_sec": 1.5088,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 5.7481,
+    "total_question_wall_sec": 5.749
+  }
+}

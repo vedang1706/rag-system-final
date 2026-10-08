@@ -1,0 +1,216 @@
+{
+  "index": 45,
+  "question_id": "45",
+  "question_text": "What are key takeaways from the Brown v. Board of Education research?",
+  "generated_answer": "Brown v. Board of Education research showed that segregation produced measurable psychological harm to African‑American children, as demonstrated by the Clark twins’ doll‑preference studies.  Inez Beverly Prosser’s work on educational disparities in segregated versus integrated schools provided empirical evidence that segregation was detrimental to learning and development.  Together, these studies supplied the scientific foundation that the Supreme Court used to rule that state‑mandated segregation of public schools was unconstitutional, underscoring the role of culturally relevant research in advancing civil‑rights law.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_10",
+      "section": "1.2 History of Psychology",
+      "pages": "28-29",
+      "hybrid_score": 0.0331,
+      "token_count": 698,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.4612,
+        0.7021,
+        4.1122
+      ],
+      "entailment_prob": 0.032,
+      "neutral_prob": 0.9675,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3152
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "thinking_and_intelligence_the_source_of_intelligence_chunk_3",
+      "section": "7.6 The Source of Intelligence",
+      "pages": "251-251",
+      "hybrid_score": 0.031,
+      "token_count": 691,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.8685,
+        -0.902,
+        4.3394
+      ],
+      "entailment_prob": 0.0053,
+      "neutral_prob": 0.9927,
+      "contradiction_prob": 0.002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.2445
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "thinking_and_intelligence_measures_of_intelligence_chunk_3",
+      "section": "7.5 Measures of Intelligence",
+      "pages": "244-245",
+      "hybrid_score": 0.0307,
+      "token_count": 655,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.1599,
+        -1.2478,
+        4.1313
+      ],
+      "entailment_prob": 0.0046,
+      "neutral_prob": 0.9904,
+      "contradiction_prob": 0.005,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.2412
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_3",
+      "section": "2.1 Why Is Research Important?",
+      "pages": "49-50",
+      "hybrid_score": 0.0167,
+      "token_count": 687,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.6064,
+        1.226,
+        3.5265
+      ],
+      "entailment_prob": 0.091,
+      "neutral_prob": 0.9083,
+      "contradiction_prob": 0.0007,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3892
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "psychological_research_analyzing_findings_chunk_5",
+      "section": "2.3 Analyzing Findings",
+      "pages": "63-64",
+      "hybrid_score": 0.0161,
+      "token_count": 620,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.4469,
+        0.3417,
+        3.2903
+      ],
+      "entailment_prob": 0.0496,
+      "neutral_prob": 0.9473,
+      "contradiction_prob": 0.0031,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9889
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 4,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_3",
+      "entailment_prob": 0.091,
+      "neutral_prob": 0.9083,
+      "contradiction_prob": 0.0007,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 5,
+      "chunk_id": "psychological_research_analyzing_findings_chunk_5",
+      "entailment_prob": 0.0496,
+      "neutral_prob": 0.9473,
+      "contradiction_prob": 0.0031,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_10",
+      "entailment_prob": 0.032,
+      "neutral_prob": 0.9675,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "thinking_and_intelligence_the_source_of_intelligence_chunk_3",
+      "entailment_prob": 0.0053,
+      "neutral_prob": 0.9927,
+      "contradiction_prob": 0.002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 3,
+      "chunk_id": "thinking_and_intelligence_measures_of_intelligence_chunk_3",
+      "entailment_prob": 0.0046,
+      "neutral_prob": 0.9904,
+      "contradiction_prob": 0.005,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 4,
+    "chunk_id": "psychological_research_why_is_research_important_chunk_3",
+    "entailment_prob": 0.091,
+    "neutral_prob": 0.9083,
+    "contradiction_prob": 0.0007,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      4,
+      5
+    ],
+    "selected_chunk_ids": [
+      "psychological_research_why_is_research_important_chunk_3",
+      "psychological_research_analyzing_findings_chunk_5"
+    ],
+    "token_count": 1193,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.3882,
+      1.3978,
+      2.8522
+    ],
+    "entailment_prob": 0.189,
+    "neutral_prob": 0.8094,
+    "contradiction_prob": 0.0016,
+    "predicted_label": "neutral",
+    "eval_time_sec": 2.4056
+  },
+  "top_3_required": true,
+  "top_3_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      4,
+      5
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_history_of_psychology_chunk_10",
+      "psychological_research_why_is_research_important_chunk_3",
+      "psychological_research_analyzing_findings_chunk_5"
+    ],
+    "token_count": 1777,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.4215,
+      2.8246,
+      1.0045
+    ],
+    "entailment_prob": 0.8591,
+    "neutral_prob": 0.1392,
+    "contradiction_prob": 0.0017,
+    "predicted_label": "entailment",
+    "eval_time_sec": 4.1753
+  },
+  "final_verdict": "ENTAILED_BY_TOP3",
+  "final_label": "entailment",
+  "combination_used": "TOP_3",
+  "timing": {
+    "phase_a_individual_sec": 6.179,
+    "phase_b_top2_sec": 2.4056,
+    "phase_c_top3_sec": 4.1753,
+    "total_nli_inference_sec": 12.7599,
+    "total_question_wall_sec": 12.7612
+  }
+}

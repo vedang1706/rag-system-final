@@ -1,0 +1,193 @@
+{
+  "index": 13,
+  "question_id": "13",
+  "question_text": "What is functionalism in psychology?",
+  "generated_answer": "Functionalism is the view that psychology should study the purpose or function of behavior and mental processes. It holds that mental activities help an organism adapt to its environment and that traits are selected because they serve survival and reproduction. Functionalists emphasize the operation of the whole mind rather than its individual parts, contrasting with structuralism’s focus on mental contents. This perspective was championed by William James, John Dewey, and Charles Sanders Peirce.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_2",
+      "section": "1.2 History of Psychology",
+      "pages": "22-23",
+      "hybrid_score": 0.031,
+      "token_count": 624,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.2113,
+        -3.3789,
+        5.8795
+      ],
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.9976,
+      "contradiction_prob": 0.0023,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0042
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_1",
+      "section": "1.2 History of Psychology",
+      "pages": "21-22",
+      "hybrid_score": 0.0161,
+      "token_count": 681,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.458,
+        3.9276,
+        0.7301
+      ],
+      "entailment_prob": 0.9605,
+      "neutral_prob": 0.0393,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.1509
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_8",
+      "section": "13.1 What Is Industrial and Organizational Psychology?",
+      "pages": "465-465",
+      "hybrid_score": 0.0159,
+      "token_count": 207,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.0124,
+        -0.7706,
+        2.9605
+      ],
+      "entailment_prob": 0.023,
+      "neutral_prob": 0.959,
+      "contradiction_prob": 0.018,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.3729
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "psychological_disorders_what_are_psychological_disorders_chunk_4",
+      "section": "15.1 What Are Psychological Disorders?",
+      "pages": "550-551",
+      "hybrid_score": 0.0156,
+      "token_count": 701,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.3172,
+        -0.6473,
+        2.98
+      ],
+      "entailment_prob": 0.0256,
+      "neutral_prob": 0.9614,
+      "contradiction_prob": 0.0131,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.323
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "introduction_to_psychology_review_questions_chunk_0",
+      "section": "Review Questions",
+      "pages": "44-45",
+      "hybrid_score": 0.0156,
+      "token_count": 639,
+      "is_truncated": false,
+      "raw_logits": [
+        0.1567,
+        -2.0024,
+        3.1848
+      ],
+      "entailment_prob": 0.0053,
+      "neutral_prob": 0.9488,
+      "contradiction_prob": 0.0459,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0544
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_1",
+      "entailment_prob": 0.9605,
+      "neutral_prob": 0.0393,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "psychological_disorders_what_are_psychological_disorders_chunk_4",
+      "entailment_prob": 0.0256,
+      "neutral_prob": 0.9614,
+      "contradiction_prob": 0.0131,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_8",
+      "entailment_prob": 0.023,
+      "neutral_prob": 0.959,
+      "contradiction_prob": 0.018,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 5,
+      "chunk_id": "introduction_to_psychology_review_questions_chunk_0",
+      "entailment_prob": 0.0053,
+      "neutral_prob": 0.9488,
+      "contradiction_prob": 0.0459,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_2",
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.9976,
+      "contradiction_prob": 0.0023,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 2,
+    "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_1",
+    "entailment_prob": 0.9605,
+    "neutral_prob": 0.0393,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      4
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_history_of_psychology_chunk_1",
+      "psychological_disorders_what_are_psychological_disorders_chunk_4"
+    ],
+    "token_count": 1291,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.029,
+      3.9134,
+      0.3963
+    ],
+    "entailment_prob": 0.9708,
+    "neutral_prob": 0.0288,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.4677
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.9054,
+    "phase_b_top2_sec": 2.4677,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.3731,
+    "total_question_wall_sec": 7.3739
+  }
+}

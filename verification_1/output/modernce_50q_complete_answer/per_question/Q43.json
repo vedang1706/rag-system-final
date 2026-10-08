@@ -1,0 +1,193 @@
+{
+  "index": 43,
+  "question_id": "43",
+  "question_text": "What is the role of social norms in behavior?",
+  "generated_answer": "Social norms are the shared expectations a group holds about what is appropriate and acceptable behavior. They give people cues about how to act in a particular role or setting, shaping everyday conduct. By defining what is considered “normal” or “acceptable,” norms influence individuals’ choices, guide their interactions, and help maintain social order.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "social_psychology_selfpresentation_chunk_1",
+      "section": "12.2 Self-presentation",
+      "pages": "418-419",
+      "hybrid_score": 0.0328,
+      "token_count": 594,
+      "is_truncated": false,
+      "raw_logits": [
+        -5.253,
+        3.1767,
+        2.5768
+      ],
+      "entailment_prob": 0.6455,
+      "neutral_prob": 0.3543,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.9947
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "social_psychology_selfpresentation_chunk_0",
+      "section": "12.2 Self-presentation",
+      "pages": "418-418",
+      "hybrid_score": 0.0325,
+      "token_count": 573,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.8212,
+        2.5691,
+        3.0663
+      ],
+      "entailment_prob": 0.3781,
+      "neutral_prob": 0.6217,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0252
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "social_psychology_selfpresentation_chunk_3",
+      "section": "12.2 Self-presentation",
+      "pages": "419-420",
+      "hybrid_score": 0.0284,
+      "token_count": 633,
+      "is_truncated": false,
+      "raw_logits": [
+        -5.1304,
+        3.407,
+        2.0184
+      ],
+      "entailment_prob": 0.8003,
+      "neutral_prob": 0.1996,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.0395
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "psychological_disorders_review_questions_chunk_1",
+      "section": "Review Questions",
+      "pages": "604-605",
+      "hybrid_score": 0.0161,
+      "token_count": 609,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.3508,
+        2.4234,
+        2.6168
+      ],
+      "entailment_prob": 0.4516,
+      "neutral_prob": 0.5479,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.2529
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_conformity_compliance_and_obedience_chunk_1",
+      "section": "12.4 Conformity, Compliance, and Obedience",
+      "pages": "427-428",
+      "hybrid_score": 0.0154,
+      "token_count": 620,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.6908,
+        1.1816,
+        2.2331
+      ],
+      "entailment_prob": 0.2576,
+      "neutral_prob": 0.7371,
+      "contradiction_prob": 0.0054,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0326
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 3,
+      "chunk_id": "social_psychology_selfpresentation_chunk_3",
+      "entailment_prob": 0.8003,
+      "neutral_prob": 0.1996,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 1,
+      "chunk_id": "social_psychology_selfpresentation_chunk_1",
+      "entailment_prob": 0.6455,
+      "neutral_prob": 0.3543,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "psychological_disorders_review_questions_chunk_1",
+      "entailment_prob": 0.4516,
+      "neutral_prob": 0.5479,
+      "contradiction_prob": 0.0005,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "social_psychology_selfpresentation_chunk_0",
+      "entailment_prob": 0.3781,
+      "neutral_prob": 0.6217,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_conformity_compliance_and_obedience_chunk_1",
+      "entailment_prob": 0.2576,
+      "neutral_prob": 0.7371,
+      "contradiction_prob": 0.0054,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 3,
+    "chunk_id": "social_psychology_selfpresentation_chunk_3",
+    "entailment_prob": 0.8003,
+    "neutral_prob": 0.1996,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      3
+    ],
+    "selected_chunk_ids": [
+      "social_psychology_selfpresentation_chunk_1",
+      "social_psychology_selfpresentation_chunk_3"
+    ],
+    "token_count": 1162,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.9447,
+      3.3822,
+      1.8221
+    ],
+    "entailment_prob": 0.8262,
+    "neutral_prob": 0.1736,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.2721
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.3449,
+    "phase_b_top2_sec": 2.2721,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.617,
+    "total_question_wall_sec": 7.618
+  }
+}

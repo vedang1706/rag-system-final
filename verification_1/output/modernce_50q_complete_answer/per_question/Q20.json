@@ -1,0 +1,216 @@
+{
+  "index": 20,
+  "question_id": "20",
+  "question_text": "What is cognitive psychology?",
+  "generated_answer": "Cognitive psychology is the branch of psychology that studies mental processes such as thinking, perception, planning, analysis, and memory. It examines how these processes influence behavior and how people acquire, store, and use information. Researchers in this field investigate problem‑solving strategies, language, and other aspects of cognition to understand how the mind works.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_summary_chunk_1",
+      "section": "Key Terms",
+      "pages": "42-42",
+      "hybrid_score": 0.0323,
+      "token_count": 219,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.1302,
+        -1.2364,
+        4.06
+      ],
+      "entailment_prob": 0.005,
+      "neutral_prob": 0.9895,
+      "contradiction_prob": 0.0055,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.3419
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_summary_chunk_2",
+      "section": "Summary",
+      "pages": "43-43",
+      "hybrid_score": 0.0167,
+      "token_count": 472,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.831,
+        -0.8802,
+        4.4969
+      ],
+      "entailment_prob": 0.0046,
+      "neutral_prob": 0.9936,
+      "contradiction_prob": 0.0018,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.6878
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "thinking_and_intelligence_summary_chunk_0",
+      "section": "Summary",
+      "pages": "254-254",
+      "hybrid_score": 0.0164,
+      "token_count": 590,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.2807,
+        1.6024,
+        2.4372
+      ],
+      "entailment_prob": 0.3019,
+      "neutral_prob": 0.6958,
+      "contradiction_prob": 0.0023,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9489
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "references_introduction_to_psychology_chunk_1",
+      "section": "Introduction to Psychology",
+      "pages": "646-646",
+      "hybrid_score": 0.0164,
+      "token_count": 1011,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.6671,
+        0.6747,
+        3.0764
+      ],
+      "entailment_prob": 0.0828,
+      "neutral_prob": 0.9143,
+      "contradiction_prob": 0.0029,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.886
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_summary_chunk_0",
+      "section": "Summary",
+      "pages": "450-450",
+      "hybrid_score": 0.0161,
+      "token_count": 576,
+      "is_truncated": false,
+      "raw_logits": [
+        0.5094,
+        -2.4752,
+        3.5158
+      ],
+      "entailment_prob": 0.0024,
+      "neutral_prob": 0.9506,
+      "contradiction_prob": 0.047,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9869
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 3,
+      "chunk_id": "thinking_and_intelligence_summary_chunk_0",
+      "entailment_prob": 0.3019,
+      "neutral_prob": 0.6958,
+      "contradiction_prob": 0.0023,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "references_introduction_to_psychology_chunk_1",
+      "entailment_prob": 0.0828,
+      "neutral_prob": 0.9143,
+      "contradiction_prob": 0.0029,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 1,
+      "chunk_id": "introduction_to_psychology_summary_chunk_1",
+      "entailment_prob": 0.005,
+      "neutral_prob": 0.9895,
+      "contradiction_prob": 0.0055,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_summary_chunk_2",
+      "entailment_prob": 0.0046,
+      "neutral_prob": 0.9936,
+      "contradiction_prob": 0.0018,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_summary_chunk_0",
+      "entailment_prob": 0.0024,
+      "neutral_prob": 0.9506,
+      "contradiction_prob": 0.047,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 3,
+    "chunk_id": "thinking_and_intelligence_summary_chunk_0",
+    "entailment_prob": 0.3019,
+    "neutral_prob": 0.6958,
+    "contradiction_prob": 0.0023,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      3,
+      4
+    ],
+    "selected_chunk_ids": [
+      "thinking_and_intelligence_summary_chunk_0",
+      "references_introduction_to_psychology_chunk_1"
+    ],
+    "token_count": 1532,
+    "is_truncated": false,
+    "raw_logits": [
+      -2.9708,
+      1.761,
+      1.7696
+    ],
+    "entailment_prob": 0.4957,
+    "neutral_prob": 0.5,
+    "contradiction_prob": 0.0044,
+    "predicted_label": "neutral",
+    "eval_time_sec": 3.1132
+  },
+  "top_3_required": true,
+  "top_3_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      3,
+      4
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_summary_chunk_1",
+      "thinking_and_intelligence_summary_chunk_0",
+      "references_introduction_to_psychology_chunk_1"
+    ],
+    "token_count": 1682,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.1594,
+      2.6654,
+      0.8989
+    ],
+    "entailment_prob": 0.8519,
+    "neutral_prob": 0.1456,
+    "contradiction_prob": 0.0025,
+    "predicted_label": "entailment",
+    "eval_time_sec": 3.4776
+  },
+  "final_verdict": "ENTAILED_BY_TOP3",
+  "final_label": "entailment",
+  "combination_used": "TOP_3",
+  "timing": {
+    "phase_a_individual_sec": 4.8515,
+    "phase_b_top2_sec": 3.1132,
+    "phase_c_top3_sec": 3.4776,
+    "total_nli_inference_sec": 11.4423,
+    "total_question_wall_sec": 11.4434
+  }
+}

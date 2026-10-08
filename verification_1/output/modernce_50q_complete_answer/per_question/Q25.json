@@ -1,0 +1,193 @@
+{
+  "index": 25,
+  "question_id": "25",
+  "question_text": "What is the difference between sensation and perception?",
+  "generated_answer": "Sensation is the initial detection of stimulus energy by specialized sensory receptors, converting physical energy into neural signals (transduction) and producing a raw sensory input. Perception is the subsequent organization, interpretation, and conscious experience of that input, shaped by both bottom‑up sensory data and top‑down factors such as attention, expectations, and prior knowledge. Thus, sensation provides the raw data, while perception gives meaning to it.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "sensation_and_perception_sensation_versus_perception_chunk_0",
+      "section": "5.1 Sensation versus Perception",
+      "pages": "158-158",
+      "hybrid_score": 0.0325,
+      "token_count": 721,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.1024,
+        4.1208,
+        0.2973
+      ],
+      "entailment_prob": 0.9784,
+      "neutral_prob": 0.0214,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.255
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_3",
+      "section": "1.3 Contemporary Psychology",
+      "pages": "32-32",
+      "hybrid_score": 0.0315,
+      "token_count": 576,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.5261,
+        2.6913,
+        1.2314
+      ],
+      "entailment_prob": 0.8102,
+      "neutral_prob": 0.1882,
+      "contradiction_prob": 0.0016,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.9373
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "sensation_and_perception_introduction_chunk_0",
+      "section": "Chapter 5 Sensation and Perception",
+      "pages": "157-157",
+      "hybrid_score": 0.0311,
+      "token_count": 383,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.8936,
+        3.5143,
+        1.7078
+      ],
+      "entailment_prob": 0.8588,
+      "neutral_prob": 0.141,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.5827
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "sensation_and_perception_introduction_chunk_0",
+      "section": "Chapter Outline",
+      "pages": "157-157",
+      "hybrid_score": 0.0303,
+      "token_count": 383,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.8936,
+        3.5143,
+        1.7078
+      ],
+      "entailment_prob": 0.8588,
+      "neutral_prob": 0.141,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.6041
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "sensation_and_perception_sensation_versus_perception_chunk_1",
+      "section": "5.1 Sensation versus Perception",
+      "pages": "158-159",
+      "hybrid_score": 0.0167,
+      "token_count": 631,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.1984,
+        4.5274,
+        -0.022
+      ],
+      "entailment_prob": 0.9894,
+      "neutral_prob": 0.0105,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.3798
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 5,
+      "chunk_id": "sensation_and_perception_sensation_versus_perception_chunk_1",
+      "entailment_prob": 0.9894,
+      "neutral_prob": 0.0105,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 1,
+      "chunk_id": "sensation_and_perception_sensation_versus_perception_chunk_0",
+      "entailment_prob": 0.9784,
+      "neutral_prob": 0.0214,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "sensation_and_perception_introduction_chunk_0",
+      "entailment_prob": 0.8588,
+      "neutral_prob": 0.141,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 4,
+      "chunk_id": "sensation_and_perception_introduction_chunk_0",
+      "entailment_prob": 0.8588,
+      "neutral_prob": 0.141,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_3",
+      "entailment_prob": 0.8102,
+      "neutral_prob": 0.1882,
+      "contradiction_prob": 0.0016,
+      "predicted_label": "entailment"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 5,
+    "chunk_id": "sensation_and_perception_sensation_versus_perception_chunk_1",
+    "entailment_prob": 0.9894,
+    "neutral_prob": 0.0105,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      5
+    ],
+    "selected_chunk_ids": [
+      "sensation_and_perception_sensation_versus_perception_chunk_0",
+      "sensation_and_perception_sensation_versus_perception_chunk_1"
+    ],
+    "token_count": 1266,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.309,
+      4.7762,
+      -0.145
+    ],
+    "entailment_prob": 0.9927,
+    "neutral_prob": 0.0072,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.485
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.7589,
+    "phase_b_top2_sec": 2.485,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.2439,
+    "total_question_wall_sec": 7.2447
+  }
+}

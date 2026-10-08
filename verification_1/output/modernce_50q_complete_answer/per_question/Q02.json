@@ -1,0 +1,216 @@
+{
+  "index": 2,
+  "question_id": "2",
+  "question_text": "What are the basic parts of a neuron?",
+  "generated_answer": "Not found in the provided textbook.",
+  "answer_type": "ABSTENTION",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "learning_what_is_learning_chunk_1",
+      "section": "6.1 What Is Learning?",
+      "pages": "194-194",
+      "hybrid_score": 0.0314,
+      "token_count": 558,
+      "is_truncated": false,
+      "raw_logits": [
+        5.1406,
+        -3.896,
+        0.3947
+      ],
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0086,
+      "contradiction_prob": 0.9913,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.7488
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "biopsychology_human_genetics_chunk_0",
+      "section": "Chapter Outline",
+      "pages": "83-83",
+      "hybrid_score": 0.0309,
+      "token_count": 456,
+      "is_truncated": false,
+      "raw_logits": [
+        6.1035,
+        -3.4827,
+        -0.5938
+      ],
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0012,
+      "contradiction_prob": 0.9987,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.7738
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "biopsychology_human_genetics_chunk_0",
+      "section": "Chapter 3 Biopsychology",
+      "pages": "83-83",
+      "hybrid_score": 0.0302,
+      "token_count": 456,
+      "is_truncated": false,
+      "raw_logits": [
+        6.1035,
+        -3.4827,
+        -0.5938
+      ],
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0012,
+      "contradiction_prob": 0.9987,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.6755
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "biopsychology_human_genetics_chunk_0",
+      "section": "3.1 Human Genetics",
+      "pages": "83-84",
+      "hybrid_score": 0.0295,
+      "token_count": 555,
+      "is_truncated": false,
+      "raw_logits": [
+        5.9955,
+        -3.5065,
+        -0.4871
+      ],
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0015,
+      "contradiction_prob": 0.9984,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.7222
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "section": "3.2 Cells of the Nervous System",
+      "pages": "94-95",
+      "hybrid_score": 0.0164,
+      "token_count": 575,
+      "is_truncated": false,
+      "raw_logits": [
+        4.0502,
+        -3.7526,
+        1.1422
+      ],
+      "entailment_prob": 0.0004,
+      "neutral_prob": 0.0517,
+      "contradiction_prob": 0.9479,
+      "predicted_label": "contradiction",
+      "eval_time_sec": 0.7405
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 5,
+      "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+      "entailment_prob": 0.0004,
+      "neutral_prob": 0.0517,
+      "contradiction_prob": 0.9479,
+      "predicted_label": "contradiction"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 1,
+      "chunk_id": "learning_what_is_learning_chunk_1",
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0086,
+      "contradiction_prob": 0.9913,
+      "predicted_label": "contradiction"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 2,
+      "chunk_id": "biopsychology_human_genetics_chunk_0",
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0012,
+      "contradiction_prob": 0.9987,
+      "predicted_label": "contradiction"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 3,
+      "chunk_id": "biopsychology_human_genetics_chunk_0",
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0012,
+      "contradiction_prob": 0.9987,
+      "predicted_label": "contradiction"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 4,
+      "chunk_id": "biopsychology_human_genetics_chunk_0",
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.0015,
+      "contradiction_prob": 0.9984,
+      "predicted_label": "contradiction"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 5,
+    "chunk_id": "biopsychology_cells_of_the_nervous_system_chunk_6",
+    "entailment_prob": 0.0004,
+    "neutral_prob": 0.0517,
+    "contradiction_prob": 0.9479,
+    "predicted_label": "contradiction"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      5
+    ],
+    "selected_chunk_ids": [
+      "learning_what_is_learning_chunk_1",
+      "biopsychology_cells_of_the_nervous_system_chunk_6"
+    ],
+    "token_count": 1125,
+    "is_truncated": false,
+    "raw_logits": [
+      3.3415,
+      -2.821,
+      0.7784
+    ],
+    "entailment_prob": 0.002,
+    "neutral_prob": 0.0714,
+    "contradiction_prob": 0.9266,
+    "predicted_label": "contradiction",
+    "eval_time_sec": 1.9288
+  },
+  "top_3_required": true,
+  "top_3_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      2,
+      5
+    ],
+    "selected_chunk_ids": [
+      "learning_what_is_learning_chunk_1",
+      "biopsychology_human_genetics_chunk_0",
+      "biopsychology_cells_of_the_nervous_system_chunk_6"
+    ],
+    "token_count": 1573,
+    "is_truncated": false,
+    "raw_logits": [
+      3.4637,
+      -2.7745,
+      0.6474
+    ],
+    "entailment_prob": 0.0018,
+    "neutral_prob": 0.0563,
+    "contradiction_prob": 0.9418,
+    "predicted_label": "contradiction",
+    "eval_time_sec": 2.896
+  },
+  "final_verdict": "NOT_ENTAILED",
+  "final_label": "contradiction",
+  "combination_used": "TOP_3",
+  "timing": {
+    "phase_a_individual_sec": 3.6608,
+    "phase_b_top2_sec": 1.9288,
+    "phase_c_top3_sec": 2.896,
+    "total_nli_inference_sec": 8.4856,
+    "total_question_wall_sec": 8.4866
+  }
+}

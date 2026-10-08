@@ -1,0 +1,216 @@
+{
+  "index": 36,
+  "question_id": "36",
+  "question_text": "What are the challenges of cross-cultural psychology?",
+  "generated_answer": "Cross‑cultural psychology faces several key challenges. First, many standard assessments are rooted in Western concepts and may not capture culturally specific traits, leading to biased or invalid results unless instruments are adapted or newly developed for each culture. Second, researchers often rely on WEIRD samples, which limits the generalizability of findings to non‑Western populations and can mask important cultural differences in perception, cooperation, and moral reasoning. Third, practical barriers such as language, stigma, lack of culturally competent providers, and unequal access to services further hinder the accurate assessment and treatment of diverse groups. Addressing these issues requires culturally informed theory, diverse sampling, and the creation of culturally relevant measurement tools.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "personality_personality_assessment_chunk_0",
+      "section": "11.9 Personality Assessment",
+      "pages": "398-398",
+      "hybrid_score": 0.0293,
+      "token_count": 767,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.2641,
+        0.641,
+        4.0988
+      ],
+      "entailment_prob": 0.0305,
+      "neutral_prob": 0.9689,
+      "contradiction_prob": 0.0006,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.4485
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "section": "16.5 The Sociocultural Model and Therapy Utilization",
+      "pages": "634-635",
+      "hybrid_score": 0.0167,
+      "token_count": 852,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.2038,
+        -0.0492,
+        5.2651
+      ],
+      "entailment_prob": 0.0049,
+      "neutral_prob": 0.9949,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.725
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "thinking_and_intelligence_review_questions_chunk_0",
+      "section": "Review Questions",
+      "pages": "255-256",
+      "hybrid_score": 0.0167,
+      "token_count": 676,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.9998,
+        -0.1048,
+        5.0121
+      ],
+      "entailment_prob": 0.006,
+      "neutral_prob": 0.9937,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.4539
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_9",
+      "section": "1.2 History of Psychology",
+      "pages": "28-28",
+      "hybrid_score": 0.0164,
+      "token_count": 674,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.9715,
+        0.3394,
+        4.2216
+      ],
+      "entailment_prob": 0.0202,
+      "neutral_prob": 0.9791,
+      "contradiction_prob": 0.0007,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1754
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "personality_personality_assessment_chunk_5",
+      "section": "11.9 Personality Assessment",
+      "pages": "401-402",
+      "hybrid_score": 0.0161,
+      "token_count": 213,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.0842,
+        -0.2433,
+        5.6631
+      ],
+      "entailment_prob": 0.0027,
+      "neutral_prob": 0.9971,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.367
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "personality_personality_assessment_chunk_0",
+      "entailment_prob": 0.0305,
+      "neutral_prob": 0.9689,
+      "contradiction_prob": 0.0006,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_9",
+      "entailment_prob": 0.0202,
+      "neutral_prob": 0.9791,
+      "contradiction_prob": 0.0007,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "thinking_and_intelligence_review_questions_chunk_0",
+      "entailment_prob": 0.006,
+      "neutral_prob": 0.9937,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "entailment_prob": 0.0049,
+      "neutral_prob": 0.9949,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "personality_personality_assessment_chunk_5",
+      "entailment_prob": 0.0027,
+      "neutral_prob": 0.9971,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "personality_personality_assessment_chunk_0",
+    "entailment_prob": 0.0305,
+    "neutral_prob": 0.9689,
+    "contradiction_prob": 0.0006,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      4
+    ],
+    "selected_chunk_ids": [
+      "personality_personality_assessment_chunk_0",
+      "introduction_to_psychology_history_of_psychology_chunk_9"
+    ],
+    "token_count": 1306,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.5265,
+      1.7279,
+      2.5781
+    ],
+    "entailment_prob": 0.2989,
+    "neutral_prob": 0.6995,
+    "contradiction_prob": 0.0016,
+    "predicted_label": "neutral",
+    "eval_time_sec": 2.9013
+  },
+  "top_3_required": true,
+  "top_3_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      3,
+      4
+    ],
+    "selected_chunk_ids": [
+      "personality_personality_assessment_chunk_0",
+      "thinking_and_intelligence_review_questions_chunk_0",
+      "introduction_to_psychology_history_of_psychology_chunk_9"
+    ],
+    "token_count": 1847,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.8702,
+      2.1944,
+      2.3083
+    ],
+    "entailment_prob": 0.4711,
+    "neutral_prob": 0.5278,
+    "contradiction_prob": 0.0011,
+    "predicted_label": "neutral",
+    "eval_time_sec": 4.4039
+  },
+  "final_verdict": "NOT_ENTAILED",
+  "final_label": "neutral",
+  "combination_used": "TOP_3",
+  "timing": {
+    "phase_a_individual_sec": 6.1698,
+    "phase_b_top2_sec": 2.9013,
+    "phase_c_top3_sec": 4.4039,
+    "total_nli_inference_sec": 13.475,
+    "total_question_wall_sec": 13.4766
+  }
+}

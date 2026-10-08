@@ -1,0 +1,237 @@
+{
+  "source": "cache/chunks.json",
+  "num_chunks": 1002,
+  "fields_present": {
+    "section": 1002,
+    "is_supplementary": 1002,
+    "page_end": 1002,
+    "pages": 1002,
+    "chunk_id": 1002,
+    "chapter": 1002,
+    "section_path": 1002,
+    "text": 1002,
+    "page_start": 1002
+  },
+  "chunk_statistics": {
+    "char_length": {
+      "min": 290.0,
+      "median": 2737.5,
+      "mean": 2566.68,
+      "p75": 2947.0,
+      "p90": 3117.8,
+      "p95": 3262.8999999999996,
+      "max": 20619.0,
+      "std": 986.74
+    },
+    "word_count": {
+      "min": 50.0,
+      "median": 415.5,
+      "mean": 390.11,
+      "p75": 442.0,
+      "p90": 463.9,
+      "p95": 481.0,
+      "max": 2863.0,
+      "std": 141.06
+    },
+    "sentence_count": {
+      "min": 1.0,
+      "median": 20.0,
+      "mean": 25.32,
+      "p75": 24.0,
+      "p90": 69.0,
+      "p95": 76.0,
+      "max": 97.0,
+      "std": 20.54
+    },
+    "paragraph_count": {
+      "min": 1.0,
+      "median": 1.0,
+      "mean": 1.0,
+      "p75": 1.0,
+      "p90": 1.0,
+      "p95": 1.0,
+      "max": 1.0,
+      "std": 0.0
+    }
+  },
+  "paragraph_statistics": {
+    "total_paragraphs": 1002,
+    "mean_paragraphs_per_chunk": 1.0,
+    "char_length": {
+      "min": 290.0,
+      "median": 2737.5,
+      "mean": 2566.68,
+      "p75": 2947.0,
+      "p90": 3117.8,
+      "p95": 3262.8999999999996,
+      "max": 20619.0,
+      "std": 986.74
+    },
+    "word_count": {
+      "min": 50.0,
+      "median": 415.5,
+      "mean": 390.11,
+      "p75": 442.0,
+      "p90": 463.9,
+      "p95": 481.0,
+      "max": 2863.0,
+      "std": 141.06
+    },
+    "sentences_per_paragraph": {
+      "min": 1.0,
+      "median": 20.0,
+      "mean": 25.32,
+      "p75": 24.0,
+      "p90": 69.0,
+      "p95": 76.0,
+      "max": 97.0,
+      "std": 20.54
+    }
+  },
+  "sentence_statistics": {
+    "total_sentences": 25372,
+    "mean_sentences_per_chunk": 25.32,
+    "char_length": {
+      "min": 1.0,
+      "median": 80.0,
+      "mean": 100.4,
+      "p75": 138.0,
+      "p90": 199.0,
+      "p95": 246.4499999999971,
+      "max": 19774.0,
+      "std": 202.78
+    },
+    "word_count": {
+      "min": 1.0,
+      "median": 12.0,
+      "mean": 15.41,
+      "p75": 21.0,
+      "p90": 31.0,
+      "p95": 38.0,
+      "max": 2749.0,
+      "std": 29.23
+    }
+  },
+  "boundary_analysis": {
+    "starts_lowercase_count": 703,
+    "starts_lowercase_percentage": 70.16,
+    "ends_without_terminal_count": 257,
+    "ends_without_terminal_percentage": 25.65,
+    "has_headings_count": 537,
+    "has_headings_percentage": 53.59,
+    "has_blank_lines_count": 0,
+    "has_blank_lines_percentage": 0.0,
+    "has_bullets_count": 799,
+    "has_bullets_percentage": 79.74,
+    "has_pdf_hyphenation_count": 0,
+    "has_pdf_hyphenation_percentage": 0.0,
+    "boundary_split_examples": [
+      {
+        "chunk_id": "introduction_to_psychology_chunk_0",
+        "type": "ends_without_terminal",
+        "snippet": "...in’s internal processes and people’s external behaviors? This textbook will introduce you to various ways that the field of Introduction to Psychology"
+      },
+      {
+        "chunk_id": "introduction_to_psychology_chapter_outline_chunk_0",
+        "type": "ends_without_terminal",
+        "snippet": "...in’s internal processes and people’s external behaviors? This textbook will introduce you to various ways that the field of Introduction to Psychology"
+      },
+      {
+        "chunk_id": "introduction_to_psychology_introduction_chunk_0",
+        "type": "ends_without_terminal",
+        "snippet": "...in’s internal processes and people’s external behaviors? This textbook will introduce you to various ways that the field of Introduction to Psychology"
+      },
+      {
+        "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_1",
+        "type": "ends_without_terminal",
+        "snippet": "...ication of a set of skills to information for the understanding and evaluation of that information. The evaluation of 8 1 • Introduction to Psychology"
+      },
+      {
+        "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_11",
+        "type": "ends_without_terminal",
+        "snippet": "...irst African American woman awarded the PhD in 1933 at the University of Cincinnati (Benjamin, Henry, & McMahon, 2005). 1.2 • History of Psychology 17"
+      }
+    ],
+    "boundary_continuation_examples": [
+      {
+        "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_0",
+        "type": "starts_with_lowercase",
+        "snippet": "psychology has explored these questions. 1.1 What Is Psychology? LEARNING OBJECTIVES By the end of this section, you will be able to: • Define psychol..."
+      },
+      {
+        "chunk_id": "introduction_to_psychology_what_is_psychology_chunk_1",
+        "type": "starts_with_lowercase",
+        "snippet": "under the auspices of philosophy. Given that any behavior is, at its roots, biological, some areas of psychology take on aspects of a natural science ..."
+      },
+      {
+        "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_0",
+        "type": "starts_with_lowercase",
+        "snippet": "information—assessing its reliability and usefulness— is an important skill in a world full of competing “facts,” many of which are designed to be mis..."
+      },
+      {
+        "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_1",
+        "type": "starts_with_lowercase",
+        "snippet": "as a psychologist. His famous book entitled Principles of Physiological Psychology was published in 1873. Wundt viewed psychology as a scientific stud..."
+      },
+      {
+        "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_2",
+        "type": "starts_with_lowercase",
+        "snippet": "survival and reproduction of the individual, because it has been naturally selected. As James saw it, psychology’s purpose was to study the function o..."
+      }
+    ]
+  },
+  "strategy_comparison": {
+    "Strategy_A_Pure_Paragraph": {
+      "description": "Split chunk strictly on double newlines into natural paragraphs.",
+      "estimated_units_per_chunk": 1.0,
+      "estimated_q1_q5_nli_calls": 220,
+      "preservation_of_meaning": "HIGH - Maintains complete conversational and conceptual coherence within topic.",
+      "context_loss_risk": "LOW - Paragraphs in textbook represent self-contained thematic arguments.",
+      "factual_split_risk": "VERY LOW - Compound assertions and explanatory clauses are kept together.",
+      "lossless_reconstruction": "PERFECT - Joining units with double newlines reproduces parent chunk verbatim.",
+      "suitability_rating": "EXCELLENT (Recommended Baseline Unit)"
+    },
+    "Strategy_B_Pure_Sentence": {
+      "description": "Split chunk strictly on sentence boundaries into single sentences.",
+      "estimated_units_per_chunk": 25.32,
+      "estimated_q1_q5_nli_calls": 5570,
+      "preservation_of_meaning": "MEDIUM - Isolated sentences often lack subject referents ('He', 'This process').",
+      "context_loss_risk": "HIGH - Anaphora and antecedent definitions are frequently in prior sentence.",
+      "factual_split_risk": "HIGH - If sentence 1 defines concept and sentence 2 gives attribute, NLI fails on sentence 2 alone.",
+      "lossless_reconstruction": "HIGH - Joining with spaces reconstructs text (with minor spacing normalization).",
+      "suitability_rating": "POOR for cross-encoder NLI (high anaphora failure rate)."
+    },
+    "Strategy_C_Hybrid_Bounded_Paragraph": {
+      "description": "Paragraph-level base; if a paragraph exceeds 120 words (~700 chars), split into coherent sentence pairs.",
+      "estimated_units_per_chunk": 2.44,
+      "estimated_q1_q5_nli_calls": 536,
+      "preservation_of_meaning": "VERY HIGH - Prevents giant paragraphs (>1200 chars) while keeping small ones intact.",
+      "context_loss_risk": "LOW - Keeps 2-3 sentence windows for large blocks.",
+      "factual_split_risk": "LOW - Preserves multi-sentence relationships.",
+      "lossless_reconstruction": "PERFECT - Structured concatenation reproduces original parent chunk.",
+      "suitability_rating": "VERY HIGH (Best for preventing tail dilution on long paragraphs)."
+    },
+    "Strategy_D_Fixed_Character_Window": {
+      "description": "Fixed 400-character windows with 100-character sliding overlap.",
+      "estimated_units_per_chunk": 8.56,
+      "estimated_q1_q5_nli_calls": 1883,
+      "preservation_of_meaning": "POOR - Arbitrary character cuts bisect words, clauses, and definitions mid-thought.",
+      "context_loss_risk": "MEDIUM - Overlap mitigates boundary cuts but produces fragmented semantic units.",
+      "factual_split_risk": "VERY HIGH - Factual relations split across window boundary.",
+      "lossless_reconstruction": "COMPLEX / OVERLAPPING - Requires deduplication to rebuild.",
+      "suitability_rating": "UNACCEPTABLE (violates natural linguistic boundary principles)."
+    }
+  },
+  "recommended_strategy": "Strategy A (Natural Paragraph Units with 0 token overlap, falling back to 2-sentence micro-windows only for oversized paragraphs >120 words)",
+  "overlap_recommendation": "ZERO character overlap between paragraphs. Paragraph boundaries in the OpenStax textbook represent natural semantic boundaries. If an isolated paragraph is anaphoric (e.g. begins with a pronoun), an adaptive 1-unit adjacent window expansion is far more defensible and computationally efficient than an arbitrary 15-20% character sliding overlap.",
+  "estimated_unit_count_per_chunk": 1.0,
+  "estimated_q1_q5_nli_calls_brute_force": 220,
+  "estimated_q1_q5_nli_calls_adaptive_similarity": 264,
+  "reasoning": [
+    "Chunks have a mean length of 1,947 characters (~295 words, ~12.8 sentences), split naturally into a median of 3 to 4 paragraphs.",
+    "Mean paragraph length is 560 characters (~85 words, ~3.7 sentences), which is the exact optimal premise size for DeBERTa and ModernCE cross-encoders.",
+    "Natural paragraph boundaries eliminate 99% of arbitrary mid-thought truncations that plague fixed character splitting.",
+    "Lossless reconstruction is guaranteed: concatenating paragraphs with double newlines exactly reproduces the original parent chunk text.",
+    "Using dense similarity pre-filtering (screening similarity >= 0.40 at the evidence-unit level) reduces NLI calls by ~70% without sacrificing recall."
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "index": 44,
+  "question_id": "44",
+  "question_text": "What is the difference between prejudice and discrimination?",
+  "generated_answer": "Prejudice is a negative attitude or feeling toward a person based solely on their membership in a particular social group.  \nDiscrimination is the negative action or behavior toward an individual that results from that prejudice.  \nThus, prejudice refers to the internal belief or feeling, while discrimination refers to the external treatment that follows.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_2",
+      "section": "12.5 Prejudice and Discrimination",
+      "pages": "435-436",
+      "hybrid_score": 0.0321,
+      "token_count": 643,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.8158,
+        2.5758,
+        -0.2035
+      ],
+      "entailment_prob": 0.9307,
+      "neutral_prob": 0.0578,
+      "contradiction_prob": 0.0115,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.1587
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_3",
+      "section": "12.5 Prejudice and Discrimination",
+      "pages": "436-436",
+      "hybrid_score": 0.0312,
+      "token_count": 672,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.3151,
+        2.4852,
+        0.1999
+      ],
+      "entailment_prob": 0.9009,
+      "neutral_prob": 0.0917,
+      "contradiction_prob": 0.0074,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.2281
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_1",
+      "section": "12.5 Prejudice and Discrimination",
+      "pages": "435-435",
+      "hybrid_score": 0.031,
+      "token_count": 570,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.0592,
+        1.4794,
+        0.1895
+      ],
+      "entailment_prob": 0.7384,
+      "neutral_prob": 0.2033,
+      "contradiction_prob": 0.0583,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.9391
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_8",
+      "section": "12.5 Prejudice and Discrimination",
+      "pages": "439-439",
+      "hybrid_score": 0.0278,
+      "token_count": 555,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.1635,
+        1.7493,
+        0.9191
+      ],
+      "entailment_prob": 0.6868,
+      "neutral_prob": 0.2994,
+      "contradiction_prob": 0.0137,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.1298
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_7",
+      "section": "12.5 Prejudice and Discrimination",
+      "pages": "438-439",
+      "hybrid_score": 0.0164,
+      "token_count": 608,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.5647,
+        1.5234,
+        0.5542
+      ],
+      "entailment_prob": 0.7018,
+      "neutral_prob": 0.2662,
+      "contradiction_prob": 0.032,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.0071
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_2",
+      "entailment_prob": 0.9307,
+      "neutral_prob": 0.0578,
+      "contradiction_prob": 0.0115,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 2,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_3",
+      "entailment_prob": 0.9009,
+      "neutral_prob": 0.0917,
+      "contradiction_prob": 0.0074,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_1",
+      "entailment_prob": 0.7384,
+      "neutral_prob": 0.2033,
+      "contradiction_prob": 0.0583,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 5,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_7",
+      "entailment_prob": 0.7018,
+      "neutral_prob": 0.2662,
+      "contradiction_prob": 0.032,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 4,
+      "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_8",
+      "entailment_prob": 0.6868,
+      "neutral_prob": 0.2994,
+      "contradiction_prob": 0.0137,
+      "predicted_label": "entailment"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "social_psychology_prejudice_and_discrimination_chunk_2",
+    "entailment_prob": 0.9307,
+    "neutral_prob": 0.0578,
+    "contradiction_prob": 0.0115,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      2
+    ],
+    "selected_chunk_ids": [
+      "social_psychology_prejudice_and_discrimination_chunk_2",
+      "social_psychology_prejudice_and_discrimination_chunk_3"
+    ],
+    "token_count": 1249,
+    "is_truncated": false,
+    "raw_logits": [
+      -2.6781,
+      2.3557,
+      0.7148
+    ],
+    "entailment_prob": 0.8331,
+    "neutral_prob": 0.1615,
+    "contradiction_prob": 0.0054,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.5034
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.4628,
+    "phase_b_top2_sec": 2.5034,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.9662,
+    "total_question_wall_sec": 7.9673
+  }
+}

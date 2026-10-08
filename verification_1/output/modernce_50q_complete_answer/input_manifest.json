@@ -1,0 +1,270 @@
+{
+  "manifest_timestamp": "2026-10-08 11:03:53",
+  "experiment_name": "50-Question ModernCE Complete-Answer Multi-Chunk Verification",
+  "total_input_files": 52,
+  "num_questions": 50,
+  "files": {
+    "data/queries.json": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\data\\queries.json",
+      "sha256": "2b6f5f047709e3d066d44d7b34cacd06c9fc855e52eead7a0947b8e3dc3276f8",
+      "file_size_bytes": 4860,
+      "item_count": 50
+    },
+    "outputs/submission.csv": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\submission.csv",
+      "sha256": "a1ec43dd83678255bd6a60c0bc46408af37f18ef56b84e5479971754fffa3f0b",
+      "file_size_bytes": 99989,
+      "item_count": 50
+    },
+    "outputs/retrieved_contexts/1.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\1.txt",
+      "sha256": "d96c12b7a5563803c44cc3816b1022216ebd677a189bcf430989726d9aaa81ba",
+      "file_size_bytes": 12687
+    },
+    "outputs/retrieved_contexts/2.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\2.txt",
+      "sha256": "7873c781b001a693db0d9b31d24e1a87d0acf659294e440ab372ced396c5f42d",
+      "file_size_bytes": 13900
+    },
+    "outputs/retrieved_contexts/3.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\3.txt",
+      "sha256": "809735f98ff313c5bd81a09d8da5171fb3637665cfe0a3c8a252611ba28c9ec1",
+      "file_size_bytes": 11516
+    },
+    "outputs/retrieved_contexts/4.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\4.txt",
+      "sha256": "2dee8e0ddb8861405729859f4d90bbf1278f7226bf3e797ef30332de1a3ad64c",
+      "file_size_bytes": 12587
+    },
+    "outputs/retrieved_contexts/5.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\5.txt",
+      "sha256": "c7b27d2dc545df4b0eacede70c078339c1195b2a46fc980e571a436035f6670e",
+      "file_size_bytes": 13844
+    },
+    "outputs/retrieved_contexts/6.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\6.txt",
+      "sha256": "20f3bb02bc56bf4076ff6bbf459e9af4718950d84a0aa31aa0507fe0df198669",
+      "file_size_bytes": 14172
+    },
+    "outputs/retrieved_contexts/7.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\7.txt",
+      "sha256": "7295dd8c7943210a687d19e2046e7ae626b0a50f7ac50ead1022b8902e72da20",
+      "file_size_bytes": 13047
+    },
+    "outputs/retrieved_contexts/8.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\8.txt",
+      "sha256": "31324369548bc3b4904e251edb35605f8ec25bbbe64b545f625f970d5302d67d",
+      "file_size_bytes": 15951
+    },
+    "outputs/retrieved_contexts/9.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\9.txt",
+      "sha256": "5bfbf76b6f856f2f7cf1a9e42d7dac4f869ebeb0cefbff87692fcd31ea5f0d23",
+      "file_size_bytes": 11388
+    },
+    "outputs/retrieved_contexts/10.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\10.txt",
+      "sha256": "de419decabf3e45d7db1e92c096534dac07743af614300308d807a527d239d85",
+      "file_size_bytes": 12156
+    },
+    "outputs/retrieved_contexts/11.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\11.txt",
+      "sha256": "55e7837c1224927b1bf2aa8207bb0c074862ff50996f8b42a02f6ba77c3bb9bc",
+      "file_size_bytes": 11104
+    },
+    "outputs/retrieved_contexts/12.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\12.txt",
+      "sha256": "2c01cf34877945fd60d77e7487e6563fc5acf409163a1dc1c6a601be67b2681b",
+      "file_size_bytes": 14383
+    },
+    "outputs/retrieved_contexts/13.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\13.txt",
+      "sha256": "ce828bef4c6075b4460459c35056019e089b1c98636959be62aa3f24453f0a28",
+      "file_size_bytes": 12759
+    },
+    "outputs/retrieved_contexts/14.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\14.txt",
+      "sha256": "3357877e76a00e5a75409cbf592346d501b134adac71cee3403bd0b0b35c515d",
+      "file_size_bytes": 15076
+    },
+    "outputs/retrieved_contexts/15.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\15.txt",
+      "sha256": "737a9fb01f857d0754ae4c08a851c7bedac8c1bb7374fb46e4b67cfd4e5debeb",
+      "file_size_bytes": 12342
+    },
+    "outputs/retrieved_contexts/16.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\16.txt",
+      "sha256": "47e608d0aa7d07f8b7f3760fc5c13e36faa6a91fe94fa526b4bca4723de69f4d",
+      "file_size_bytes": 14344
+    },
+    "outputs/retrieved_contexts/17.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\17.txt",
+      "sha256": "5a9fbc499b31d40e10950d7a89fb66809867c7ce88dc376a17825f3b89fd1fe1",
+      "file_size_bytes": 14471
+    },
+    "outputs/retrieved_contexts/18.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\18.txt",
+      "sha256": "29b5e60314483825737ca4f6e6ba01cf87bd2a80c3f43cf9b8133827420bcfc5",
+      "file_size_bytes": 11669
+    },
+    "outputs/retrieved_contexts/19.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\19.txt",
+      "sha256": "768a8f6e3f516601ed18bb0e8da0bc9a701a21a2fbc36252972a809e2ece617c",
+      "file_size_bytes": 13437
+    },
+    "outputs/retrieved_contexts/20.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\20.txt",
+      "sha256": "3a95a281a178c0f6446702aa88c5be7ddee43dcf1e65349797d0f9ba2cf2ae17",
+      "file_size_bytes": 12739
+    },
+    "outputs/retrieved_contexts/21.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\21.txt",
+      "sha256": "1f5a9bd2fd23bfd7c0b280e827fbde0e38d0da005ab6126f391a46c91f200022",
+      "file_size_bytes": 13286
+    },
+    "outputs/retrieved_contexts/22.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\22.txt",
+      "sha256": "8218053bf025faa34a24e70ee0291c5da68319d6181091caa6e9bfeceea08367",
+      "file_size_bytes": 13881
+    },
+    "outputs/retrieved_contexts/23.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\23.txt",
+      "sha256": "db7c974875adc9e4ea64bbccc2251e49393381aa20853938bbd6dceb633056e8",
+      "file_size_bytes": 14244
+    },
+    "outputs/retrieved_contexts/24.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\24.txt",
+      "sha256": "b2cb9bc4fb47c2813bbfe651f489399846e11c875e2cc894c8cbf5bddb329a8a",
+      "file_size_bytes": 12185
+    },
+    "outputs/retrieved_contexts/25.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\25.txt",
+      "sha256": "045a0d5a26ce6094ef5835aaca69ecf7ec5390e8c13bf1685b6b069dc405ee7e",
+      "file_size_bytes": 12298
+    },
+    "outputs/retrieved_contexts/26.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\26.txt",
+      "sha256": "30b6a8519cba68dfa25489eef0c9d853fa0948cefcd421a8ffd5902891aadaa4",
+      "file_size_bytes": 14822
+    },
+    "outputs/retrieved_contexts/27.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\27.txt",
+      "sha256": "7261098e70082221fefb7217312c836207f7972085fe646a798c1e35e97a9652",
+      "file_size_bytes": 14593
+    },
+    "outputs/retrieved_contexts/28.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\28.txt",
+      "sha256": "561849570368c5f49e70ed4370ddd3d1a65051afbf816518ad6e36c9f78d0a20",
+      "file_size_bytes": 14025
+    },
+    "outputs/retrieved_contexts/29.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\29.txt",
+      "sha256": "535586189afa0eba7c1c246d5dcf22c705e896d9e457ccddd2289b4149dd16f5",
+      "file_size_bytes": 13955
+    },
+    "outputs/retrieved_contexts/30.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\30.txt",
+      "sha256": "c69c5edbc5b08ba086bf38b0f99f9f20e4b725f65281997341bb8fe04e6de54e",
+      "file_size_bytes": 15522
+    },
+    "outputs/retrieved_contexts/31.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\31.txt",
+      "sha256": "6a73a5bf7da61cfbf9a162c1fc671f130e0d73cae250f69fc94e0eace504ea5c",
+      "file_size_bytes": 14023
+    },
+    "outputs/retrieved_contexts/32.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\32.txt",
+      "sha256": "02b4bbcc81fcd579197206ce30ee58dd9a3b3bc08153d9a306d5a4b4ce95b882",
+      "file_size_bytes": 13988
+    },
+    "outputs/retrieved_contexts/33.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\33.txt",
+      "sha256": "ffd03fefffe85bb16cdb9ab4c8b9091506e7f8396a44c6db8026d08fa16dc59e",
+      "file_size_bytes": 15259
+    },
+    "outputs/retrieved_contexts/34.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\34.txt",
+      "sha256": "302aa727c1bdd36a5d293ac42e3178ebe896baab8b6ce393fa12ce50b672627b",
+      "file_size_bytes": 7624
+    },
+    "outputs/retrieved_contexts/35.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\35.txt",
+      "sha256": "33920d0dd5a9d91f36cb57c08ed1fdb2eef56093a746744762eae19adc5761cf",
+      "file_size_bytes": 9351
+    },
+    "outputs/retrieved_contexts/36.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\36.txt",
+      "sha256": "2eb3ea5561332639e8278e7c1042a5e41b777e6d4a29d0744bb4bd6c5e328d86",
+      "file_size_bytes": 13437
+    },
+    "outputs/retrieved_contexts/37.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\37.txt",
+      "sha256": "8d3b0e1d126ada2dd906e6f0b8573bbd1cc60e2d41ae6a16d2261f5f9de52f25",
+      "file_size_bytes": 13148
+    },
+    "outputs/retrieved_contexts/38.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\38.txt",
+      "sha256": "6a53b7095de77814a9d90a3a3b5077e9cf0519267971a60a800dd36d76185eb2",
+      "file_size_bytes": 15896
+    },
+    "outputs/retrieved_contexts/39.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\39.txt",
+      "sha256": "655bbe9ab1731575031d5291da59534e956dbd7f1b32f49ddaad0e405fa344ee",
+      "file_size_bytes": 14348
+    },
+    "outputs/retrieved_contexts/40.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\40.txt",
+      "sha256": "db41f9e37cde5e93d18206f38d2a0e27ca7960b075f968f3ccb7cd93e8c46109",
+      "file_size_bytes": 13516
+    },
+    "outputs/retrieved_contexts/41.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\41.txt",
+      "sha256": "d6e7f469c021716cdccad24ed7ab33a34f3cfed61db134e3f6d86b0413e05adb",
+      "file_size_bytes": 14028
+    },
+    "outputs/retrieved_contexts/42.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\42.txt",
+      "sha256": "10cc64808b8dc028b1869efbd311766d6901bf9207754f208619f049968451cc",
+      "file_size_bytes": 15001
+    },
+    "outputs/retrieved_contexts/43.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\43.txt",
+      "sha256": "df36e13b6805e016b31af74fe7098335d6cd1543d103d2a686b34e7f421a44e1",
+      "file_size_bytes": 13873
+    },
+    "outputs/retrieved_contexts/44.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\44.txt",
+      "sha256": "728c8482d2f60a9c981dfb52030d5ecbe10877e250c3339330361aa26f81156c",
+      "file_size_bytes": 14663
+    },
+    "outputs/retrieved_contexts/45.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\45.txt",
+      "sha256": "cfcfb26e97d1d350385b52f41841381dfc4d23f8a35e0659ecc04b41b1b042bb",
+      "file_size_bytes": 15338
+    },
+    "outputs/retrieved_contexts/46.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\46.txt",
+      "sha256": "b0c15d5ef0fcdcd69605209779c56bcd493f76de010934bda60e2655bc7b3f72",
+      "file_size_bytes": 13961
+    },
+    "outputs/retrieved_contexts/47.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\47.txt",
+      "sha256": "9c344ec07f2029a4bb2b6dad3653d65fe55406498662581c3f8718261f02e2d2",
+      "file_size_bytes": 13551
+    },
+    "outputs/retrieved_contexts/48.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\48.txt",
+      "sha256": "40b4a3c060b2136c3dc3c91c52c55a5ab4ce2d607b87fa46891d4dc129b77a84",
+      "file_size_bytes": 12924
+    },
+    "outputs/retrieved_contexts/49.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\49.txt",
+      "sha256": "b634a60d97c4cc0695f278f04826c53a5ffbe729e62a47b5ee14f4ba2d7c9eab",
+      "file_size_bytes": 16525
+    },
+    "outputs/retrieved_contexts/50.txt": {
+      "file_path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\retrieved_contexts\\50.txt",
+      "sha256": "a8c9adfe172ef84071faff4c35b55c22a37c8cb22779f4a2bb1dc7d006c27ecb",
+      "file_size_bytes": 10875
+    }
+  }
+}

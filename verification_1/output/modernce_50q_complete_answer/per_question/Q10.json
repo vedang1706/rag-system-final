@@ -1,0 +1,193 @@
+{
+  "index": 10,
+  "question_id": "10",
+  "question_text": "What is the sociocultural model in therapy?",
+  "generated_answer": "The sociocultural model in therapy views a client’s behaviors and symptoms through the lens of their cultural background and social norms. It integrates cultural patterns into a unique treatment plan, balancing individual and collectivist perspectives, and uses both universal and culture‑specific strategies. Therapists applying this model may work with individuals, groups, families, or couples, and they strive to recognize and address cultural barriers that affect help‑seeking and treatment engagement.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "therapy_and_treatment_introduction_chunk_0",
+      "section": "Chapter Outline",
+      "pages": "609-609",
+      "hybrid_score": 0.0323,
+      "token_count": 441,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.9118,
+        0.9032,
+        4.5737
+      ],
+      "entailment_prob": 0.0248,
+      "neutral_prob": 0.975,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.6257
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "therapy_and_treatment_introduction_chunk_0",
+      "section": "Chapter 16 Therapy and Treatment",
+      "pages": "609-609",
+      "hybrid_score": 0.0323,
+      "token_count": 441,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.9118,
+        0.9032,
+        4.5737
+      ],
+      "entailment_prob": 0.0248,
+      "neutral_prob": 0.975,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.7838
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "section": "16.5 The Sociocultural Model and Therapy Utilization",
+      "pages": "634-635",
+      "hybrid_score": 0.0167,
+      "token_count": 807,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.5569,
+        4.3715,
+        0.3476
+      ],
+      "entailment_prob": 0.9823,
+      "neutral_prob": 0.0176,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.4251
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_0",
+      "section": "16.5 The Sociocultural Model and Therapy Utilization",
+      "pages": "634-634",
+      "hybrid_score": 0.0167,
+      "token_count": 664,
+      "is_truncated": false,
+      "raw_logits": [
+        -5.1525,
+        2.8853,
+        2.9352
+      ],
+      "entailment_prob": 0.4874,
+      "neutral_prob": 0.5124,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9491
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "therapy_and_treatment_treatment_modalities_chunk_4",
+      "section": "16.3 Treatment Modalities",
+      "pages": "631-631",
+      "hybrid_score": 0.0154,
+      "token_count": 294,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.0199,
+        -0.1861,
+        3.7081
+      ],
+      "entailment_prob": 0.0199,
+      "neutral_prob": 0.9769,
+      "contradiction_prob": 0.0032,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.5753
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 3,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "entailment_prob": 0.9823,
+      "neutral_prob": 0.0176,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 4,
+      "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_0",
+      "entailment_prob": 0.4874,
+      "neutral_prob": 0.5124,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 1,
+      "chunk_id": "therapy_and_treatment_introduction_chunk_0",
+      "entailment_prob": 0.0248,
+      "neutral_prob": 0.975,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "therapy_and_treatment_introduction_chunk_0",
+      "entailment_prob": 0.0248,
+      "neutral_prob": 0.975,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "therapy_and_treatment_treatment_modalities_chunk_4",
+      "entailment_prob": 0.0199,
+      "neutral_prob": 0.9769,
+      "contradiction_prob": 0.0032,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 3,
+    "chunk_id": "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+    "entailment_prob": 0.9823,
+    "neutral_prob": 0.0176,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      3,
+      4
+    ],
+    "selected_chunk_ids": [
+      "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_1",
+      "therapy_and_treatment_the_sociocultural_model_and_therapy_utilization_chunk_0"
+    ],
+    "token_count": 1381,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.953,
+      4.205,
+      0.8946
+    ],
+    "entailment_prob": 0.9647,
+    "neutral_prob": 0.0352,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.6174
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.359,
+    "phase_b_top2_sec": 2.6174,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 6.9764,
+    "total_question_wall_sec": 6.9773
+  }
+}

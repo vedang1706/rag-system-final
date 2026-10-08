@@ -1,0 +1,193 @@
+{
+  "index": 42,
+  "question_id": "42",
+  "question_text": "What are major themes in industrial-organizational psychology?",
+  "generated_answer": "Industrial‑organizational psychology focuses on three core themes. First, **industrial psychology** examines job requirements, candidate selection, training, evaluation, and legal issues such as discrimination. Second, **organizational psychology** studies employee relationships, satisfaction, motivation, commitment, leadership, culture, and workplace issues like harassment and violence. Third, **human‑factors psychology** (ergonomics) investigates how workers interact with tools and environments to optimize safety, productivity, and health. These themes together guide research and practice in workplaces.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_2",
+      "section": "13.1 What Is Industrial and Organizational Psychology?",
+      "pages": "459-461",
+      "hybrid_score": 0.0304,
+      "token_count": 634,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.4472,
+        0.8776,
+        3.7722
+      ],
+      "entailment_prob": 0.0524,
+      "neutral_prob": 0.9469,
+      "contradiction_prob": 0.0007,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0951
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_7",
+      "section": "1.3 Contemporary Psychology",
+      "pages": "35-37",
+      "hybrid_score": 0.0302,
+      "token_count": 697,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.3615,
+        0.9803,
+        2.1732
+      ],
+      "entailment_prob": 0.2308,
+      "neutral_prob": 0.761,
+      "contradiction_prob": 0.0082,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.3302
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "personality_neofreudians_adler_erikson_jung_and_horney_chunk_3",
+      "section": "11.3 Neo-Freudians: Adler, Erikson, Jung, and Horney",
+      "pages": "382-383",
+      "hybrid_score": 0.0167,
+      "token_count": 815,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.3104,
+        -0.6722,
+        3.2468
+      ],
+      "entailment_prob": 0.0193,
+      "neutral_prob": 0.9705,
+      "contradiction_prob": 0.0102,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.7375
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_0",
+      "section": "13.1 What Is Industrial and Organizational Psychology?",
+      "pages": "458-458",
+      "hybrid_score": 0.0161,
+      "token_count": 641,
+      "is_truncated": false,
+      "raw_logits": [
+        -5.3951,
+        3.1616,
+        2.8892
+      ],
+      "entailment_prob": 0.5676,
+      "neutral_prob": 0.4323,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.2024
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "introduction_to_psychology_personal_application_questions_chunk_0",
+      "section": "Personal Application Questions",
+      "pages": "46-46",
+      "hybrid_score": 0.0156,
+      "token_count": 420,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.954,
+        -0.4512,
+        3.8341
+      ],
+      "entailment_prob": 0.0135,
+      "neutral_prob": 0.9834,
+      "contradiction_prob": 0.003,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.669
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 4,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_0",
+      "entailment_prob": 0.5676,
+      "neutral_prob": 0.4323,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 2,
+      "chunk_id": "introduction_to_psychology_contemporary_psychology_chunk_7",
+      "entailment_prob": 0.2308,
+      "neutral_prob": 0.761,
+      "contradiction_prob": 0.0082,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 1,
+      "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_2",
+      "entailment_prob": 0.0524,
+      "neutral_prob": 0.9469,
+      "contradiction_prob": 0.0007,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 3,
+      "chunk_id": "personality_neofreudians_adler_erikson_jung_and_horney_chunk_3",
+      "entailment_prob": 0.0193,
+      "neutral_prob": 0.9705,
+      "contradiction_prob": 0.0102,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "introduction_to_psychology_personal_application_questions_chunk_0",
+      "entailment_prob": 0.0135,
+      "neutral_prob": 0.9834,
+      "contradiction_prob": 0.003,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 4,
+    "chunk_id": "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_0",
+    "entailment_prob": 0.5676,
+    "neutral_prob": 0.4323,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      4
+    ],
+    "selected_chunk_ids": [
+      "introduction_to_psychology_contemporary_psychology_chunk_7",
+      "industrialorganizational_psychology_what_is_industrial_and_organizational_psychology_chunk_0"
+    ],
+    "token_count": 1228,
+    "is_truncated": false,
+    "raw_logits": [
+      -5.128,
+      3.7784,
+      1.5827
+    ],
+    "entailment_prob": 0.8997,
+    "neutral_prob": 0.1001,
+    "contradiction_prob": 0.0001,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.4618
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 6.0342,
+    "phase_b_top2_sec": 2.4618,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 8.496,
+    "total_question_wall_sec": 8.4969
+  }
+}

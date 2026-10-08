@@ -1,0 +1,216 @@
+{
+  "index": 14,
+  "question_id": "14",
+  "question_text": "What are Freud's contributions to psychology?",
+  "generated_answer": "Freud’s key contributions include the idea that early childhood experiences shape adult personality, the concept of the unconscious mind, and the division of personality into the id, ego, and superego. He proposed the psychosexual stages of development—oral, anal, phallic, latency, and genital—as a framework for understanding personality formation. Freud also introduced psychoanalysis, a therapeutic method that emphasizes free association and the exploration of unconscious material. His theories laid the groundwork for later personality theories and continue to influence contemporary psychotherapy practices.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "personality_neofreudians_adler_erikson_jung_and_horney_chunk_1",
+      "section": "11.3 Neo-Freudians: Adler, Erikson, Jung, and Horney",
+      "pages": "380-381",
+      "hybrid_score": 0.0318,
+      "token_count": 688,
+      "is_truncated": false,
+      "raw_logits": [
+        0.5425,
+        -3.8406,
+        5.9124
+      ],
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.9953,
+      "contradiction_prob": 0.0046,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0383
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "lifespan_development_lifespan_theories_chunk_1",
+      "section": "9.2 Lifespan Theories",
+      "pages": "296-297",
+      "hybrid_score": 0.0318,
+      "token_count": 653,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.3744,
+        -1.4075,
+        6.4488
+      ],
+      "entailment_prob": 0.0004,
+      "neutral_prob": 0.9995,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9802
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "psychological_research_approaches_to_research_chunk_0",
+      "section": "2.2 Approaches to Research",
+      "pages": "53-53",
+      "hybrid_score": 0.0318,
+      "token_count": 655,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.8909,
+        -1.4164,
+        3.8291
+      ],
+      "entailment_prob": 0.0052,
+      "neutral_prob": 0.986,
+      "contradiction_prob": 0.0088,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1583
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "personality_neofreudians_adler_erikson_jung_and_horney_chunk_0",
+      "section": "11.3 Neo-Freudians: Adler, Erikson, Jung, and Horney",
+      "pages": "380-380",
+      "hybrid_score": 0.0303,
+      "token_count": 747,
+      "is_truncated": false,
+      "raw_logits": [
+        0.7311,
+        -4.166,
+        5.7824
+      ],
+      "entailment_prob": 0.0,
+      "neutral_prob": 0.9936,
+      "contradiction_prob": 0.0064,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.379
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_3",
+      "section": "1.2 History of Psychology",
+      "pages": "23-24",
+      "hybrid_score": 0.0164,
+      "token_count": 626,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.6473,
+        -1.6776,
+        5.2336
+      ],
+      "entailment_prob": 0.001,
+      "neutral_prob": 0.998,
+      "contradiction_prob": 0.001,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9102
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 3,
+      "chunk_id": "psychological_research_approaches_to_research_chunk_0",
+      "entailment_prob": 0.0052,
+      "neutral_prob": 0.986,
+      "contradiction_prob": 0.0088,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 5,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_3",
+      "entailment_prob": 0.001,
+      "neutral_prob": 0.998,
+      "contradiction_prob": 0.001,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 2,
+      "chunk_id": "lifespan_development_lifespan_theories_chunk_1",
+      "entailment_prob": 0.0004,
+      "neutral_prob": 0.9995,
+      "contradiction_prob": 0.0001,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 1,
+      "chunk_id": "personality_neofreudians_adler_erikson_jung_and_horney_chunk_1",
+      "entailment_prob": 0.0001,
+      "neutral_prob": 0.9953,
+      "contradiction_prob": 0.0046,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 4,
+      "chunk_id": "personality_neofreudians_adler_erikson_jung_and_horney_chunk_0",
+      "entailment_prob": 0.0,
+      "neutral_prob": 0.9936,
+      "contradiction_prob": 0.0064,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 3,
+    "chunk_id": "psychological_research_approaches_to_research_chunk_0",
+    "entailment_prob": 0.0052,
+    "neutral_prob": 0.986,
+    "contradiction_prob": 0.0088,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      3,
+      5
+    ],
+    "selected_chunk_ids": [
+      "psychological_research_approaches_to_research_chunk_0",
+      "introduction_to_psychology_history_of_psychology_chunk_3"
+    ],
+    "token_count": 1171,
+    "is_truncated": false,
+    "raw_logits": [
+      0.2063,
+      -2.055,
+      3.0824
+    ],
+    "entailment_prob": 0.0055,
+    "neutral_prob": 0.9414,
+    "contradiction_prob": 0.0531,
+    "predicted_label": "neutral",
+    "eval_time_sec": 2.049
+  },
+  "top_3_required": true,
+  "top_3_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      3,
+      5
+    ],
+    "selected_chunk_ids": [
+      "lifespan_development_lifespan_theories_chunk_1",
+      "psychological_research_approaches_to_research_chunk_0",
+      "introduction_to_psychology_history_of_psychology_chunk_3"
+    ],
+    "token_count": 1714,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.4939,
+      2.8256,
+      1.1226
+    ],
+    "entailment_prob": 0.8446,
+    "neutral_prob": 0.1538,
+    "contradiction_prob": 0.0015,
+    "predicted_label": "entailment",
+    "eval_time_sec": 3.4742
+  },
+  "final_verdict": "ENTAILED_BY_TOP3",
+  "final_label": "entailment",
+  "combination_used": "TOP_3",
+  "timing": {
+    "phase_a_individual_sec": 5.466,
+    "phase_b_top2_sec": 2.049,
+    "phase_c_top3_sec": 3.4742,
+    "total_nli_inference_sec": 10.9892,
+    "total_question_wall_sec": 10.9903
+  }
+}

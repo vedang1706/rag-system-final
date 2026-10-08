@@ -1,0 +1,193 @@
+{
+  "index": 16,
+  "question_id": "16",
+  "question_text": "What is classical conditioning?",
+  "generated_answer": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that repeatedly occur together. A neutral stimulus, initially eliciting no response, becomes a conditioned stimulus (CS) after being paired with an unconditioned stimulus (UCS) that naturally produces an unconditioned response (UCR). Once the association is formed, the CS alone elicits a conditioned response (CR) that mirrors the UCR. This process explains how behaviors such as salivation to a bell or nausea to a doctor's office can be learned through repeated pairings.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "learning_classical_conditioning_chunk_5",
+      "section": "6.2 Classical Conditioning",
+      "pages": "199-200",
+      "hybrid_score": 0.0318,
+      "token_count": 698,
+      "is_truncated": false,
+      "raw_logits": [
+        0.4519,
+        -1.7771,
+        2.421
+      ],
+      "entailment_prob": 0.013,
+      "neutral_prob": 0.8661,
+      "contradiction_prob": 0.1209,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0925
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "learning_classical_conditioning_chunk_0",
+      "section": "6.2 Classical Conditioning",
+      "pages": "195-195",
+      "hybrid_score": 0.0313,
+      "token_count": 638,
+      "is_truncated": false,
+      "raw_logits": [
+        0.3636,
+        -2.7254,
+        3.8869
+      ],
+      "entailment_prob": 0.0013,
+      "neutral_prob": 0.9701,
+      "contradiction_prob": 0.0286,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0807
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "learning_classical_conditioning_chunk_3",
+      "section": "6.2 Classical Conditioning",
+      "pages": "197-198",
+      "hybrid_score": 0.0303,
+      "token_count": 727,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.1886,
+        2.934,
+        0.6532
+      ],
+      "entailment_prob": 0.9055,
+      "neutral_prob": 0.0925,
+      "contradiction_prob": 0.002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.1685
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "learning_what_is_learning_chunk_2",
+      "section": "6.1 What Is Learning?",
+      "pages": "194-194",
+      "hybrid_score": 0.0299,
+      "token_count": 507,
+      "is_truncated": false,
+      "raw_logits": [
+        1.7394,
+        -3.882,
+        3.8875
+      ],
+      "entailment_prob": 0.0004,
+      "neutral_prob": 0.8952,
+      "contradiction_prob": 0.1045,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9234
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "learning_classical_conditioning_chunk_2",
+      "section": "6.2 Classical Conditioning",
+      "pages": "196-197",
+      "hybrid_score": 0.028,
+      "token_count": 722,
+      "is_truncated": false,
+      "raw_logits": [
+        -3.6019,
+        3.7736,
+        0.1844
+      ],
+      "entailment_prob": 0.9725,
+      "neutral_prob": 0.0269,
+      "contradiction_prob": 0.0006,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.1457
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 5,
+      "chunk_id": "learning_classical_conditioning_chunk_2",
+      "entailment_prob": 0.9725,
+      "neutral_prob": 0.0269,
+      "contradiction_prob": 0.0006,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 3,
+      "chunk_id": "learning_classical_conditioning_chunk_3",
+      "entailment_prob": 0.9055,
+      "neutral_prob": 0.0925,
+      "contradiction_prob": 0.002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 1,
+      "chunk_id": "learning_classical_conditioning_chunk_5",
+      "entailment_prob": 0.013,
+      "neutral_prob": 0.8661,
+      "contradiction_prob": 0.1209,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 2,
+      "chunk_id": "learning_classical_conditioning_chunk_0",
+      "entailment_prob": 0.0013,
+      "neutral_prob": 0.9701,
+      "contradiction_prob": 0.0286,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 4,
+      "chunk_id": "learning_what_is_learning_chunk_2",
+      "entailment_prob": 0.0004,
+      "neutral_prob": 0.8952,
+      "contradiction_prob": 0.1045,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 5,
+    "chunk_id": "learning_classical_conditioning_chunk_2",
+    "entailment_prob": 0.9725,
+    "neutral_prob": 0.0269,
+    "contradiction_prob": 0.0006,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      3,
+      5
+    ],
+    "selected_chunk_ids": [
+      "learning_classical_conditioning_chunk_3",
+      "learning_classical_conditioning_chunk_2"
+    ],
+    "token_count": 1336,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.3782,
+      3.8497,
+      -0.066
+    ],
+    "entailment_prob": 0.9798,
+    "neutral_prob": 0.0195,
+    "contradiction_prob": 0.0007,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.5102
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.4108,
+    "phase_b_top2_sec": 2.5102,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.921,
+    "total_question_wall_sec": 7.9221
+  }
+}

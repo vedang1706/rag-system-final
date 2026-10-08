@@ -1,0 +1,193 @@
+{
+  "index": 18,
+  "question_id": "18",
+  "question_text": "What is Maslow's hierarchy of needs?",
+  "generated_answer": "Maslow’s hierarchy of needs is a pyramid of human motives that must be satisfied in a specific order. At the base are physiological needs for survival, followed by safety and security, love and belonging, and esteem or self‑worth. The top tier is self‑actualization, the drive to realize one’s full potential, and some versions add a higher level of self‑transcendence. Lower‑level needs must be met before higher‑level needs can be pursued.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "emotion_and_motivation_motivation_chunk_6",
+      "section": "10.1 Motivation",
+      "pages": "338-339",
+      "hybrid_score": 0.0331,
+      "token_count": 691,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.136,
+        4.2788,
+        0.1357
+      ],
+      "entailment_prob": 0.9842,
+      "neutral_prob": 0.0156,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment",
+      "eval_time_sec": 1.2962
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "emotion_and_motivation_motivation_chunk_7",
+      "section": "10.1 Motivation",
+      "pages": "339-339",
+      "hybrid_score": 0.0331,
+      "token_count": 187,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.1712,
+        0.5313,
+        2.722
+      ],
+      "entailment_prob": 0.0999,
+      "neutral_prob": 0.8934,
+      "contradiction_prob": 0.0067,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.3507
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "personality_humanistic_approaches_chunk_1",
+      "section": "11.5 Humanistic Approaches",
+      "pages": "389-389",
+      "hybrid_score": 0.0313,
+      "token_count": 480,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.0245,
+        -2.1216,
+        3.833
+      ],
+      "entailment_prob": 0.0025,
+      "neutral_prob": 0.9768,
+      "contradiction_prob": 0.0206,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.699
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+      "section": "1.2 History of Psychology",
+      "pages": "26-27",
+      "hybrid_score": 0.0161,
+      "token_count": 649,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.3872,
+        0.5251,
+        2.9747
+      ],
+      "entailment_prob": 0.0791,
+      "neutral_prob": 0.9166,
+      "contradiction_prob": 0.0043,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.966
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_6",
+      "section": "16.2 Types of Treatment",
+      "pages": "620-621",
+      "hybrid_score": 0.0159,
+      "token_count": 706,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.9024,
+        0.3449,
+        2.5441
+      ],
+      "entailment_prob": 0.0988,
+      "neutral_prob": 0.8908,
+      "contradiction_prob": 0.0104,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.4095
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "emotion_and_motivation_motivation_chunk_6",
+      "entailment_prob": 0.9842,
+      "neutral_prob": 0.0156,
+      "contradiction_prob": 0.0002,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 2,
+      "chunk_id": "emotion_and_motivation_motivation_chunk_7",
+      "entailment_prob": 0.0999,
+      "neutral_prob": 0.8934,
+      "contradiction_prob": 0.0067,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 5,
+      "chunk_id": "therapy_and_treatment_types_of_treatment_chunk_6",
+      "entailment_prob": 0.0988,
+      "neutral_prob": 0.8908,
+      "contradiction_prob": 0.0104,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_7",
+      "entailment_prob": 0.0791,
+      "neutral_prob": 0.9166,
+      "contradiction_prob": 0.0043,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 3,
+      "chunk_id": "personality_humanistic_approaches_chunk_1",
+      "entailment_prob": 0.0025,
+      "neutral_prob": 0.9768,
+      "contradiction_prob": 0.0206,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "emotion_and_motivation_motivation_chunk_6",
+    "entailment_prob": 0.9842,
+    "neutral_prob": 0.0156,
+    "contradiction_prob": 0.0002,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      2
+    ],
+    "selected_chunk_ids": [
+      "emotion_and_motivation_motivation_chunk_6",
+      "emotion_and_motivation_motivation_chunk_7"
+    ],
+    "token_count": 778,
+    "is_truncated": false,
+    "raw_logits": [
+      -4.1638,
+      3.8831,
+      0.4545
+    ],
+    "entailment_prob": 0.9683,
+    "neutral_prob": 0.0314,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.3294
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.7214,
+    "phase_b_top2_sec": 1.3294,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 6.0508,
+    "total_question_wall_sec": 6.0516
+  }
+}

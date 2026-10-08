@@ -1,0 +1,193 @@
+{
+  "index": 3,
+  "question_id": "3",
+  "question_text": "What are the stages of sleep?",
+  "generated_answer": "Sleep consists of two main phases: non‑REM (NREM) and REM.  \nNREM is divided into three stages:  \n- **Stage 1** is a brief transitional period between wakefulness and sleep.  \n- **Stage 2** features sleep spindles and K‑complexes, indicating light sleep.  \n- **Stage 3** is deep, slow‑wave sleep with the lowest brain‑wave frequency and highest amplitude.  \nAfter the NREM cycle, REM sleep follows, characterized by rapid eye movements and brain‑wave patterns similar to wakefulness.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_0",
+      "section": "4.3 Stages of Sleep",
+      "pages": "129-129",
+      "hybrid_score": 0.032,
+      "token_count": 658,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.4553,
+        1.4015,
+        0.1082
+      ],
+      "entailment_prob": 0.699,
+      "neutral_prob": 0.1918,
+      "contradiction_prob": 0.1092,
+      "predicted_label": "entailment",
+      "eval_time_sec": 0.8844
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "states_of_consciousness_sleep_and_why_we_sleep_chunk_1",
+      "section": "4.2 Sleep and Why We Sleep",
+      "pages": "126-127",
+      "hybrid_score": 0.0315,
+      "token_count": 724,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.1935,
+        0.0749,
+        3.2108
+      ],
+      "entailment_prob": 0.0415,
+      "neutral_prob": 0.9542,
+      "contradiction_prob": 0.0043,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0474
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "states_of_consciousness_introduction_chunk_0",
+      "section": "Chapter 4 States of Consciousness",
+      "pages": "121-121",
+      "hybrid_score": 0.0304,
+      "token_count": 381,
+      "is_truncated": false,
+      "raw_logits": [
+        1.5873,
+        -3.5233,
+        3.6727
+      ],
+      "entailment_prob": 0.0007,
+      "neutral_prob": 0.8889,
+      "contradiction_prob": 0.1104,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.4912
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "states_of_consciousness_introduction_chunk_0",
+      "section": "Chapter Outline",
+      "pages": "121-121",
+      "hybrid_score": 0.0303,
+      "token_count": 381,
+      "is_truncated": false,
+      "raw_logits": [
+        1.5873,
+        -3.5233,
+        3.6727
+      ],
+      "entailment_prob": 0.0007,
+      "neutral_prob": 0.8889,
+      "contradiction_prob": 0.1104,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.4871
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_3",
+      "section": "4.3 Stages of Sleep",
+      "pages": "132-132",
+      "hybrid_score": 0.0272,
+      "token_count": 686,
+      "is_truncated": false,
+      "raw_logits": [
+        0.1752,
+        -2.9537,
+        4.7758
+      ],
+      "entailment_prob": 0.0004,
+      "neutral_prob": 0.9896,
+      "contradiction_prob": 0.0099,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1281
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_0",
+      "entailment_prob": 0.699,
+      "neutral_prob": 0.1918,
+      "contradiction_prob": 0.1092,
+      "predicted_label": "entailment"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 2,
+      "chunk_id": "states_of_consciousness_sleep_and_why_we_sleep_chunk_1",
+      "entailment_prob": 0.0415,
+      "neutral_prob": 0.9542,
+      "contradiction_prob": 0.0043,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "states_of_consciousness_introduction_chunk_0",
+      "entailment_prob": 0.0007,
+      "neutral_prob": 0.8889,
+      "contradiction_prob": 0.1104,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 4,
+      "chunk_id": "states_of_consciousness_introduction_chunk_0",
+      "entailment_prob": 0.0007,
+      "neutral_prob": 0.8889,
+      "contradiction_prob": 0.1104,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_3",
+      "entailment_prob": 0.0004,
+      "neutral_prob": 0.9896,
+      "contradiction_prob": 0.0099,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "states_of_consciousness_stages_of_sleep_chunk_0",
+    "entailment_prob": 0.699,
+    "neutral_prob": 0.1918,
+    "contradiction_prob": 0.1092,
+    "predicted_label": "entailment"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      2
+    ],
+    "selected_chunk_ids": [
+      "states_of_consciousness_stages_of_sleep_chunk_0",
+      "states_of_consciousness_sleep_and_why_we_sleep_chunk_1"
+    ],
+    "token_count": 1259,
+    "is_truncated": false,
+    "raw_logits": [
+      -2.9397,
+      3.471,
+      -0.0623
+    ],
+    "entailment_prob": 0.9701,
+    "neutral_prob": 0.0283,
+    "contradiction_prob": 0.0016,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.0689
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.0382,
+    "phase_b_top2_sec": 2.0689,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 6.1071,
+    "total_question_wall_sec": 6.1079
+  }
+}

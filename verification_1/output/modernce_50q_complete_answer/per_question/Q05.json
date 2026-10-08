@@ -1,0 +1,193 @@
+{
+  "index": 5,
+  "question_id": "5",
+  "question_text": "What is problem-solving in psychology?",
+  "generated_answer": "Problem‑solving in psychology is the mental process of identifying a problem and then applying a strategy to find a solution. It involves selecting from various approaches—such as algorithms (step‑by‑step procedures), heuristics (mental shortcuts), or trial and error—and executing them to reach a desired outcome. Successful problem‑solving requires clear problem definition, consideration of possible solutions, and evaluation of their costs and benefits. Common roadblocks include mental set and functional fixedness, which cause people to persist with ineffective approaches.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "thinking_and_intelligence_problem_solving_chunk_0",
+      "section": "7.3 Problem Solving",
+      "pages": "234-234",
+      "hybrid_score": 0.0331,
+      "token_count": 678,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.8302,
+        -1.9882,
+        5.1111
+      ],
+      "entailment_prob": 0.0008,
+      "neutral_prob": 0.9966,
+      "contradiction_prob": 0.0026,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9418
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "thinking_and_intelligence_problem_solving_chunk_1",
+      "section": "7.3 Problem Solving",
+      "pages": "234-235",
+      "hybrid_score": 0.0309,
+      "token_count": 595,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.42,
+        -1.4556,
+        4.9731
+      ],
+      "entailment_prob": 0.0016,
+      "neutral_prob": 0.9967,
+      "contradiction_prob": 0.0017,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0522
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "thinking_and_intelligence_problem_solving_chunk_3",
+      "section": "7.3 Problem Solving",
+      "pages": "236-238",
+      "hybrid_score": 0.0159,
+      "token_count": 664,
+      "is_truncated": false,
+      "raw_logits": [
+        -2.8812,
+        1.1797,
+        2.6054
+      ],
+      "entailment_prob": 0.1931,
+      "neutral_prob": 0.8035,
+      "contradiction_prob": 0.0033,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.8875
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "thinking_and_intelligence_problem_solving_chunk_2",
+      "section": "7.3 Problem Solving",
+      "pages": "235-236",
+      "hybrid_score": 0.0159,
+      "token_count": 679,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.0511,
+        -1.6811,
+        4.8739
+      ],
+      "entailment_prob": 0.0014,
+      "neutral_prob": 0.9959,
+      "contradiction_prob": 0.0027,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9135
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "stress_lifestyle_and_health_regulation_of_stress_chunk_0",
+      "section": "14.4 Regulation of Stress",
+      "pages": "524-524",
+      "hybrid_score": 0.0156,
+      "token_count": 660,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.2776,
+        -1.7909,
+        5.3896
+      ],
+      "entailment_prob": 0.0008,
+      "neutral_prob": 0.998,
+      "contradiction_prob": 0.0013,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0416
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 3,
+      "chunk_id": "thinking_and_intelligence_problem_solving_chunk_3",
+      "entailment_prob": 0.1931,
+      "neutral_prob": 0.8035,
+      "contradiction_prob": 0.0033,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 2,
+      "chunk_id": "thinking_and_intelligence_problem_solving_chunk_1",
+      "entailment_prob": 0.0016,
+      "neutral_prob": 0.9967,
+      "contradiction_prob": 0.0017,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 4,
+      "chunk_id": "thinking_and_intelligence_problem_solving_chunk_2",
+      "entailment_prob": 0.0014,
+      "neutral_prob": 0.9959,
+      "contradiction_prob": 0.0027,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 1,
+      "chunk_id": "thinking_and_intelligence_problem_solving_chunk_0",
+      "entailment_prob": 0.0008,
+      "neutral_prob": 0.9966,
+      "contradiction_prob": 0.0026,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 5,
+      "chunk_id": "stress_lifestyle_and_health_regulation_of_stress_chunk_0",
+      "entailment_prob": 0.0008,
+      "neutral_prob": 0.998,
+      "contradiction_prob": 0.0013,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 3,
+    "chunk_id": "thinking_and_intelligence_problem_solving_chunk_3",
+    "entailment_prob": 0.1931,
+    "neutral_prob": 0.8035,
+    "contradiction_prob": 0.0033,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      2,
+      3
+    ],
+    "selected_chunk_ids": [
+      "thinking_and_intelligence_problem_solving_chunk_1",
+      "thinking_and_intelligence_problem_solving_chunk_3"
+    ],
+    "token_count": 1150,
+    "is_truncated": false,
+    "raw_logits": [
+      -3.7618,
+      2.5669,
+      1.6864
+    ],
+    "entailment_prob": 0.706,
+    "neutral_prob": 0.2927,
+    "contradiction_prob": 0.0013,
+    "predicted_label": "entailment",
+    "eval_time_sec": 1.8335
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 4.8366,
+    "phase_b_top2_sec": 1.8335,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 6.6701,
+    "total_question_wall_sec": 6.6709
+  }
+}

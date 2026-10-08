@@ -1,0 +1,193 @@
+{
+  "index": 17,
+  "question_id": "17",
+  "question_text": "What are Skinner's contributions to behaviorism?",
+  "generated_answer": "Skinner expanded behaviorism by developing operant conditioning, showing that behavior is shaped by its consequences rather than by reflexive stimuli. He built the Skinner box to study how reinforcement and punishment influence animal behavior and introduced the concepts of positive and negative reinforcement. Skinner also pioneered shaping—reinforcing successive approximations of a target behavior—and created a teaching machine that rewarded correct responses, applying operant principles to education. His work emphasized the role of environmental contingencies in learning and helped shift behaviorism toward a systematic, experimental science.",
+  "answer_type": "GENERATED_ANSWER",
+  "individual_evaluations": [
+    {
+      "chunk_number": 1,
+      "chunk_id": "learning_operant_conditioning_chunk_1",
+      "section": "6.3 Operant Conditioning",
+      "pages": "204-205",
+      "hybrid_score": 0.0328,
+      "token_count": 699,
+      "is_truncated": false,
+      "raw_logits": [
+        -4.6279,
+        2.2856,
+        3.1558
+      ],
+      "entailment_prob": 0.2951,
+      "neutral_prob": 0.7046,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.0681
+    },
+    {
+      "chunk_number": 2,
+      "chunk_id": "learning_operant_conditioning_chunk_5",
+      "section": "6.3 Operant Conditioning",
+      "pages": "207-208",
+      "hybrid_score": 0.0318,
+      "token_count": 653,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.0955,
+        -1.4487,
+        3.9494
+      ],
+      "entailment_prob": 0.0045,
+      "neutral_prob": 0.9892,
+      "contradiction_prob": 0.0064,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1217
+    },
+    {
+      "chunk_number": 3,
+      "chunk_id": "learning_operant_conditioning_chunk_3",
+      "section": "6.3 Operant Conditioning",
+      "pages": "206-206",
+      "hybrid_score": 0.0167,
+      "token_count": 624,
+      "is_truncated": false,
+      "raw_logits": [
+        -0.7135,
+        -1.0029,
+        2.8071
+      ],
+      "entailment_prob": 0.0211,
+      "neutral_prob": 0.9508,
+      "contradiction_prob": 0.0281,
+      "predicted_label": "neutral",
+      "eval_time_sec": 0.9141
+    },
+    {
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_6",
+      "section": "1.2 History of Psychology",
+      "pages": "25-26",
+      "hybrid_score": 0.0164,
+      "token_count": 656,
+      "is_truncated": false,
+      "raw_logits": [
+        1.0835,
+        -2.3306,
+        2.4404
+      ],
+      "entailment_prob": 0.0067,
+      "neutral_prob": 0.7899,
+      "contradiction_prob": 0.2034,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1946
+    },
+    {
+      "chunk_number": 5,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_4",
+      "section": "2.1 Why Is Research Important?",
+      "pages": "50-51",
+      "hybrid_score": 0.0161,
+      "token_count": 703,
+      "is_truncated": false,
+      "raw_logits": [
+        -1.6108,
+        -0.1097,
+        2.7543
+      ],
+      "entailment_prob": 0.0533,
+      "neutral_prob": 0.9348,
+      "contradiction_prob": 0.0119,
+      "predicted_label": "neutral",
+      "eval_time_sec": 1.1318
+    }
+  ],
+  "ranked_chunks": [
+    {
+      "rank": 1,
+      "chunk_number": 1,
+      "chunk_id": "learning_operant_conditioning_chunk_1",
+      "entailment_prob": 0.2951,
+      "neutral_prob": 0.7046,
+      "contradiction_prob": 0.0003,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 2,
+      "chunk_number": 5,
+      "chunk_id": "psychological_research_why_is_research_important_chunk_4",
+      "entailment_prob": 0.0533,
+      "neutral_prob": 0.9348,
+      "contradiction_prob": 0.0119,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 3,
+      "chunk_number": 3,
+      "chunk_id": "learning_operant_conditioning_chunk_3",
+      "entailment_prob": 0.0211,
+      "neutral_prob": 0.9508,
+      "contradiction_prob": 0.0281,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 4,
+      "chunk_number": 4,
+      "chunk_id": "introduction_to_psychology_history_of_psychology_chunk_6",
+      "entailment_prob": 0.0067,
+      "neutral_prob": 0.7899,
+      "contradiction_prob": 0.2034,
+      "predicted_label": "neutral"
+    },
+    {
+      "rank": 5,
+      "chunk_number": 2,
+      "chunk_id": "learning_operant_conditioning_chunk_5",
+      "entailment_prob": 0.0045,
+      "neutral_prob": 0.9892,
+      "contradiction_prob": 0.0064,
+      "predicted_label": "neutral"
+    }
+  ],
+  "best_individual_chunk": {
+    "chunk_number": 1,
+    "chunk_id": "learning_operant_conditioning_chunk_1",
+    "entailment_prob": 0.2951,
+    "neutral_prob": 0.7046,
+    "contradiction_prob": 0.0003,
+    "predicted_label": "neutral"
+  },
+  "top_2_evaluation": {
+    "selected_chunk_numbers": [
+      1,
+      5
+    ],
+    "selected_chunk_ids": [
+      "learning_operant_conditioning_chunk_1",
+      "psychological_research_why_is_research_important_chunk_4"
+    ],
+    "token_count": 1294,
+    "is_truncated": false,
+    "raw_logits": [
+      -2.916,
+      2.1186,
+      1.3446
+    ],
+    "entailment_prob": 0.6814,
+    "neutral_prob": 0.3142,
+    "contradiction_prob": 0.0044,
+    "predicted_label": "entailment",
+    "eval_time_sec": 2.509
+  },
+  "top_3_required": false,
+  "top_3_evaluation": null,
+  "final_verdict": "ENTAILED_BY_TOP2",
+  "final_label": "entailment",
+  "combination_used": "TOP_2",
+  "timing": {
+    "phase_a_individual_sec": 5.4303,
+    "phase_b_top2_sec": 2.509,
+    "phase_c_top3_sec": 0.0,
+    "total_nli_inference_sec": 7.9393,
+    "total_question_wall_sec": 7.9403
+  }
+}
