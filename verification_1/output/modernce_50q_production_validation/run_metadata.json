@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-08 11:44:45",
+  "model_name": "dleemiller/ModernCE-base-nli",
+  "base_architecture": "ModernBERT Cross-Encoder",
+  "max_sequence_length": 2048,
+  "device": "cpu",
+  "python_version": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "input_files": {
+    "queries_json": {
+      "path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\data\\queries.json",
+      "sha256": "2b6f5f047709e3d066d44d7b34cacd06c9fc855e52eead7a0947b8e3dc3276f8",
+      "size_bytes": 4860
+    },
+    "submission_csv": {
+      "path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\outputs\\submission.csv",
+      "sha256": "a1ec43dd83678255bd6a60c0bc46408af37f18ef56b84e5479971754fffa3f0b",
+      "size_bytes": 99989
+    },
+    "reference_experiment_json": {
+      "path": "C:\\Users\\HP\\OneDrive\\Desktop\\RAG_SYSTEM-main_Ritesh\\RAG_SYSTEM-main\\verification_1\\output\\modernce_50q_complete_answer\\raw_results.json",
+      "sha256": "22a74876906a6107f8659d029444976431fb73c64d00936b890a1aa42ac80d68",
+      "size_bytes": 347213
+    }
+  }
+}

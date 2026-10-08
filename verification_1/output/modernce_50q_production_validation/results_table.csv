@@ -1,0 +1,51 @@
+question_id,question_text,answer_type,status,verdict,combination_used,selected_chunks,entailment_prob,neutral_prob,contradiction_prob,predicted_label,evaluations_count,nli_time_sec,matches_ref
+1,What is the scientific method in psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,3",0.914,0.0849,0.0011,entailment,6,6.0645,True
+2,What are the basic parts of a neuron?,ABSTENTION,NOT_FOUND,ABSTENTION,NONE,,0.0,0.0,0.0,abstention,0,0.0,True
+3,What are the stages of sleep?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.9701,0.0283,0.0016,entailment,6,6.6901,True
+4,What is operant conditioning?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"3,4",0.9373,0.0623,0.0004,entailment,6,6.184,True
+5,What is problem-solving in psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"2,3",0.706,0.2927,0.0013,entailment,6,6.1545,True
+6,What are the three stages of memory?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.9591,0.0395,0.0014,entailment,6,5.7489,True
+7,What are the key components of emotion?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,4",0.8644,0.1336,0.002,entailment,6,5.4394,True
+8,What are the major personality traits in the Five Factor Model?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.9779,0.0205,0.0017,entailment,6,6.2817,True
+9,What is social psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"2,3",0.9533,0.0464,0.0003,entailment,6,4.7566,True
+10,What is the sociocultural model in therapy?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"3,4",0.9647,0.0352,0.0001,entailment,6,5.9157,True
+11,What is the history of psychology?,CONTENT,INSUFFICIENT_EVIDENCE,NOT_ENTAILED,TOP_3,"1,2,5",0.3595,0.6331,0.0075,neutral,7,9.0534,True
+12,Who were Wilhelm Wundt and William James?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,3",0.9908,0.0091,0.0001,entailment,6,6.4358,True
+13,What is functionalism in psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"2,4",0.9708,0.0288,0.0003,entailment,6,5.9526,True
+14,What are Freud's contributions to psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP3,TOP_3,"2,3,5",0.8446,0.1538,0.0015,entailment,7,9.6373,True
+15,What are Gestalt principles?,CONTENT,SUPPORTED,ENTAILED_BY_TOP3,TOP_3,"1,4,5",0.93,0.0693,0.0006,entailment,7,9.3215,True
+16,What is classical conditioning?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"3,5",0.9798,0.0195,0.0007,entailment,6,6.7461,True
+17,What are Skinner's contributions to behaviorism?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,5",0.6814,0.3142,0.0044,entailment,6,6.7674,True
+18,What is Maslow's hierarchy of needs?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.9683,0.0314,0.0003,entailment,6,4.8875,True
+19,What is client-centered therapy?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.9608,0.039,0.0002,entailment,6,5.8461,True
+20,What is cognitive psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP3,TOP_3,"1,3,4",0.8519,0.1456,0.0025,entailment,7,9.8652,True
+21,What is developmental psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,3",0.9409,0.0582,0.001,entailment,6,5.5419,True
+22,What is biopsychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"2,3",0.989,0.0104,0.0006,entailment,6,5.3652,True
+23,What are evolutionary psychologists interested in?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,4",0.6379,0.3497,0.0124,entailment,6,5.4025,True
+24,What is sensation and perception?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.7405,0.2575,0.002,entailment,6,5.4285,True
+25,What is the difference between sensation and perception?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,5",0.9927,0.0072,0.0001,entailment,6,5.6174,True
+26,What are Jean Piaget's theories of cognitive development?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"2,3",0.8838,0.1158,0.0004,entailment,6,7.4823,True
+27,What is object permanence?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,4",0.9754,0.0213,0.0034,entailment,6,6.2217,True
+28,What is the role of neurotransmitters in psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,3",0.8958,0.104,0.0002,entailment,6,6.4679,True
+29,What is the Big Five personality trait model?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"3,4",0.5933,0.3943,0.0124,entailment,6,6.2155,True
+30,What are psychological disorders?,CONTENT,SUPPORTED,ENTAILED_BY_TOP3,TOP_3,"1,2,4",0.9013,0.0717,0.027,entailment,7,9.2503,True
+31,What is the DSM-5?,CONTENT,INSUFFICIENT_EVIDENCE,NOT_ENTAILED,TOP_3,"2,3,5",0.0053,0.9918,0.0029,neutral,7,9.8847,True
+32,What is the importance of ethics in psychological research?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.7971,0.2027,0.0002,entailment,6,5.4958,True
+33,What is the cognitive revolution in psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,3",0.5496,0.4416,0.0088,entailment,6,7.0519,True
+34,What is feminist psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,4",0.8972,0.1024,0.0004,entailment,6,3.5303,True
+35,What is multicultural psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"3,5",0.9787,0.0208,0.0005,entailment,6,4.4176,True
+36,What are the challenges of cross-cultural psychology?,CONTENT,INSUFFICIENT_EVIDENCE,NOT_ENTAILED,TOP_3,"1,3,4",0.4711,0.5278,0.0011,neutral,7,10.6463,True
+37,What is stress in psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,4",0.839,0.1609,0.0001,entailment,6,6.4422,True
+38,What are the stages of psychosexual development?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.8462,0.1505,0.0033,entailment,6,8.3151,True
+39,What is the importance of replication in psychological research?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,3",0.9819,0.0179,0.0002,entailment,6,6.0528,True
+40,What are different types of psychological therapies?,CONTENT,SUPPORTED,ENTAILED_BY_TOP3,TOP_3,"1,4,5",0.8463,0.1527,0.001,entailment,7,10.0624,True
+41,What is the role of neurotransmitters in mental health?,CONTENT,SUPPORTED,ENTAILED_BY_TOP3,TOP_3,"1,2,3",0.9085,0.0912,0.0003,entailment,7,9.6416,True
+42,What are major themes in industrial-organizational psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"2,4",0.8997,0.1001,0.0001,entailment,6,6.8941,True
+43,What is the role of social norms in behavior?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,3",0.8262,0.1736,0.0002,entailment,6,7.0178,True
+44,What is the difference between prejudice and discrimination?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,2",0.8331,0.1615,0.0054,entailment,6,7.1677,True
+45,What are key takeaways from the Brown v. Board of Education research?,CONTENT,SUPPORTED,ENTAILED_BY_TOP3,TOP_3,"1,4,5",0.8591,0.1392,0.0017,entailment,7,10.7689,True
+46,What is the scientific process of hypothesis testing?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"3,4",0.5379,0.3692,0.0929,entailment,6,6.8437,True
+47,What are applications of psychology in education?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"3,4",0.9058,0.0938,0.0004,entailment,6,6.1075,True
+48,What is the difference between mood disorders and personality disorders?,ABSTENTION,NOT_FOUND,ABSTENTION,NONE,,0.0,0.0,0.0,abstention,0,0.0,True
+49,What is the impact of cultural diversity on psychological research?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,5",0.9558,0.044,0.0002,entailment,6,8.2902,True
+50,What is the role of critical thinking in psychology?,CONTENT,SUPPORTED,ENTAILED_BY_TOP2,TOP_2,"1,4",0.9096,0.0902,0.0002,entailment,6,5.1807,True

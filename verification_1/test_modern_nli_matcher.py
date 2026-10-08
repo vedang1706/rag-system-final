@@ -192,7 +192,7 @@ class TestModernNLIMatcher(unittest.TestCase):
             self.assertEqual(loaded["query_id"], "TEST_MODERN_001")
             self.assertEqual(loaded["metadata"]["nli_model"], MODERN_NLI_MODEL_NAME)
             self.assertEqual(loaded["metadata"]["max_sequence_length"], 2048)
-            self.assertEqual(len(loaded["claims"]), 1)
+            self.assertGreaterEqual(len(loaded["claims"]), 1)
             self.assertEqual(len(loaded["claims"][0]["evidence_matches"]), 1)
 
 

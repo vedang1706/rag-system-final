@@ -1,224 +1,175 @@
-# verification_1 — Claim Decomposition, Evidence Preservation & Semantic Matching
+# verification_1 — Post-Generation Hallucination & Evidence Verification Framework
 
-## 1. Overview & Purpose
+`verification_1` is the official post-generation verification layer for the RAG pipeline. It evaluates whether generated answers are faithfully entailed by retrieved textbook evidence without modifying or perturbing the frozen upstream RAG pipeline.
 
-`verification_1` is an isolated experimental framework for post-generation verification in RAG systems.
+---
 
-It encompasses three foundational steps:
-1. **Step 1 — Sentence-Level Claim Decomposition:** Systematically decomposes a generated answer into sentence-level claim units using deterministic sentence segmentation (spaCy).
-2. **Step 2 — Original Evidence Preservation:** Preserves the exact retrieval and prompt context evidence that the LLM received during generation.
-3. **Step 3 — Claim-to-Evidence Semantic Matching:** Computes raw semantic similarity scores between each extracted claim and all retrieved/context evidence chunks using the existing `all-MiniLM-L6-v2` embedding infrastructure.
+## 1. System Architecture & ModernCE Verification Layer
+
+The production verification architecture uses **Complete-Answer Multi-Chunk Cross-Encoder NLI** (`dleemiller/ModernCE-base-nli`, ModernBERT architecture, 2048-token max sequence length).
 
 ```
-Generated Answer ─────────→ Claim Extractor (spaCy) ──→ Sentence-Level Claims
-                                                                 │
-Original RAG Generation ──→ Context Snapshot ────────→ RAG Snapshots (Exact Evidence)
-                                                                 │
-                                                       Semantic Matcher (MiniLM)
-                                                                 ↓
-                                                       Raw Similarity Scores
+                            USER QUERY
+                                ↓
+                      FROZEN RAG RETRIEVAL
+                                ↓
+                     FROZEN ANSWER GENERATION
+                                ↓
+                5 RETRIEVED CHUNKS + COMPLETE ANSWER
+                                │
+                    [Explicit Abstention Check]
+                   /                           \
+              (Yes: "Not found")           (No: Content Answer)
+                     ↓                              ↓
+             STATUS: NOT_FOUND              MODERNCE INDIVIDUAL
+             VERDICT: ABSTENTION             CHUNK SCORING (5x)
+             (NLI Bypassed)                         ↓
+                                            RANK CHUNKS BY
+                                            ENTAILMENT PROBABILITY
+                                                    ↓
+                                            CONSTRUCT TOP-2 PREMISE
+                                            (In retrieval order)
+                                                    ↓
+                                            MODERNCE EVALUATION:
+                                            Top-2 vs Complete Answer
+                                           /                        \
+                                  (ENTAILMENT)                   (NOT ENTAILMENT)
+                                       ↓                                ↓
+                               STATUS: SUPPORTED              CONSTRUCT TOP-3 PREMISE
+                               VERDICT: ENTAILED_BY_TOP2      (In retrieval order)
+                               (Stop & Return)                          ↓
+                                                              MODERNCE EVALUATION:
+                                                              Top-3 vs Complete Answer
+                                                             /                        \
+                                                    (ENTAILMENT)                (NEUTRAL / CONTRADICTION)
+                                                         ↓                                  ↓
+                                                 STATUS: SUPPORTED                  STATUS: INSUFFICIENT_EVIDENCE
+                                                 VERDICT: ENTAILED_BY_TOP3          VERDICT: NOT_ENTAILED
 ```
 
 ---
 
-## 2. Step 1: Sentence-Level Claim Decomposition
+## 2. Core Architectural Principles & Rationale
 
-- **Unit of Extraction:** Every grammatical sentence in the generated answer is extracted as a single claim unit.
-- **Original Text Preservation:** Preserves sentence text verbatim without summarization, rewriting, or semantic modification.
-- **Deterministic Tokenization:** Uses spaCy (`en_core_web_sm` / rule-based `sentencizer`) for reproducible sentence segmentation.
-- **Terminology:** We use the term **"sentence-level claim unit"** rather than asserting that every sentence is necessarily an atomic factual claim.
+### 2.1 Why Complete-Answer Verification?
+- **Premise Dilution & Fragmentation Elimination**: Previous experiments showed that decomposing answers into atomic claims caused massive premise dilution when evaluated against large chunks (~80–97% Neutral). Complete answers retain discourse context and grammatical cohesion.
+- **Zero LLM Overhead**: Evaluates the raw generated answer directly, eliminating the latency, prompt drift, and token costs of external LLM-based claim extraction.
 
----
+### 2.2 Why Combine Multiple Retrieved Chunks?
+- Complex domain answers (e.g. psychology, biology) synthesize distinct sub-concepts that naturally span adjacent or distinct textbook sections.
+- On single 400-word chunks, ModernCE achieved only **18.4% entailment** across 250 evaluations. Combining Top-2 chunks yielded an immediate **76.0% entailment signal**.
 
-## 3. Step 2: Preservation of Original RAG Evidence
+### 2.3 Why Top-2 First, Top-3 as Fallback?
+- **Latency Optimization**: Top-2 evaluation runs in ~2.2 seconds on CPU. 76% of all benchmark queries are fully resolved at Top-2 without running Top-3.
+- **Selective High-Recall Fallback**: For queries requiring broader contextual coverage, Top-3 evaluation successfully recovered **58.3% of Top-2 Neutral queries**, raising the content answer entailment rate to **93.75%**.
 
-### Why Preserve the Original Evidence?
-To evaluate whether a generated claim is hallucinated or supported, the verification layer must check the claim against the **exact evidence that the generator originally saw**, without rerunning the retrieval pipeline.
-
-### `retrieved_chunks` vs. `context_chunks`
-The RAG pipeline enforces a context limit of `MAX_CONTEXT_CHARS = 20,000` during prompt construction:
-- **`retrieved_chunks`:** The full list of candidate chunks returned by the hybrid retrieval system (vector + BM25 + RRF).
-- **`context_chunks`:** The exact subset (prefix) of chunks that fit within the 20,000-character context window and were actually passed into the LLM prompt. Later chunks in `retrieved_chunks` that exceed this threshold are excluded.
-- **`final_context`:** The exact formatted text block `[Source i] Section: ... | Pages: ...\n<text>` delivered to the LLM.
-
-### Invariant Established
-> "For every chunk listed in `context_chunks`, that chunk was actually included in the evidence context supplied to the LLM. No chunk listed in `context_chunks` was omitted due to character limits."
+### 2.4 Handling Explicit Abstentions
+- Answers such as *"Not found in the provided textbook."* reflect appropriate abstention on out-of-scope queries.
+- Evaluating an abstention string against unrelated retrieved chunks causes cross-encoders to predict `CONTRADICTION` ($C > 0.90$). The verifier detects abstentions first, safely bypassing NLI and returning `STATUS_NOT_FOUND` (`ABSTENTION`).
 
 ---
 
-## 4. Step 3: Claim-to-Evidence Semantic Matching
+## 3. Evidence-Entailment vs. Factual Truth
 
-### Raw Semantic Similarity Measurement
-- Computes cosine similarity between each sentence-level claim vector and each retrieved chunk vector:
-  $$\text{similarity} = \mathbf{c}_{\text{claim}} \cdot \mathbf{e}_{\text{chunk}}$$
-- Reuses precomputed chunk embeddings from `cache/embeddings.npy` (mapped to `cache/chunks.json`) to avoid redundant re-computation.
-- Safely falls back to on-the-fly chunk encoding if an un-cached chunk is encountered.
-- Explicitly tracks `in_llm_context: true/false` for every evaluated chunk based on whether it was included in `context_chunks`.
-
-### Strict Boundaries for Step 3
-- ❌ **No Similarity Thresholds:** Scores are raw continuous values $[-1.0, 1.0]$.
-- ❌ **No Classification / Verdicts:** Does not assign `SUPPORTED`, `CONTRADICTED`, `HALLUCINATED`, or `UNSUPPORTED` labels.
-- ❌ **No Confidence / Faithfulness Metrics:** Scores represent solely dense semantic similarity.
+> **CRITICAL SCIENTIFIC DISTINCTION**:
+> ModernCE verification measures **directional natural language inference (entailment)** between the retrieved textbook premise and the generated answer hypothesis:
+> $$\text{NLI}(\text{Premise}=\text{Retrieved Evidence},\; \text{Hypothesis}=\text{Generated Answer})$$
+>
+> - **What It Proves**: The generated answer is grounded in and logically follows from the retrieved textbook context.
+> - **What It Does NOT Prove**: It does not prove real-world absolute factual accuracy if the underlying textbook text contains domain errors or if retrieval surfaces incomplete context.
 
 ---
 
-## 5. Directory Structure
+## 4. Main Limitation
+
+Complete-answer verification evaluates the holistic premise-hypothesis pair. If an answer contains 4 sentences where 3 are strongly supported and 1 is a minor unsupported detail, the cross-encoder may still assign a high overall entailment score. For applications requiring strict sentence-by-sentence attribution, complete-answer verification serves as a high-throughput primary filter.
+
+---
+
+## 5. Production API Reference (`verification_1/verifier.py`)
+
+### 5.1 Basic Usage
+
+```python
+from verification_1.verifier import verify_answer
+
+# Inputs from frozen RAG pipeline
+answer = "The scientific method in psychology is an empirical, cyclical process that begins with a theory..."
+retrieved_chunks = [
+    {"chunk_number": 1, "text": "The scientific method is a circular process..."},
+    {"chunk_number": 2, "text": "Psychological research tests hypotheses..."},
+    {"chunk_number": 3, "text": "..."},
+]
+
+result = verify_answer(answer=answer, retrieved_chunks=retrieved_chunks)
+
+print("Status          :", result.status)            # SUPPORTED
+print("Verdict         :", result.verdict)           # ENTAILED_BY_TOP2
+print("Entailment Prob :", result.entailment_prob)    # 0.9140
+print("Selected Chunks :", result.selected_chunk_numbers) # [1, 3]
+print("Explanation     :", result.explanation)
+```
+
+### 5.2 Structured Result Schema (`VerificationResult`)
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| `status` | `str` | Conceptual user-facing status (`SUPPORTED`, `INSUFFICIENT_EVIDENCE`, `CONTRADICTED`, `NOT_FOUND`). |
+| `verdict` | `str` | Detailed internal verdict (`ENTAILED_BY_TOP2`, `ENTAILED_BY_TOP3`, `NOT_ENTAILED`, `ABSTENTION`). |
+| `is_abstention` | `bool` | True if the answer was identified as an explicit abstention. |
+| `combination_used` | `Optional[str]` | `"TOP_2"`, `"TOP_3"`, or `None`. |
+| `entailment_prob` | `float` | Entailment probability from the final ModernCE evaluation. |
+| `neutral_prob` | `float` | Neutral probability from the final ModernCE evaluation. |
+| `contradiction_prob` | `float` | Contradiction probability from the final ModernCE evaluation. |
+| `predicted_label` | `str` | Predicted NLI label (`"entailment"`, `"neutral"`, `"contradiction"`). |
+| `selected_chunk_numbers` | `List[int]` | Indices of the chunks combined in the final premise. |
+| `ranked_chunk_numbers` | `List[int]` | All chunk indices ordered by individual entailment probability descending. |
+| `individual_chunk_evaluations`| `List[dict]` | Breakdown of scores and logits for each of the 5 candidate chunks. |
+| `total_nli_time_sec` | `float` | Total CPU/GPU inference time spent on NLI forward passes. |
+| `explanation` | `str` | Human-readable attribution and verdict explanation. |
+
+---
+
+## 6. Directory Structure
 
 ```
 verification_1/
-├── README.md
-├── claim_extractor.py
-├── test_claim_extractor.py
-├── context_snapshot.py
-├── test_context_snapshot.py
-├── similarity_matcher.py
-├── test_similarity_matcher.py
-├── input/
-│   └── test_answers.json
-└── output/
-    ├── claims.json
-    ├── rag_snapshots/
-    │   ├── INTEG_001.json
-    │   └── INTEG_002.json
-    └── similarity_scores/
-        ├── INTEG_001.json
-        └── INTEG_002.json
+├── README.md                                  # Comprehensive architecture documentation
+├── verifier.py                                # Main production verifier (ModernCE complete-answer)
+├── test_verifier.py                           # Unit & integration test suite for verifier
+├── modern_nli_matcher.py                      # ModernBERT NLI cross-encoder model manager
+├── test_modern_nli_matcher.py                 # Tests for ModernBERT matcher
+├── live_verification_demo.py                  # End-to-end verification demo script
+├── context_snapshot.py                        # Safe snapshot utility for frozen RAG contexts
+├── claim_extractor.py                         # Sentence/claim decomposition tool
+├── similarity_matcher.py                      # MiniLM semantic similarity baseline
+├── output/
+│   └── modernce_50q_complete_answer/          # 50-question empirical experiment audit artifacts
+│       ├── raw_results.json                   # Full evaluation traces
+│       ├── results_table.csv                  # Tabular spreadsheet
+│       ├── experiment_report.md               # Diagnostic report
+│       ├── conclusion.md                      # Decisive experiment conclusion
+│       ├── timing_report.json                 # Latency breakdowns
+│       ├── model_info.json                    # Model configuration & verified label map
+│       ├── input_manifest.json                # SHA256 input checksums
+│       └── per_question/                      # Individual query traces (Q01.json...Q50.json)
 ```
 
 ---
 
-## 6. Data Formats & Schemas
+## 7. Running Verification & Tests
 
-### Claim Units (`output/claims.json`)
-```json
-[
-  {
-    "query_id": "TEST_001",
-    "answer": "Thomas Szasz was a psychiatrist. He argued that mental illness was invented by society.",
-    "claims": [
-      {
-        "claim_id": "TEST_001_C1",
-        "sentence_index": 1,
-        "text": "Thomas Szasz was a psychiatrist."
-      },
-      {
-        "claim_id": "TEST_001_C2",
-        "sentence_index": 2,
-        "text": "He argued that mental illness was invented by society."
-      }
-    ]
-  }
-]
-```
-
-### RAG Snapshot Schema (`output/rag_snapshots/<query_id>.json`)
-```json
-{
-  "query_id": "INTEG_001",
-  "question": "What is classical conditioning?",
-  "answer": "Classical conditioning is an associative learning process...",
-  "retrieved_chunks": [
-    {
-      "chunk_id": "learning_classical_conditioning_chunk_5",
-      "text": "...",
-      "section": "6.2 Classical Conditioning",
-      "section_path": "learning/classical_conditioning",
-      "chapter": "Chapter 6 Learning",
-      "page_start": 199,
-      "page_end": 200,
-      "pages": [199, 200],
-      "rrf_score": 0.031818,
-      "source": "both",
-      "is_supplementary": "False"
-    }
-  ],
-  "context_chunks": [
-    {
-      "chunk_id": "learning_classical_conditioning_chunk_5",
-      "text": "...",
-      "section": "6.2 Classical Conditioning",
-      "section_path": "learning/classical_conditioning",
-      "chapter": "Chapter 6 Learning",
-      "page_start": 199,
-      "page_end": 200,
-      "pages": [199, 200],
-      "rrf_score": 0.031818,
-      "source": "both",
-      "is_supplementary": "False"
-    }
-  ],
-  "final_context": "[Source 1] Section: 6.2 Classical Conditioning | Pages: 199-200\n...",
-  "metadata": {
-    "max_context_chars": 20000,
-    "retrieved_chunk_count": 5,
-    "context_chunk_count": 5
-  }
-}
-```
-
-### Semantic Similarity Output Schema (`output/similarity_scores/<query_id>.json`)
-```json
-{
-  "query_id": "INTEG_001",
-  "question": "What is classical conditioning?",
-  "answer": "Classical conditioning is an associative learning process...",
-  "claims": [
-    {
-      "claim_id": "INTEG_001_C1",
-      "sentence_index": 1,
-      "text": "Classical conditioning is an associative learning process in which an organism learns to link two stimuli that occur together.",
-      "evidence_matches": [
-        {
-          "chunk_id": "learning_what_is_learning_chunk_2",
-          "similarity_score": 0.7499,
-          "in_llm_context": true,
-          "section": "6.1 What Is Learning?",
-          "section_path": "learning/what_is_learning",
-          "chapter": "Chapter 6 Learning",
-          "page_start": 194,
-          "page_end": 194,
-          "pages": [194],
-          "rrf_score": 0.029911
-        },
-        {
-          "chunk_id": "learning_classical_conditioning_chunk_0",
-          "similarity_score": 0.6526,
-          "in_llm_context": true,
-          "section": "6.2 Classical Conditioning",
-          "section_path": "learning/classical_conditioning",
-          "chapter": "Chapter 6 Learning",
-          "page_start": 195,
-          "page_end": 195,
-          "pages": [195],
-          "rrf_score": 0.031258
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "embedding_model": "all-MiniLM-L6-v2",
-    "similarity_metric": "cosine_similarity",
-    "claim_count": 3,
-    "evaluated_chunks_count": 5
-  }
-}
-```
-
----
-
-## 7. How to Run
-
-### Run Claim Extractor
+### Run Full Verifier Test Suite
 ```bash
-python verification_1/claim_extractor.py
+python -m unittest verification_1/test_verifier.py
 ```
 
-### Run Similarity Matcher on All Snapshots
+### Run Live End-to-End Demo
 ```bash
-python verification_1/similarity_matcher.py
+python verification_1/live_verification_demo.py
 ```
 
-### Run Complete Verification Test Suite
+### Run All Verification Tests
 ```bash
 python -m unittest discover -s verification_1 -p "test_*.py"
 ```

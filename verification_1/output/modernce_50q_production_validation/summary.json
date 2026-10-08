@@ -1,0 +1,23 @@
+{
+  "total_questions": 50,
+  "substantive_answers": 48,
+  "abstention_answers": 2,
+  "supported_answers": 45,
+  "top2_successes": 38,
+  "top3_recoveries": 7,
+  "insufficient_evidence_answers": 3,
+  "contradicted_answers": 0,
+  "not_found_abstentions": 2,
+  "evidence_entailment_rate_percent": 93.75,
+  "total_modernce_evaluations": 298,
+  "individual_evaluations": 240,
+  "top2_evaluations": 48,
+  "top3_evaluations": 10,
+  "total_nli_time_sec": 330.553,
+  "total_wall_clock_time_sec": 342.939,
+  "avg_nli_time_per_question_sec": 6.611,
+  "avg_eval_time_ms": 1109.24,
+  "evaluations_per_question_avg": 5.96,
+  "discrepancies_count": 0,
+  "matches_reference_experiment_count": 50
+}
